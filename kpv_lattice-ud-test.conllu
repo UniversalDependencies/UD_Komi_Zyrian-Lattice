@@ -230,7 +230,7 @@
 # text_rus = Туча после того, как немного попугала, ушла в сторону.
 1	Кымӧрыс	кымӧр	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
 2	недыр	недыр	ADV	Adv	Neg	3	advmod	_	_
-3	повзьӧдчӧм	повзьӧдчыны	VERB	V	_	5	obl	_	_
+3	повзьӧдчӧм	повзьӧдчыны	VERB	V	PastPtc	5	obl	_	_
 4	бӧрын	бӧр	ADP	Po	Sg|Ine	3	case	_	_
 5	вешйис	вешйыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 6	бокӧ	бокӧ	ADV	Adv	Ill	5	advmod	_	SpaceAfter=No
@@ -690,7 +690,7 @@
 1	Но	но	CCONJ	CC	_	2	cc	_	_
 2	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	0	root	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
-4	сэтшӧм	сэтшӧм	ADJ	A	_	5	amod	_	_
+4	сэтшӧм	сэтшӧм	DET	Det	_	5	det	_	_
 5	яра	яра	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -811,13 +811,13 @@
 # text = Керкаӧ пырӧм бӧрын тэрмасьӧмӧн пӧрччи сӧдз ваӧдз кӧтасьӧм кӧм-паськӧмӧс да тэрыба кайи паччӧр вылӧ шонтысьыштны, став тайӧ страксьыс пальӧдчыштны.
 # text_rus = После того, как зашёл домой, торопясь снял насквозь промокшую одежду и обувь, и быстро залез на печку погреться, прийти в себя от этого страха.
 1	Керкаӧ	керка	NOUN	N	Sg|Ill	2	obl	_	_
-2	пырӧм	пырӧм	VERB	N	Sg|Nom	5	obl	_	_
+2	пырӧм	пырӧм	VERB	V	PastPtc	5	obl	_	_
 3	бӧрын	бӧрын	ADV	Adv	Spat|Ine	2	case	_	_
 4	тэрмасьӧмӧн	тэрмасьӧмӧн	VERB	Adv	_	5	advcl	_	_
 5	пӧрччи	пӧрччыны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 6	сӧдз	сӧдз	ADJ	A	_	7	amod	_	_
 7	ваӧдз	ва	NOUN	N	Sg|Ter	8	obl	_	_
-8	кӧтасьӧм	кӧтасьӧм	VERB	N	Sg|Nom	9	nmod	_	_
+8	кӧтасьӧм	кӧтасьӧм	VERB	V	PastPtc	9	nmod	_	_
 9	кӧм-паськӧмӧс	кӧм-паськӧм	NOUN	N	Sg|Acc	5	obj	_	_
 10	да	да	CCONJ	CC	_	12	cc	_	_
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
@@ -1142,13 +1142,13 @@
 1	Быдлаысь	быдла	_	Adv	Spat|Ela	2	advmod	_	_
 2	кыліс	кывны	_	V	Ind|Prt1|Sg3	0	root	_	_
 3	винтовкаяслӧн	винтовка	_	N	Pl|Gen	4	nmod	_	_
-4	трачӧдчӧм	трачӧдчӧм	_	V	Sg|Nom	2	csubj	_	SpaceAfter=No
+4	трачӧдчӧм	трачӧдчӧм	_	V	PastPtc	2	csubj	_	SpaceAfter=No
 5	,	,	_	CLB	_	6	punct	_	_
 6	орудиеысь	орудие	_	N	Sg|Ela	7	nmod	_	_
-7	лыйлӧм	лыйлӧм	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
+7	лыйлӧм	лыйлӧм	_	N	PastPtc	4	conj	_	SpaceAfter=No
 8	,	,	_	CLB	_	9	punct	_	_
 9	взрывъяслӧн	взрыв	_	N	Pl|Gen	10	nmod	_	_
-10	грымгӧм	грымгӧм	_	N	Sg|Nom	4	conj	_	SpaceAfter=No
+10	грымгӧм	грымгӧм	_	N	PastPtc	4	conj	_	SpaceAfter=No
 11	…	…	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.017
@@ -1181,10 +1181,10 @@
 # text = Ни горзӧмъяс, ни лыйсьӧмъяс.
 # text_rus = Ни криков, ни выстрелов.
 1	Ни	ни	_	Pcle	_	2	advmod	_	_
-2	горзӧмъяс	горзӧм	_	N	Pl|Nom	0	root	_	SpaceAfter=No
+2	горзӧмъяс	горзӧм	_	V	PastPtc	0	root	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
 4	ни	ни	_	Pcle	_	5	advmod	_	_
-5	лыйсьӧмъяс	лыйсьӧм	_	N	Pl|Nom	2	conj	_	SpaceAfter=No
+5	лыйсьӧмъяс	лыйсьӧм	_	V	PastPtc	2	conj	_	SpaceAfter=No
 6	.	.	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.019
@@ -1225,7 +1225,7 @@
 # text_rus = На войне такая непонятность хуже самого жестокого боя.
 1	Война	война	_	N	Sg|Nom	5	obl	_	_
 2	вылын	вылын	_	Po	Spat|Sg|Ine	1	case	_	_
-3	татшӧм	татшӧм	_	A	Dem	4	amod	_	_
+3	татшӧм	татшӧм	_	Det	_	4	det	_	_
 4	гӧгӧрвотӧмыс	гӧгӧрвоны	_	V	Abe|PxSg3	5	csubj	_	_
 5	лёкджык	лёк	_	A	Comp	0	root	_	_
 6	медся	медся	_	Adv	AdA	7	advmod	_	_
@@ -1310,7 +1310,7 @@
 2	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	3	cop	_	_
 3	важ	важ	_	A	_	0	root	_	_
 4	да	да	_	CC	_	5	cc	_	_
-5	жугласьӧм	жугласьӧм	_	N	Sg|Nom	3	conj	_	SpaceAfter=No
+5	жугласьӧм	жугласьӧм	_	V	PastPtc	3	conj	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
 7	но	но	_	CC	_	13	cc	_	_
 8	мӧдтор	мӧдтор	_	N	Sg|Nom	9	nmod	_	_
@@ -1350,7 +1350,7 @@
 4	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	5	det	_	_
 5	луннас	лун	_	N	Sg|Ins|PxSg3	8	advmod	_	_
 6	вӧлі	вӧвны	_	V	Ind|Prt1|Sg3	8	cop	_	_
-7	сэтшӧм	сэтшӧм	_	A	_	8	amod	_	_
+7	сэтшӧм	сэтшӧм	_	Det	_	8	det	_	_
 8	важнӧй	важнӧй	_	A	_	0	root	_	_
 9	делӧӧн	делӧ	_	N	Sg|Ins	8	nmod	_	SpaceAfter=No
 10	,	,	_	CLB	_	11	punct	_	_
@@ -1410,6 +1410,7 @@
 # sent_id = kpv_four_battles.034
 # text = Одсӧ чинтытӧг, шоферыс машинасӧ веськӧдіс ӧти татшӧм переулокӧ, коді вӧлі зэв крутӧя кежӧ.
 # text_rus = Не замедляя хода, водитель направил машину в один из таких переулочков, изгибавшийся крутым коленом.
+# questions = What is the pos tag of татшӧм?
 1	Одсӧ	од	_	N	Sg|Nom|Clt/сӧ	2	nmod	_	_
 2	чинтытӧг	чинтыны	_	V	Ger|Neg	6	advcl	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
@@ -1417,7 +1418,7 @@
 5	машинасӧ	машина	_	N	Sg|Nom|Clt/сӧ	6	obj	_	_
 6	веськӧдіс	веськӧдны	_	V	Ind|Prt1|Sg3	0	root	_	_
 7	ӧти	ӧти	_	Num	Card|Attr	9	nummod	_	_
-8	татшӧм	татшӧм	_	A	_	9	amod	_	_
+8	татшӧм	татшӧм	_	Det	_	9	det	_	_
 9	переулокӧ	переулок	_	N	Sg|Ill	6	obl	_	SpaceAfter=No
 10	,	,	_	CLB	_	11	punct	_	_
 11	коді	коді	_	CONJ	_	15	nsubj	_	_
@@ -1437,7 +1438,7 @@
 5	воис	воны	_	V	Ind|Prt1|Sg3	0	root	_	_
 6	бергӧдчанінӧдзыс	бергӧдчанін	_	N	Sg|Ter|PxSg3	5	obl	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
-8	кыдз	кыдз	_	Pron	Adv|Manner|Rel	12	advmod	_	_
+8	кыдз	кыдз	_	Adv	_	12	advmod	_	_
 9	шоферыс	шофёр	_	N	Sg|Nom|PxSg3	12	nsubj	_	_
 10	став	став	_	Pron	Qnt	11	det	_	_
 11	вынсьыс	вын	_	N	Sg|Ela|PxSg3	_	x	_	_
@@ -1509,7 +1510,7 @@
 10	вылӧ	вылӧ	_	Po	Sg|Ill	9	case	_	_
 11	котӧртісны	котӧртны	_	V	Ind|Prt1|Pl3	0	root	_	_
 12	нин	нин	_	Adv	_	14	advmod	_	_
-13	вооружитчӧм	вооружитчӧм	_	V	Sg|Nom	14	acl	_	_
+13	вооружитчӧм	вооружитчӧм	_	V	PastPtc	14	acl	_	_
 14	йӧз	йӧз	_	N	Sg|Nom	11	nsubj	_	SpaceAfter=No
 15	.	.	_	CLB	_	11	punct	_	_
 
@@ -1655,8 +1656,8 @@
 # text = Шоферыс паръяссӧ курччӧмӧн тракнитіс задньӧй ходлысь рычагсӧ.
 # text_rus = Водитель, закусив губу, рванул рычаг заднего хода.
 1	Шоферыс	шофёр	_	N	Sg|Nom|PxSg3	4	nsubj	_	_
-2	паръяссӧ	пар	_	N	Pl|Nom|Clt/сӧ	3	obj	_	_
-3	курччӧмӧн	курччӧм	_	V	Sg|Ins	4	advcl	_	_
+2	паръяссӧ	пар	_	N	Pl|Acc	3	obj	_	_
+3	курччӧмӧн	курччӧм	_	V	PastPtc|Ins	4	advcl	_	_
 4	тракнитіс	тракнитны	_	V	Ind|Prt1|Sg3	0	root	_	_
 5	задньӧй	задньӧй	_	A	_	6	amod	_	_
 6	ходлысь	ход	_	N	Sg|Abl	7	nmod	_	_
@@ -1673,7 +1674,7 @@
 5	ёрт	ёрт	_	N	Sg|Nom	7	vocative	_	SpaceAfter=No
 6	,	,	_	CLB	_	7	punct	_	_
 7	беда	беда	_	Adv	_	0	root	_	SpaceAfter=No
-8	!	^excl	_	CLB	_	7	punct	_	_
+8	!	!	_	CLB	_	7	punct	_	_
 
 # sent_id = kpv_four_battles.057
 # text = Задньӧй ходыс портитчис…
@@ -1923,11 +1924,11 @@
 17	найӧясӧс	найӧ	PRON	Pron	Pers|Pl3|Acc	19	obj	_	_
 18	ог	оз	AUX	V	Neg|Ind|Prs|Sg1	19	aux	_	_
 19	шуӧй	шуны	VERB	V	ConNeg|Pl1	13	advcl	_	_
-20	кулӧм	кулӧм	ADJ	A	Sg|Nom	21	amod	_	_
+20	кулӧм	кулӧм	VERB	V	PastPtc	21	amod	_	_
 21	торъясӧн	тор	N	N	Pl|Ins	19	obl	_	_
 22	—	—	PUNCT	CLB	_	23	punct	_	_
 23	шуам	шуны	VERB	V	Ind|Prs|Pl1	19	conj	_	_
-24	ловтӧм	ловтӧм	ADJ	A	Sg|Nom	25	amod	_	_
+24	ловтӧм	ловтӧм	VERB	V	PastPtc|Neg	25	amod	_	_
 25	торъясӧн	тор	NOUN	N	Pl|Ins	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	13	punct	_	_
 
@@ -1945,7 +1946,7 @@
 9	ставныс	став	PRON	Pron	Sg|Nom|PxPl3	12	nsubj	_	_
 10	ӧтласа	ӧтласа	ADJ	A	Sg|Nom	11	amod	_	_
 11	пывсянъясын	пывсян	NOUN	N	Pl|Ine	12	obl	_	_
-12	пывсьӧны	пывсьыны	VERB	V	IV|Ind|Prs|Pl3	5	ccomp	_	SpaceAfter=No
+12	пывсьӧны	пывсьыны	VERB	V	Ind|Prs|Pl3	5	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн вӧр велӧдысьлы .
@@ -1964,6 +1965,7 @@
 # text = Чакотка — зэв лёк висьӧм , медся ёна жугӧдӧ тыястӧ .
 # text_rus =
 # sent_id = new_5
+# questions = How do we draw boundary when participle is so lexicalized that we call it a noun?
 1	Чакотка	чакотка	NOUN	N	Sg|Nom	5	nsubj	_	_
 2	—	—	PUNCT	CLB	_	3	punct	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
@@ -1993,7 +1995,7 @@
 # text_rus = 
 1	Доктор	доктор	NOUN	N	Sg|Nom	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	Spat|Sg|Ill	1	case	_	_
-3	воӧмаӧсь	воны	VERB	V	IV|Ind|Prt2|Pl3	0	root	_	_
+3	воӧмаӧсь	воны	VERB	V	Ind|Prt2|Pl3	0	root	_	_
 4	кык	кык	NUM	Num	Card|Sg|Nom	5	nummod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Sg|Nom	6	amod	_	_
 6	ныв	ныв	NOUN	N	Sg|Nom	3	nsubj	_	SpaceAfter=No
