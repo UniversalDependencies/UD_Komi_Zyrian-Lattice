@@ -1000,15 +1000,15 @@
 # text = И мый вӧсна получитіс сійӧ орденъяссӧ, кодъяс сылӧн дзирдалӧны морӧс вылас, кор первомайскӧй парад дырйи сійӧ петас аслас вӧв вылын Московскӧй Кремльса Спасскӧй башня важ воротаысь?
 # text_rus = И за что получил те ордена, которые горят у него на груди, когда в час первомайского парада выезжает он на своем коне из-под старых ворот Спасской башни Московского Кремля?
 1	И	и	_	CC	_	2	_	_	_
-2	мый	мый	_	Pron	Nom|Rel	_	_	_	_
+2	мый	мый	PRON	Pron	Nom|Rel	_	_	_	_
 3	вӧсна	вӧсна	ADP	Po	_	2	case	_	_
 4	получитіс	получитны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
-5	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	6	det	_	_
+5	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	6	det	_	_
 6	орденъяссӧ	орден	NOUN	N	Pl|Nom|Clt/сӧ	4	obj	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	_	_	_
-8	кодъяс	коді	_	Pron	Pl|Nom|Rel	10	nsubj	_	_
-9	сылӧн	сійӧ	_	Pron	Pers|Sg3|Gen	10	nmod	_	_
-10	дзирдалӧны	дзирдавны	VERB	V	Ind|Prs|Pl3	_	_	_	_
+8	кодъяс	коді	PRON	Pron	Pl|Nom|Rel	10	nsubj	_	_
+9	сылӧн	сійӧ	PRON	Pron	Pers|Sg3|Gen	10	nmod	_	_
+10	дзирдалӧны	дзирдавны	VERB	V	Ind|Prs|Pl3	_	acl	_	_
 11	морӧс	морӧс	NOUN	N	Sg|Nom	10	obl	_	_
 12	вылас	вылын	ADP	Po	Sg|Ine|PxSg3	11	case	_	SpaceAfter=No
 13	,	,	_	CLB	_	_	_	_	_
@@ -1016,7 +1016,7 @@
 15	первомайскӧй	первомайскӧй	_	A	N|Sg|Nom|PxSg1	16	amod	_	_
 16	парад	парад	NOUN	N	Sg|Nom	19	advcl	_	_
 17	дырйи	дырйи	ADP	Po	_	16	case	_	_
-18	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	19	nsubj	_	_
+18	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	19	nsubj	_	_
 19	петас	петны	VERB	V	Ind|Fut|Sg3	_	_	_	_
 20	аслас	ас	_	A	Refl|Sg3|Gen	21	amod	_	_
 21	вӧв	вӧв	NOUN	N	Sg|Nom	19	obl	_	_
@@ -1068,10 +1068,10 @@
 # sent_id = kpv_four_battles.012
 # text = Тайӧ жӧ книгаас ми висьталам сӧмын нёль самӧй обыкновеннӧй боевӧй случай йылысь, кодъяс коркӧ, гражданскӧй война лунъясын, вӧвліны фронт вылын Климент Ефремовичкӧд.
 # text_rus = В этой же книжке мы расскажем только о четырех самых обыкновенных боевых случаях, которые когда-то, в далекие дни гражданской войны, произошли с Климентом Ефремовичем на фронте.
-1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	_	det	_	_
+1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	_	det	_	_
 2	жӧ	жӧ	_	Pcle	_	_	_	_	_
 3	книгаас	книга	NOUN	N	Sg|Ill|PxSg3	5	obl	_	_
-4	ми	ми	_	Pron	Pers|Pl1|Nom	_	_	_	_
+4	ми	ми	PRON	Pron	Pers|Pl1|Nom	_	_	_	_
 5	висьталам	висьтавны	VERB	V	Ind|Prs|Pl1	_	_	_	_
 6	сӧмын	сӧмын	_	Adv	_	_	_	_	_
 7	нёль	нёль	_	Num	Card|Attr	_	_	_	_
@@ -1081,14 +1081,14 @@
 11	случай	случай	NOUN	N	Sg|Nom	5	obj	_	_
 12	йылысь	йылысь	ADP	Po	Sg|Ela	_	_	_	SpaceAfter=No
 13	,	,	_	CLB	_	_	_	_	_
-14	кодъяс	коді	_	Pron	Pl|Nom|Rel	_	_	_	_
-15	коркӧ	коркӧ	_	Pron	Indef	_	_	_	SpaceAfter=No
+14	кодъяс	коді	PRON	Pron	Pl|Nom|Rel	_	_	_	_
+15	коркӧ	коркӧ	_	Adv	_	_	_	_	SpaceAfter=No
 16	,	,	_	CLB	_	_	_	_	_
 17	гражданскӧй	гражданскӧй	_	A	_	_	_	_	_
 18	война	война	NOUN	N	Sg|Nom	_	_	_	_
 19	лунъясын	лун	NOUN	N	Pl|Ine	_	_	_	SpaceAfter=No
 20	,	,	_	CLB	_	_	_	_	_
-21	вӧвліны	вӧвлыны	VERB	V	Ind|Prt1|Pl3	_	_	_	_
+21	вӧвліны	вӧвлыны	VERB	V	Ind|Prt1|Pl3	_	acl	_	_
 22	фронт	фронт	NOUN	N	Sg|Nom	_	_	_	_
 23	вылын	вылын	ADP	Po	Sg|Ine	_	_	_	_
 24	Климент	Климент	PROPN	N	Prop|Sg|Nom	_	_	_	_
@@ -1118,7 +1118,7 @@
 18	карлань	кар	NOUN	N	Sg|Apr	13	conj	_	_
 19	(	(	_	PUNCT	_	22	punct	_	SpaceAfter=No
 20	ӧні	ӧні	_	Adv	_	22	advmod	_	_
-21	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	22	nsubj	_	_
+21	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	22	nsubj	_	_
 22	шусьӧ	шусьыны	VERB	V	Ind|Prs|Sg3	_	_	_	_
 23	Сталинградӧн	Сталинград	NOUN	N	Prop|Sg|Ins	22	obl	_	SpaceAfter=No
 24	)	)	_	PUNCT	_	22	punct	_	SpaceAfter=No
@@ -1133,7 +1133,7 @@
 4	,	,	_	CLB	_	5	punct	_	_
 5	белӧйяс	белӧй	NOUN	N	Pl|Nom	6	nsubj	_	_
 6	потшисны	потшны	VERB	V	Ind|Prt1|Pl3	3	ccomp	_	_
-7	быд	быд	_	Pron	Qnt	8	det	_	_
+7	быд	быд	_	Det	Qnt	8	det	_	_
 8	боксянь	боксянь	ADP	Po	Spat|Sg|Egr	6	obl	_	SpaceAfter=No
 9	.	.	_	CLB	_	3	punct	_	_
 
@@ -1159,7 +1159,7 @@
 2	друг	друг	_	Adv	_	10	advmod	_	SpaceAfter=No
 3	,	,	_	CLB	_	4	punct	_	_
 4	кор	кор	_	CS	Rel|Temp	10	mark	_	_
-5	миян	ми	_	Pron	Pers|Pl1|Gen	6	nmod	_	_
+5	миян	ми	PRON	Pron	Pers|Pl1|Gen	6	nmod	_	_
 6	войскаяс	войска	NOUN	N	Pl|Nom	10	nsubj	_	_
 7	ас	ас	_	A	Refl|Attr	8	nmod	_	_
 8	водзсьыныс	водз	ADP	Po	Sg|Ela|PxPl3	10	obl	_	_
@@ -1246,10 +1246,10 @@
 7	тӧд	тӧдны	VERB	V	ConNeg|Sg	2	advcl	_	SpaceAfter=No
 8	,	,	_	CLB	_	9	punct	_	_
 9	кӧні	кӧні	_	Adv	Ine|Pr|Sg|Rel	10	advmod	_	_
-10	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	7	acl	_	_
+10	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	7	acl	_	_
 11	и	и	_	CS	_	12	punct	_	_
-12	мый	мый	_	Pron	Nom|Rel	14	obj	_	_
-13	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	14	nsubj	_	_
+12	мый	мый	PRON	Pron	Nom|Rel	14	obj	_	_
+13	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	14	nsubj	_	_
 14	вӧчӧ	вӧчны	VERB	V	Ind|Prs|Sg3	7	advcl	_	SpaceAfter=No
 15	.	.	_	CLB	_	2	punct	_	_
 
@@ -1280,7 +1280,7 @@
 # sent_id = kpv_four_battles.026
 # text = Тайӧ вӧлі вывті опаснӧй могӧн, но коланаӧн.
 # text_rus = Это было делом очень опасным, но необходимым.
-1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	5	det	_	_
+1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	5	det	_	_
 2	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	5	cop	_	_
 3	вывті	вывті	_	Adv	_	4	advmod	_	_
 4	опаснӧй	опаснӧй	_	A	N|Sg|Nom|PxSg1	5	amod	_	_
@@ -1348,7 +1348,7 @@
 1	Тыдалӧ	тыдавны	VERB	V	Ind|Prs|Sg3	8	discourse	_	SpaceAfter=No
 2	,	,	_	CLB	_	3	punct	_	_
 3	разведкаыс	разведка	NOUN	N	Sg|Nom|PxSg3	8	nsubj	_	_
-4	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	5	det	_	_
+4	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	5	det	_	_
 5	луннас	лун	NOUN	N	Sg|Ins|PxSg3	8	advmod	_	_
 6	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	8	cop	_	_
 7	сэтшӧм	сэтшӧм	_	Det	_	8	det	_	_
@@ -1359,7 +1359,7 @@
 12	Ворошилов	Ворошилов	PROPN	N	Prop|Sg|Nom	13	nsubj	_	_
 13	решитчис	решитчыны	VERB	V	Ind|Prt1|Sg3	9	advcl	_	_
 14	мунны	мунны	VERB	V	Inf	13	xcomp	_	_
-15	ачыс	ас	_	Pron	Refl|Sg3|Nom	14	nmod	_	SpaceAfter=No
+15	ачыс	ас	PRON	Pron	Refl|Sg3|Nom	14	nmod	_	SpaceAfter=No
 16	.	.	_	CLB	_	8	punct	_	_
 
 # sent_id = kpv_four_battles.031
@@ -1373,7 +1373,7 @@
 6	эрд	эрд	NOUN	N	Sg|Nom	7	nmod	_	_
 7	вывсӧ	выв	NOUN	N	Sg|Nom|Clt/сӧ	3	obj	_	SpaceAfter=No
 8	,	,	_	CLB	_	9	punct	_	_
-9	коді	коді	_	Pron	Sg|Nom|Rel	10	nsubj	_	_
+9	коді	коді	PRON	Pron	Sg|Nom|Rel	10	nsubj	_	_
 10	торйӧдіс	торйӧдны	VERB	V	Ind|Prt1|Sg3	7	acl	_	_
 11	краснӧй	краснӧй	_	A	_	12	amod	_	_
 12	боецъясӧс	боец	NOUN	N	Pl|Acc	10	obj	_	_
@@ -1392,7 +1392,7 @@
 # text_rus = Главная улица его была пуста.
 1	Главнӧй	главнӧй	_	A	_	2	amod	_	_
 2	уличаыс	улича	NOUN	N	Sg|Nom|PxSg3	5	nsubj	_	_
-3	сылӧн	сійӧ	_	Pron	Pers|Sg3|Gen	2	nmod	_	_
+3	сылӧн	сійӧ	PRON	Pron	Pers|Sg3|Gen	2	nmod	_	_
 4	вӧлі	вӧвны	VERB	V	Ind|Prt1|Sg3	5	cop	_	_
 5	куш	куш	_	A	_	0	root	_	SpaceAfter=No
 6	.	_	_	CLB	_	5	punct	_	_
@@ -1451,7 +1451,7 @@
 # sent_id = kpv_four_battles.036
 # text = Сійӧ пыр жӧ гӧгӧрвоис, мый лоис лёктор.
 # text_rus = Он сразу понял, что случилась страшная вещь.
-1	Сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	4	nsubj	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	4	nsubj	_	_
 2	пыр	пыр	_	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	_	Pcle	_	2	discourse	_	_
 4	гӧгӧрвоис	гӧгӧрвоны	VERB	V	Ind|Prt1|Sg3	0	root	_	SpaceAfter=No
@@ -1472,7 +1472,7 @@
 # sent_id = kpv_four_battles.038
 # text = Мӧд петанін сэтысь эз вӧв.
 # text_rus = Второго выхода из него не было.
-1	Мӧд	мӧд	_	Pron	Dem	2	nmod	_	_
+1	Мӧд	мӧд	PRON	Pron	Dem	2	nmod	_	_
 2	петанін	петанін	NOUN	N	Sg|Nom	0	root	_	_
 3	сэтысь	сэтысь	_	Adv	Ela	2	obl	_	_
 4	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	5	aux	_	_
@@ -1540,7 +1540,7 @@
 # text_rus = Лицо его стало белым, как мел.
 # questions = pos of кодь? Usual answer is adposition, but is this really true?
 1	Чужӧмыс	чужӧм	NOUN	N	Sg|Nom|PxSg3	3	nsubj	_	_
-2	сылӧн	сійӧ	_	Pron	Pers|Sg3|Gen	1	nmod	_	_
+2	сылӧн	сійӧ	PRON	Pron	Pers|Sg3|Gen	1	nmod	_	_
 3	лои	лоны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
 4	мел	мел	NOUN	N	Sg|Nom	5	x	_	_
 5	кодь	кодь	ADP	Po	_	6	x	_	_
@@ -1552,7 +1552,7 @@
 # text_rus = — Что ты делаешь?
 1	—	—	_	PUNCT	_	4	punct	_	_
 2	Мый	мый	_	CONJ	_	4	obj	_	_
-3	тэ	тэ	_	Pron	Pers|Sg2|Nom	4	nsubj	_	_
+3	тэ	тэ	PRON	Pron	Pers|Sg2|Nom	4	nsubj	_	_
 4	вӧчан	вӧчны	VERB	V	Ind|Prs|Sg2	0	root	_	SpaceAfter=No
 5	?	?	_	CLB	_	4	punct	_	_
 
@@ -1593,14 +1593,14 @@
 # sent_id = kpv_four_battles.050
 # text = Сійӧ эз на удит шуны тайӧс, кыдз казакъяс горзігтырйи уськӧдчисны машиналань.
 # text_rus = Он не успел еще выговорить это, как казаки с ревом кинулись к машине.
-1	Сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	4	nsubj	_	_
+1	Сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	4	nsubj	_	_
 2	эз	оз	AUX	V	Neg|Ind|Pr|Sg3	4	aux	_	_
 3	на	на	_	Pcle	_	2	discourse	_	_
 4	удит	удитны	VERB	V	ConNeg|Sg	0	root	_	_
 5	шуны	шуны	VERB	V	Inf	4	xcomp	_	_
-6	тайӧс	тайӧ	_	Pron	Dem|Sg|Acc	5	obj	_	SpaceAfter=No
+6	тайӧс	тайӧ	PRON	Pron	Dem|Sg|Acc	5	obj	_	SpaceAfter=No
 7	,	,	_	CLB	_	8	punct	_	_
-8	кыдз	кыдз	_	Pron	Adv|Manner|Rel	11	advmod	_	_
+8	кыдз	кыдз	_	Adv	Manner|Rel	11	advmod	_	_
 9	казакъяс	казак	NOUN	N	Pl|Nom	11	nsubj	_	_
 10	горзігтырйи	горзыны	VERB	V	Ger	11	advcl	_	_
 11	уськӧдчисны	уськӧдчыны	VERB	V	Ind|Prt1|Pl3	_	x	_	_
@@ -1622,7 +1622,7 @@
 10	да	да	_	CC	_	11	cc	_	_
 11	чеччавны	чеччавны	VERB	V	Inf	7	conj	_	SpaceAfter=No
 12	:	:	_	CLB	_	_	_	_	_
-13	тайӧ	тайӧ	_	Pron	Dem|Sg|Nom	14	nsubj	_	_
+13	тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	14	nsubj	_	_
 14	мӧдіс	мӧдны	VERB	V	Ind|Prt1|Sg3	_	_	_	_
 15	уджавны	уджавны	VERB	V	Inf	14	xcomp	_	_
 16	краснӧйяслӧн	краснӧӥ	NOUN	N	Pl|Gen	_	_	_	_
@@ -1690,7 +1690,7 @@
 # text = Крукасис мыйкӧ.
 # text_rus = Заело что-то.
 1	Крукасис	крукасьны	VERB	V	Ind|Prt1|Sg3	0	root	_	_
-2	мыйкӧ	мыйкӧ	_	Pron	Nom|Der/кӧ|Indef	1	nsubj	_	SpaceAfter=No
+2	мыйкӧ	мыйкӧ	PRON	Pron	Nom|Der/кӧ|Indef	1	nsubj	_	SpaceAfter=No
 3	.	.	_	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.059
@@ -1698,7 +1698,7 @@
 # text_rus = Не выбраться нам…
 1	Не	не	_	Pcle	Neg	2	advmod	_	_
 2	петны	петны	VERB	V	Inf	0	root	_	_
-3	миянлы	ми	_	Pron	Pers|Pl1|Dat	2	obl	_	SpaceAfter=No
+3	миянлы	ми	PRON	Pron	Pers|Pl1|Dat	2	obl	_	SpaceAfter=No
 4	.	.	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.060
@@ -1718,7 +1718,7 @@
 # text = — Мый?
 # text_rus = — Что?
 1	—	—	_	PUNCT	_	2	punct	_	_
-2	Мый	мый	_	Pron	Nom|Interr	0	root	_	SpaceAfter=No
+2	Мый	мый	PRON	Pron	Nom|Interr	0	root	_	SpaceAfter=No
 3	?	?	_	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.062
@@ -1735,16 +1735,16 @@
 1	Ну	ну	_	Pcle	_	_	_	_	SpaceAfter=No
 2	,	,	_	CLB	_	_	_	_	_
 3	ӧні	ӧні	_	Adv	_	_	_	_	_
-4	ми	ми	_	Pron	Pers|Pl1|Nom	_	_	_	_
-5	тіянӧс	ті	_	Pron	Pers|Pl2|Acc	_	_	_	SpaceAfter=No
-6	!	^excl	_	CLB	_	_	_	_	_
+4	ми	ми	PRON	Pron	Pers|Pl1|Nom	_	_	_	_
+5	тіянӧс	ті	PRON	Pron	Pers|Pl2|Acc	_	_	_	SpaceAfter=No
+6	!	!	_	CLB	_	_	_	_	_
 
 # sent_id = kpv_four_battles.064
 # text = И вот найӧ шыбласьӧны нин канаваӧ, кыссьӧны турун пӧвстті, старайтчӧны воӧдчыны кыдз позьӧ матӧджык.
 # text_rus = И вот они уже кидаются в канавы, ползут по траве, ста-﻿раются подобраться как можно ближе.
 1	И	и	_	Pcle	_	4	discourse	_	_
 2	вот	вот	_	Pcle	_	1	discourse	_	_
-3	найӧ	найӧ	_	Pron	Pers|Pl3|Nom	4	advmod	_	_
+3	найӧ	найӧ	PRON	Pron	Pers|Pl3|Nom	4	advmod	_	_
 4	шыбласьӧны	шыбласьны	VERB	V	Ind|Prs|Pl3	_	x	_	_
 5	нин	нин	_	Adv	_	4	advmod	_	_
 6	канаваӧ	канава	NOUN	N	Sg|Ill	4	obl	_	SpaceAfter=No
@@ -1763,7 +1763,7 @@
 # sent_id = kpv_four_battles.065
 # text = Налӧн пуляясыс сяргӧны броневикӧ сідз, мый пельяссьыс перепонкаясыс машина пытшса йӧзлӧн чуть оз потласьны.
 # text_rus = Их пули бьют по броневику так, что у людей в машине от грохота чуть не лопаются перепонки в ушах.
-1	Налӧн	найӧ	_	Pron	Pers|Pl3|Gen	2	nmod	_	_
+1	Налӧн	найӧ	PRON	Pron	Pers|Pl3|Gen	2	nmod	_	_
 2	пуляясыс	пуля	NOUN	N	Pl|Nom|PxSg3	3	nsubj	_	_
 3	сяргӧны	сяргыны	VERB	V	Ind|Prs|Pl3	0	root	_	_
 4	броневикӧ	броневик	NOUN	N	Sg|Ill	3	obl	_	_
@@ -1800,7 +1800,7 @@
 # sent_id = kpv_four_battles.067
 # text = Тайӧ торпыригъясыс пырӧны боевӧй ӧшинь векньыдик щельясӧд, ранитӧны кияснысӧ, чужӧмнысӧ, соталӧны паськӧмнысӧ пырыс…
 # text_rus = Эти брызги врываются в узкие щели боевых окошек, ранят руки, лицо, прожигают насквозь одежду…
-1	Тайӧ	тайӧ	_	Pron	Dem|Sg|Nom|@>N	2	det	_	_
+1	Тайӧ	тайӧ	PRON	Pron	Dem|Sg|Nom	2	det	_	_
 2	торпыригъясыс	торпыриг	NOUN	N	Pl|Nom|PxSg3	3	obl	_	_
 3	пырӧны	пырны	VERB	V	Ind|Prs|Pl3	0	root	_	_
 4	боевӧй	боевӧй	_	A	Abs	5	amod	_	_
@@ -1856,11 +1856,11 @@
 # text = Вошим ми, — шӧпкӧдіс сійӧ.
 # text_rus = Пропали-мы, — бормотал он.
 1	Вошим	вошны	VERB	V	Ind|Prt1|Pl1	0	root	_	_
-2	ми	ми	_	Pron	Pers|Pl1|Nom	1	nsubj	_	SpaceAfter=No
+2	ми	ми	PRON	Pron	Pers|Pl1|Nom	1	nsubj	_	SpaceAfter=No
 3	,	,	_	CLB	_	2	punct	_	_
 4	—	—	_	PUNCT	_	5	punct	_	_
 5	шӧпкӧдіс	шӧпкӧдны	VERB	V	Ind|Prt1|Sg3	1	parataxis	_	_
-6	сійӧ	сійӧ	_	Pron	Pers|Sg3|Nom	5	nsubj	_	SpaceAfter=No
+6	сійӧ	сійӧ	PRON	Pron	Pers|Sg3|Nom	5	nsubj	_	SpaceAfter=No
 7	.	.	_	CLB	_	5	punct	_	_
 
 
