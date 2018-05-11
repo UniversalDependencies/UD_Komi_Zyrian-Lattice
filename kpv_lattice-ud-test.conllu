@@ -33,7 +33,7 @@
 # text = Шондіыс нем жалиттӧг пӧжис.
 # text_rus = Солнце пекло, ничего не жалея.
 1	Шондіыс	шонді	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
-2	нем	нем	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	3	det	_	_
+2	нем	нем	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	3	obj	_	_
 3	жалиттӧг	жалитны	VERB	V	Polarity=Neg|VerbForm=Ger	4	advcl	_	_
 4	пӧжис	пӧжны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -910,8 +910,8 @@
 4	странаын	страна	NOUN	N	Case=Ine|Number=Sing	5	obl	_	_
 5	тӧдӧны	тӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Климент	Климент	PROPN	N	Case=Nom|Number=Sing	5	obj	_	_
-7	Ефремович	Ефрем	PROPN	N	Case=Nom|Number=Sing	6	flat	_	_
-8	Ворошиловӧс	Ворошилов	PROPN	N	Case=Acc|Number=Sing	7	flat	_	SpaceAfter=No
+7	Ефремович	Ефрем	PROPN	N	Case=Nom|Number=Sing	6	flat:name	_	_
+8	Ворошиловӧс	Ворошилов	PROPN	N	Case=Acc|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	Советскӧй	Советскӧй	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
 11	Союзса	союз	ADJ	A	Case=Nom|Number=Sing	12	amod	_	_
@@ -1885,15 +1885,15 @@
 11	письмӧ	письмӧ	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	11	punct	_	_
 13	кӧні	кӧні	ADV	Adv	Case=Ine|Number=Sing	18	advmod	_	_
-14	Валентина	Валентина	PROPN	N	Case=Nom|Number=Sing	16	nmod	_	_
-15	Ивановна	Ивановна	PROPN	N	Case=Nom|Number=Sing	14	flat	_	_
-16	моз	моз	ADV	Adv	_	18	advmod	_	_
+14	Валентина	Валентина	PROPN	N	Case=Nom|Number=Sing	18	obl	_	_
+15	Ивановна	Ивановна	PROPN	N	Case=Nom|Number=Sing	14	flat:name	_	_
+16	моз	моз	ADP	Po	_	14	case	_	_
 17	жӧ	жӧ	PART	Pcle	_	16	discourse	_	_
 18	нимтіс	нимтыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
 19	сійӧс	сійӧ	PRON	Pron	Case=Acc|Person=3|PronType=Prs	18	obj	_	_
 20	«	«	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 21	сюсь	сюсь	ADJ	A	Case=Nom|Number=Sing	22	amod	_	_
-22	йӧйӧн	йӧй	ADJ	A	Case=Ins|Number=Sing	18	nmod	_	SpaceAfter=No
+22	йӧйӧн	йӧй	ADJ	A	Case=Ins|Number=Sing	18	xcomp	_	SpaceAfter=No
 23	»	»	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 24	.	.	PUNCT	CLB	_	4	punct	_	_
 
