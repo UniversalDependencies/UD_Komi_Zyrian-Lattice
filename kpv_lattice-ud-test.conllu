@@ -729,7 +729,7 @@
 3	восьлавны	восьлавны	VERB	V	VerbForm=Inf	2	xcomp	_	_
 4	ляти	ляти	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	_
 5	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
-6	туйӧд	туй	NOUN	N	Case=Per|Number=Sing	3	obl	_	SpaceAfter=No
+6	туйӧд	туй	NOUN	N	Case=Prl|Number=Sing	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.064
@@ -1281,7 +1281,7 @@
 # text_rus = Это было делом очень опасным, но необходимым.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-3	вывті	вывті	ADV	Adv	Case=Per	4	advmod	_	_
+3	вывті	вывті	ADV	Adv	Case=Tra	4	advmod	_	_
 4	опаснӧй	опаснӧй	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	amod	_	_
 5	могӧн	могӧн	NOUN	N	Case=Ins|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -1746,7 +1746,7 @@
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	кыссьӧны	кыссьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 9	турун	турун	NOUN	N	Case=Nom|Number=Sing	8	obl	_	_
-10	пӧвстті	пӧвст	ADP	Po	Case=Per|Number=Sing	9	case	_	SpaceAfter=No
+10	пӧвстті	пӧвст	ADP	Po	Case=Tra|Number=Sing	9	case	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	старайтчӧны	старайтчыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	воӧдчыны	воӧдчыны	VERB	V	VerbForm=Inf	12	xcomp	_	_
@@ -1800,7 +1800,7 @@
 4	боевӧй	боевӧй	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
 5	ӧшинь	ӧшинь	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 6	векньыдик	векньыдик	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
-7	щельясӧд	щель	NOUN	N	Case=Per|Number=Plur	3	obl	_	SpaceAfter=No
+7	щельясӧд	щель	NOUN	N	Case=Prl|Number=Plur	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	ранитӧны	ранитны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	кияснысӧ	ки	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	9	obj	_	SpaceAfter=No
