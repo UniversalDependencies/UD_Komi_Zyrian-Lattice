@@ -139,7 +139,7 @@
 # sent_id = belyx-011.012
 # text = Первойсӧ ичӧтик баляяс кодьӧсь.
 # text_rus = Сначала похожие на маленьких овечек.
-1	Первойсӧ	первой	DET	Det	_	4	nsubj	_	_
+1	Первойсӧ	первой	ADV	Det	_	4	advmod	_	_
 2	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	3	amod	_	_
 3	баляяс	баля	NOUN	N	Case=Nom|Number=Plur	4	nmod	_	_
 4	кодьӧсь	кодь	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
