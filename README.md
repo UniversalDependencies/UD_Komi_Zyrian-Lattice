@@ -8,7 +8,7 @@ The written language data is all from Public Domain sources. One of the larger s
 
 # Acknowledgments
 
-The work was done between April 2017-April 2018 in LATTICE-CNRS laboratory in Paris, in collaboration with Kone Foundation funded [IKDP-2](langdoc.github.io/IKDP-2) research project.
+This work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). The work was done in collaboration with Kone Foundation funded [IKDP-2](langdoc.github.io/IKDP-2) research project.
 
 ## References
 
