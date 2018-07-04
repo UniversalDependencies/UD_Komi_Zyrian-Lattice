@@ -4,7 +4,7 @@ UD Komi-Zyrian Lattice is a treebank of written standard Komi-Zyrian.
 
 # Introduction
 
-The treebank contains continuous texts which are identifiable through the id's. The written language data is all from Public Domain sources. One of the larger segments come from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was released into Public Domain by the author in 2013.
+The treebank contains continuous texts which are identifiable through the id's. The written language data is all from Public Domain sources. One of the larger segments come from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was added into [Komi Nebögain online library](http://komikyv.org) by the author in 2013.
 
 # Acknowledgments
 
