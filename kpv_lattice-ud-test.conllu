@@ -503,7 +503,7 @@
 9	кор	кор	ADV	Adv	_	12	_	_	_
 10	став	став	PRON	Pron	Case=Nom|Number=Sing	11	det	_	_
 11	няньыс	нянь	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	_
-12	лоас	лоны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	advcl	_	_
+12	лоас	лоны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	5	advcl	_	_
 13	вартӧма	вартӧм	ADJ	A	Case=Nom	12	_	_	_
 14	да	да	CCONJ	CC	_	_	_	_	_
 15	пуктӧма	пуктыны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
@@ -675,7 +675,7 @@
 7	кӧть	кӧть	SCONJ	CS	_	10	mark	_	_
 8	кутшӧмкӧ	кутшӧм	PRON	Pron	_	9	advmod	_	_
 9	тӧвру	тӧвру	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	_
-10	пӧльыштлас	пӧльыштлыны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	12	acl	_	SpaceAfter=No
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	12	acl	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	думайта	думайтны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	ас	ас	ADJ	A	_	14	amod	_	_
@@ -848,9 +848,9 @@
 1	Коркӧ	коркӧ	ADV	Adv	_	4	advmod	_	_
 2	век	век	ADV	Adv	_	4	advmod	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
-4	гымалас	гымавны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	_
+4	гымалас	гымавны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	и	и	CCONJ	CC	_	6	cc	_	_
-6	зэрас	зэрны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	conj	_	SpaceAfter=No
+6	зэрас	зэрны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.023
@@ -1008,7 +1008,7 @@
 2	да	да	PART	Pcle	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мед	мед	SCONJ	CS	_	5	cc	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	1	conj	_	SpaceAfter=No
+5	кӧтӧдас	кӧтӧдны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
@@ -1387,7 +1387,7 @@
 6	мый	мый	SCONJ	CS	_	9	mark	_	_
 7	татшӧма	татшӧма	ADV	Adv	_	8	advmod	_	_
 8	зэрны-гымавны	зэрны-гымавны	VERB	V	VerbForm=Inf	9	xcomp	_	_
-9	кутас	кутны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+9	кутас	кутны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	—	—	PUNCT	PUNCT	_	12	punct	_	_
 12	нурбыльті	нурбыльтны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
@@ -1602,7 +1602,7 @@
 16	парад	парад	NOUN	N	Case=Nom|Number=Sing	19	advcl	_	_
 17	дырйи	дырйи	ADP	Po	_	16	case	_	_
 18	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	_
-19	петас	петны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	4	advcl	_	_
+19	петас	петны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
 20	аслас	ас	PRON	A	Case=Gen|Person=3	21	amod	_	_
 21	вӧв	вӧв	NOUN	N	Case=Nom|Number=Sing	19	obl	_	_
 22	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	21	case	_	_
@@ -1631,7 +1631,7 @@
 12	замечательнӧй	замечательнӧй	ADJ	A	Case=Nom|Number=Sing	13	amod	_	_
 13	олӧмас	олӧм	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
-15	ковмас	ковмыны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	5	acl	_	_
+15	ковмас	ковмыны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	5	acl	_	_
 16	не	не	PART	Pcle	Polarity=Neg	17	discourse	_	_
 17	ӧти	ӧти	NUM	Num	NumType=Card	19	nummod	_	_
 18	кыз	кыз	ADJ	A	Case=Nom|Number=Sing	19	amod	_	_
@@ -1794,7 +1794,7 @@
 # text = Кытысь лэбыштас выльысь?
 # text_rus = Откуда налетит вновь?
 1	Кытысь	кытысь	ADV	Adv	_	2	advmod	_	_
-2	лэбыштас	лэбыштны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	_
+2	лэбыштас	лэбыштны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	выльысь	выльысь	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -2555,7 +2555,7 @@
 # sent_id = new_4
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	нигаыс	нига	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	сетас	сетны	VERB	V	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	_
+3	сетас	сетны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	сӧмын	сӧмын	ADV	Adv	_	3	advmod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	юкӧн	юкӧн	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
@@ -2605,7 +2605,7 @@
 # text = Аскинас сійӧ шуис Машалы, тэ пӧ этша вира.
 # sent_id = new_8
 # text_rus = 
-1	Аскинас	аскинас	ADV	Adv	_	3	advmod	_	_
+1	Аскинас	аски	ADV	Adv	Case=Ins	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
 3	шуис	шуны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Машалы	Маша	PROPN	N	Case=Dat|Number=Sing	3	obl	_	SpaceAfter=No
