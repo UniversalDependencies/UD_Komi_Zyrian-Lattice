@@ -2,7 +2,7 @@
 # text = Бур урожай воис таво миян районувса колхозъясын.
 1	Бур	бур	ADJ	A	_	2	amod	_	_
 2	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
-3	воис	воны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+3	воис	воны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 4	таво	таво	ADV	Adv	_	3	advmod	_	_
 5	миян	ми	PRON	Pron	Person=1|PronType=Prs	7	nmod	_	_
 6	районувса	районувса	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
@@ -14,7 +14,7 @@
 1	Колхозъяссянь	колхоз	NOUN	N	Case=Egr|Number=Plur	2	obl	_	_
 2	воан	воны	VERB	V	_	3	advcl	_	_
 3	юӧръяс	юӧр	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
-4	висьталӧны	висьтавны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+4	висьталӧны	висьтавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	,	,	PUNCT	CLB	_	_	_	_	_
 6	мый	мый	SCONJ	CS	_	9	mark	_	_
 7	таво	таво	ADV	Adv	_	9	advmod	_	_
@@ -36,7 +36,7 @@
 # text = Колхозъясын ӧні мунӧ тайӧ воӧм озыр урожайсӧ идралӧм.
 1	Колхозъясын	колхоз	NOUN	N	Case=Ine|Number=Plur	3	obl	_	_
 2	ӧні	ӧні	ADV	Adv	_	3	advmod	_	_
-3	мунӧ	мунны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+3	мунӧ	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	det	_	_
 5	воӧм	воны	VERB	V	Tense=Past|VerbForm=Part	7	advcl	_	_
 6	озыр	озыр	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
@@ -59,7 +59,7 @@
 11	успехъясӧн	успехъясӧн	_	_	_	_	_	_	_
 12	воодушедитчӧмӧн	воодушедитчӧмӧн	_	_	_	_	_	_	_
 13	успешнӧя	успешнӧя	_	_	_	_	_	_	_
-14	нуӧдӧны	нуӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+14	нуӧдӧны	нуӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 15	сталинскӧй	сталинскӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 16	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 17	идралӧм	идралӧм	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
@@ -74,7 +74,7 @@
 5	ассьыныс	ас	PRON	Pron	Person=3	_	_	_	_
 6	став	став	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
 7	вынсӧ	вын	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
-8	пуктӧны	пуктыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+8	пуктӧны	пуктыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 9	сы	сійӧ	PRON	Pron	Person=3|PronType=Prs	_	_	_	_
 10	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	_	_	_	_
 11	,	,	PUNCT	CLB	_	_	_	_	_
@@ -97,7 +97,7 @@
 # sent_id = vyl_tujod19390910_n67.006
 # text = Но колӧ индыны, мый урожай идралӧм миян район пасьта мунӧ ёна ичӧт ӧдъясӧн.
 1	Но	но	PART	Pcle	_	_	_	_	_
-2	колӧ	ковны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+2	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	индыны	индыны	VERB	V	VerbForm=Inf	_	_	_	_
 4	,	,	PUNCT	CLB	_	_	_	_	_
 5	мый	мый	SCONJ	CS	_	_	_	_	_
@@ -106,7 +106,7 @@
 8	миян	ми	PRON	Pron	Person=1|PronType=Prs	_	_	_	_
 9	район	район	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 10	пасьта	пасьта	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
-11	мунӧ	мунны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+11	мунӧ	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 12	ёна	ёна	ADV	Adv	_	_	_	_	_
 13	ичӧт	ичӧт	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 14	ӧдъясӧн	ӧд	NOUN	N	Case=Ins|Number=Plur	_	_	_	_
@@ -122,7 +122,7 @@
 6	пасьта	пасьта	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 7	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 8	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
-9	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+9	идралӧма	идравны	VERB	V	Evident=Nfh|Number=Sing|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 10	сӧмын	сӧмын	PART	Pcle	_	_	_	_	_
 11	на	на	PART	Pcle	_	_	_	_	_
 12	859	<859	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	_	_	_	_
@@ -142,7 +142,7 @@
 2	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
 3	план	план	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
 4	дінӧ	дінӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	_
-5	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+5	идралӧма	идравны	VERB	V	Evident=Nfh|Number=Sing|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 6	3	3	NUM	Num	Case=Acc|Number=Sing|NumType=Card,Ord	7	nummod	_	_
 7	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
 8	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	7	case	_	_
@@ -167,7 +167,7 @@
 15	дінӧ	дінӧ	ADP	Po	Case=Ill|Number=Sing	_	_	_	_
 16	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 17	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
-18	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+18	идралӧма	идравны	VERB	V	Evident=Nfh|Number=Sing|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 19	12-20	12-20	NUM	Num	Case=Acc|Number=Sing|NumType=Card,Ord	_	_	_	_
 20	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 21	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	_	_	_	_
@@ -177,7 +177,7 @@
 # text = Тайӧ лыдпасъясыс висьталӧны сы йылысь, мый колхозъясса председательяс, а сідз жӧ сиктса общественность колхозникьясӧс ӧнӧдз на эз мобилизуйтны ыджыд урожай босьтӧм вӧсна тышӧ, аскадӧ да некутшӧм вошӧмъястӧг идралӧм вӧсна тышӧ.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	_	_	_	_
 2	лыдпасъясыс	лыдпас	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	_	_	_
-3	висьталӧны	висьтавны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+3	висьталӧны	висьтавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	сы	сійӧ	PRON	Pron	Person=3|PronType=Prs	_	_	_	_
 5	йылысь	йылысь	ADP	Po	Number=Sing	_	_	_	_
 6	,	,	PUNCT	CLB	_	_	_	_	_
@@ -194,7 +194,7 @@
 17	ӧнӧдз	ӧнӧдз	ADV	Adv	Case=Ter	_	_	_	_
 18	на	на	PART	Pcle	_	_	_	_	_
 19	эз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	_	_	_	_
-20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes|Person=3	_	_	_	_
+20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes|Number=Plur|Person=3	_	_	_	_
 21	ыджыд	ыджыд	ADJ	A	Case=Acc|Number=Sing	_	_	_	_
 22	урожай	урожай	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 23	босьтӧм	босьтӧм	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
@@ -220,21 +220,21 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	9	nsubj	_	_
 8	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	виччысь	виччыны	VERB	V	PartForm=Pres|VerbForm=Part|Voice=Act	4	_	_	_
+9	виччысь	виччыны	VERB	V	PartForm=Pres|Number=Sing|VerbForm=Part|Voice=Act	4	_	_	_
 10	некутшӧм	некутшӧм	ADJ	A	Case=Nom|Number=Sing|Polarity=Neg	11	amod	_	_
 11	нюжмасьӧм	нюжмасьӧм	NOUN	N	Case=Acc|Number=Sing	9	obj	_	_
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = vyl_tujod19390910_n67.012
 # text = Идралін аскадӧ – выиграйтін, сёрмӧдчин – проиграйтін.
-1	Идралін	идравны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	_	_	_	_
-2	аскадӧ	аскадӧ	_	_	_	1	obl	_	_
+1	Идралін	идравны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	_	_	_	_
+2	аскадӧ	аскадӧ	NOUN	N	Case=Ill|Number=Sing	1	obl	_	_
 3	–	–	PUNCT	PUNCT	_	4	punct	_	_
-4	выиграйтін	выиграйтны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	1	_	_	_
+4	выиграйтін	выиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	_
 5	,	,	PUNCT	CLB	_	6	punct	_	_
-6	сёрмӧдчин	сёрмӧдчыны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	1	_	_	_
+6	сёрмӧдчин	сёрмӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	_
 7	–	–	PUNCT	PUNCT	_	8	punct	_	_
-8	проиграйтін	проиграйтны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	6	_	_	_
+8	проиграйтін	проиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	_	_	_
 9	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = vyl_tujod19390910_n67.013
@@ -243,19 +243,19 @@
 2	кывъясыс	кыв	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	_	_	_
 3	,	,	PUNCT	CLB	_	_	_	_	_
 4	кодӧс	коді	PRON	Pron	Case=Acc|Number=Sing	5	obj	_	_
-5	висьтавліс	висьтавлыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+5	висьтавліс	висьтавлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
 6	Сталин	Сталин	PROPN	N	Case=Acc|Number=Sing	5	nsubj	_	_
 7	ёрт	ёрт	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	вермы	вермыны	VERB	V	Connegative=Yes	_	_	_	_
+10	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 11	лоны	лоны	VERB	V	VerbForm=Inf	10	xcomp	_	_
-12	вунӧдӧма	вунӧдны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	xcomp	_	_
+12	вунӧдӧма	вунӧдны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	xcomp	_	_
 13	некодӧн	некод	PRON	Pron	Case=Ins|Number=Sing|Polarity=Neg	12	obl	_	_
 14	да	да	CCONJ	CC	_	_	_	_	_
 15	должен	должен	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 16	лоны	лоны	VERB	V	VerbForm=Inf	10	_	_	_
-17	пӧртӧма	пӧртны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	xcomp	_	_
+17	пӧртӧма	пӧртны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	xcomp	_	_
 18	олӧмӧ	олӧм	NOUN	N	Case=Ill|Number=Sing	17	obl	_	_
 19	.	.	PUNCT	CLB	_	_	_	_	_
 
@@ -272,7 +272,7 @@
 9	колхозъясса	колхоз	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 10	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
 11	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
-12	тыр	тырны	VERB	V	Connegative=Yes	_	_	_	_
+12	тыр	тырны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 13	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	_	_	_	_
 14	уджӧдны	уджӧдны	VERB	V	VerbForm=Inf	_	_	_	_
 15	уборочнӧй	уборочнӧй	_	_	_	_	_	_	_
@@ -283,7 +283,7 @@
 20	колхозъясса	колхоз	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 21	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
 22	умышленнӧя	умышленнӧя	_	_	_	_	_	_	_
-23	сулӧдӧны	сулӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+23	сулӧдӧны	сулӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 24	машинаяссӧ	машина	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	_	_	_
 25	4	4	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	_	_	_	_
 26	лун	лун	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
@@ -311,7 +311,7 @@
 3	да	да	CCONJ	CC	_	_	_	_	_
 4	парторгъяс	парторг	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
 5	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
-6	нуӧдны	нуӧдны	VERB	V	Connegative=Yes|Person=3	_	_	_	_
+6	нуӧдны	нуӧдны	VERB	V	Connegative=Yes|Number=Plur|Person=3	_	_	_	_
 7	решительнӧй	решительнӧй	ADJ	A	Case=Acc|Number=Sing	_	_	_	_
 8	тыш	тыш	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 9	сэтшӧм	сэтшӧм	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
@@ -323,7 +323,7 @@
 15	машиннӧй	машиннӧй	_	_	_	_	_	_	_
 16	удж	удж	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 17	,	,	PUNCT	CLB	_	_	_	_	_
-18	новлӧдлӧны	новлӧдлыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+18	новлӧдлӧны	новлӧдлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 19	антимеханизаторскӧй	антимеханизаторскӧй	_	_	_	_	_	_	_
 20	настроение	настроение	_	_	_	_	_	_	_
 21	.	.	PUNCT	CLB	_	_	_	_	_
@@ -336,7 +336,7 @@
 4	идралӧмын	идралӧм	NOUN	N	Case=Ine|Number=Sing	_	_	_	_
 5	ӧдъяс	ӧд	NOUN	N	Case=Acc|Number=Plur	_	_	_	_
 6	,	,	PUNCT	CLB	_	_	_	_	_
-7	колӧ	ковны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+7	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	не	не	PART	Pcle	_	_	_	_	_
 9	сӧмын	сӧмын	PART	Pcle	_	_	_	_	_
 10	сувтӧдны	сувтӧдны	VERB	V	VerbForm=Inf	_	_	_	_
@@ -366,7 +366,7 @@
 # text = Сідз жӧ колӧ сетны ыджыд тӧдчанлун вошӧмъяскӧд тышкасьӧм вылӧ.
 1	Сідз	сідз	ADV	Adv	_	3	advmod	_	_
 2	жӧ	жӧ	PART	Pcle	_	3	discourse	_	_
-3	колӧ	ковны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+3	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	сетны	сетны	VERB	V	VerbForm=Inf	3	xcomp	_	_
 5	ыджыд	ыджыд	ADJ	A	Case=Acc|Number=Sing	6	amod	_	_
 6	тӧдчанлун	тӧдчанлун	NOUN	N	Case=Acc|Number=Sing	4	obj	_	_
@@ -382,14 +382,14 @@
 3	тэчыгӧн	тэчыгӧн	_	_	_	1	conj	_	_
 4	му	му	NOUN	N	Case=Nom|Number=Sing	6	obl	_	_
 5	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	4	case	_	_
-6	усьӧ	усьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+6	усьӧ	усьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 7	уна	уна	ADV	Adv	_	8	advmod	_	_
 8	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	_
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = vyl_tujod19390910_n67.020
 # text = Овлывлӧ сэтшӧм практика, мый колхозъясса председательяс да бригадиръяс му вылӧ кольӧм шеп октӧм оз котыртны, лыддьӧны сійӧс ковтӧмӧн.
-1	Овлывлӧ	овлывлыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+1	Овлывлӧ	овлывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 2	сэтшӧм	сэтшӧм	NOUN	Det	Case=Nom|Number=Sing|PronType=Dem	_	_	_	_
 3	практика	практика	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 4	,	,	PUNCT	CLB	_	_	_	_	_
@@ -404,9 +404,9 @@
 13	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 14	октӧм	октӧм	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 15	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
-16	котыртны	котыртны	VERB	V	Connegative=Yes|Person=3	_	_	_	_
+16	котыртны	котыртны	VERB	V	Connegative=Yes|Number=Plur|Person=3	_	_	_	_
 17	,	,	PUNCT	CLB	_	_	_	_	_
-18	лыддьӧны	лыддьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+18	лыддьӧны	лыддьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 19	сійӧс	сійӧ	PRON	Pron	Case=Acc|Person=3|PronType=Prs	_	_	_	_
 20	ковтӧмӧн	ковтӧм	ADJ	A	Case=Ins|Number=Sing	_	_	_	_
 21	.	.	PUNCT	CLB	_	_	_	_	_
@@ -417,7 +417,7 @@
 2	настроениеяс	настроениеяс	_	_	_	5	nsubj	_	_
 3	лоны	лоны	VERB	V	VerbForm=Inf	5	xcomp	_	_
 4	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	вермы	вермыны	VERB	V	Connegative=Yes	_	_	_	_
+5	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = vyl_tujod19390910_n67.022
@@ -435,7 +435,7 @@
 11	му	му	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 12	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	_	_	_	_
 13	эз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	_	_	_	_
-14	коль	кольны	VERB	V	Connegative=Yes	_	_	_	_
+14	коль	кольны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 15	ниӧти	ниӧти	_	_	_	_	_	_	_
 16	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 17	,	,	PUNCT	CLB	_	_	_	_	_
@@ -448,7 +448,7 @@
 24	быд	быд	PRON	Pron	PronType=Qnt	_	_	_	_
 25	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 26	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
-27	сьӧктаммӧдӧ	сьӧктаммӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+27	сьӧктаммӧдӧ	сьӧктаммӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 28	колхозниклысь	колхозник	NOUN	N	Case=Abl|Number=Sing	_	_	_	_
 29	трудоденьсӧ	трудодень	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 30	,	,	PUNCT	CLB	_	_	_	_	_
@@ -473,7 +473,7 @@
 10	ӧнӧдз	ӧнӧдз	ADV	Adv	Case=Ter	_	_	_	_
 11	на	на	PART	Pcle	_	_	_	_	_
 12	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
-13	мун	мунны	VERB	V	Connegative=Yes	_	_	_	_
+13	мун	мунны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 14	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 15	тэчӧм	тэчӧм	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 16	да	да	CCONJ	CC	_	_	_	_	_
@@ -487,7 +487,7 @@
 3	миритчӧм	миритчыны	VERB	V	Tense=Past|VerbForm=Part	6	csubj	_	_
 4	лоны	лоны	VERB	V	VerbForm=Inf	6	xcomp	_	_
 5	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	вермы	вермыны	VERB	V	Connegative=Yes	_	_	_	_
+6	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = vyl_tujod19390910_n67.025
@@ -496,17 +496,17 @@
 2	идралан	идравны	VERB	V	_	3	compound	_	_
 3	удж	удж	NOUN	N	Case=Acc|Number=Sing	4	_	_	_
 4	помасьӧмӧн	помасьӧм	VERB	N	Case=Ins|Number=Sing	5	csubj	_	_
-5	лыддьыссьӧ	лыддьыссьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+5	лыддьыссьӧ	лыддьыссьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	_	_	_	_
 7	сэк	сэк	ADV	Adv	_	_	_	_	_
 8	,	,	PUNCT	CLB	_	_	_	_	_
 9	кор	кор	ADV	Adv	_	12	_	_	_
 10	став	став	PRON	Pron	Case=Nom|Number=Sing	11	det	_	_
 11	няньыс	нянь	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	_
-12	лоас	лоны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	5	advcl	_	_
+12	лоас	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	advcl	_	_
 13	вартӧма	вартӧм	ADJ	A	Case=Nom	12	_	_	_
 14	да	да	CCONJ	CC	_	_	_	_	_
-15	пуктӧма	пуктыны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+15	пуктӧма	пуктыны	VERB	V	Evident=Nfh|Number=Sing|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
 16	сӧстӧм	сӧстӧм	ADJ	A	Case=Acc|Number=Sing	17	amod	_	_
 17	амбаръясӧ	амбар	NOUN	N	Case=Ill|Number=Plur	15	obl	_	_
 18	да	да	CCONJ	CC	_	19	cc	_	_
@@ -536,7 +536,7 @@
 19	ордйысьӧм	ордйысьӧм	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 20	,	,	PUNCT	CLB	_	_	_	_	_
 21	коді	коді	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
-22	обеспечитіс	обеспечитны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+22	обеспечитіс	обеспечитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 23	эськӧ	эськӧ	PART	Pcle	_	_	_	_	_
 24	большевистскӧй	большевистскӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
 25	усчех	усчех	NOUN	N	_	_	_	_	_
@@ -571,7 +571,7 @@
 # sent_id = vyl_tujod19390910_n67.027
 # text = Тайӧ виччысьӧ миянлысь большевистскӧй партия, сӧветскӧй правительство да великӧй вождь Сталин.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	obj	_	_
-2	виччысьӧ	виччысьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+2	виччысьӧ	виччысьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	миянлысь	ми	PRON	Pron	Case=Abl|Person=1|PronType=Prs	2	obl	_	_
 4	большевистскӧй	большевистскӧй	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
 5	партия	партия	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
@@ -584,12 +584,132 @@
 12	Сталин	Сталин	PROPN	N	Case=Nom|Number=Sing	5	conj	_	_
 13	.	.	PUNCT	CLB	_	2	punct	_	_
 
+# sent_id = vyl_tujod19390910_n67_3:1:0
+# text = Ковмас кӧ, ог жалит олӧмӧс.
+1	Ковмас	ковмыны	VERB	V	Mood=Ind|Number=Sing||Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
+2	кӧ	кӧ	SCONJ	CS	_	1	mark	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
+4	ог	оз	VERB	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	жалит	жалитны	VERB	V	Connegative=Yes|Number=Sing	1	_	_	_
+6	олӧмӧс	олӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	_
+7	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = vyl_tujod19390910_n67_3:2:14
+# text = Ыджыд шуд миян странаса томйӧзлӧн, кодъяс веськалӧны Краснӧй Армия радӧ да новлӧдлӧны почетнӧй ним – социализм странаса великӧй воинлысь ним.
+1	Ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
+2	шуд	шуд	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+3	миян	ми	PRON	Pron	Person=1|PronType=Prs	4	nmod	_	_
+4	странаса	страна	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
+5	томйӧзлӧн	томйӧзлӧн	_	_	_	_	_	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	кодъяс	коді	PRON	Pron	Case=Nom|Number=Plur	8	nsubj	_	_
+8	веськалӧны	веськавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+9	Краснӧй	Краснӧй	PROPN	Sem/Plc	Case=Nom|Number=Sing	11	nmod	_	_
+10	Армия	армия	NOUN	N	Case=Nom|Number=Sing	9	flat:name	_	_
+11	радӧ	рад	NOUN	N	Case=Ill|Number=Sing	8	obl	_	_
+12	да	да	CCONJ	CC	_	13	cc	_	_
+13	новлӧдлӧны	новлӧдлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	почетнӧй	почётнӧй	ADJ	A	Case=Acc|Number=Sing	15	amod	_	_
+15	ним	ним	NOUN	N	Case=Acc|Number=Sing	13	obj	_	_
+16	–	–	PUNCT	PUNCT	_	17	punct	_	_
+17	социализм	социализм	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	_
+18	странаса	страна	ADJ	A	Case=Nom|Number=Sing	20	amod	_	_
+19	великӧй	великӧй	ADJ	A	Case=Nom|Number=Sing	20	amod	_	_
+20	воинлысь	воин	NOUN	N	Case=Abl|Number=Sing	21	nmod	_	_
+21	ним	ним	NOUN	N	Case=Acc|Number=Sing	15	conj	_	_
+22	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = vyl_tujod19390910_n67_3:3:59
+# text = Ме сідз жӧ ачымӧс лыддя шудаӧн, ӧд менӧ босьтісны Краснӧй Армия радӧ, менӧ воспитайтасны, ме лоа воинӧн, кута видзны священнӧй границаяс и ниӧти враг оз вермы вуджны миянлысь граница.
+1	Ме	ме	PRON	Pron	Case=Nom|Person=1|PronType=Prs	5	nsubj	_	_
+2	сідз	сідз	ADV	Adv	_	5	advmod	_	_
+3	жӧ	жӧ	PART	Pcle	_	2	goeswith	_	_
+4	ачымӧс	ас	PRON	Pron	Case=Acc|Person=1	5	obj	_	_
+5	лыддя	лыддьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	_
+6	шудаӧн	шуда	ADV	A	Case=Ins|Number=Sing	5	advmod	_	_
+7	,	,	PUNCT	CLB	_	_	_	_	_
+8	ӧд	ӧд	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+9	менӧ	ме	PRON	Pron	Case=Acc|Person=1|PronType=Prs	10	obj	_	_
+10	босьтісны	босьтны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+11	Краснӧй	Краснӧй	PROPN	Sem/Plc	Case=Acc|Number=Sing	13	nmod	_	_
+12	Армия	армия	NOUN	N	Case=Acc|Number=Sing	11	flat:name	_	_
+13	радӧ	рад	NOUN	N	Case=Ill|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	CLB	_	_	_	_	_
+15	менӧ	ме	PRON	Pron	Case=Acc|Person=1|PronType=Prs	16	obj	_	_
+16	воспитайтасны	воспитайтны	VERB	V	Mood=Ind|Number=Plur|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
+17	,	,	PUNCT	CLB	_	_	_	_	_
+18	ме	ме	PRON	Pron	Case=Nom|Person=1|PronType=Prs	19	nsubj	_	_
+19	лоа	лоны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	_
+20	воинӧн	воин	NOUN	N	Case=Ins|Number=Sing	19	obl	_	_
+21	,	,	PUNCT	CLB	_	_	_	_	_
+22	кута	кутны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	_
+23	видзны	видзны	VERB	V	VerbForm=Inf	22	xcomp	_	_
+24	священнӧй	священнӧй	ADJ	A	Case=Acc|Number=Sing	25	amod	_	_
+25	границаяс	граница	NOUN	N	Case=Acc|Number=Plur	23	obj	_	_
+26	и	и	PART	Pcle	_	_	_	_	_
+27	ниӧти	ниӧти	_	_	_	28	det	_	_
+28	враг	враг	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+29	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
+31	вуджны	вуджны	VERB	V	VerbForm=Inf	30	xcomp	_	_
+32	миянлысь	ми	PRON	Pron	Case=Abl|Person=1|PronType=Prs	33	nmod	_	_
+33	граница	граница	NOUN	N	Case=Acc|Number=Sing	31	obj	_	_
+34	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = vyl_tujod19390910_n67_3:4:129
+# text = Враг, коді лысьтас уськӧдчыны великӧй Сӧветскӧй держава вылӧ, лоас сетӧма сэтшӧм отпор да нӧшта чорыдджыкӧс, кутшӧм вӧлі Хасан ты районын японскӧй самурайяслы.
+1	Враг	враг	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+2	,	,	PUNCT	CLB	_	_	_	_	_
+3	коді	коді	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
+4	лысьтас	лысьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
+5	уськӧдчыны	уськӧдны	VERB	V	VerbForm=Inf	_	_	_	_
+6	великӧй	великӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
+7	Сӧветскӧй	сӧветскӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
+8	держава	держава	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+9	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	_	_	_	_
+10	,	,	PUNCT	CLB	_	_	_	_	_
+11	лоас	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
+12	сетӧма	сетны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+13	сэтшӧм	сэтшӧм	ADJ	A	Case=Acc|Number=Sing	_	_	_	_
+14	отпор	отпор	_	_	_	_	_	_	_
+15	да	да	CCONJ	CC	_	_	_	_	_
+16	нӧшта	нӧшта	ADV	Adv	_	_	_	_	_
+17	чорыдджыкӧс	чорыд	ADJ	A	Case=Acc|Degree=Cmp|Number=Sing	_	_	_	_
+18	,	,	PUNCT	CLB	_	_	_	_	_
+19	кутшӧм	кутшӧм	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
+20	вӧлі	вӧвны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+21	Хасан	Хасан	PROPN	N	Case=Nom|Number=Sing	_	_	_	_
+22	ты	ты	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
+23	районын	район	NOUN	N	Case=Ine|Number=Sing	_	_	_	_
+24	японскӧй	японскӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
+25	самурайяслы	самурайяслы	_	_	_	_	_	_	_
+26	.	.	PUNCT	CLB	_	_	_	_	_
+
+# sent_id = vyl_tujod19390910_n67_3:5:183
+# text = Ковмас кӧ, ме врагӧс мӧда нӧйтны сідз жӧ по хасановский да ог жалит олӧмӧс.
+1	Ковмас	ковмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
+2	кӧ	кӧ	SCONJ	CS	_	_	_	_	_
+3	,	,	PUNCT	CLB	_	_	_	_	_
+4	ме	ме	PRON	Pron	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	_
+5	врагӧс	враг	NOUN	N	Case=Acc|Number=Sing	7	obj	_	_
+6	мӧда	мӧдны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	_
+7	нӧйтны	нӧйтны	VERB	V	VerbForm=Inf	6	xcomp	_	_
+8	сідз	сідз	ADV	Adv	_	7	advmod	_	_
+9	жӧ	жӧ	PART	Pcle	_	8	goeswith	_	_
+10	по	по	ADP	Pr	_	11	case	_	_
+11	хасановский	хасановский	ADJ	A	_	_	_	_	_
+12	да	да	CCONJ	CC	_	_	_	_	_
+13	ог	оз	VERB	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	жалит	жалитны	VERB	V	Connegative=Yes|Number=Sing	_	_	_	_
+15	олӧмӧс	олӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	obj	_	_
+16	.	.	PUNCT	CLB	_	_	_	_	_
+
 # sent_id = belyx-011.000
 # text = Водз асылын лэччи Эжва дорӧ вуграсьны.
 # text_rus = Рано утром спустился к Вычегде поудить.
 1	Водз	водз	ADV	Adv	_	2	advmod	_	_
 2	асылын	асыв	NOUN	N	Case=Ine|Number=Sing	3	advmod	_	_
-3	лэччи	лэччыны	VERB	V	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	лэччи	лэччыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Эжва	Эжва	PROPN	N	Case=Nom|Number=Sing	3	obl	_	_
 5	дорӧ	дор	ADP	Po	Case=Ill|Number=Sing	4	case	_	_
 6	вуграсьны	вуграсьны	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
@@ -621,7 +741,7 @@
 1	Шондіыс	шонді	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 2	нем	нем	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	3	obj	_	_
 3	жалиттӧг	жалитны	VERB	V	Derivation=Tog|Polarity=Neg|VerbForm=Conv	4	advcl	_	_
-4	пӧжис	пӧжны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	пӧжис	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.004
@@ -640,7 +760,7 @@
 # text_rus = Жаркий воздух отнимал силы.
 1	Пӧсь	пӧсь	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	сынӧдыс	сынӧд	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	кыскис	кыскыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	кыскис	кыскыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	вын-эбӧстӧ	вын-эбӧс	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -648,7 +768,7 @@
 # text = Дзикӧдз жайӧдіс.
 # text_rus = Совсем изнемог.
 1	Дзикӧдз	дзикӧдз	ADV	Adv	Case=Ter	2	advmod	_	_
-2	жайӧдіс	жайӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	жайӧдіс	жайӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.007
@@ -675,9 +795,9 @@
 7	кӧть	кӧть	SCONJ	CS	_	10	mark	_	_
 8	кутшӧмкӧ	кутшӧм	PRON	Pron	_	9	advmod	_	_
 9	тӧвру	тӧвру	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	_
-10	пӧльыштлас	пӧльыштлыны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	12	acl	_	SpaceAfter=No
+10	пӧльыштлас	пӧльыштлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	acl	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
-12	думайта	думайтны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	думайта	думайтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	ас	ас	ADJ	A	_	14	amod	_	_
 14	кежысь	кеж	NOUN	N	Number=Sing	12	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	12	punct	_	_
@@ -691,7 +811,7 @@
 4	нин	нин	ADV	Adv	_	7	advmod	_	_
 5	кыськӧ	кысь	ADV	Adv	_	7	obl	_	_
 6	шур-шар	шур-шар	ADV	Adv	_	7	advmod	_	_
-7	воис	воны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	воис	воны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	неыджыд	неыджыд	ADJ	A	Polarity=Neg	9	amod	_	_
 9	тӧвру	тӧвру	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -702,7 +822,7 @@
 1	И	и	CCONJ	CC	_	4	cc	_	_
 2	кокниджыка	кокни	ADV	Adv	Degree=Cmp	3	advmod	_	_
 3	лолавсьыны	лолавсьыны	VERB	V	VerbForm=Inf	4	xcomp	_	_
-4	кутіс	кутны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.011
@@ -718,7 +838,7 @@
 8	ӧти	ӧти	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	9	nmod	_	_
 9	бӧрся	бӧрся	ADP	Po	Number=Sing	10	case	_	_
 10	мӧд	мӧд	PRON	Pron	Case=Nom|Number=Sing|NumType=Ord	11	nmod	_	_
-11	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
+11	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
 12	кымӧрторъяс	кымӧртор	NOUN	N	Case=Acc|Number=Plur	11	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -738,7 +858,7 @@
 2	сэсся	сэсся	ADV	Adv	_	5	advmod	_	_
 3	пыр	пыр	ADV	Adv	_	5	advmod	_	_
 4	отаджыкӧсь	ота	ADJ	A	Degree=Cmp|Number=Plur	5	amod	_	_
-5	лоисны	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	лоисны	лоны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.014
@@ -752,7 +872,7 @@
 6	яг	яг	NOUN	N	Case=Nom|Number=Sing	9	nmod	_	_
 7	весьтын	весьт	ADP	Po	Case=Ine|Number=Sing	6	case	_	_
 8	друг	друг	ADV	Adv	_	9	advmod	_	_
-9	тыдовтчис	тыдовтчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	тыдовтчис	тыдовтчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	эшкын	эшкын	NOUN	N	Number=Sing	12	nmod	_	_
 11	кодь	кодь	ADP	Po	Case=Nom|Number=Sing	10	case	_	_
 12	кымӧр	кымӧр	NOUN	N	Case=Nom|Number=Sing	13	nmod	_	_
@@ -761,14 +881,14 @@
 15	коді	коді	PRON	Pron	Case=Nom|Number=Sing	18	nsubj	_	_
 16	син	син	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	_
 17	водзын	водз	ADP	Po	Case=Ine|Number=Sing	16	case	_	_
-18	кутіс	кутны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
+18	кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
 19	быдмыны	быдмыны	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = belyx-011.015
 # text = Кыліс зэв ылысянь муркӧдчӧм шы.
 # text_rus = Издалека послышались звуки грома.
-1	Кыліс	кывны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Кыліс	кывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
 3	ылысянь	ылысянь	ADV	Adv	Case=Egr	1	advmod	_	_
 4	муркӧдчӧм	муркӧдчыны	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
@@ -779,7 +899,7 @@
 # text = Ваыс лӧнис.
 # text_rus = Вода стихла.
 1	Ваыс	ва	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
-2	лӧнис	лӧньны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	лӧнис	лӧньны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.017
@@ -787,7 +907,7 @@
 # text_rus = Рыба совсем присмирела.
 1	Чериыд	чери	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	_
 2	дзикӧдз	дзикӧдз	ADV	Adv	Case=Ter	3	advmod	_	_
-3	раммис	раммыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	раммис	раммыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.018
@@ -808,7 +928,7 @@
 4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	7	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
-7	майшассьӧма	майшассьыны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	майшассьӧма	майшассьыны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = belyx-011.020
@@ -818,7 +938,7 @@
 2	недыр	недыр	ADV	Adv	Polarity=Neg	3	advmod	_	_
 3	повзьӧдчӧм	повзьӧдчыны	VERB	V	Tense=Past|VerbForm=Part	5	obl	_	_
 4	бӧрын	бӧр	ADP	Po	Case=Ine|Number=Sing	3	case	_	_
-5	вешйис	вешйыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	вешйис	вешйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	бокӧ	бокӧ	ADV	Adv	Case=Ill	5	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -827,12 +947,12 @@
 # text_rus = А сам думаю, что если небеса грозят громом и дождём, просто так всё не закончится.
 1	А	а	SCONJ	CS	_	3	cc	_	_
 2	ачым	ас	PRON	Pron	Case=Nom|Person=1	3	nsubj	_	_
-3	думайта	думайтны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	думайта	думайтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	мый	мый	SCONJ	CS	_	6	cc	_	_
-6	грӧзитӧ	грӧзитны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+6	грӧзитӧ	грӧзитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 7	кӧ	кӧ	SCONJ	CS	_	6	mark	_	_
-8	енэжыс	енэж	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
+8	енэжыс	енэж	NOUN	N	Case=Nom|Number=Sing|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 9	гыма	гыма	ADJ	A	Case=Nom|Number=Sing	10	amod	_	_
 10	зэрӧн	зэр	NOUN	N	Case=Ins|Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	15	punct	_	_
@@ -848,9 +968,9 @@
 1	Коркӧ	коркӧ	ADV	Adv	_	4	advmod	_	_
 2	век	век	ADV	Adv	_	4	advmod	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
-4	гымалас	гымавны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	гымалас	гымавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	и	и	CCONJ	CC	_	6	cc	_	_
-6	зэрас	зэрны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
+6	зэрас	зэрны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.023
@@ -860,7 +980,7 @@
 1	Пукавны	пукавны	VERB	V	VerbForm=Inf	4	csubj	_	_
 2	вадорын	вадор	NOUN	N	Case=Ine|Number=Sing	1	nmod	_	_
 3	водзӧ	водз	ADV	Adv	Case=Ill|Number=Sing	1	advmod	_	_
-4	вӧлі	вӧвны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	вӧлі	вӧвны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	весьшӧрӧ	весьшӧрӧ	ADV	Adv	Case=Ill	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -868,12 +988,12 @@
 # text = Ньӧжйӧник чукӧрті чери кыян кӧлуйӧс да мӧдӧдчи гортлань.
 # text_rus = По-тихоньку собрал рыболовные снасти и пошёл в сторону дома.
 1	Ньӧжйӧник	ньӧжйӧник	ADV	Adv	_	2	advmod	_	_
-2	чукӧрті	чукӧртны	VERB	V	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	чукӧрті	чукӧртны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	чери	чери	NOUN	N	Case=Nom|Number=Sing	4	nmod	_	_
 4	кыян	кыян	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	_
 5	кӧлуйӧс	кӧлуй	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	_
 6	да	да	CCONJ	CC	_	5	cc	_	_
-7	мӧдӧдчи	мӧдӧдчыны	VERB	V	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	мӧдӧдчи	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
 8	гортлань	горт	NOUN	N	Case=Apr|Number=Sing	7	obl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -882,13 +1002,13 @@
 # text_rus = Незаметно с северо-востока показалась ещё туча и быстро стала направляться к середине неба.
 1	Тӧдлытӧг	тӧдлыны	VERB	V	Derivation=Tog|Polarity=Neg|VerbForm=Conv	3	advcl	_	_
 2	асыв-войвывсяньыс	асыв-войвыв	NOUN	N	Case=Egr|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
-3	тыдовтчис	тыдовтчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	тыдовтчис	тыдовтчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	3	advmod	_	_
 5	кымӧр	кымӧр	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
 6	пласт	пласт	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 7	да	да	CCONJ	CC	_	3	cc	_	_
 8	ӧдйӧ	ӧдйӧ	ADV	Adv	Case=Ill	9	advmod	_	_
-9	кутіс	кутны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 10	кайны	кайны	VERB	V	VerbForm=Inf	9	xcomp	_	_
 11	енэж	енэж	NOUN	N	Case=Nom|Number=Sing	12	nmod	_	_
 12	шӧрлань	шӧр	NOUN	N	Case=Apr|Number=Sing	10	obl	_	SpaceAfter=No
@@ -900,9 +1020,9 @@
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3	4	nsubj	_	_
 2	вочасӧн	вочасӧн	ADV	Adv	Case=Ins	4	advmod	_	_
 3	пыр	пыр	ADV	Adv	_	4	advmod	_	_
-4	паськаліс	паськавны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	паськаліс	паськавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	да	да	CCONJ	CC	_	6	cc	_	_
-6	лӧзӧдіс	лӧзӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+6	лӧзӧдіс	лӧзӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = belyx-011.027
@@ -913,7 +1033,7 @@
 3	видзӧдігмоз	видзӧдны	VERB	V	Derivation=Igmoz|VerbForm=Conv	7	advcl	_	_
 4	весиг	весиг	ADV	Adv	_	7	mark	_	_
 5	шуштӧм	шуштӧм	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
-6	лолі	лолыны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	лолі	лолыны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 7	сьӧлӧм	сьӧлӧм	NOUN	N	Case=Nom|Number=Sing	0	root	_	_
 8	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	7	case	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -921,7 +1041,7 @@
 # sent_id = belyx-011.028
 # text = Воа ог нӧ эськӧ зэрӧдзыс гортӧдз?
 # text_rus = Дойду ли до начала дождя до дома?
-1	Воа	воны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Воа	воны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ог	оз	VERB	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 3	нӧ	нӧ	PART	Pcle	_	1	discourse	_	_
 4	эськӧ	эськӧ	PART	Pcle	_	1	discourse	_	_
@@ -934,7 +1054,7 @@
 # text_rus = Ведь пройти надо немало.
 1	Ӧд	ӧд	PART	Pcle	_	3	advmod	_	_
 2	мунны	мунны	VERB	V	VerbForm=Inf	3	xcomp	_	_
-3	колӧ	ковны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	бура	бура	ADV	Adv	_	5	advmod	_	_
 5	унакодь	унакодь	ADV	Adv	Case=Nom|Number=Sing	3	advmod	_	_
 6	на	на	ADV	Adv	_	5	advmod	_	SpaceAfter=No
@@ -943,7 +1063,7 @@
 # sent_id = belyx-011.030
 # text = Ӧддзӧді воськовъясӧс.
 # text_rus = Ускорил шаги.
-1	Ӧддзӧді	ӧддзӧдны	VERB	V	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Ӧддзӧді	ӧддзӧдны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	воськовъясӧс	воськов	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=1	1	obj	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -952,7 +1072,7 @@
 # text_rus = Но туча шла ещё быстрее.
 1	Но	но	CCONJ	CC	_	3	cc	_	_
 2	кымӧрыд	кымӧр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	_
-3	локтіс	локны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	локтіс	локны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	нӧшта	нӧшта	ADV	Adv	_	5	advmod	_	_
 5	ӧдйӧджык	ӧдйӧ	ADV	Adv	Case=Ill|Degree=Cmp	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -960,7 +1080,7 @@
 # sent_id = belyx-011.032
 # text = Кутіс нин гымавны-чардавны.
 # text_rus = Уже начались гром и молнии.
-1	Кутіс	кутны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	нин	нин	ADV	Adv	_	1	advmod	_	_
 3	гымавны-чардавны	гымавны-чардавны	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -971,7 +1091,7 @@
 1	А	а	SCONJ	CS	_	4	cc	_	_
 2	сэсся	сэсся	ADV	Adv	_	4	advmod	_	_
 3	вылісянь	вылісянь	ADV	Adv	Case=Egr|Number=Sing	4	obl	_	_
-4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	гырысь	гырысь	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
 6	зэр	зэр	NOUN	N	Case=Nom|Number=Plur	7	compound	_	_
 7	войтъяс	войт	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
@@ -982,7 +1102,7 @@
 # text_rus = До этого успел дойти только к осиновой роще.
 1	Сэк	сэк	ADV	Adv	_	3	advmod	_	_
 2	жӧ	жӧ	PART	Pcle	_	1	advmod	_	_
-3	удиті	удитны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	удиті	удитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	на	на	ADV	Adv	_	3	advmod	_	_
 5	воны	воны	VERB	V	VerbForm=Inf	3	xcomp	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
@@ -996,7 +1116,7 @@
 # text_rus = От дождя прятаться было уже бесполезно.
 1	Зэрсьыс	зэр	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
 2	дзебсьыны	дзебсьыны	VERB	V	VerbForm=Inf	4	csubj	_	_
-3	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	весьшӧрӧ	весьшӧрӧ	ADV	Adv	Case=Ill	0	root	_	_
 5	нин	нин	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1004,18 +1124,18 @@
 # sent_id = belyx-011.036
 # text = Думайта да, мед кӧтӧдас.
 # text_rus = Думаю, пусть намокну.
-1	Думайта	думайтны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Думайта	думайтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	да	да	PART	Pcle	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мед	мед	SCONJ	CS	_	5	cc	_	_
-5	кӧтӧдас	кӧтӧдны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	SpaceAfter=No
+5	кӧтӧдас	кӧтӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = belyx-011.037
 # text = Зэригас кая гортӧдз.
 # text_rus = В дождь дойду до дома.
 1	Зэригас	зэрны	VERB	V	Case=Ill|Derivation=Ig|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Conv	2	advcl	_	_
-2	кая	кайны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	кая	кайны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	гортӧдз	горт	NOUN	N	Case=Ter|Number=Sing	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1035,7 +1155,7 @@
 1	Друг	друг	ADV	Adv	_	4	advmod	_	_
 2	асыв-войвывсянь	асыв-войвыв	NOUN	N	Case=Egr|Number=Sing	4	obl	_	_
 3	бара	бара	ADV	Adv	_	4	advmod	_	_
-4	воис	воны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	воис	воны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	зэв	зэв	ADV	Adv	_	6	advmod	_	_
 6	ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	8	amod	_	_
 7	тӧв	тӧв	NOUN	N	Case=Nom|Number=Sing	8	compound	_	_
@@ -1061,7 +1181,7 @@
 7	сэтшӧма	сэтшӧма	ADV	Adv	_	10	advmod	_	_
 8	ёсь	ёсь	ADJ	A	Case=Nom|Number=Sing	9	amod	_	_
 9	тӧлыс	тӧв	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
-10	сатшис	сатшны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	сатшис	сатшны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 11	горшӧ	горш	NOUN	N	Case=Ill|Number=Sing	10	obl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1072,7 +1192,7 @@
 2	ныркӧд	ныр	NOUN	N	Case=Com|Number=Sing	5	obl	_	_
 3	тшӧтш	тшӧтш	ADV	Adv	_	2	advmod	_	_
 4	сынӧдыс	сынӧд	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-5	кутіс	кутны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	рудӧдны	рудӧдны	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -1083,7 +1203,7 @@
 2	рудыс	руд	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
 4	ӧдйӧ	ӧдйӧ	ADV	Adv	Case=Ill	5	advmod	_	_
-5	матыстчис	матыстчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	матыстчис	матыстчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	мелань	ме	PRON	Pron	Case=Apr|Person=1	5	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -1092,7 +1212,7 @@
 # text_rus = В последний момент в лицо ударили льдинки.
 1	Медбӧрын	медбӧрын	ADV	Adv	Case=Ine	3	advmod	_	_
 2	чужӧмӧ	чужӧм	NOUN	N	Case=Ill|Number=Sing	3	obl	_	_
-3	кучкисны	кучкыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	кучкисны	кучкыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	йи	йи	NOUN	N	Case=Nom|Number=Sing	5	compound	_	_
 5	торъяс	тор	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -1115,7 +1235,7 @@
 3	эг	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|VerbForm=Fin	5	aux	_	_
 4	нин	нин	ADV	Adv	_	5	advmod	_	_
 5	кут	кутны	VERB	V	Connegative=Yes|Number=Sing	0	root	_	_
-6	вермыны	вермыны	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+6	вермыны	вермыны	VERB	V	VerbForm=Inf|Number=Plur	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belyx-011.046
@@ -1124,7 +1244,7 @@
 1	Тӧлыс	тӧв	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 2	да	да	CCONJ	CC	_	3	cc	_	_
 3	шерыс	шер	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
-4	пӧрӧдісны	пӧрӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	пӧрӧдісны	пӧрӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	кок	кок	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
 6	йывсьыд	йылысь	ADP	Po	Number=Sing|Number[psor]=Sing|Person[psor]=2	5	case	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1145,7 +1265,7 @@
 # text = Дугдывтӧг гымаліс-чардаліс.
 # text_rus = Без конца гремел гром и сверкали молнии.
 1	Дугдывтӧг	дугдывны	VERB	V	Derivation=Tog|Polarity=Neg|VerbForm=Conv	2	advcl	_	_
-2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	гымаліс-чардаліс	гымавны-чардавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.049
@@ -1155,7 +1275,7 @@
 2	быттьӧ	быттьӧ	PART	Pcle	_	5	advmod	_	_
 3	дзик	дзик	ADV	Adv	_	4	advmod	_	_
 4	орччӧн	орччӧн	ADV	Adv	Case=Ins	5	advmod	_	_
-5	орӧдлісны	орӧдлыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	орӧдлісны	орӧдлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	сынӧдсӧ	сынӧд	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -1169,11 +1289,11 @@
 # sent_id = belyx-011.051
 # text = Пыри пипу раскас да сувті неыджыд эрд вылӧ.
 # text_rus = Зашёл в осиновую рощу и встал на небольшую поляну.
-1	Пыри	пырны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Пыри	пырны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	пипу	пипу	NOUN	N	Case=Nom|Number=Sing	3	nmod	_	_
 3	раскас	рас	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	obl	_	_
 4	да	да	CCONJ	CC	_	5	cc	_	_
-5	сувті	сувтны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+5	сувті	сувтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
 6	неыджыд	неыджыд	ADJ	A	Polarity=Neg	7	amod	_	_
 7	эрд	эрд	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
 8	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	7	case	_	SpaceAfter=No
@@ -1207,7 +1327,7 @@
 1	Но	но	CCONJ	CC	_	4	cc	_	_
 2	чардби	чардби	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	_
 3	дугдывтӧг	дугдывны	VERB	V	Derivation=Tog|Polarity=Neg|VerbForm=Conv	4	advcl	_	_
-4	югъяліс	югъявны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	югъяліс	югъявны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	син	син	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
 6	водзын	водз	ADP	Po	Case=Ine|Number=Sing	5	case	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1217,7 +1337,7 @@
 # text_rus = Про себя вспомнил уже, может быть, всех Богов, знакомых и незнакомых, чтобы, если они где-то есть, не оставили человека в дороге.
 1	Ас	ас	ADJ	A	_	2	amod	_	_
 2	кежысь	кежысь	ADP	Po	Number=Sing	3	advmod	_	_
-3	казьтышті	казьтыштны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	казьтышті	казьтыштны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	нин	нин	ADV	Adv	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	гашкӧ	гашкӧ	ADV	Adv	_	24	advmod	_	SpaceAfter=No
@@ -1238,7 +1358,7 @@
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	24	aux	_	_
 23	жӧ	жӧ	PART	Pcle	_	24	discourse	_	_
-24	эновтны	эновтны	VERB	V	VerbForm=Inf	3	ccomp	_	_
+24	эновтны	эновтны	VERB	V	VerbForm=Inf|Number=Plur	3	ccomp	_	_
 25	туй	туй	NOUN	N	Case=Nom|Number=Sing	26	compound	_	_
 26	выв	выв	NOUN	N	Case=Nom|Number=Sing	27	compound	_	_
 27	мортӧс	морт	NOUN	N	Case=Acc|Number=Sing	24	obj	_	SpaceAfter=No
@@ -1251,7 +1371,7 @@
 2	со	со	PART	Pcle	PronType=Dem	5	discourse	_	_
 3	шерыс	шер	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 4	вочасӧн	вочасӧн	ADV	Adv	Case=Ins	5	advmod	_	_
-5	вешйис	вешйыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	вешйис	вешйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	бокӧ	бокӧ	ADV	Adv	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No|Note=Check
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -1259,7 +1379,7 @@
 # text = Зэрыс мӧдӧдчис надзӧнджык.
 # text_rus = Дождь шёл медленее.
 1	Зэрыс	зэр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	мӧдӧдчис	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	надзӧнджык	надзӧн	ADV	Adv	Degree=Cmp	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1268,7 +1388,7 @@
 # text_rus = Гремело как раньше.
 1	Воддза	воддза	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	моз	моз	ADV	Adv	_	3	advmod	_	_
-3	гымаліс	гымавны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	гымаліс	гымавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = belyx-011.059
@@ -1287,14 +1407,14 @@
 1	Сэсся	сэсся	ADV	Adv	_	4	advmod	_	_
 2	и	и	PART	Pcle	_	4	discourse	_	_
 3	гымыс	гым	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
-4	вешйис	вешйыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	вешйис	вешйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belyx-011.061
 # text = Ньӧжйӧник мӧдӧдчи гортлань.
 # text_rus = Не торопясь направился в сторону дома.
 1	Ньӧжйӧник	ньӧжйӧник	ADV	Adv	Case=Ill	2	advmod	_	_
-2	мӧдӧдчи	мӧдӧдчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	мӧдӧдчи	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	гортлань	горт	NOUN	N	Case=Apr|Number=Sing	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1311,7 +1431,7 @@
 # text = Муртса верми восьлавны ляти кодь туйӧд.
 # text_rus = Еле мог шагать по грязной дороге.
 1	Муртса	муртса	ADV	Adv	_	2	advmod	_	_
-2	верми	вермыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	верми	вермыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	восьлавны	восьлавны	VERB	V	VerbForm=Inf	2	xcomp	_	_
 4	ляти	ляти	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	_
 5	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
@@ -1322,7 +1442,7 @@
 # text = Лысваыс болскакыліс сапӧг пытшкын.
 # text_rus = Роса булькала в сапоге.
 1	Лысваыс	лысва	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-2	болскакыліс	болскакывны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	болскакыліс	болскакывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	сапӧг	сапӧг	NOUN	N	Case=Nom|Number=Sing	2	obl	_	_
 4	пытшкын	пытш	ADP	Po	Case=Ine|Number=Sing	3	case	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -1333,7 +1453,7 @@
 1	Медбӧрын	медбӧрын	ADV	Adv	Case=Ine	2	advmod	_	_
 2	кыр	кыр	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
 3	йылын	йылын	ADP	Po	Case=Ine|Number=Sing	2	case	_	_
-4	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	сиктса	сиктса	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	керкаяс	керка	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1353,7 +1473,7 @@
 # text = Мамӧй паныдаліс кильчӧ вылӧ петӧмӧн.
 # text_rus = Мама встретила, выйдя на крыльцо.
 1	Мамӧй	мам	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
-2	паныдаліс	паныдавны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	паныдаліс	паныдавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	кильчӧ	кильчӧ	NOUN	N	Case=Nom|Number=Sing	2	obl	_	_
 4	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	_
 5	петӧмӧн	петны	VERB	V	Case=Ins|Derivation=Omon|Number=Sing|VerbForm=Conv	2	advcl	_	SpaceAfter=No
@@ -1372,7 +1492,7 @@
 8	,	,	PUNCT	CLB	_	11	punct	_	_
 9	—	—	PUNCT	PUNCT	_	11	punct	_	_
 10	жалитӧмпырысь	жалитӧмпырысь	ADV	Adv	_	11	advmod	_	Note=Check
-11	шуис	шуны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+11	шуис	шуны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
 12	меным	ме	PRON	Pron	Case=Dat|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -1387,10 +1507,10 @@
 6	мый	мый	SCONJ	CS	_	9	mark	_	_
 7	татшӧма	татшӧма	ADV	Adv	_	8	advmod	_	_
 8	зэрны-гымавны	зэрны-гымавны	VERB	V	VerbForm=Inf	9	xcomp	_	_
-9	кутас	кутны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+9	кутас	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	—	—	PUNCT	PUNCT	_	12	punct	_	_
-12	нурбыльті	нурбыльтны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+12	нурбыльті	нурбыльтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 13	сӧмын	сӧмын	ADV	Adv	_	12	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1401,14 +1521,14 @@
 2	пырӧм	пырӧм	VERB	V	Tense=Past|VerbForm=Part	5	obl	_	_
 3	бӧрын	бӧрын	ADV	Adv	Case=Ine	2	case	_	_
 4	тэрмасьӧмӧн	тэрмасьӧмӧн	VERB	V	Derivation=Omon|VerbForm=Conv	5	advcl	_	_
-5	пӧрччи	пӧрччыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	пӧрччи	пӧрччыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	сӧдз	сӧдз	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
 7	ваӧдз	ва	NOUN	N	Case=Ter|Number=Sing	8	obl	_	_
 8	кӧтасьӧм	кӧтасьӧм	VERB	V	Tense=Past|VerbForm=Part	9	nmod	_	_
 9	кӧм-паськӧмӧс	кӧм-паськӧм	NOUN	N	Case=Acc|Number=Sing	5	obj	_	_
 10	да	да	CCONJ	CC	_	12	cc	_	_
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
-12	кайи	кайны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	кайи	кайны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	conj	_	_
 13	паччӧр	паччӧр	NOUN	N	Case=Nom|Number=Sing	12	obl	_	_
 14	вылӧ	выв	ADP	Po	Case=Ill|Number=Sing	13	case	_	_
 15	шонтысьыштны	шонтысьыштны	VERB	V	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
@@ -1425,7 +1545,7 @@
 1	Шерыс	шер	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 2	уна	уна	ADV	Adv	Case=Nom|Number=Sing	3	advmod	_	_
 3	омӧльтор	омӧльтор	NOUN	N	Case=Nom|Number=Sing	4	obj	_	_
-4	вайӧма	вайны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	вайӧма	вайны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	сэки	сэки	ADV	Adv	_	4	advmod	_	_
 6	сиктсаяслы	сиктса	NOUN	N	Case=Dat|Number=Plur	4	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1433,7 +1553,7 @@
 # sent_id = belyx-011.072
 # text = Чеглалӧма картупель да град выв пуктас коръяс, пӧрӧдӧма потшӧсъяс.
 # text_rus = Сломал листья картофеля и овощей, повалил заборы.
-1	Чеглалӧма	чеглавны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Чеглалӧма	чеглавны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	картупель	картупель	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 3	да	да	CCONJ	CC	_	6	cc	_	_
 4	град	град	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	_
@@ -1441,7 +1561,7 @@
 6	пуктас	пуктас	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 7	коръяс	кор	NOUN	N	Case=Nom|Number=Plur	1	obj	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	пӧрӧдӧма	пӧрӧдны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+9	пӧрӧдӧма	пӧрӧдны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
 10	потшӧсъяс	потшӧс	NOUN	N	Case=Nom|Number=Plur	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -1451,7 +1571,7 @@
 1	А	а	SCONJ	CS	_	4	cc	_	_
 2	кодлыськӧ	коді	PRON	Pron	Case=Abl|Number=Sing	4	obl	_	_
 3	весиг	весиг	ADV	Adv	_	4	advmod	_	_
-4	чашнитӧма	чашнитны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	чашнитӧма	чашнитны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	керка	керка	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	compound	_	_
 6	вевтсӧ	вевт	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1460,11 +1580,11 @@
 # text = И шензи нӧшта, кор тӧдмалі, мый шерыслӧн туйыс зэв векньыдик и вӧлӧма.
 # text_rus = И удивился ещё, что полоса града была очень узкой.
 1	И	и	SCONJ	CS	_	2	cc	_	_
-2	шензи	шензьыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	шензи	шензьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	нӧшта	нӧшта	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	кор	кор	SCONJ	CS	_	6	mark	_	_
-6	тӧдмалі	тӧдмавны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	тӧдмалі	тӧдмавны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	мый	мый	SCONJ	CS	_	14	mark	_	_
 9	шерыслӧн	шер	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	_
@@ -1472,7 +1592,7 @@
 11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
 12	векньыдик	векньыдик	ADJ	A	Case=Nom|Number=Sing	14	amod	_	_
 13	и	и	PART	Pcle	_	14	discourse	_	_
-14	вӧлӧма	вӧвны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No
+14	вӧлӧма	вӧвны	VERB	V	Evident=Nfh|Number=Sing|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belyx-011.075
@@ -1484,7 +1604,7 @@
 4	йылысь	йылысь	ADP	Po	Number=Sing	3	case	_	_
 5	абу	абу	PART	Pcle	_	7	aux	_	_
 6	весиг	весиг	ADV	Adv	_	7	advmod	_	_
-7	тӧдлӧмаӧсь	тӧдлыны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	тӧдлӧмаӧсь	тӧдлыны	VERB	V	Evident=Nfh|Number=Plur|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = kpv_four_battles.001
@@ -1494,7 +1614,7 @@
 2	челядь	челядь	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 3	миян	ми	PRON	Pron	Person=1|PronType=Prs	4	nmod	_	_
 4	странаын	страна	NOUN	N	Case=Ine|Number=Sing	5	obl	_	_
-5	тӧдӧны	тӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	тӧдӧны	тӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Климент	Климент	PROPN	N	Case=Nom|Number=Sing	5	obj	_	_
 7	Ефремович	Ефрем	PROPN	N	Case=Nom|Number=Sing	6	flat:name	_	_
 8	Ворошиловӧс	Ворошилов	PROPN	N	Case=Acc|Number=Sing	7	flat:name	_	SpaceAfter=No
@@ -1512,10 +1632,10 @@
 # sent_id = kpv_four_battles.002
 # text = Тӧдӧны сійӧс и радейтӧны.
 # text_rus = Знают его и любят.
-1	Тӧдӧны	тӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	Тӧдӧны	тӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	сійӧс	сійӧ	PRON	Pron	Case=Acc|Person=3|PronType=Prs	1	obj	_	_
 3	и	и	CCONJ	CC	_	4	cc	_	_
-4	радейтӧны	радейтны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+4	радейтӧны	радейтны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = kpv_four_battles.003
@@ -1525,7 +1645,7 @@
 2	,	,	PUNCT	CLB	_	5	punct	_	_
 3	дерт	дерт	ADV	Adv	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	кӧсйӧны	кӧсйыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	кӧсйӧны	кӧсйыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	тӧдны	тӧдны	VERB	V	VerbForm=Inf	5	xcomp	_	_
 7	сы	сійӧ	PRON	Pron	Person=3|PronType=Prs	6	obl	_	_
 8	йылысь	йылысь	ADP	Po	Number=Sing	7	case	_	_
@@ -1538,7 +1658,7 @@
 # text_rus = Как жил он в детстве?
 1	Кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-3	оліс	овны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	оліс	овны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ичӧтдырйиыс	ичӧтдырйи	ADV	Adv	Number[psor]=Sing|Person[psor]=3	3	obl	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
@@ -1547,7 +1667,7 @@
 # text_rus = Как он стал большевиком?
 1	Кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-3	лои	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	большевикӧн	большевик	NOUN	N	Case=Ins|Number=Sing	3	obl	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
@@ -1555,7 +1675,7 @@
 # text = Кыдзи лои Краснӧй Армияса командирӧн?
 # text_rus = Как стал командиром Красной армии?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	лои	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	Case=Nom|Number=Sing	4	amod	_	_
 4	Армияса	армияса	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
 5	командирӧн	командир	NOUN	N	Case=Ins|Number=Sing	2	obl	_	SpaceAfter=No
@@ -1565,7 +1685,7 @@
 # text = Кыдзи нуӧдіс бойӧ миянлысь армияясӧс белӧйяслы паныд?
 # text_rus = Как вел в бой против белых наши армии?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	нуӧдіс	нуӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	нуӧдіс	нуӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	бойӧ	бой	NOUN	N	Case=Ill|Number=Sing	2	obl	_	_
 4	миянлысь	ми	PRON	Pron	Case=Abl|Person=1|PronType=Prs	5	nmod	_	_
 5	армияясӧс	армия	NOUN	N	Case=Acc|Number=Plur	2	obj	_	_
@@ -1577,7 +1697,7 @@
 # text = Кыдзи вермывліс врагъясӧс?
 # text_rus = Как побеждал врагов?
 1	Кыдзи	кыдзи	ADV	Adv	_	2	advmod	_	_
-2	вермывліс	вермывлыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	вермывліс	вермывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	врагъясӧс	враг	NOUN	N	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -1587,13 +1707,13 @@
 1	И	и	CCONJ	CC	_	2	cc	_	_
 2	мый	мый	PRON	Pron	Case=Nom	4	obl	_	_
 3	вӧсна	вӧсна	ADP	Po	_	2	case	_	_
-4	получитіс	получитны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	получитіс	получитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	6	det	_	_
 6	орденъяссӧ	орден	NOUN	N	Case=Nom|Number=Plur	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	кодъяс	коді	PRON	Pron	Case=Nom|Number=Plur	10	nsubj	_	_
 9	сылӧн	сійӧ	PRON	Pron	Person=3|PronType=Prs	10	nmod	_	_
-10	дзирдалӧны	дзирдавны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+10	дзирдалӧны	дзирдавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 11	морӧс	морӧс	NOUN	N	Case=Nom|Number=Sing	10	obl	_	_
 12	вылас	вылын	ADP	Po	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	case	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	_
@@ -1602,7 +1722,7 @@
 16	парад	парад	NOUN	N	Case=Nom|Number=Sing	19	advcl	_	_
 17	дырйи	дырйи	ADP	Po	_	16	case	_	_
 18	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	_
-19	петас	петны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
+19	петас	петны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	advcl	_	_
 20	аслас	ас	PRON	A	Case=Gen|Person=3	21	amod	_	_
 21	вӧв	вӧв	NOUN	N	Case=Nom|Number=Sing	19	obl	_	_
 22	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	21	case	_	_
@@ -1625,13 +1745,13 @@
 6	йывсьыс	йывсьыс	ADP	Po	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	мый	мый	SCONJ	CS	_	9	advmod	_	_
-9	лолывліс	лолывлыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+9	лолывліс	лолывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
 10	Ворошилов	Ворошилов	PROPN	N	Case=Nom|Number=Sing	11	nmod	_	_
 11	ёртлӧн	ёрт	NOUN	N	Number=Sing	13	nmod	_	_
 12	замечательнӧй	замечательнӧй	ADJ	A	Case=Nom|Number=Sing	13	amod	_	_
 13	олӧмас	олӧм	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
-15	ковмас	ковмыны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	5	acl	_	_
+15	ковмас	ковмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	acl	_	_
 16	не	не	PART	Pcle	Polarity=Neg	17	discourse	_	_
 17	ӧти	ӧти	NUM	Num	NumType=Card	19	nummod	_	_
 18	кыз	кыз	ADJ	A	Case=Nom|Number=Sing	19	amod	_	_
@@ -1657,7 +1777,7 @@
 2	жӧ	жӧ	PART	Pcle	_	3	discourse	_	_
 3	книгаас	книга	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 4	ми	ми	PRON	Pron	Case=Nom|Person=1|PronType=Prs	5	nsubj	_	_
-5	висьталам	висьтавны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	висьталам	висьтавны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	5	advmod	_	_
 7	нёль	нёль	NUM	Num	NumType=Card	8	nummod	_	_
 8	самӧй	самӧй	PART	Pcle	_	9	amod	_	_
@@ -1673,7 +1793,7 @@
 18	война	война	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	_
 19	лунъясын	лун	NOUN	N	Case=Ine|Number=Plur	15	conj	_	SpaceAfter=No
 20	,	,	PUNCT	CLB	_	21	punct	_	_
-21	вӧвліны	вӧвлыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+21	вӧвліны	вӧвлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
 22	фронт	фронт	NOUN	N	Case=Nom|Number=Sing	21	obl	_	_
 23	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	22	case	_	_
 24	Климент	Климент	PROPN	N	Case=Nom|Number=Sing	21	obl	_	_
@@ -1686,7 +1806,7 @@
 1	Лун	лун	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
 2	и	и	CCONJ	CC	_	3	cc	_	_
 3	вой	вой	NOUN	N	Case=Nom|Number=Sing	1	conj	_	_
-4	мунісны	мунны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	мунісны	мунны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	бойяс	бой	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	лун	лун	NOUN	N	Case=Nom|Number=Sing	12	obl	_	_
@@ -1694,7 +1814,7 @@
 9	вой	вой	NOUN	N	Case=Nom|Number=Sing	7	conj	_	_
 10	красноармейскӧй	красноармейскӧй	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
 11	частьяс	часть	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	_
-12	писькӧдчисны	писькӧдчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	писькӧдчисны	писькӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 13	рытыввывлань	рытыввыв	NOUN	N	Case=Apr|Number=Sing	12	obl	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	Волгалань	Волга	PROPN	N	Case=Apr|Number=Sing	13	conj	_	SpaceAfter=No
@@ -1704,7 +1824,7 @@
 19	(	(	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 20	ӧні	ӧні	ADV	Adv	_	22	advmod	_	_
 21	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	22	nsubj	_	_
-22	шусьӧ	шусьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	Note=Check
+22	шусьӧ	шусьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	Note=Check
 23	Сталинградӧн	Сталинград	PROPN	N	Case=Ins|Number=Sing	22	obl	_	SpaceAfter=No
 24	)	)	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1717,7 +1837,7 @@
 3	сьӧкыд	сьӧкыд	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	белӧйяс	белӧй	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	_
-6	потшисны	потшны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	потшисны	потшны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 7	быд	быд	DET	Det	_	8	det	_	_
 8	боксянь	боксянь	ADP	Po	Case=Egr|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -1726,7 +1846,7 @@
 # text = Быдлаысь кыліс винтовкаяслӧн трачӧдчӧм, орудиеысь лыйлӧм, взрывъяслӧн грымгӧм…
 # text_rus = Отовсюду слышалась трескотня винтовок, стрельба орудий, грохот взрывов…
 1	Быдлаысь	быдла	ADV	Adv	_	2	advmod	_	_
-2	кыліс	кывны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	кыліс	кывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	винтовкаяслӧн	винтовка	NOUN	N	Number=Plur	4	nmod	_	_
 4	трачӧдчӧм	трачӧдчӧм	VERB	V	Tense=Past|VerbForm=Part	2	csubj	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
@@ -1749,7 +1869,7 @@
 7	ас	ас	ADJ	A	_	8	nmod	_	_
 8	водзсьыныс	водз	ADP	Po	Number=Sing|Number[psor]=Plur|Person[psor]=3	10	obl	_	_
 9	ылысь	ылын	ADP	Po	_	8	case	_	_
-10	аддзисны	аддзыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	_
+10	аддзисны	аддзыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	advcl	_	_
 11	неыджыд	неыджыд	ADJ	A	Polarity=Neg	12	amod	_	_
 12	казацкӧй	казацкӧй	ADJ	A	Case=Nom|Number=Sing	13	amod	_	_
 13	сикт	сикт	NOUN	N	Case=Nom|Number=Sing	10	obj	_	SpaceAfter=No
@@ -1760,7 +1880,7 @@
 18	ставыс	став	DET	Det	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	_
 19	гӧгӧр	гӧгӧр	ADV	Adv	_	21	advmod	_	_
 20	виччысьтӧг	виччысьны	VERB	V	Derivation=Tog|Polarity=Neg|VerbForm=Conv	21	advcl	_	_
-21	лӧнис	лӧньны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	лӧнис	лӧньны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	CLB	_	21	punct	_	_
 
 # sent_id = kpv_four_battles.020
@@ -1778,7 +1898,7 @@
 # text_rus = Враг точно бесследно провалился куда-то.
 1	Враг	враг	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	быттьӧ	быттьӧ	PART	Pcle	_	3	advmod	_	_
-3	сыліс	сывны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	сыліс	сывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	кытчӧкӧ	кытчӧ	ADV	Adv	Case=Ill	3	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -1787,14 +1907,14 @@
 # text_rus = Куда он делся?
 1	Кытчӧ	кытчӧ	ADV	Adv	Case=Ill	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-3	воши	вошны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	воши	вошны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.023
 # text = Кытысь лэбыштас выльысь?
 # text_rus = Откуда налетит вновь?
 1	Кытысь	кытысь	ADV	Adv	_	2	advmod	_	_
-2	лэбыштас	лэбыштны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	лэбыштас	лэбыштны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	выльысь	выльысь	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	2	punct	_	_
 
@@ -1835,14 +1955,14 @@
 11	и	и	SCONJ	CS	_	12	punct	_	_
 12	мый	мый	PRON	Pron	Case=Nom	14	obj	_	_
 13	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	14	nsubj	_	_
-14	вӧчӧ	вӧчны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+14	вӧчӧ	вӧчны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_four_battles.027
 # text = Колӧ вӧлі ӧні жӧ мунны смелӧй разведкаӧ, воӧдчыны ылі пемыд посёлокӧ, тӧдмавны, оз-ӧ дзебсясь сэні враг.
 # text_rus = Надо было сейчас же итти на смелую разведку, ворваться в темневший вдали поселок, узнать, не прячется ли там враг.
-1	Колӧ	ковны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+1	Колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
 3	ӧні	ӧні	ADV	Adv	_	1	advmod	_	_
 4	жӧ	жӧ	PART	Pcle	_	1	discourse	_	_
 5	мунны	мунны	VERB	V	VerbForm=Inf	1	xcomp	_	_
@@ -1866,7 +1986,7 @@
 # text = Тайӧ вӧлі вывті опаснӧй могӧн, но коланаӧн.
 # text_rus = Это было делом очень опасным, но необходимым.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
-2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	вывті	вывті	ADV	Adv	Case=Tra	4	advmod	_	_
 4	опаснӧй	опаснӧй	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	amod	_	_
 5	могӧн	могӧн	NOUN	N	Case=Ins|Number=Sing	0	root	_	SpaceAfter=No
@@ -1878,7 +1998,7 @@
 # sent_id = kpv_four_battles.029
 # text = Решитісны ыстыны разведкаӧ броневичок — пулемёта бронированнӧй боевӧй автомобиль.
 # text_rus = Решили послать на разведку броневичок — боевой бронированный автомобиль с пулеметом.
-1	Решитісны	решитны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Решитісны	решитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ыстыны	ыстыны	VERB	V	VerbForm=Inf	1	xcomp	_	_
 3	разведкаӧ	разведка	NOUN	N	Case=Ill|Number=Sing	2	obl	_	_
 4	броневичок	броневичок	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
@@ -1893,7 +2013,7 @@
 # text = Броневик вӧлі важ да жугласьӧм, но мӧдтор нинӧм кипод уланыс эз вӧв.
 # text_rus = Броневик был старый и потрепанный, но ничего другого под рукой не было.
 1	Броневик	броневик	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
-2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	важ	важ	ADJ	A	Case=Nom|Number=Sing	0	root	_	_
 4	да	да	CCONJ	CC	_	5	cc	_	_
 5	жугласьӧм	жугласьӧм	VERB	V	Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
@@ -1913,13 +2033,13 @@
 1	Эрд	эрд	NOUN	N	Case=Nom|Number=Sing	3	ccomp	_	_
 2	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	1	case	_	_
 3	петігӧн	петны	VERB	V	Case=Ins|Derivation=Ig|Number=Sing|VerbForm=Conv	4	acl	_	_
-4	лои	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	известнӧ	известнӧ	NOUN	N	Case=Nom|Number=Sing	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	мый	мый	SCONJ	CS	_	10	mark	_	_
 8	броневикса	броневикса	ADJ	A	Case=Nom|Number=Sing	9	amod	_	_
 9	командирӧн	командир	NOUN	N	Case=Ins|Number=Sing	10	obl	_	_
-10	мунӧ	мунны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	мунӧ	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 11	армияӧн	армия	NOUN	N	Case=Ins|Number=Sing	12	nmod	_	_
 12	командуйтысь	командуйтысь	VERB	V	PartForm=Pres|VerbForm=Part|Voice=Act	13	nmod	_	_
 13	Климент	Климент	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -1930,7 +2050,7 @@
 # sent_id = kpv_four_battles.032
 # text = Тыдалӧ, разведкаыс сійӧ луннас вӧлі сэтшӧм важнӧй делӧӧн, мый Ворошилов решитчис мунны ачыс.
 # text_rus = Очевидно разведка в тот день была таким важным делом, что Ворошилов решил ехать на нее лично. Сам.
-1	Тыдалӧ	тыдавны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	SpaceAfter=No
+1	Тыдалӧ	тыдавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	разведкаыс	разведка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
 4	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	5	det	_	_
@@ -1942,7 +2062,7 @@
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	мый	мый	SCONJ	CS	_	13	cc	_	_
 12	Ворошилов	Ворошилов	PROPN	N	Case=Nom|Number=Sing	13	nsubj	_	_
-13	решитчис	решитчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+13	решитчис	решитчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
 14	мунны	мунны	VERB	V	VerbForm=Inf	13	xcomp	_	_
 15	ачыс	ас	PRON	Pron	Case=Nom|Person=3	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	8	punct	_	_
@@ -1952,14 +2072,14 @@
 # text_rus = Броневик быстро пробежал широкое пустое поле, отделявшее красных бойцов от деревушки, и на полном ходу ворвался в поселок.
 1	Броневик	броневик	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ӧдйӧ	ӧдйӧ	ADV	Adv	Case=Ill	3	advmod	_	_
-3	муніс	мунны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	муніс	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	паськыд	паськыд	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
 5	восьса	восьса	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	эрд	эрд	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 7	вывсӧ	выв	NOUN	N	Case=Nom|Number=Sing	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	коді	коді	PRON	Pron	Case=Nom|Number=Sing	10	nsubj	_	_
-10	торйӧдіс	торйӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+10	торйӧдіс	торйӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
 11	краснӧй	краснӧй	ADJ	A	Case=Nom|Number=Sing	12	amod	_	_
 12	боецъясӧс	боец	NOUN	N	Case=Acc|Number=Plur	10	obj	_	_
 13	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	14	amod	_	_
@@ -1968,7 +2088,7 @@
 16	да	да	CCONJ	CC	_	19	cc	_	_
 17	зэв	зэв	ADV	Adv	_	18	advmod	_	_
 18	ӧдйӧ	ӧдйӧ	ADV	Adv	Case=Ill	19	advmod	_	_
-19	пырис	пырны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	пырис	пырны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 20	посёлокас	посёлок	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obl	_	SpaceAfter=No
 21	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -1978,7 +2098,7 @@
 1	Главнӧй	главнӧй	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	уличаыс	улича	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 3	сылӧн	сійӧ	PRON	Pron	Person=3|PronType=Prs	2	nmod	_	_
-4	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 5	куш	куш	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	.	_	PUNCT	CLB	_	5	punct	_	_
 
@@ -1987,7 +2107,7 @@
 # text_rus = Но враги могли спрятаться в боковых переулках.
 1	Но	но	CCONJ	CC	_	3	cc	_	_
 2	врагъяс	враг	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
-3	вермисны	вермыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	вермисны	вермыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	дзебсьыны	дзебсьыны	VERB	V	VerbForm=Inf	3	xcomp	_	_
 5	бокиса	бокиса	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	переулокъясас	переулок	NOUN	N	Case=Ill|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obl	_	SpaceAfter=No
@@ -2002,7 +2122,7 @@
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	шоферыс	шофёр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 5	машинасӧ	машина	NOUN	N	Case=Nom|Number=Sing	6	obj	_	_
-6	веськӧдіс	веськӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	веськӧдіс	веськӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	ӧти	ӧти	NUM	Num	NumType=Card	9	nummod	_	_
 8	татшӧм	татшӧм	ADV	Adv	_	9	advmod	_	_
 9	переулокӧ	переулок	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
@@ -2011,7 +2131,7 @@
 12	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 13	зэв	зэв	ADV	Adv	_	14	advmod	_	_
 14	крутӧя	крутӧя	ADV	Adv	_	15	advmod	_	_
-15	кежӧ	кежны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
+15	кежӧ	кежны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = kpv_four_battles.037
@@ -2021,14 +2141,14 @@
 2	ӧдва	ӧдва	ADV	Adv	_	5	advmod	_	_
 3	на	на	ADV	Adv	_	5	advmod	_	_
 4	машинаыс	машина	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-5	воис	воны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	воис	воны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	бергӧдчанінӧдзыс	бергӧдчанін	NOUN	N	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	кыдз	кыдз	ADV	Adv	_	12	advmod	_	_
 9	шоферыс	шофёр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	nsubj	_	_
 10	став	став	DET	Det	_	11	det	_	_
 11	вынсьыс	вын	NOUN	N	Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
-12	кутчысис	кутчысьны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+12	кутчысис	кутчысьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
 13	тормоз	тормоз	NOUN	N	Case=Nom|Number=Sing	12	obl	_	_
 14	дінас	дінын	ADP	Po	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	case	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -2039,10 +2159,10 @@
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	discourse	_	_
-4	гӧгӧрвоис	гӧгӧрвоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	гӧгӧрвоис	гӧгӧрвоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	мый	мый	SCONJ	CS	_	7	nsubj	_	_
-7	лоис	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+7	лоис	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
 8	лёктор	лёктор	NOUN	N	Case=Nom|Number=Sing	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -2050,7 +2170,7 @@
 # text = Переулокыс помасис тупикӧн.
 # text_rus = Переулок кончался тупиком.
 1	Переулокыс	переулок	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-2	помасис	помасьны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	помасис	помасьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	тупикӧн	тупик	NOUN	N	Case=Ins|Number=Sing	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -2075,7 +2195,7 @@
 6	пу	пу	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 7	заборъяс	забор	NOUN	N	Case=Nom|Number=Plur	1	conj	_	_
 8	дінӧ	дінӧ	ADP	Po	Case=Ill|Number=Sing	7	case	_	_
-9	домавлӧмаӧсь	домавлыны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	домавлӧмаӧсь	домавлыны	VERB	V	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	седлӧа	седлӧ	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
 11	казацкӧй	казацкӧй	ADJ	A	Case=Nom|Number=Sing	12	amod	_	_
 12	вӧвъясӧс	вӧв	NOUN	N	Case=Acc|Number=Plur	9	obj	_	SpaceAfter=No
@@ -2094,7 +2214,7 @@
 8	мотор	мотор	NOUN	N	Case=Nom|Number=Sing	9	nmod	_	_
 9	шум	шум	NOUN	N	Case=Nom|Number=Sing	11	obl	_	_
 10	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	9	case	_	_
-11	котӧртісны	котӧртны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	котӧртісны	котӧртны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	нин	нин	ADV	Adv	_	14	advmod	_	_
 13	вооружитчӧм	вооружитчӧм	VERB	V	Tense=Past|VerbForm=Part	14	acl	_	_
 14	йӧз	йӧз	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
@@ -2116,7 +2236,7 @@
 # text = Шоферыс сувтӧдіс машинасӧ.
 # text_rus = Водитель остановил машину.
 1	Шоферыс	шофёр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-2	сувтӧдіс	сувтӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	сувтӧдіс	сувтӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	машинасӧ	машина	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -2125,7 +2245,7 @@
 # text_rus = Лицо его стало белым, как мел.
 1	Чужӧмыс	чужӧм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 2	сылӧн	сійӧ	PRON	Pron	Person=3|PronType=Prs	1	nmod	_	_
-3	лои	лоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	мел	мел	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
 5	кодь	кодь	ADP	Po	_	4	case	_	Note=Check
 6	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	3	obl	_	SpaceAfter=No
@@ -2137,17 +2257,17 @@
 1	—	—	PUNCT	PUNCT	_	4	punct	_	_
 2	Мый	мый	PRON	Pron	_	4	obj	_	_
 3	тэ	тэ	PRON	Pron	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
-4	вӧчан	вӧчны	VERB	V	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	вӧчан	вӧчны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv_four_battles.048
 # text = Мыйла тормозитін? — горӧдіс Ворошилов.
 # text_rus = Почему затормозил? — крикнул Ворошилов.
 1	Мыйла	мыйла	ADV	Adv	_	2	advmod	_	_
-2	тормозитін	тормозитны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	тормозитін	тормозитны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	CLB	_	2	punct	_	_
 4	—	—	PUNCT	PUNCT	_	5	punct	_	_
-5	горӧдіс	горӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+5	горӧдіс	горӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 6	Ворошилов	Ворошилов	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -2183,7 +2303,7 @@
 8	кыдз	кыдз	ADV	Adv	_	11	advmod	_	_
 9	казакъяс	казак	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	_
 10	горзігтырйи	горзыны	VERB	V	VerbForm=Conv	11	advcl	_	_
-11	уськӧдчисны	уськӧдчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+11	уськӧдчисны	уськӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
 12	машиналань	машина	NOUN	N	Case=Apr|Number=Sing	11	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -2195,7 +2315,7 @@
 3	жӧ	жӧ	PART	Pcle	_	2	discourse	_	_
 4	броневик	броневик	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	_
 5	пытшкас	пытш	ADP	Po	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	case	_	_
-6	пондіс	пондыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	пондіс	пондыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	шумитны	шумитны	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	тратшкакывны	тратшкакывны	VERB	V	VerbForm=Inf	7	conj	_	_
@@ -2203,7 +2323,7 @@
 11	чеччавны	чеччавны	VERB	V	VerbForm=Inf	7	conj	_	SpaceAfter=No
 12	:	:	PUNCT	CLB	_	13	punct	_	_
 13	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	_
-14	мӧдіс	мӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	Note=Check
+14	мӧдіс	мӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	Note=Check
 15	уджавны	уджавны	VERB	V	VerbForm=Inf	14	xcomp	_	_
 16	краснӧйяслӧн	краснӧӥ	NOUN	N	Number=Plur	19	nmod	_	_
 17	дзик	дзик	ADV	Adv	_	18	advmod	_	_
@@ -2228,7 +2348,7 @@
 # sent_id = kpv_four_battles.055
 # text = Водінныд пуляяс улӧ, бандитъяс?
 # text_rus = Залегли под пулями, бандиты?
-1	Водінныд	водны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Водінныд	водны	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 2	пуляяс	пуля	NOUN	N	Case=Nom|Number=Plur	1	obl	_	_
 3	улӧ	ув	ADP	Po	Case=Ill|Number=Sing	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
@@ -2241,7 +2361,7 @@
 1	Шоферыс	шофёр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 2	паръяссӧ	пар	NOUN	N	Case=Acc|Number=Plur	3	obj	_	_
 3	курччӧмӧн	курччыны	VERB	V	Case=Ins|Tense=Past|VerbForm=Part	4	advcl	_	_
-4	тракнитіс	тракнитны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	тракнитіс	тракнитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	задньӧй	задньӧй	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	ходлысь	ход	NOUN	N	Case=Abl|Number=Sing	7	nmod	_	_
 7	рычагсӧ	рычаг	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -2264,13 +2384,13 @@
 # text_rus = Задний ход испортился…
 1	Задньӧй	задньӧй	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	ходыс	ход	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
-3	портитчис	портитчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	портитчис	портитчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	…	…	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.059
 # text = Крукасис мыйкӧ.
 # text_rus = Заело что-то.
-1	Крукасис	крукасьны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Крукасис	крукасьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	мыйкӧ	мыйкӧ	PRON	Pron	Case=Nom	1	nsubj	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -2288,11 +2408,11 @@
 1	Казакъяс	казак	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	discourse	_	_
-4	гӧгӧрвоисны	гӧгӧрвоны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	гӧгӧрвоисны	гӧгӧрвоны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	мый	мый	SCONJ	CS	_	8	mark	_	_
 7	броневикыс	броневик	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	nsubj	_	_
-8	сибдіс	сибдыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+8	сибдіс	сибдыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv_four_battles.062
@@ -2305,7 +2425,7 @@
 # sent_id = kpv_four_battles.063
 # text = Сюринныд краснӧй чӧртъяс?
 # text_rus = Попались, черти красные?..
-1	Сюринныд	сюрны	VERB	V	Mood=Ind|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Сюринныд	сюрны	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 2	краснӧй	краснӧӥ	ADJ	A	Case=Nom|Number=Sing	3	amod	_	_
 3	чӧртъяс	чӧрт	NOUN	N	Case=Nom|Number=Plur	1	vocative	_	SpaceAfter=No
 4	?	?	PUNCT	CLB	_	1	punct	_	_
@@ -2326,18 +2446,18 @@
 1	И	и	PART	Pcle	_	4	discourse	_	_
 2	вот	вот	PART	Pcle	_	1	discourse	_	_
 3	найӧ	найӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	4	advmod	_	_
-4	шыбласьӧны	шыбласьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	шыбласьӧны	шыбласьны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	нин	нин	ADV	Adv	_	4	advmod	_	_
 6	канаваӧ	канава	NOUN	N	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
-8	кыссьӧны	кыссьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	кыссьӧны	кыссьыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 9	турун	турун	NOUN	N	Case=Nom|Number=Sing	8	obl	_	_
 10	пӧвстті	пӧвст	ADP	Po	Case=Tra|Number=Sing	9	case	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
-12	старайтчӧны	старайтчыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	старайтчӧны	старайтчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	воӧдчыны	воӧдчыны	VERB	V	VerbForm=Inf	12	xcomp	_	_
 14	кыдз	кыдз	ADV	Adv	_	15	advmod	_	_
-15	позьӧ	позьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+15	позьӧ	позьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 16	матӧджык	матӧ	ADV	Adv	Case=Ill|Degree=Cmp	15	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -2346,7 +2466,7 @@
 # text_rus = Их пули бьют по броневику так, что у людей в машине от грохота чуть не лопаются перепонки в ушах.
 1	Налӧн	найӧ	PRON	Pron	Person=3|PronType=Prs	2	nmod	_	_
 2	пуляясыс	пуля	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	сяргӧны	сяргыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	сяргӧны	сяргыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	броневикӧ	броневик	NOUN	N	Case=Ill|Number=Sing	3	obl	_	_
 5	сідз	сідз	ADV	Adv	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -2358,14 +2478,14 @@
 12	йӧзлӧн	йӧз	NOUN	N	Number=Sing	13	nmod	_	_
 13	чуть	чуть	ADV	Adv	_	15	advmod	_	_
 14	оз	оз	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	потласьны	потласьны	VERB	V	Connegative=Yes|Person=3	3	acl	_	SpaceAfter=No
+15	потласьны	потласьны	VERB	V	Connegative=Yes|Number=Plur|Person=3	3	acl	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_four_battles.067
 # text = Пуляясыс жугласьӧны зэв уна посньыд пӧсь свинец да сталь торпыригъяс вылӧ.
 # text_rus = Пули рассыпаются на множество мелких горячих брызг свинца и стали.
 1	Пуляясыс	пуля	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	_
-2	жугласьӧны	жугласьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	жугласьӧны	жугласьны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
 4	уна	уна	ADV	Adv	_	2	advmod	_	_
 5	посньыд	посньыд	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
@@ -2382,18 +2502,18 @@
 # text_rus = Эти брызги врываются в узкие щели боевых окошек, ранят руки, лицо, прожигают насквозь одежду…
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	торпыригъясыс	торпыриг	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
-3	пырӧны	пырны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	пырӧны	пырны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	боевӧй	боевӧй	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
 5	ӧшинь	ӧшинь	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 6	векньыдик	векньыдик	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
 7	щельясӧд	щель	NOUN	N	Case=Prl|Number=Plur	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	ранитӧны	ранитны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	ранитӧны	ранитны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	кияснысӧ	ки	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	10	punct	_	_
 12	чужӧмнысӧ	чужӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	12	punct	_	_
-14	соталӧны	сотавны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	соталӧны	сотавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 15	паськӧмнысӧ	паськӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	obj	_	_
 16	пырыс	пыр	ADP	Po	Number[psor]=Sing|Person[psor]=3	15	case	_	SpaceAfter=No
 17	…	…	PUNCT	CLB	_	3	punct	_	_
@@ -2408,7 +2528,7 @@
 5	на	на	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	8	punct	_	_
 7	дзикӧдз	дзикӧдз	ADV	Adv	Case=Ter	8	advmod	_	_
-8	растеряйтчис	растеряйтчыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	растеряйтчис	растеряйтчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = kpv_four_battles.070
@@ -2435,11 +2555,11 @@
 # sent_id = kpv_four_battles.073
 # text = Вошим ми, — шӧпкӧдіс сійӧ.
 # text_rus = Пропали-мы, — бормотал он.
-1	Вошим	вошны	VERB	V	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+1	Вошим	вошны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ми	ми	PRON	Pron	Case=Nom|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	_
 4	—	—	PUNCT	PUNCT	_	5	punct	_	_
-5	шӧпкӧдіс	шӧпкӧдны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+5	шӧпкӧдіс	шӧпкӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 6	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -2449,12 +2569,14 @@
 1	Чорыд	чорыд	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	киыс	ки	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 3	Ворошиловлӧн	Ворошилов	NOUN	N	Number=Sing	2	nmod	_	_
-4	усис	усьны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	усис	усьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	сылы	сійӧ	PRON	Pron	Case=Dat|Person=3|PronType=Prs	6	nmod	_	_
 6	пельпом	пельпом	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
 7	вылас	вылын	ADP	Po	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
+# text = – Да мый тэ, друг, мый тэ!
+# sent_id = kpv_four_battles.075
 1	—	—	PUNCT	_	_	_	_	_	_
 2	Да	да	Pcle	_	_	_	_	_	_
 3	мый	мый	Pron	_	N|Interr	_	_	_	_
@@ -2466,14 +2588,17 @@
 9	тэ	тэ	Pron	_	Pers|Sg2|Nom	_	_	_	_
 10	!	^excl	CLB	_	_	_	_	_	_
 
+# text = Мыйысь повзин.
+# sent_id = kpv_four_battles.076
 1	Мыйысь	мый	Pron	_	N|Ela|Interr	_	_	_	_
 2	повзин	повзьыны	V	_	Ind|Prt1|Sg2	_	_	_	_
 3	.	.	CLB	_	_	_	_	_	_
 
+# text = Кутчысь чорыдджыка.
+# sent_id = kpv_four_battles.077
 1	Кутчысь	кутчысьны	V	_	Imprt|Sg2	0	root	_	_
 2	чорыдджыка	чорыд	Adv	_	_	1	advmod	_	_
 3	.	.	CLB	_	_	1	punct	_	_
-
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
 # text_rus =
@@ -2481,7 +2606,7 @@
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
-4	гижис	гижны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	гижис	гижны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Максимлы	Максим	PROPN	N	Case=Dat|Number=Sing	4	obl	_	_
 6	зэв	зэв	ADV	Adv	_	7	advmod	_	_
 7	кузь	кузь	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
@@ -2495,7 +2620,7 @@
 15	Ивановна	Ивановна	PROPN	N	Case=Nom|Number=Sing	14	flat:name	_	_
 16	моз	моз	ADP	Po	_	14	case	_	_
 17	жӧ	жӧ	PART	Pcle	_	16	discourse	_	_
-18	нимтіс	нимтыны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
+18	нимтіс	нимтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
 19	сійӧс	сійӧ	PRON	Pron	Case=Acc|Person=3|PronType=Prs	18	obj	_	_
 20	«	«	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 21	сюсь	сюсь	ADJ	A	Case=Nom|Number=Sing	22	amod	_	_
@@ -2516,7 +2641,7 @@
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	сынӧд	сынӧд	NOUN	N	Case=Nom|Number=Sing	1	list	_	_
 10	некор	некор	ADV	Adv	Polarity=Neg	13	advmod	_	_
-11	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	12	aux	_	_
+11	эз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	12	aux	_	_
 12	вӧвны	вӧвны	AUX	V	Person=3	13	cop	_	_
 13	ловъяӧсь	ловъя	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
@@ -2524,11 +2649,11 @@
 16	понда	понда	ADP	Po	_	15	case	_	_
 17	найӧясӧс	найӧ	PRON	Pron	Case=Acc|Person=3|PronType=Prs	19	obj	_	_
 18	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	шуӧй	шуны	VERB	V	Connegative=Yes|Person=1	13	advcl	_	_
+19	шуӧй	шуны	VERB	V	Connegative=Yes|Number=Plur|Person=1	13	advcl	_	_
 20	кулӧм	кулӧм	VERB	V	Tense=Past|VerbForm=Part	21	amod	_	_
 21	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	19	obl	_	_
 22	—	—	PUNCT	CLB	_	23	punct	_	_
-23	шуам	шуны	VERB	V	Mood=Ind|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
+23	шуам	шуны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
 24	ловтӧм	ловтӧм	VERB	V	Polarity=Neg|Tense=Past|VerbForm=Part	25	amod	_	_
 25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	13	punct	_	_
@@ -2547,7 +2672,7 @@
 9	ставныс	став	PRON	Pron	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	12	nsubj	_	_
 10	ӧтласа	ӧтласа	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
 11	пывсянъясын	пывсян	NOUN	N	Case=Ine|Number=Plur	12	obl	_	_
-12	пывсьӧны	пывсьыны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+12	пывсьӧны	пывсьыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн ывлавыв велӧдысьлы.
@@ -2555,7 +2680,7 @@
 # sent_id = new_4
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	нигаыс	нига	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-3	сетас	сетны	VERB	V	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	сетас	сетны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	сӧмын	сӧмын	ADV	Adv	_	3	advmod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	юкӧн	юкӧн	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
@@ -2575,7 +2700,7 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	медся	медся	PART	Pcle	_	8	advmod	_	_
 8	ёна	ёна	ADV	Adv	_	9	advmod	_	_
-9	жугӧдӧ	жугӧдны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	жугӧдӧ	жугӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 10	тыястӧ	ты	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -2588,7 +2713,7 @@
 4	али	али	CCONJ	CC	_	6	cc	_	_
 5	ва	ва	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
 6	корӧсьӧн	корӧсь	NOUN	N	Case=Ins|Number=Sing	3	conj	_	_
-7	чышкысьӧны	чышкысьны	VERB	V	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	чышкысьӧны	чышкысьны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	7	punct	_	_
 
 # text = Доктор ордӧ воӧмаӧсь кык ичӧтик ныв.
@@ -2596,7 +2721,7 @@
 # text_rus = 
 1	Доктор	доктор	NOUN	N	Case=Nom|Number=Sing	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	Case=Ill|Number=Sing	1	case	_	_
-3	воӧмаӧсь	воны	VERB	V	Evident=Nfh|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	воӧмаӧсь	воны	VERB	V	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	кык	кык	NUM	Num	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	ныв	ныв	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
@@ -2607,7 +2732,7 @@
 # text_rus = 
 1	Аскинас	аски	ADV	Adv	Case=Ins	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	_
-3	шуис	шуны	VERB	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	шуис	шуны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Машалы	Маша	PROPN	N	Case=Dat|Number=Sing	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	тэ	тэ	PRON	Pron	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
