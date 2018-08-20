@@ -71,7 +71,7 @@
 2	колхозникъяс	колхозник	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
 3	да	да	CCONJ	CC	_	_	_	_	_
 4	колхозницаяс	колхозница	NOUN	N	Case=Nom|Number=Plur	_	_	_	_
-5	ассьыныс	ас	PRON	Pron	Person=3	_	_	_	_
+5	ассьыныс	ас	PRON	Pron	Person=3|PronType=Prs	_	_	_	_
 6	став	став	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
 7	вынсӧ	вын	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 8	пуктӧны	пуктыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -242,7 +242,7 @@
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	dep	_	_
 2	кывъясыс	кыв	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	_	_	_
 3	,	,	PUNCT	CLB	_	_	_	_	_
-4	кодӧс	коді	PRON	Pron	Case=Acc|Number=Sing	5	obj	_	_
+4	кодӧс	коді	PRON	Pron	Case=Acc|Number=Sing|PronType=Int	5	obj	_	_
 5	висьтавліс	висьтавлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
 6	Сталин	Сталин	PROPN	N	Case=Acc|Number=Sing	5	nsubj	_	_
 7	ёрт	ёрт	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
@@ -535,7 +535,7 @@
 18	социалистическӧй	социалистическӧй	ADJ	A	Case=Acc|Number=Sing	_	_	_	_
 19	ордйысьӧм	ордйысьӧм	NOUN	N	Case=Acc|Number=Sing	_	_	_	_
 20	,	,	PUNCT	CLB	_	_	_	_	_
-21	коді	коді	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
+21	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	_	_	_	_
 22	обеспечитіс	обеспечитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
 23	эськӧ	эськӧ	PART	Pcle	_	_	_	_	_
 24	большевистскӧй	большевистскӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
@@ -660,7 +660,7 @@
 # text = Враг, коді лысьтас уськӧдчыны великӧй Сӧветскӧй держава вылӧ, лоас сетӧма сэтшӧм отпор да нӧшта чорыдджыкӧс, кутшӧм вӧлі Хасан ты районын японскӧй самурайяслы.
 1	Враг	враг	NOUN	N	Case=Nom|Number=Sing	_	_	_	_
 2	,	,	PUNCT	CLB	_	_	_	_	_
-3	коді	коді	PRON	Pron	Case=Nom|Number=Sing	_	_	_	_
+3	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	_	_	_	_
 4	лысьтас	лысьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	_	_	_	_
 5	уськӧдчыны	уськӧдны	VERB	V	VerbForm=Inf	_	_	_	_
 6	великӧй	великӧй	ADJ	A	Case=Nom|Number=Sing	_	_	_	_
@@ -878,7 +878,7 @@
 12	кымӧр	кымӧр	NOUN	N	Case=Nom|Number=Sing	13	nmod	_	_
 13	пласт	пласт	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	18	punct	_	_
-15	коді	коді	PRON	Pron	Case=Nom|Number=Sing	18	nsubj	_	_
+15	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	18	nsubj	_	_
 16	син	син	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	_
 17	водзын	водз	ADP	Po	Case=Ine|Number=Sing	16	case	_	_
 18	кутіс	кутны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
@@ -1161,7 +1161,7 @@
 7	тӧв	тӧв	NOUN	N	Case=Nom|Number=Sing	8	compound	_	_
 8	ныр	ныр	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	15	punct	_	_
-10	коді	коді	PRON	Pron	_	15	nsubj	_	_
+10	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj	_	_
 11	муртса	муртса	ADV	Adv	_	15	advmod	_	_
 12	кок	кок	NOUN	N	Case=Nom|Number=Sing	15	obl	_	_
 13	йылысь	йылысь	ADP	Po	Number=Sing	12	case	_	_
@@ -2078,7 +2078,7 @@
 6	эрд	эрд	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	_
 7	вывсӧ	выв	NOUN	N	Case=Nom|Number=Sing	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	коді	коді	PRON	Pron	Case=Nom|Number=Sing	10	nsubj	_	_
+9	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	10	nsubj	_	_
 10	торйӧдіс	торйӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
 11	краснӧй	краснӧй	ADJ	A	Case=Nom|Number=Sing	12	amod	_	_
 12	боецъясӧс	боец	NOUN	N	Case=Acc|Number=Plur	10	obj	_	_
@@ -2127,7 +2127,7 @@
 8	татшӧм	татшӧм	ADV	Adv	_	9	advmod	_	_
 9	переулокӧ	переулок	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
-11	коді	коді	PRON	Pron	_	15	nsubj	_	_
+11	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj	_	_
 12	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 13	зэв	зэв	ADV	Adv	_	14	advmod	_	_
 14	крутӧя	крутӧя	ADV	Adv	_	15	advmod	_	_
