@@ -1,5 +1,9 @@
 Processing pipeline will be described here. The scripts used will be updated and maintained, and currently these are the versions used in creating 2.2. release, which is somewhat messy due to different parts of the treebanks being done while coming up with different practices. 
 
+## Example
+
+Here will be a concrete example of how to get from plain text to an annotated sentence in the treebank.
+
 ## Unfinished tasks
 
 - Some tags are currently missing, current situation has to be checked
