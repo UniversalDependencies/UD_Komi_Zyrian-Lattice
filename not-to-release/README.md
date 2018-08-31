@@ -1,4 +1,4 @@
-Processing pipeline will be described here.
+Processing pipeline will be described here. The scripts used will be updated and maintained, and currently these are the versions used in creating 2.2. release, which is somewhat messy due to different parts of the treebanks being done while coming up with different practices. 
 
 ## Unfinished tasks
 
