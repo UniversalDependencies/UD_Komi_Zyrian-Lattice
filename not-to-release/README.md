@@ -1,4 +1,6 @@
-Processing pipeline will be described here. The scripts used will be updated and maintained, and currently these are the versions used in creating 2.2. release, which is somewhat messy due to different parts of the treebanks being done while coming up with different practices. 
+Processing pipeline will be described here. The scripts used will be updated and maintained, and currently these are the versions used in creating 2.2. and developing upcoming 2.3. release. The history is somewhat messy due to different parts of the treebanks being done while coming up with different practices. 
+
+The backbone of the tools used is [Giellatekno](http://giellatekno.uit.no/) infrastructure for Komi-Zyrian. In order to test the workflows used here, installing the Giellatekno tools is necessary. Setting up the system is described [here](http://giellatekno.uit.no/doc/infra/GettingStarted.html) and [here](http://giellatekno.uit.no/doc/infra/infraremake/GettingStartedWithTheNewInfra.html). One of the other tools tested within the pipeline, but not yet integrated, is KyungTae Lim's [Multilingual BIST Parser](https://github.com/jujbob/multilingual-bist-parser), and we are actively looking for solutions that would use a wider stack of modern NLP methods.
 
 ## Example
 
