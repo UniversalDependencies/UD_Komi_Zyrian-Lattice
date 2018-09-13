@@ -168,8 +168,15 @@ def trykk(buffer, tokcount, charcount, t): #{
 				msd = msd + i.strip() + '|';
 			#}
 			msd = msd.strip('|');
+		msd_misc = '_';
+		if len(categs) > 1: #{
+			msd_misc = '';
+			for i in categs[1:]: #{
+				msd_misc = msd_misc + i.strip() + ',';
+			#}
+			msd_misc = msd_misc.strip(',');
 		#}
-		print('%s\t%s\t%s\t_\t%s\t%s\t%s\t%s\t_\t%s' % (index,ord,lem, pos, msd, mor, etiqueta,misc));	
+		print('%s\t%s\t%s\t_\t%s\t%s\t%s\t%s\t_\tGTtags=%s' % (index,ord,lem, pos, msd, mor, etiqueta, msd_misc));	
 	else: #{
 		print('%s\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (index,ord));	
 		nindex = tokcount;
@@ -334,5 +341,5 @@ if blokk != '' and blokk != '\n': #{
 	#}
 #}
 print('')
-#print(complete,'/',sentcount,file=sys.stderr);
-#print(cleantokens, file=sys.stderr);
+print(complete,'/',sentcount,file=sys.stderr);
+print(cleantokens, file=sys.stderr);

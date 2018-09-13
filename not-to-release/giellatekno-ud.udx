@@ -77,3 +77,6 @@ _	Pcle	_	_	_	PART	_	_
 _	CLB	_	_	_	PUNCT	_	_
 _	V	_	_	_	VERB	_	_
 _	x	_	_	_	X	_	_
+_	_	Der/ысь	_	_	VERB	DerType=ysj	_
+_	_	Der/ӧм	_	_	VERB	DerType=om	_
+_	_	Der/ан	_	_	VERB	DerType=an	_
