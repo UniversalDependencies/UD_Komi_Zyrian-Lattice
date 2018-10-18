@@ -13,3 +13,14 @@ Here will be a concrete example of how to get from plain text to an annotated se
 - Language tags have to be double-checked in IKDP
 - Russian items currently missing animacy and gender categories
 - Some Russian features such as Case=Loc not in feature file yet
+- English translations would be nice
+
+## Question
+
+- POS tag of ниӧти?
+- POS tag and analysis of кодь?
+- на as an adverb or particle?
+- идралӧм, босьтӧм as VERB
+- Abbreviations, what to do with с.в. etc.
+- Some compounds should be broken apart, i.e. партийно-комсомольскӧй
+- Consistency of сэтшӧм and татшӧм
