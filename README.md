@@ -10,6 +10,10 @@ The treebank contains continuous texts which are identifiable through the id's. 
 
 This work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). The work was done in collaboration with Kone Foundation funded [IKDP-2](langdoc.github.io/IKDP-2) research project.
 
+# References
+
+Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, Michael 2018: [First Komi-Zyrian Universal Dependencies Treebanks](http://universaldependencies.org/udw18/PDFs/28_Paper.pdf)
+
 # Changelog
 
 - 2018-10-18
