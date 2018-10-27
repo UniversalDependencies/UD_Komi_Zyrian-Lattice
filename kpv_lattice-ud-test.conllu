@@ -2604,7 +2604,7 @@
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
 # text_rus =
-# sent_id = new_1
+# sent_id = belykh2005.001-ind
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
@@ -2632,7 +2632,7 @@
 
 # text = Ва, керӧс, из, му, сынӧд некор эз вӧвны ловъяӧсь, сы понда найӧясӧс ог шуӧй кулӧм торъясӧн — шуам ловтӧм торъясӧн.
 # text_rus = 
-# sent_id = new_2
+# sent_id = koskabyr1925a.002-ind
 1	Ва	ва	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	керӧс	керӧс	NOUN	N	Case=Nom|Number=Sing	1	list	_	SpaceAfter=No
@@ -2662,7 +2662,7 @@
 
 # text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
 # text_rus =
-# sent_id = new_3
+# sent_id = falkner1927a.003-ind
 1	Гырысь	гырысь	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	каръясын	кар	NOUN	N	Case=Ine|Number=Plur	5	obl	_	_
 3	аскежъя	аскежъя	ADJ	A	Case=Nom|Number=Sing	4	amod	_	_
@@ -2679,7 +2679,7 @@
 
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн ывлавыв велӧдысьлы.
 # text_rus = 
-# sent_id = new_4
+# sent_id = koskabyr1925a.001-ind
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	нигаыс	нига	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	сетас	сетны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -2692,8 +2692,7 @@
 
 # text = Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
 # text_rus =
-# sent_id = new_5
-# questions = How do we draw boundary when participle is so lexicalized that we call it a noun?
+# sent_id = goffesnsener1927a.001-ind
 1	Чакотка	чакотка	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 2	—	—	PUNCT	CLB	_	3	punct	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod	_	_
@@ -2707,7 +2706,7 @@
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Гортад кос корӧсьӧн али ва корӧсьӧн чышкысьӧны?
-# text_rus = 
+# text_rus = falkner1927a.002-ind
 # sent_id = new_6
 1	Гортад	горт	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	_
 2	кос	кос	ADJ	A	Case=Nom|Number=Sing	3	amod	_	_
@@ -2719,7 +2718,7 @@
 8	?	?	PUNCT	CLB	_	7	punct	_	_
 
 # text = Доктор ордӧ воӧмаӧсь кык ичӧтик ныв.
-# sent_id = new_7
+# sent_id = rossinskiy1925a.001-ind
 # text_rus = 
 1	Доктор	доктор	NOUN	N	Case=Nom|Number=Sing	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	Case=Ill|Number=Sing	1	case	_	_
@@ -2730,7 +2729,7 @@
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # text = Аскинас сійӧ шуис Машалы, тэ пӧ этша вира.
-# sent_id = new_8
+# sent_id = falkner1927a.001-ind
 # text_rus = 
 1	Аскинас	аски	ADV	Adv	Case=Ins	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
