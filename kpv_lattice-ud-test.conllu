@@ -2604,7 +2604,7 @@
 
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
 # text_rus =
-# sent_id = belykh2005.001-ind
+# sent_id = belykh2005a.001-ind
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	_
