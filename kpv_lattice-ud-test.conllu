@@ -2706,8 +2706,8 @@
 11	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # text = Гортад кос корӧсьӧн али ва корӧсьӧн чышкысьӧны?
-# text_rus = falkner1927a.002-ind
-# sent_id = new_6
+# text_rus = 
+# sent_id = falkner1927a.002-ind
 1	Гортад	горт	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	_
 2	кос	кос	ADJ	A	Case=Nom|Number=Sing	3	amod	_	_
 3	корӧсьӧн	корӧсь	NOUN	N	Case=Ins|Number=Sing	7	obl	_	_
