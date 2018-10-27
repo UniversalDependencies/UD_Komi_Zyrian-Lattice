@@ -4,7 +4,7 @@ UD Komi-Zyrian Lattice is a treebank of written standard Komi-Zyrian.
 
 # Introduction
 
-The treebank contains continuous texts which are identifiable through the id's. The written language data is all from Public Domain sources. One of the larger segments come from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was released into [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Newspaper texts identified with id *vyl_tujod* are available in [Fenno-Ugrica/komi/Vyl tyjod](https://digi.kansalliskirjasto.fi/opendata/submit) data package on page `kpv_1-7_Vyl_tujod_1939_09_10_0002.tif`.
+The treebank contains continuous texts which are identifiable through the id's. The written language data is all from Public Domain sources. One of the larger segments come from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was released into [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Newspaper texts identified with id *vyl_tujod* are available in [Fenno-Ugrica/komi/Vyl tyjod](https://digi.kansalliskirjasto.fi/opendata/submit) data package on pages `kpv_1-7_Vyl_tujod_1939_09_10_0001.tif` and `kpv_1-7_Vyl_tujod_1939_09_10_0002.tif`.
 
 # Acknowledgments
 
