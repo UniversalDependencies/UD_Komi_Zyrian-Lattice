@@ -2666,7 +2666,7 @@
 1	Гырысь	гырысь	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	каръясын	кар	NOUN	N	Case=Ine|Number=Plur	4	obl	_	_
 3	аскежъя	аскежъя	ADJ	A	Case=Nom|Number=Sing	4	amod	_	_
-4	пывсянъясыд	пывсян	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	0	_	_	_
+4	пывсянъясыд	пывсян	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	0	dep	_	_
 5	абуӧсь	абу	PART	Pcle	Number=Plur	4	aux	_	_
 6	жӧ	жӧ	PART	Pcle	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
