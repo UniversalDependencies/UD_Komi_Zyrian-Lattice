@@ -222,7 +222,7 @@
 6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	виччысь	виччыны	VERB	V	Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	_	_	_	_
+9	виччысь	виччыны	VERB	V	Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 10	некутшӧм	некутшӧм	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Polarity=Neg	11	amod	_	_
 11	нюжмасьӧм	нюжмасьӧм	VERB	N	Case=Acc|Number=Sing	9	obj	_	GTtags=Sg,Acc|SpaceAfter=No
 12	.	.	PUNCT	CLB	_	9	punct	_	_
