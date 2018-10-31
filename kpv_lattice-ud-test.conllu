@@ -26,9 +26,9 @@
 13	унджык	унджык	ADV	Adv	Degree=Cmp	9	advcl	_	GTtags=Comp|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	шӧркодя	шӧркодя	ADV	Adv	_	19	advmod	_	_
-16	16	16	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	19	nummod	_	SpaceAfter=No
+16	16	16	NUM	Num	Case=Nom|Number=Sing|NumType=Card	19	nummod	_	SpaceAfter=No
 17	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	18	18	NUM	_	_	16	conj	_	_
+18	18	18	NUM	_	Case=Nom|Number=Sing|NumType=Card	16	conj	_	_
 19	центнерӧн	центнер	NOUN	N	Case=Ins|Number=Sing	13	appos	_	GTtags=Sg,Ins
 20	гектар	гектар	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=Sg,Nom
 21	вылысь	вылын	ADP	Po	Case=Ela|Number=Sing	20	case	_	GTtags=Spat,Sg,Ela|SpaceAfter=No
@@ -40,7 +40,7 @@
 2	ӧні	ӧні	ADV	Adv	_	3	advmod	_	_
 3	мунӧ	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prs,Sg3
 4	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Sg,Nom
-5	воӧм	воны	VERB	V	Tense=Past|VerbForm=Part	7	acl	_	GTtags=IV,Der/ӧм,PastPtc
+5	воӧм	воны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	GTtags=IV,Der/ӧм,PastPtc
 6	озыр	озыр	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	GTtags=Sg,Nom
 7	урожайсӧ	урожай	NOUN	N	Case=Nom|Number=Sing	8	obj	_	GTtags=Sg,Acc,PxSg3
 8	идралӧм	идравны	VERB	V	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	GTtags=Der/ӧм,Der/NomAct,Sg,Nom|SpaceAfter=No
@@ -59,12 +59,12 @@
 9	овмӧслысь	овмӧс	NOUN	N	Case=Abl|Number=Sing	10	nmod	_	GTtags=Sg,Abl
 10	петкӧдлан	петкӧдлыны	VERB	V	Case=Nom|Derivation=An|Number=Sing	11	acl	_	GTtags=Der/ан,PrsPtc,Sg,Nom
 11	успехъясӧн	успех	NOUN	N	Case=Ins|Number=Plur	12	obl	_	GTtags=Pl,Ins
-12	воодушедитчӧмӧн	воодушедитчыны	VERB	V	Case=Ins|Derivation=Omon|Number=Sing	14	advcl	_	GTtags=Der/ӧм,Der/NomAct,Sg,Ins
+12	воодушедитчӧмӧн	воодушедитчыны	VERB	V	Case=Ins|Derivation=Omon|VerbForm=Conv	14	advcl	_	GTtags=Der/ӧм,Der/NomAct,Sg,Ins
 13	успешнӧя	успешнӧя	ADJ	A	Case=Nom|Number=Sing	14	amod	_	GTtags=Sg,Nom
 14	нуӧдӧны	нуӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=Ind,Prs,Pl3
 15	сталинскӧй	сталинскӧй	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	GTtags=Sg,Nom
-16	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	17	nmod	_	GTtags=Sg,Nom
-17	идралӧм	идралӧм	NOUN	N	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	14	obj	_	GTtags=Acc,Nom|SpaceAfter=No
+16	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	17	obj	_	GTtags=Sg,Nom
+17	идралӧм	идралӧм	VERB	V	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	14	obj	_	GTtags=Acc,Nom|SpaceAfter=No
 18	.	.	PUNCT	CLB	_	14	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.005
@@ -81,8 +81,8 @@
 10	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	9	case	_	GTtags=Sg,Ill|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	медым	медым	SCONJ	CS	_	15	mark	_	_
-13	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	14	nmod	_	GTtags=Sg,Nom
-14	идралӧм	идралӧм	NOUN	N	Case=Nom|Number=Sing	15	nsubj	_	GTtags=Sg,Nom
+13	урожай	урожай	NOUN	N	Case=Acc|Number=Sing	14	obj	_	GTtags=Sg,Nom
+14	идралӧм	идралӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	15	nsubj	_	GTtags=Sg,Nom
 15	нуӧдны	нуӧдны	VERB	V	VerbForm=Inf	8	advcl	_	GTtags=Inf
 16	дженьыд	дженьыд	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	17	amod	_	GTtags=Sg,Acc
 17	срокъясӧн	срок	NOUN	N	Case=Ins|Number=Plur	15	obl	_	GTtags=Pl,Ins
@@ -104,7 +104,7 @@
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	мый	мый	SCONJ	CS	_	11	mark	_	_
 6	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	7	obj	_	GTtags=Sg,Nom
-7	идралӧм	идравны	VERB	V	Tense=Past|VerbForm=Part	11	csubj	_	_
+7	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	11	csubj	_	_
 8	миян	ми	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nmod	_	_
 9	район	район	NOUN	N	Case=Nom|Number=Sing	11	obl	_	GTtags=Sg,Nom
 10	пасьта	пасьта	ADP	Po	_	9	case	_	_
@@ -117,7 +117,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.007
 # text = Сентябрь 5 лун кежлӧ район пасьта зерновӧй культураяс идралӧма сӧмын на 859 гектар вылысь, либӧ 29 прӧчент план дінӧ.
 1	Сентябрь	сентябрь	NOUN	N	Case=Nom|Number=Sing	3	nmod	_	GTtags=Sg,Nom
-2	5	5	NUM	Num	Case=Nom|Number=Sing|NumType=Ord	3	amod	_	_
+2	5	5	NUM	Num	Case=Nom|Number=Sing|NumType=Card	3	amod	_	_
 3	лун	лун	NOUN	N	Case=Nom|Number=Sing	9	obl	_	GTtags=Sg,Nom
 4	кежлӧ	кежлӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	GTtags=Sg,Ill
 5	район	район	NOUN	N	Case=Nom|Number=Sing	9	obl	_	GTtags=Sg,Nom
@@ -127,12 +127,12 @@
 9	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prt2,Sg3
 10	сӧмын	сӧмын	ADV	Adv	_	13	advmod	_	_
 11	на	на	ADV	Adv	_	10	advmod	_	_
-12	859	859	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	13	nummod	_	_
+12	859	859	NUM	Num	Case=Nom|Number=Sing|NumType=Card	13	nummod	_	_
 13	гектар	гектар	NOUN	N	Case=Nom|Number=Sing	9	obl	_	GTtags=Sg,Nom
 14	вылысь	вылын	ADP	Po	Case=Ine|Number=Sing	13	case	_	GTtags=Sg,Ine|SpaceAfter=No
 15	,	,	PUNCT	CLB	_	18	punct	_	_
 16	либӧ	либӧ	CCONJ	Pcle	_	18	cc	_	_
-17	29	29	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	18	nummod	_	_
+17	29	29	NUM	Num	Case=Nom|Number=Sing|NumType=Card	18	nummod	_	_
 18	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	13	conj	_	GTtags=Sg,Nom
 19	план	план	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	GTtags=Sg,Nom
 20	дінӧ	дінӧ	ADP	Po	Case=Ill|Number=Sing	19	case	_	GTtags=Sg,Ill|SpaceAfter=No
@@ -145,7 +145,7 @@
 3	план	план	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=Sg,Nom
 4	дінӧ	дінӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	GTtags=Sg,Ill
 5	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prt2,Sg3
-6	3	3	NUM	Num	Case=Acc|Number=Sing|NumType=Card,Ord	7	nummod	_	_
+6	3	3	NUM	Num	Case=Acc|Number=Sing|NumType=Card	7	nummod	_	_
 7	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=Sg,Nom
 8	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	7	case	_	GTtags=Sg,Ill|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -153,7 +153,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.009
 # text = Урожай идралӧмын медся нин бӧрӧ кольтчӧны Черныб да Чупрово сельсӧветъясса колхозъяс, кӧні план дінӧ зерновӧй культураяс идралӧма 12-20 прӧчент вылӧ.
 1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom
-2	идралӧмын	идралӧм	NOUN	N	Case=Ine|Number=Sing	6	advcl	_	GTtags=Sg,Ine
+2	идралӧмын	идралӧм	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	GTtags=Sg,Ine
 3	медся	медся	PART	Pcle	_	6	advmod	_	_
 4	нин	нин	ADV	Adv	_	6	advmod	_	_
 5	бӧрӧ	бӧрӧ	ADV	Adv	Case=Ill|Number=Sing	6	advmod	_	GTtags=Sg,Ill
@@ -170,7 +170,7 @@
 16	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	GTtags=Sg,Nom
 17	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	18	obj	_	GTtags=Pl,Nom
 18	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	GTtags=IV,Ind,Prt2,Sg3
-19	12-20	12-20	NUM	Num	Case=Acc|Number=Sing|NumType=Card,Ord	20	nummod	_	_
+19	12-20	12-20	NUM	Num	Case=Acc|Number=Sing|NumType=Card	20	nummod	_	_
 20	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	18	obl	_	GTtags=Sg,Nom
 21	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	20	case	_	GTtags=Sg,Ill|SpaceAfter=No
 22	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -194,12 +194,12 @@
 15	общественность	общественность	NOUN	N	Case=Nom|Number=Sing	16	nmod	_	GTtags=Sg,Nom
 16	колхозникьясӧс	колхозник	NOUN	N	Case=Acc|Number=Plur	20	obj	_	GTtags=Pl,Acc
 17	ӧнӧдз	ӧнӧдз	ADV	Adv	Case=Ter	20	advmod	_	GTtags=Ter
-18	на	на	PART	Pcle	_	17	advmod	_	_
-19	эз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	20	aux	_	GTtags=Neg,Ind,Prt,Sg3
+18	на	на	ADV	Adv	_	17	advmod	_	_
+19	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	20	aux	_	GTtags=Neg,Ind,Prt,Sg3
 20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes|Number=Plur	3	acl	_	_
 21	ыджыд	ыджыд	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	22	amod	_	GTtags=Sg,Acc
 22	урожай	урожай	NOUN	N	Case=Acc|Number=Sing	23	obj	_	GTtags=Sg,Acc
-23	босьтӧм	босьтӧм	VERB	N	Case=Nom|Number=Sing	20	advcl	_	GTtags=Sg,Nom
+23	босьтӧм	босьтӧм	VERB	N	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	GTtags=Sg,Nom
 24	вӧсна	вӧсна	ADP	Po	_	23	case	_	_
 25	тышӧ	тышӧ	NOUN	N	Case=Ill|Number=Sing	20	obl	_	GTtags=Sg,Ill|SpaceAfter=No
 26	,	,	PUNCT	CLB	_	27	punct	_	_
@@ -215,16 +215,16 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.011
 # text = Урожай идралӧм – удж сезоннӧй, сійӧ оз виччысь некутшӧм нюжмасьӧм.
 1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom
-2	идралӧм	идравны	VERB	V	Tense=Past|VerbForm=Part	7	parataxis	_	_
+2	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
 3	–	–	PUNCT	PUNCT	_	4	punct	_	_
 4	удж	удж	NOUN	N	Case=Nom|Number=Sing	2	appos	_	GTtags=Sg,Nom
 5	сезоннӧй	сезоннӧй	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	GTtags=Sg,Nom|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	виччысь	виччыны	VERB	V	Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 10	некутшӧм	некутшӧм	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Polarity=Neg	11	amod	_	_
-11	нюжмасьӧм	нюжмасьӧм	VERB	N	Case=Acc|Number=Sing	9	obj	_	GTtags=Sg,Acc|SpaceAfter=No
+11	нюжмасьӧм	нюжмасьӧм	VERB	N	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	9	obj	_	GTtags=Sg,Acc|SpaceAfter=No
 12	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.012
@@ -249,7 +249,7 @@
 6	Сталин	Сталин	PROPN	N	Case=Acc|Number=Sing	5	nsubj	_	GTtags=Sg,Acc
 7	ёрт	ёрт	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	GTtags=Sg,Nom|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
-9	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	0	root	_	GTtags=ConNeg
 11	лоны	лоны	VERB	V	VerbForm=Inf	10	xcomp	_	GTtags=Inf
 12	вунӧдӧма	вунӧдны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	xcomp	_	GTtags=IV,Ind,Prt2,Sg3
@@ -264,7 +264,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.014
 # text = Урожай идралӧмын бӧрӧ кольччӧмлӧн помкаыс сыын, мый колхозъясса председательяс оз тыр нагрузкаӧн уджӧдны уборочнӧй машинаяс, а ӧткымын колхозъясса председательяс умышленнӧя сулӧдӧны машинаяссӧ 4 лун чӧжӧн некутшӧм уджтӧг.
 1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom
-2	идралӧмын	идралӧм	VERB	N	Case=Ine|Number=Sing	4	advcl	_	GTtags=Sg,Ine
+2	идралӧмын	идралӧм	VERB	N	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	GTtags=Sg,Ine
 3	бӧрӧ	бӧрӧ	ADV	Adv	Case=Ill|Number=Sing	4	advmod	_	GTtags=Sg,Ill
 4	кольччӧмлӧн	кольччӧмлӧн	VERB	V	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
 5	помкаыс	помка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
@@ -273,7 +273,7 @@
 8	мый	мый	SCONJ	CS	_	12	mark	_	_
 9	колхозъясса	колхоз	ADJ	A	Case=Nom|Degree=Pos|Derivation=Sa|Number=Sing	10	amod	_	GTtags=Sg,Nom
 10	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	GTtags=Pl,Nom
-11	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	тыр	тырны	VERB	V	Connegative=Yes|Number=Sing	5	acl	_	GTtags=ConNeg
 13	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	14	obl	_	GTtags=Sg,Ins
 14	уджӧдны	уджӧдны	VERB	V	VerbForm=Inf	12	xcomp	_	GTtags=Inf
@@ -281,13 +281,13 @@
 16	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	14	obj	_	GTtags=Pl,Nom|SpaceAfter=No
 17	,	,	PUNCT	CLB	_	18	punct	_	_
 18	а	а	CCONJ	CC	_	23	cc	_	_
-19	ӧткымын	ӧткымын	PRON	Pron	NumType=Ord	20	det	_	_
+19	ӧткымын	ӧткымын	PRON	Pron	Case=Ine|Number=Sing	20	det	_	_
 20	колхозъясса	колхоз	ADJ	A	Case=Nom|Degree=Pos|Derivation=Sa|Number=Sing	21	amod	_	GTtags=Sg,Nom
 21	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	23	nsubj	_	GTtags=Pl,Nom
 22	умышленнӧя	умышленнӧя	ADV	Adv	_	23	advmod	_	_
 23	сулӧдӧны	сулӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	GTtags=Ind,Prs,Pl3
 24	машинаяссӧ	машина	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	23	obj	_	_
-25	4	4	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	26	nummod	_	_
+25	4	4	NUM	Num	Case=Nom|Number=Sing|NumType=Card	26	nummod	_	_
 26	лун	лун	NOUN	N	Case=Nom|Number=Sing	23	obl	_	GTtags=Sg,Nom
 27	чӧжӧн	чӧж	ADP	Po	Case=Ins|Number=Sing	26	case	_	GTtags=Sg,Ins
 28	некутшӧм	некутшӧм	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	29	det	_	_
@@ -298,7 +298,7 @@
 # text = (Выль олӧм колхоз, председательыс Калинин).
 1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	Выль	выль	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	GTtags=Sg,Nom
-3	олӧм	овны	VERB	V	Tense=Past|VerbForm=Part	2	flat:name	_	_
+3	олӧм	овны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	2	flat:name	_	_
 4	колхоз	колхоз	NOUN	N	Case=Acc|Number=Sing	3	flat:name	_	GTtags=Sg,Acc|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	председательыс	председатель	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	appos	_	_
@@ -312,11 +312,11 @@
 2	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	GTtags=Pl,Nom
 3	да	да	CCONJ	CC	_	4	cc	_	_
 4	парторгъяс	парторг	NOUN	N	Case=Nom|Number=Plur	2	conj	_	GTtags=Pl,Nom
-5	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	нуӧдны	нуӧдны	VERB	V	Connegative=Yes|Number=Plur|Person=3	0	root	_	_
 7	решительнӧй	решительнӧй	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	8	amod	_	GTtags=Sg,Acc
 8	тыш	тыш	NOUN	N	Case=Acc|Number=Sing	6	obj	_	GTtags=Sg,Acc
-9	сэтшӧм	сэтшӧм	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	det	_	GTtags=Sg,Nom
+9	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	GTtags=Sg,Nom
 10	колхозъясса	колхоз	ADJ	A	Case=Nom|Degree=Pos|Derivation=Sa|Number=Sing	11	amod	_	GTtags=Sg,Nom
 11	председательяскӧд	председатель	NOUN	N	Case=Com|Number=Plur	8	obl	_	GTtags=Pl,Com|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	13	punct	_	_
@@ -334,8 +334,8 @@
 # text = Медым содтыны урожай идралӧмын ӧдъяс, колӧ не сӧмын сувтӧдны удж вылӧ став вундан машинаяс, но и приспособитны лобогрейкаӧ ытшкан машинаяс да используйтны найӧс тыр нагрузкаӧн урожай идралӧм вылӧ.
 1	Медым	медым	SCONJ	CS	_	2	mark	_	_
 2	содтыны	содтыны	VERB	V	VerbForm=Inf	0	root	_	GTtags=Inf
-3	урожай	урожай	NOUN	N	Case=Acc|Number=Sing	4	nmod	_	GTtags=Sg,Acc
-4	идралӧмын	идралӧм	NOUN	N	Case=Ine|Number=Sing	5	acl	_	GTtags=Sg,Ine
+3	урожай	урожай	NOUN	N	Case=Acc|Number=Sing	4	obj	_	GTtags=Sg,Acc
+4	идралӧмын	идралӧм	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	GTtags=Sg,Ine
 5	ӧдъяс	ӧд	NOUN	N	Case=Acc|Number=Plur	2	obj	_	GTtags=Pl,Acc|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	GTtags=IV,Ind,Prs,Sg3
@@ -360,7 +360,7 @@
 26	тыр	тыр	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	27	amod	_	GTtags=Sg,Nom
 27	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	24	obl	_	GTtags=Sg,Ins
 28	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	29	nmod	_	GTtags=Sg,Nom
-29	идралӧм	идралӧм	NOUN	N	Case=Nom|Number=Sing	24	obl	_	GTtags=Der/ӧм,Der/NomAct,Nom
+29	идралӧм	идралӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	24	obl	_	GTtags=Der/ӧм,Der/NomAct,Nom
 30	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	29	case	_	GTtags=Sg,Ill|SpaceAfter=No
 31	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -372,8 +372,8 @@
 4	сетны	сетны	VERB	V	VerbForm=Inf	3	xcomp	_	GTtags=Inf
 5	ыджыд	ыджыд	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	6	amod	_	GTtags=Sg,Acc
 6	тӧдчанлун	тӧдчанлун	NOUN	N	Case=Acc|Number=Sing	4	obj	_	GTtags=Sg,Acc
-7	вошӧмъяскӧд	вошӧм	NOUN	N	Case=Com|Number=Plur	8	nmod	_	GTtags=Pl,Com
-8	тышкасьӧм	тышкасьӧм	NOUN	N	Case=Nom|Number=Sing	4	obl	_	GTtags=Der/ӧм,Der/NomAct,Nom
+7	вошӧмъяскӧд	вошӧм	NOUN	N	Case=Com|Number=Plur	8	obl	_	GTtags=Pl,Com
+8	тышкасьӧм	тышкасьӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	4	obl	_	GTtags=Der/ӧм,Der/NomAct,Nom
 9	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	8	case	_	GTtags=Sg,Ill|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -395,17 +395,17 @@
 2	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
 3	практика	практика	NOUN	N	Case=Nom|Number=Sing	1	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	мый	мый	SCONJ	CS	_	6	mark	_	_
+5	мый	мый	SCONJ	CS	_	16	mark	_	_
 6	колхозъясса	колхоз	ADJ	A	Case=Nom|Degree=Pos|Derivation=Sa|Number=Sing	7	amod	_	GTtags=Sg,Nom
 7	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	16	nsubj	_	GTtags=Pl,Nom
 8	да	да	CCONJ	CC	_	9	cc	_	_
 9	бригадиръяс	бригадир	NOUN	N	Case=Nom|Number=Plur	7	conj	_	GTtags=Pl,Nom
 10	му	му	NOUN	N	Case=Nom|Number=Sing	12	obl	_	GTtags=Sg,Nom
 11	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	10	case	_	GTtags=Sg,Ill
-12	кольӧм	кольӧм	NOUN	N	Case=Nom|Number=Sing	13	acl	_	GTtags=Sg,Nom
+12	кольӧм	кольӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	GTtags=Sg,Nom
 13	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	14	nmod	_	GTtags=Sg,Nom
-14	октӧм	октӧм	NOUN	N	Case=Acc|Number=Sing	16	ccomp	_	GTtags=Sg,Acc
-15	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	aux	_	GTtags=Neg,Ind,Prs,Pl3
+14	октӧм	октӧм	VERB	V	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	GTtags=Sg,Acc
+15	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	aux	_	GTtags=Neg,Ind,Prs,Pl3
 16	котыртны	котыртны	VERB	V	Connegative=Yes|Number=Plur|Person=3	3	advcl	_	SpaceAfter=No|GTtags=IV,ConNeg,Pl3
 17	,	,	PUNCT	CLB	_	18	punct	_	_
 18	лыддьӧны	лыддьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	GTtags=IV,Ind,Prs,Sg3
@@ -418,7 +418,7 @@
 1	Татшӧм	татшӧм	PRON	Det	PronType=Dem	2	det	_	_
 2	настроениеяс	настроение	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
 3	лоны	лоны	VERB	V	VerbForm=Inf	5	xcomp	_	GTtags=Inf
-4	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	0	root	_	GTtags=ConNeg|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -436,7 +436,7 @@
 10	медым	медым	SCONJ	CS	_	14	mark	_	_
 11	му	му	NOUN	N	Case=Nom|Number=Sing	14	obl	_	GTtags=Sg,Nom
 12	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	11	case	_	GTtags=Sg,Ill
-13	эз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	14	aux	_	_
+13	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	14	aux	_	_
 14	коль	кольны	VERB	V	Connegative=Yes|Number=Sing	6	acl	_	GTtags=ConNeg
 15	ниӧти	ниӧти	PRON	Pro	Case=Nom|Number=Sing	16	det	_	_
 16	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
@@ -473,31 +473,31 @@
 8	мый	мый	SCONJ	CS	_	13	mark	_	_
 9	районын	район	NOUN	N	Case=Ine|Number=Sing	13	obl	_	GTtags=Sg,Ine
 10	ӧнӧдз	ӧнӧдз	ADV	Adv	Case=Ter	13	advmod	_	_
-11	на	на	PART	Pcle	_	13	advmod	_	_
-12	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	мун	мунны	VERB	V	Connegative=Yes|Number=Sing	3	acl	_	GTtags=ConNeg
-14	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	15	nmod	_	GTtags=Sg,Nom
-15	тэчӧм	тэчӧм	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	GTtags=Sg,Nom
+11	на	на	ADV	Adv	_	13	advmod	_	_
+12	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	мун	мунны	VERB	V	Connegative=Yes|Number=Sing	4	ccomp	_	GTtags=ConNeg
+14	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	15	obj	_	GTtags=Sg,Nom
+15	тэчӧм	тэчӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	13	nsubj	_	GTtags=Sg,Nom
 16	да	да	CCONJ	CC	_	17	cc	_	_
-17	вартӧм	вартӧм	NOUN	N	Case=Nom|Number=Sing	15	conj	_	GTtags=Sg,Nom|SpaceAfter=No
+17	вартӧм	вартӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	GTtags=Sg,Nom|SpaceAfter=No
 18	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.024
 # text = Татшӧм фактъясыскӧд миритчӧм лоны оз вермы.
 1	Татшӧм	татшӧм	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	det	_	GTtags=Sg,Nom
 2	фактъясыскӧд	фактъясыскӧд	NOUN	N	Case=Com|Number=Plur	3	obl	_	GTtags=Pl,Com
-3	миритчӧм	миритчыны	VERB	V	Tense=Past|VerbForm=Part	6	csubj	_	_
+3	миритчӧм	миритчыны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	6	csubj	_	_
 4	лоны	лоны	VERB	V	VerbForm=Inf	6	xcomp	_	GTtags=Inf
-5	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	0	root	_	GTtags=ConNeg|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.025
 # text = Нянь идралан удж помасьӧмӧн лыддьыссьӧ сӧмын сэк, кор став няньыс лоас вартӧма да пуктӧма сӧстӧм амбаръясӧ да складъясӧ.
-1	Нянь	нянь	NOUN	N	Case=Nom|Number=Sing	2	compound	_	GTtags=Sg,Nom
-2	идралан	идравны	VERB	V	_	3	compound	_	_
-3	удж	удж	NOUN	N	Case=Acc|Number=Sing	4	nsubj	_	GTtags=Sg,Acc
-4	помасьӧмӧн	помасьӧм	VERB	N	Case=Ins|Number=Sing	5	csubj	_	GTtags=Sg,Ins
+1	Нянь	нянь	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	GTtags=Sg,Nom
+2	идралан	идравны	VERB	V	_	3	acl	_	_
+3	удж	удж	NOUN	N	Case=Acc|Number=Sing	4	obj	_	GTtags=Sg,Acc
+4	помасьӧмӧн	помасьӧм	VERB	N	Case=Ins|Derivation=Omon|VerbForm=Conv	5	advcl	_	GTtags=Sg,Ins
 5	лыддьыссьӧ	лыддьыссьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prs,Sg3
 6	сӧмын	сӧмын	ADV	Adv	_	5	advmod	_	_
 7	сэк	сэк	ADV	Adv	_	5	advmod	_	SpaceAfter=No
@@ -505,10 +505,10 @@
 9	кор	кор	ADV	Adv	_	13	advmod	_	_
 10	став	став	PRON	Pron	Case=Nom|Number=Sing	11	det	_	GTtags=Sg,Nom
 11	няньыс	нянь	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
-12	лоас	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
-13	вартӧма	вартӧма	ADJ	A	Case=Nom|Degree=Pos|Derivation=Oma|Number=Sing	5	advcl	_	_
+12	лоас	лоны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	вартӧма	вартӧма	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
 14	да	да	CCONJ	CC	_	15	cc	_	_
-15	пуктӧма	пуктӧма	ADJ	A	Case=Nom|Degree=Pos|Derivation=Oma|Number=Sing	13	conj	_	_
+15	пуктӧма	пуктӧма	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
 16	сӧстӧм	сӧстӧм	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	17	amod	_	GTtags=Sg,Acc
 17	амбаръясӧ	амбар	NOUN	N	Case=Ill|Number=Plur	15	obl	_	GTtags=Pl,Ill
 18	да	да	CCONJ	CC	_	19	cc	_	_
@@ -531,11 +531,11 @@
 12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	медым	медым	SCONJ	CS	_	17	mark	_	_
 14	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	15	obj	_	GTtags=Sg,Nom
-15	идралӧмын	идралӧм	VERB	N	Case=Ine|Number=Sing	17	csubj	_	GTtags=Sg,Ine
+15	идралӧмын	идралӧм	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	17	csubj	_	GTtags=Sg,Ine
 16	паськыда	паськыда	ADV	Adv	_	17	advmod	_	_
 17	котыртны	котыртны	VERB	V	VerbForm=Inf	6	acl	_	GTtags=Inf
 18	социалистическӧй	социалистическӧй	ADJ	A	Case=Acc|Degree=Pos|Number=Sing	19	amod	_	GTtags=Sg,Acc
-19	ордйысьӧм	ордйысьӧм	VERB	N	Case=Acc|Number=Sing	17	obj	_	GTtags=Sg,Acc|SpaceAfter=No
+19	ордйысьӧм	ордйысьӧм	VERB	V	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part	17	obj	_	GTtags=Sg,Acc|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	21	punct	_	_
 21	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	22	nsubj	_	_
 22	обеспечитіс	обеспечитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl	_	GTtags=IV,Ind,Prt1,Sg3
@@ -543,11 +543,11 @@
 24	большевистскӧй	большевистскӧй	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	25	amod	_	GTtags=Sg,Nom
 25	успех	успех	NOUN	N	Case=Nom|Number=Sing	22	obj	_	GTtags=Sg,Nom
 26	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	27	obj	_	GTtags=Sg,Nom
-27	идралӧмын	идралӧм	VERB	N	Case=Ine|Number=Sing	22	advcl	_	GTtags=Sg,Ine
+27	идралӧмын	идралӧм	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	GTtags=Sg,Ine
 28	да	да	CCONJ	CC	_	29	cc	_	_
 29	паськӧдны	паськӧдны	VERB	V	VerbForm=Inf	17	conj	_	GTtags=Inf
 30	движение	движение	NOUN	N	Case=Acc|Number=Sing	29	obj	_	GTtags=Sg,Acc
-31	1940	1940	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	32	nummod	_	_
+31	1940	1940	NUM	Num	Case=Nom|Number=Sing|NumType=Card	32	nummod	_	_
 32	воын	во	NOUN	N	Case=Ine|Number=Sing	37	obl	_	GTtags=Sg,Ine
 33	ставсоюзса	ставсоюзса	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	34	amod	_	GTtags=Sg,Nom
 34	сельскохозяйственнӧй	сельскохозяйственнӧй	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	35	amod	_	GTtags=Sg,Nom
@@ -555,7 +555,7 @@
 36	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	35	case	_	GTtags=Sg,Ine
 37	участвуйтан	участвуйтны	VERB	V	_	38	acl	_	_
 38	право	право	NOUN	N	Case=Nom|Number=Sing	39	nmod	_	GTtags=Sg,Nom
-39	шедӧдӧм	шедӧдӧм	VERB	N	Case=Nom|Number=Sing	29	advcl	_	GTtags=Sg,Nom
+39	шедӧдӧм	шедӧдӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	29	advcl	_	GTtags=Sg,Nom
 40	вӧсна	вӧсна	ADP	Po	_	39	case	_	_
 41	не	не	PART	Pcle	_	42	aux	_	_
 42	сӧмын	сӧмын	ADV	Adv	_	43	advmod	_	_
@@ -591,7 +591,7 @@
 1	Ковмас	ковмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 2	кӧ	кӧ	SCONJ	CS	_	1	mark	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
-4	ог	оз	VERB	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	жалит	жалитны	VERB	V	Connegative=Yes|Number=Sing	1	advcl	_	GTtags=ConNeg
 6	олӧмӧс	олӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -651,7 +651,7 @@
 26	и	и	CCONJ	CC	_	27	cc	_	_
 27	ниӧти	ниӧти	PRON	Pron	Case=Nom|Number=Sing	28	det	_	_
 28	враг	враг	NOUN	N	Case=Nom|Number=Sing	30	nsubj	_	GTtags=Sg,Nom
-29	оз	оз	VERB	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	30	aux	_	_
 30	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	19	conj	_	GTtags=ConNeg
 31	вуджны	вуджны	VERB	V	VerbForm=Inf	30	xcomp	_	GTtags=Inf
 32	миянлысь	ми	PRON	Pron	Case=Abl|Number=Plur|Person=1|PronType=Prs	33	nmod	_	GTtags=Pers,Pl1,Abl
@@ -670,9 +670,9 @@
 8	держава	держава	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=Sg,Nom
 9	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	8	case	_	GTtags=Sg,Ill|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
-11	лоас	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
+11	лоас	лоны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	_
 12	сетӧма	сетны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=IV,Ind,Prt2,Sg3
-13	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing	14	det	_	GTtags=Sg,Acc
+13	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	det	_	GTtags=Sg,Acc
 14	отпор	отпор	NOUN	N	Case=Nom|Number=Sing	12	obj	_	_
 15	да	да	CCONJ	CC	_	17	cc	_	_
 16	нӧшта	нӧшта	ADV	Adv	_	17	advmod	_	_
@@ -701,7 +701,7 @@
 10	по	по	ADP	Pr	_	11	case	_	_
 11	хасановский	хасановский	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	advcl	_	GTtags=Sg,Nom
 12	да	да	CCONJ	CC	_	13	cc	_	_
-13	ог	оз	VERB	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	GTtags=Neg,Ind,Prs,Sg1
+13	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	GTtags=Neg,Ind,Prs,Sg1
 14	жалит	жалитны	VERB	V	Connegative=Yes|Number=Sing	6	conj	_	GTtags=Conneg
 15	олӧмӧс	олӧм	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	obj	_	GTtags=Sg,Acc,PxSg1|SpaceAfter=No
 16	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -837,7 +837,7 @@
 5	кыдзи	кыдзи	ADV	Adv	_	11	advmod	_	_
 6	юр	юр	NOUN	N	Case=Nom|Number=Sing	11	obl	_	_
 7	весьтын	весьт	ADP	Po	Case=Ine|Number=Sing	6	case	_	_
-8	ӧти	ӧти	NUM	Num	Case=Nom|Number=Sing|NumType=Card,Ord	9	nmod	_	_
+8	ӧти	ӧти	NUM	Num	Case=Nom|Number=Sing|NumType=Card	9	nmod	_	_
 9	бӧрся	бӧрся	ADP	Po	Number=Sing	10	case	_	_
 10	мӧд	мӧд	PRON	Pron	Case=Nom|Number=Sing|NumType=Ord	11	nmod	_	_
 11	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
@@ -893,7 +893,7 @@
 1	Кыліс	кывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	зэв	зэв	ADV	Adv	_	3	advmod	_	_
 3	ылысянь	ылысянь	ADV	Adv	Case=Egr	1	advmod	_	_
-4	муркӧдчӧм	муркӧдчыны	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+4	муркӧдчӧм	муркӧдчыны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 5	шы	шы	NOUN	N	Case=Nom|Number=Sing	1	nsubj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -938,7 +938,7 @@
 # text_rus = Туча после того, как немного попугала, ушла в сторону.
 1	Кымӧрыс	кымӧр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 2	недыр	недыр	ADV	Adv	Polarity=Neg	3	advmod	_	_
-3	повзьӧдчӧм	повзьӧдчыны	VERB	V	Tense=Past|VerbForm=Part	5	obl	_	_
+3	повзьӧдчӧм	повзьӧдчыны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	5	obl	_	_
 4	бӧрын	бӧр	ADP	Po	Case=Ine|Number=Sing	3	case	_	_
 5	вешйис	вешйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	бокӧ	бокӧ	ADV	Adv	Case=Ill	5	advmod	_	SpaceAfter=No
@@ -1399,7 +1399,7 @@
 1	Но	но	CCONJ	CC	_	2	cc	_	_
 2	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
 3	нин	нин	ADV	Adv	_	2	advmod	_	_
-4	сэтшӧм	сэтшӧм	ADV	Det	_	5	advmod	_	_
+4	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 5	яра	яра	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -1478,7 +1478,7 @@
 2	паныдаліс	паныдавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	кильчӧ	кильчӧ	NOUN	N	Case=Nom|Number=Sing	2	obl	_	_
 4	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	_
-5	петӧмӧн	петны	VERB	V	Case=Ins|Derivation=Omon|Number=Sing|VerbForm=Conv	2	advcl	_	SpaceAfter=No
+5	петӧмӧн	петны	VERB	V	Case=Ins|Derivation=Omon|VerbForm=Conv	2	advcl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belykh1997a.068
@@ -1520,13 +1520,13 @@
 # text = Керкаӧ пырӧм бӧрын тэрмасьӧмӧн пӧрччи сӧдз ваӧдз кӧтасьӧм кӧм-паськӧмӧс да тэрыба кайи паччӧр вылӧ шонтысьыштны, став тайӧ страксьыс пальӧдчыштны.
 # text_rus = После того, как зашёл домой, торопясь снял насквозь промокшую одежду и обувь, и быстро залез на печку погреться, прийти в себя от этого страха.
 1	Керкаӧ	керка	NOUN	N	Case=Ill|Number=Sing	2	obl	_	_
-2	пырӧм	пырӧм	VERB	V	Tense=Past|VerbForm=Part	5	obl	_	_
+2	пырӧм	пырӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	5	obl	_	_
 3	бӧрын	бӧрын	ADV	Adv	Case=Ine	2	case	_	_
-4	тэрмасьӧмӧн	тэрмасьӧмӧн	VERB	V	Derivation=Omon|VerbForm=Conv	5	advcl	_	_
+4	тэрмасьӧмӧн	тэрмасьӧмӧн	VERB	V	Case=Nom|Derivation=Omon|VerbForm=Conv	5	advcl	_	_
 5	пӧрччи	пӧрччыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	сӧдз	сӧдз	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	_
 7	ваӧдз	ва	NOUN	N	Case=Ter|Number=Sing	8	obl	_	_
-8	кӧтасьӧм	кӧтасьӧм	VERB	V	Tense=Past|VerbForm=Part	9	nmod	_	_
+8	кӧтасьӧм	кӧтасьӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	9	nmod	_	_
 9	кӧм-паськӧмӧс	кӧм-паськӧм	NOUN	N	Case=Acc|Number=Sing	5	obj	_	_
 10	да	да	CCONJ	CC	_	12	cc	_	_
 11	тэрыба	тэрыба	ADV	Adv	_	12	advmod	_	_
@@ -1594,7 +1594,7 @@
 11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
 12	векньыдик	векньыдик	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ik|Number=Sing	6	ccomp	_	_
 13	и	и	PART	Pcle	_	14	discourse	_	_
-14	вӧлӧма	вӧвны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	вӧлӧма	вӧвны	AUX	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = belykh1997a.075
@@ -1850,7 +1850,7 @@
 1	Быдлаысь	быдла	ADV	Adv	_	2	advmod	_	_
 2	кыліс	кывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	винтовкаяслӧн	винтовка	NOUN	N	Case=Gen|Number=Plur	4	nmod	_	_
-4	трачӧдчӧм	трачӧдчӧм	VERB	V	Tense=Past|VerbForm=Part	2	csubj	_	SpaceAfter=No
+4	трачӧдчӧм	трачӧдчӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	2	csubj	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	орудиеысь	орудие	NOUN	N	Case=Ela|Number=Sing	7	nmod	_	_
 7	лыйлӧм	лыйлӧм	VERB	V	Case=Nom|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
@@ -1889,10 +1889,10 @@
 # text = Ни горзӧмъяс, ни лыйсьӧмъяс.
 # text_rus = Ни криков, ни выстрелов.
 1	Ни	ни	PART	Pcle	Polarity=Neg	2	advmod	_	_
-2	горзӧмъяс	горзӧм	VERB	V	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	горзӧмъяс	горзӧм	VERB	V	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	ни	ни	PART	Pcle	Polarity=Neg	5	advmod	_	_
-5	лыйсьӧмъяс	лыйсьӧм	VERB	V	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+5	лыйсьӧмъяс	лыйсьӧм	VERB	V	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = uspensky1940a.021
@@ -1933,7 +1933,7 @@
 # text_rus = На войне такая непонятность хуже самого жестокого боя.
 1	Война	война	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
 2	вылын	вылын	ADP	Po	Case=Ine|Number=Sing	1	case	_	_
-3	татшӧм	татшӧм	ADV	Adv	_	4	advmod	_	_
+3	татшӧм	татшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	det	_	_
 4	гӧгӧрвотӧмыс	гӧгӧрвоны	VERB	V	Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	5	csubj	_	_
 5	лёкджык	лёк	ADJ	A	Degree=Cmp	0	root	_	_
 6	медся	медся	ADV	Adv	_	7	advmod	_	_
@@ -2018,7 +2018,7 @@
 2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	важ	важ	ADJ	A	Case=Nom|Number=Sing	0	root	_	_
 4	да	да	CCONJ	CC	_	5	cc	_	_
-5	жугласьӧм	жугласьӧм	VERB	V	Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+5	жугласьӧм	жугласьӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	но	но	CCONJ	CC	_	13	cc	_	_
 8	мӧдтор	мӧдтор	NOUN	N	Case=Nom|Number=Sing	9	nmod	_	_
@@ -2058,7 +2058,7 @@
 4	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	det	_	_
 5	луннас	лун	NOUN	N	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	advmod	_	_
 6	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
-7	сэтшӧм	сэтшӧм	ADV	Adv	_	8	det	_	_
+7	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	det	_	_
 8	важнӧй	важнӧй	ADJ	A	Case=Nom|Number=Sing	9	amod	_	_
 9	делӧӧн	делӧ	NOUN	N	Case=Ins|Number=Sing	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
@@ -2126,7 +2126,7 @@
 5	машинасӧ	машина	NOUN	N	Case=Nom|Number=Sing	6	obj	_	_
 6	веськӧдіс	веськӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	ӧти	ӧти	NUM	Num	NumType=Card	9	nummod	_	_
-8	татшӧм	татшӧм	ADV	Adv	_	9	advmod	_	_
+8	татшӧм	татшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	det	_	_
 9	переулокӧ	переулок	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj	_	_
@@ -2218,7 +2218,7 @@
 10	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	9	case	_	_
 11	котӧртісны	котӧртны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	нин	нин	ADV	Adv	_	14	advmod	_	_
-13	вооружитчӧм	вооружитчӧм	VERB	V	Tense=Past|VerbForm=Part	14	acl	_	_
+13	вооружитчӧм	вооружитчӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 14	йӧз	йӧз	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	11	punct	_	_
 
@@ -2362,7 +2362,7 @@
 # text_rus = Водитель, закусив губу, рванул рычаг заднего хода.
 1	Шоферыс	шофёр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
 2	паръяссӧ	пар	NOUN	N	Case=Acc|Number=Plur	3	obj	_	_
-3	курччӧмӧн	курччыны	VERB	V	Case=Ins|Tense=Past|VerbForm=Part	4	advcl	_	_
+3	курччӧмӧн	курччыны	VERB	V	Case=Ins|Derivation=Omon|VerbForm=Conv	4	advcl	_	_
 4	тракнитіс	тракнитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	задньӧй	задньӧй	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	ходлысь	ход	NOUN	N	Case=Abl|Number=Sing	7	nmod	_	_
@@ -2652,11 +2652,11 @@
 17	найӧясӧс	найӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 18	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	шуӧй	шуны	VERB	V	Connegative=Yes|Number=Plur|Person=1	13	advcl	_	_
-20	кулӧм	кулӧм	VERB	V	Tense=Past|VerbForm=Part	21	amod	_	_
+20	кулӧм	кулӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	21	amod	_	_
 21	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	19	obl	_	_
 22	—	—	PUNCT	CLB	_	23	punct	_	_
 23	шуам	шуны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
-24	ловтӧм	ловтӧм	VERB	V	Polarity=Neg|Tense=Past|VerbForm=Part	25	amod	_	_
+24	ловтӧм	ловтӧм	VERB	V	Case=Nom|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	25	amod	_	_
 25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	13	punct	_	_
 
