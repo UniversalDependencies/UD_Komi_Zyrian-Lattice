@@ -21,7 +21,7 @@ This work has been developed in the framework of the LAKME project funded by a g
 | uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
 | falkner1927a | Фалькнер В.Н. 1927: Лоам ми ёнӧсь, дзоньвидзаӧсь да!: мӧд нига" | 1927 | http://urn.fi/URN:NBN:fi-fe2014102045431 | http://komikyv.org/kpv/contents/loam-mi-yonos-dzonvidzaos-da | | 
 | rossinskiy1925a | Российскӧй Д. 1925: Гут разӧдӧ висьӧмъяс | 1925 | http://urn.fi/URN:NBN:fi-fe2014070332096 | http://komikyv.org/kpv/content/гут-разӧдӧ-висьӧмъяс | 
-| goffesnsener1927a | Гоффеншефер С. 1927: Чакотка | 1927 | http://urn.fi/URN:NBN:fi-fe201604159701 | http://komikyv.org/kpv/contents/chahotka | 
+| goffensefer1927a | Гоффеншефер С. 1927: Чакотка | 1927 | http://urn.fi/URN:NBN:fi-fe201604159701 | http://komikyv.org/kpv/contents/chahotka | 
 | koskabyr1925a | Кос Кабыр 1925: Мувыв тӧдмалӧм. Медводдза нига = Ывлавыв тӧдмалӧм. Арся уджъяс. | 1925 | http://urn.fi/URN:NBN:fi-fe2014070132058 | http://komikyv.org/kpv/contents/yvlavyv-todmalom-1 | 
 | belykh2005a | Иван Белых 2005: Таысь унаыс оз и ков | 2005 | | http://komikyv.org/kpv/node/26865 | 
 
