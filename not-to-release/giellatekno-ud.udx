@@ -54,6 +54,7 @@ _	_	PxSg1	_	_	_	Number[psor]=Sing|Person[psor]=1	_
 _	_	PxSg2	_	_	_	Number[psor]=Sing|Person[psor]=2	_
 _	_	PxSg3	_	_	_	Number[psor]=Sing|Person[psor]=3	_
 _	_	Qnt	_	_	_	PronType=Qnt	_
+_	_	Interr	_	_	_	PronType=Inter	_
 _	_	Sg	_	_	_	Number=Sing	_
 _	Abbr	_	_	_	NOUN	_	_
 _	Adv	_	_	_	ADV	_	_
