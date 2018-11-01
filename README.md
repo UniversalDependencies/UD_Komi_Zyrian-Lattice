@@ -13,17 +13,17 @@ This work has been developed in the framework of the LAKME project funded by a g
 ## References
 
 
-| Sentence id start                                                                     | Publication mane                                                                     | Publishing year                                     | Link to Fenno-Ugrica                             | Link to Komi Nebögain                                                                                                                                 | 
+| Sentence id start | Publication mane | Publishing year | Link to Fenno-Ugrica | Link to Komi Nebögain | 
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------| 
-| kpv_1-7_Vyl_tujod_1939_09_10_0001,"Выль туйӧд 9.10.1939, page 1"              | 1939                                                                            | http://urn.fi/URN:NBN:fi-fe201802013020  |                                                              |                                                                                                                                               | 
-| kpv_1-7_Vyl_tujod_1939_09_10_0002,"Выль туйӧд 9.10.1939, page 2"              | 1939                                                                            | http://urn.fi/URN:NBN:fi-fe201802013020  |                                                              |                                                                                                                                               | 
-| belykh1997a                                                                   | Иван Белых 1997: Шера зэр                                                       | 1997                                     |                                                              | http://komikyv.org/kpv/content/%D1%88%D0%B5%D1%80%D0%B0-%D0%B7%D1%8D%D1%80                                                                    | 
-| uspensky1940a,"Успенский, Лев 1940: Нёль боевӧй случай"                       | 1940                                                                            | http://urn.fi/URN:NBN:fi-fe2014102045428 |                                                              |                                                                                                                                               | 
-| falkner1927a,"Фалькнер В.Н. 1927: Лоам ми ёнӧсь, дзоньвидзаӧсь да!: мӧд нига" | 1927                                                                            | http://urn.fi/URN:NBN:fi-fe2014102045431 | http://komikyv.org/kpv/contents/loam-mi-yonos-dzonvidzaos-da |                                                                                                                                               | 
-| rossinskiy1925a                                                               | Российскӧй Д. 1925:  Гут разӧдӧ висьӧмъяс                                       | 1925                                     | http://urn.fi/URN:NBN:fi-fe2014070332096                     | http://komikyv.org/kpv/content/%D0%B3%D1%83%D1%82-%D1%80%D0%B0%D0%B7%D3%A7%D0%B4%D3%A7-%D0%B2%D0%B8%D1%81%D1%8C%D3%A7%D0%BC%D1%8A%D1%8F%D1%81 | 
-| goffesnsener1927a                                                             | Гоффеншефер С. 1927: Чакотка                                                    | 1927                                     | http://urn.fi/URN:NBN:fi-fe201604159701                      | http://komikyv.org/kpv/contents/chahotka                                                                                                      | 
-| koskabyr1925a                                                                 | Кос Кабыр 1925: Мувыв тӧдмалӧм. Медводдза нига = Ывлавыв тӧдмалӧм. Арся уджъяс. | 1925                                     | http://urn.fi/URN:NBN:fi-fe2014070132058                     | http://komikyv.org/kpv/contents/yvlavyv-todmalom-1                                                                                            | 
-| belykh2005a                                                                   | Иван Белых 2005: Таысь унаыс оз и ков                                           | 2005                                     |                                                              | http://komikyv.org/kpv/node/26865                                                                                                             | 
+| kpv_1-7_Vyl_tujod_1939_09_10_0001 | Выль туйӧд 9.10.1939, page 1 | 1939 | http://urn.fi/URN:NBN:fi-fe201802013020 | | | 
+| kpv_1-7_Vyl_tujod_1939_09_10_0002 | Выль туйӧд 9.10.1939, page 2 | 1939 | http://urn.fi/URN:NBN:fi-fe201802013020 | | | 
+| belykh1997a | Иван Белых 1997: Шера зэр | 1997 | | http://komikyv.org/kpv/content/%D1%88%D0%B5%D1%80%D0%B0-%D0%B7%D1%8D%D1%80 | 
+| uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
+| falkner1927a | Фалькнер В.Н. 1927: Лоам ми ёнӧсь, дзоньвидзаӧсь да!: мӧд нига" | 1927 | http://urn.fi/URN:NBN:fi-fe2014102045431 | http://komikyv.org/kpv/contents/loam-mi-yonos-dzonvidzaos-da | | 
+| rossinskiy1925a | Российскӧй Д. 1925: Гут разӧдӧ висьӧмъяс | 1925 | http://urn.fi/URN:NBN:fi-fe2014070332096 | http://komikyv.org/kpv/content/%D0%B3%D1%83%D1%82-%D1%80%D0%B0%D0%B7%D3%A7%D0%B4%D3%A7-%D0%B2%D0%B8%D1%81%D1%8C%D3%A7%D0%BC%D1%8A%D1%8F%D1%81 | 
+| goffesnsener1927a | Гоффеншефер С. 1927: Чакотка | 1927 | http://urn.fi/URN:NBN:fi-fe201604159701 | http://komikyv.org/kpv/contents/chahotka | 
+| koskabyr1925a | Кос Кабыр 1925: Мувыв тӧдмалӧм. Медводдза нига = Ывлавыв тӧдмалӧм. Арся уджъяс. | 1925 | http://urn.fi/URN:NBN:fi-fe2014070132058 | http://komikyv.org/kpv/contents/yvlavyv-todmalom-1 | 
+| belykh2005a | Иван Белых 2005: Таысь унаыс оз и ков | 2005 | | http://komikyv.org/kpv/node/26865 | 
 
 
 # References
@@ -33,9 +33,9 @@ Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, 
 # Changelog
 
 - 2018-11-01
-    - README file updated and various corrections done
+  - README file updated and various corrections done
 - 2018-10-18
-    - New sentences from various sources added
+  - New sentences from various sources added
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
