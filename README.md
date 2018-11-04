@@ -4,15 +4,15 @@ UD Komi-Zyrian Lattice is a treebank of written standard Komi-Zyrian.
 
 # Introduction
 
-The treebank contains continuous texts in written Komi-Zyrian language. The data is all from openly available sources. The largest segments come from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was released into [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Some articles from newspaper [Выль туйӧд's 1939 number 67](http://urn.fi/URN:NBN:fi-fe201802013020) have also been included as complete texts. Several other books from Fenno-Ugrica collection are used for individual examples, and those are marked with the tag `-ind`, to distinguish them from running text. Complete list of used sources with additional informartion and further links is available [as a CSV file](https://github.com/UniversalDependencies/UD_Komi_Zyrian-Lattice/blob/dev/not-to-release/meta.csv).
+The treebank contains continuous texts in the written Komi-Zyrian language. All of the data comes from openly available sources. The largest segments are from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was added to [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Some articles from the newspaper [Выль туйӧд's 1939 number 67](http://urn.fi/URN:NBN:fi-fe201802013020) have also been included as complete texts. Several texts are used for individual examples, and these are marked with the tag `-ind`, to distinguish them from the running text. The complete list of sources with additional information and further links is available in this README file below.
 
 # Acknowledgments
 
-This work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). The work was done in collaboration with Kone Foundation funded [IKDP-2](langdoc.github.io/IKDP-2) research project.
+This work has been developed within the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). The work was done in collaboration with the Kone Foundation-funded research project [Language Documentation meets Language Technology: The Next Step in the Description of Komi](langdoc.github.io/IKDP-2).
 
 If you use this treebank in your work, please cite:
 
-- Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, Michael 2018: [First Komi-Zyrian Universal Dependencies Treebanks](http://universaldependencies.org/udw18/PDFs/28_Paper.pdf). In Proceedings of the Second Workshop on Universal Dependencies (UDW 2018) (pp. 126-132).
+- Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, Michael 2018: [First Komi-Zyrian Universal Dependencies Treebanks](http://universaldependencies.org/udw18/PDFs/28_Paper.pdf). Proceedings of the Second Workshop on Universal Dependencies (UDW 2018) (pp. 126-132).
 
 ## Sources used
 
