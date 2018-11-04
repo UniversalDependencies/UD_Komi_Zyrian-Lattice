@@ -10,10 +10,13 @@ The treebank contains continuous texts in written Komi-Zyrian language. The data
 
 This work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). The work was done in collaboration with Kone Foundation funded [IKDP-2](langdoc.github.io/IKDP-2) research project.
 
-## References
+If you use this treebank in your work, please cite:
 
+- Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, Michael 2018: [First Komi-Zyrian Universal Dependencies Treebanks](http://universaldependencies.org/udw18/PDFs/28_Paper.pdf). In Proceedings of the Second Workshop on Universal Dependencies (UDW 2018) (pp. 126-132).
 
-| Sentence id start | Publication mane | Publishing year | Link to Fenno-Ugrica | Link to Komi Nebögain | 
+## Sources used
+
+| Sentence id start | Publication name | Publishing year | Link to Fenno-Ugrica | Link to Komi Nebögain | 
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------| 
 | belykh1997a | Иван Белых 1997: Шера зэр | 1997 | | http://komikyv.org/kpv/content/шера-зэр | 
 | belykh2005a | Иван Белых 2005: Таысь унаыс оз и ков | 2005 | | http://komikyv.org/kpv/node/26865 | 
@@ -25,11 +28,6 @@ This work has been developed in the framework of the LAKME project funded by a g
 | rossinskiy1925a | Российскӧй Д. 1925: Гут разӧдӧ висьӧмъяс | 1925 | http://urn.fi/URN:NBN:fi-fe2014070332096 | http://komikyv.org/kpv/content/гут-разӧдӧ-висьӧмъяс | 
 | uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
 
-
-
-# References
-
-Partanen, Niko; Blokland, Rogier; Lim, KyungTae; Poibeau, Thierry and Rießler, Michael 2018: [First Komi-Zyrian Universal Dependencies Treebanks](http://universaldependencies.org/udw18/PDFs/28_Paper.pdf)
 
 # Changelog
 
