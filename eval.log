@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Komi_Zyrian-Lattice:
-commit abe264509d3287dc9db920a6c4e133c4a3e68782
+commit b28740a79a8e0c8e858eebc69a0e354a87ca355f
+Merge: 9048af1 7681e64
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Jun 20 20:27:34 2018 +0200
-Size: counted 1389 of 1389 words (nodes).
-Size: min(0, log((N/1000)**2)) = 0.657168127544413.
+Size: counted 2017 of 2017 words (nodes).
+Size: min(0, log((N/1000)**2)) = 1.40322251794415.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 873 out of 1389 total words have one or more features.
+Features: 1330 out of 2017 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
-Universal relations: 29 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 79 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 1389 words.
+Udapi: found 119 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 2017 words.
 Genres: found 1 out of 17 known.
 validate.py --lang kpv --max-err=10 UD_Komi_Zyrian-Lattice/kpv_lattice-ud-test.conllu
 *** PASSED ***
@@ -28,11 +28,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.0475674152458719) = 0.0121967731399671
+(weight=0.256410256410256) * (score{size}=0.101568632737588) = 0.0260432391634842
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.431245500359971) = 0.132690923187683
-(weight=0.0769230769230769) * (score{udeprels}=0.783783783783784) = 0.0602910602910603
-(TOTAL score=0.348225513783115) * (availability=1) * (validity=1) = 0.348225513783115
-STARS = 1.5
-UD_Komi_Zyrian-Lattice	0.348225513783115	1.5
+(weight=0.307692307692308) * (score{udapi}=0.410014873574616) = 0.126158422638343
+(weight=0.0769230769230769) * (score{udeprels}=0.810810810810811) = 0.0623700623700624
+(TOTAL score=0.357618481336294) * (availability=1) * (validity=1) = 0.357618481336294
+STARS = 2
+UD_Komi_Zyrian-Lattice	0.357618481336294	2
