@@ -17,7 +17,7 @@ Here will be a concrete example of how to get from plain text to an annotated se
 
 ## Question
 
-- POS tag of ниӧти?
+- POS tag of ниӧти, check that is systematic?
 - POS tag and analysis of кодь?
 - Abbreviations, what to do with с.в. etc.
 - Some compounds should be broken apart, i.e. партийно-комсомольскӧй
