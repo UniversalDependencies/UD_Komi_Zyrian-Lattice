@@ -88,7 +88,7 @@
 17	срокъясӧн	срок	NOUN	N	Case=Ins|Number=Plur	15	obl	_	GTtags=Pl,Ins
 18	да	да	CCONJ	CC	_	20	cc	_	_
 19	некутшӧм	некутшӧм	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	20	det	_	_
-20	вошӧмъястӧг	вошӧм	NOUN	N	Case=Car|Number=Plur	17	conj	_	GTtags=Pl,Car|SpaceAfter=No
+20	вошӧмъястӧг	вошны	VERB	V	Case=Car|Number=Plur	17	conj	_	GTtags=Pl,Car|SpaceAfter=No
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	петкӧдлыны	петкӧдлыны	VERB	V	VerbForm=Inf	15	conj	_	GTtags=Inf
 23	вылын	вылын	NOUN	N	Case=Ine|Number=Sing	22	obl	_	GTtags=Sg,Ine
@@ -837,9 +837,9 @@
 5	кыдзи	кыдзи	ADV	Adv	_	11	advmod	_	_
 6	юр	юр	NOUN	N	Case=Nom|Number=Sing	11	obl	_	_
 7	весьтын	весьт	ADP	Po	Case=Ine|Number=Sing	6	case	_	_
-8	ӧти	ӧти	NUM	Num	Case=Nom|Number=Sing|NumType=Card	9	nmod	_	_
-9	бӧрся	бӧрся	ADP	Po	Number=Sing	10	case	_	_
-10	мӧд	мӧд	PRON	Pron	Case=Nom|Number=Sing|NumType=Ord	11	nmod	_	_
+8	ӧти	ӧти	PRON	Pron	Case=Nom|Number=Sing|NumType=Card	11	nmod	_	_
+9	бӧрся	бӧрся	ADP	Po	Number=Sing	8	case	_	_
+10	мӧд	мӧд	PRON	Pron	Case=Nom|Number=Sing|NumType=Ord	8	nmod	_	_
 11	тыдовтчисны	тыдовтчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
 12	кымӧрторъяс	кымӧртор	NOUN	N	Case=Acc|Number=Plur	11	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
