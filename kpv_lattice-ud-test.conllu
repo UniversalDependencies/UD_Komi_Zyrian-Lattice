@@ -1622,7 +1622,7 @@
 8	Ворошиловӧс	Ворошилов	PROPN	N	Case=Acc|Number=Sing	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	Советскӧй	Советскӧй	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
-11	Союзса	союз	ADJ	A	Case=Nom|Derivative=Sa|Number=Sing	12	amod	_	_
+11	Союзса	союз	ADJ	A	Case=Nom|Derivation=Sa|Number=Sing	12	amod	_	_
 12	маршалӧс	маршал	NOUN	N	Case=Acc|Number=Sing	6	appos	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	_
 14	Оборона	оборона	PROPN	N	Case=Nom|Number=Sing	17	nmod	_	_
