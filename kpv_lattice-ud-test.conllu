@@ -1487,7 +1487,7 @@
 1	—	—	PUNCT	CLB	_	2	punct	_	_
 2	Мыйла	мыйла	SCONJ	CS	_	6	cc	_	_
 3	нӧ	нӧ	PART	Pcle	_	6	discourse	_	_
-4	водзджык	водзджык	ADV	Adv	Case=Nom|Number=Sing|Degree=Cmp	6	advmod	_	_
+4	водзджык	водзджык	ADV	Adv	Case=Nom|Degree=Cmp|Number=Sing	6	advmod	_	_
 5	эн	оз	AUX	V	Mood=Ind|Person=2|Polarity=Neg|VerbForm=Fin	6	aux	_	_
 6	вермы	вермыны	VERB	V	Connegative=Yes|Number=Sing	0	root	_	_
 7	кайны	кайны	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
@@ -2366,7 +2366,7 @@
 4	тракнитіс	тракнитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	задньӧй	задньӧй	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
 6	ходлысь	ход	NOUN	N	Case=Abl|Number=Sing	7	nmod	_	_
-7	рычагсӧ	рычаг	NOUN	N	Case=Acc|Number=Sing||Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No
+7	рычагсӧ	рычаг	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = uspensky1940a.057
