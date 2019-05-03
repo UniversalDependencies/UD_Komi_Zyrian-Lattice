@@ -98,7 +98,7 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.006
 # text = Но колӧ индыны, мый урожай идралӧм миян район пасьта мунӧ ёна ичӧт ӧдъясӧн.
-1	Но	но	PART	Pcle	_	2	advmod	_	_
+1	Но	но	CCONJ	CC	_	2	cc	_	_
 2	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	индыны	индыны	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
