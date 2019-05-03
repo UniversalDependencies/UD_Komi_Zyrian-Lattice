@@ -567,7 +567,7 @@
 48	,	,	PUNCT	CLB	_	49	punct	_	_
 49	фермаясӧн	ферма	NOUN	N	Case=Ins|Number=Plur	47	list	_	_
 50	да	да	CCONJ	CC	_	51	cc	_	_
-51	с.в.	с.в.	ADV	N	_	49	list	_	SpaceAfter=No
+51	с.в.	с.в.	PART	Pcle	Abbr=Yes	49	list	_	SpaceAfter=No
 52	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.027
@@ -1374,7 +1374,7 @@
 3	шерыс	шер	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 4	вочасӧн	вочасӧн	ADV	Adv	Case=Ins	5	advmod	_	_
 5	вешйис	вешйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	бокӧ	бокӧ	ADV	Adv	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No|Note=Check
+6	бокӧ	бокӧ	NOUN	N	Case=Ill|Number=Sing	5	obl	_	SpaceAfter=No|Note=Check
 7	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = belykh1997a.057
