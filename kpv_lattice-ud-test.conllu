@@ -1165,7 +1165,7 @@
 10	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj	_	_
 11	муртса	муртса	ADV	Adv	_	15	advmod	_	_
 12	кок	кок	NOUN	N	Case=Nom|Number=Sing	15	obl	_	_
-13	йылысь	йылысь	ADP	Po	Number=Sing	12	case	_	_
+13	йылысь	йылысь	ADP	Po	Case=Ela|Number=Sing	12	case	_	_
 14	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|VerbForm=Fin	15	aux	_	_
 15	пӧрӧд	пӧрӧдны	VERB	V	Connegative=Yes|Number=Sing	4	acl	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1247,7 +1247,7 @@
 3	шерыс	шер	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
 4	пӧрӧдісны	пӧрӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	кок	кок	NOUN	N	Case=Nom|Number=Sing	4	obl	_	_
-6	йывсьыд	йылысь	ADP	Po	Number=Sing|Number[psor]=Sing|Person[psor]=2	5	case	_	SpaceAfter=No
+6	йывсьыд	йылысь	ADP	Po	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	case	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = belykh1997a.047
@@ -1338,7 +1338,7 @@
 # text = Ас кежысь казьтышті нин, гашкӧ, став Енсӧ, тӧдсаясӧс и тӧдтӧмъясӧс, мед, кӧнкӧ найӧ эмӧсь кӧ, эз жӧ эновтны туй выв мортӧс.
 # text_rus = Про себя вспомнил уже, может быть, всех Богов, знакомых и незнакомых, чтобы, если они где-то есть, не оставили человека в дороге.
 1	Ас	ас	ADJ	A	Case=Nom|Number=Sing|PronType=Prs	3	obl	_	_
-2	кежысь	кежысь	ADP	Po	Number=Sing	1	case	_	_
+2	кежысь	кежысь	ADP	Po	Case=Ela|Number=Sing	1	case	_	_
 3	казьтышті	казьтыштны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	нин	нин	ADV	Adv	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
@@ -1574,7 +1574,7 @@
 2	кодлыськӧ	коді	PRON	Pron	Case=Abl|Number=Sing|PronType=Ind	4	obl	_	_
 3	весиг	весиг	PART	Pcle	_	4	advmod	_	_
 4	чашнитӧма	чашнитны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	керка	керка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	compound	_	_
+5	керка	керка	NOUN	N	Case=Nom|Number=Sing	6	compound	_	_
 6	вевтсӧ	вевт	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1603,7 +1603,7 @@
 1	Неылысса	неылысса	ADJ	A	Case=Nom|Number=Sing|Polarity=Neg	2	amod	_	_
 2	сикт-грездын	сикт-грезд	NOUN	N	Case=Ine|Number=Sing	7	obl	_	_
 3	сы	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-4	йылысь	йылысь	ADP	Po	Number=Sing	3	case	_	_
+4	йылысь	йылысь	ADP	Po	Case=Ela|Number=Sing	3	case	_	_
 5	абу	абу	AUX	Pcle	Polarity=Neg	7	aux	_	_
 6	весиг	весиг	PART	Pcle	_	7	advmod	_	_
 7	тӧдлӧмаӧсь	тӧдлыны	VERB	V	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1650,7 +1650,7 @@
 5	кӧсйӧны	кӧсйыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	тӧдны	тӧдны	VERB	V	VerbForm=Inf	5	xcomp	_	_
 7	сы	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
-8	йылысь	йылысь	ADP	Po	Number=Sing	7	case	_	_
+8	йылысь	йылысь	ADP	Po	Case=Ela|Number=Sing	7	case	_	_
 9	дзик	дзик	ADV	Adv	_	10	advmod	_	_
 10	ставсӧ	став	DET	Det	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -1744,7 +1744,7 @@
 3	кӧть	кӧть	ADV	Adv	_	5	advmod	_	_
 4	медся	медся	ADV	Adv	_	5	advmod	_	_
 5	главнӧйтор	главнӧйтор	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
-6	йывсьыс	йылысь	ADP	Po	Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	SpaceAfter=No
+6	йывсьыс	йылысь	ADP	Po	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	мый	мый	SCONJ	CS	_	9	mark	_	_
 9	лолывліс	лолывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
@@ -1786,7 +1786,7 @@
 9	обыкновеннӧй	обыкновеннӧй	ADJ	A	Case=Nom|Number=Sing	10	amod	_	_
 10	боевӧй	боевӧй	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
 11	случай	случай	NOUN	N	Case=Nom|Number=Sing	5	obj	_	_
-12	йылысь	йылысь	ADP	Po	Number=Sing	11	case	_	SpaceAfter=No
+12	йылысь	йылысь	ADP	Po	Case=Ela|Number=Sing	11	case	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	_
 14	кодъяс	коді	PRON	Pron	Case=Nom|Number=Plur|PronType=Int	21	nsubj	_	_
 15	коркӧ	коркӧ	ADV	Adv	PronType=Ind	21	advmod	_	SpaceAfter=No
@@ -2245,13 +2245,13 @@
 # sent_id = uspensky1940a.046
 # text = Чужӧмыс сылӧн лои мел кодь еджыд.
 # text_rus = Лицо его стало белым, как мел.
-1	Чужӧмыс	чужӧм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+1	Чужӧмыс	чужӧм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	_
 2	сылӧн	сійӧ	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
-3	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	лои	лоны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	мел	мел	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
-5	кодь	кодь	ADP	Po	_	4	case	_	Note=Check
-6	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	3	obl	_	SpaceAfter=No
-7	.	.	PUNCT	CLB	_	3	punct	_	_
+5	кодь	кодь	ADP	Po	_	4	case	_	_
+6	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = uspensky1940a.047
 # text = — Мый тэ вӧчан?
