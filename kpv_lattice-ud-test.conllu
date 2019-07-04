@@ -2250,7 +2250,7 @@
 3	лои	лоны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	мел	мел	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	_
 5	кодь	кодь	ADP	Po	_	4	case	_	_
-6	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No
+6	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = uspensky1940a.047
