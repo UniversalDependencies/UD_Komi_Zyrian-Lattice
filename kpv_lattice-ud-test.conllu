@@ -732,7 +732,7 @@
 # text_rus = Хотя день был очень хорошим.
 1	Кӧть	кӧть	SCONJ	CS	_	5	mark	_	_
 2	луныс	лун	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
-3	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 4	зэв	зэв	ADV	Adv	_	5	advmod	_	_
 5	мича	мича	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -908,7 +908,7 @@
 # text = Чериыд дзикӧдз раммис.
 # text_rus = Рыба совсем присмирела.
 1	Чериыд	чери	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nsubj	_	_
-2	дзикӧдз	дзик	ADV	Adv	Case=Ter|Number=Sing	3	advmod	_	_
+2	дзикӧдз	дзик	ADV	Adv	Case=Ter	3	advmod	_	_
 3	раммис	раммыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -1091,10 +1091,10 @@
 # text_rus = А потом сверху пошли большие капли дождя.
 1	А	а	CCONJ	CC	_	4	cc	_	_
 2	сэсся	сэсся	ADV	Adv	_	4	advmod	_	_
-3	вылісянь	вылісянь	ADV	Adv	Case=Egr|Number=Sing	4	obl	_	_
+3	вылісянь	вылісянь	ADV	Adv	Case=Egr	4	obl	_	_
 4	мӧдӧдчисны	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	гырысь	гырысь	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
-6	зэр	зэр	NOUN	N	Case=Nom|Number=Plur	7	compound	_	_
+6	зэр	зэр	NOUN	N	Case=Nom|Number=Sing	7	compound	_	_
 7	войтъяс	войт	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -1255,7 +1255,7 @@
 # text_rus = Дорога из-за дождя стала похожа на небольшую речку.
 1	Туйыс	туй	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
 2	зэр	зэр	NOUN	N	Case=Nom|Number=Sing	7	obl	_	_
-3	вӧснаыс	вӧсна	ADP	Po	Person=3	2	case	_	_
+3	вӧснаыс	вӧсна	ADP	Po	Number[psor]=Sing|Person[psor]=3	2	case	_	_
 4	лоис	лоны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
 5	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Derivation=Ik|Number=Sing	6	amod	_	_
 6	ю	ю	NOUN	N	Case=Nom|Number=Sing	7	compound	_	_
@@ -1423,7 +1423,7 @@
 # text = Паськӧмӧй вӧлі брӧд ва.
 # text_rus = Одежда была насквозь мокрой.
 1	Паськӧмӧй	паськӧм	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
-2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	брӧд	брӧд	ADV	Adv	_	4	advmod	_	_
 4	ва	ва	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -1644,7 +1644,7 @@
 # text_rus = И, конечно, хотят знать о нем решительно все.
 1	И	и	CCONJ	CC	_	5	cc	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	5	punct	_	_
-3	дерт	дерт	ADV	Adv	_	5	advmod	_	SpaceAfter=No
+3	дерт	дерт	PART	Pcle	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	кӧсйӧны	кӧсйыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	тӧдны	тӧдны	VERB	V	VerbForm=Inf	5	xcomp	_	_
@@ -1834,7 +1834,7 @@
 # text = Туйыс вӧлі сьӧкыд, белӧйяс потшисны быд боксянь.
 # text_rus = Путь был трудный, белые наседали со всех сторон.
 1	Туйыс	туй	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
-2	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	сьӧкыд	сьӧкыд	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	белӧйяс	белӧй	ADJ	A	Case=Nom|Number=Plur	6	nsubj	_	_
@@ -1988,7 +1988,7 @@
 # text_rus = Это было делом очень опасным, но необходимым.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 2	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
-3	вывті	вывті	ADV	Adv	Case=Tra|Number=Sing	4	advmod	_	_
+3	вывті	вывті	ADV	Adv	Case=Tra	4	advmod	_	_
 4	опаснӧй	опаснӧй	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	amod	_	_
 5	могӧн	могӧн	NOUN	N	Case=Ins|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -2056,7 +2056,7 @@
 3	разведкаыс	разведка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
 4	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	det	_	_
 5	луннас	лун	NOUN	N	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
-6	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 7	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	det	_	_
 8	важнӧй	важнӧй	ADJ	A	Case=Nom|Number=Sing	9	amod	_	_
 9	делӧӧн	делӧ	NOUN	N	Case=Ins|Number=Sing	0	root	_	SpaceAfter=No
@@ -2129,7 +2129,7 @@
 9	переулокӧ	переулок	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj	_	_
-12	вӧлі	вӧвны	AUX	V	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+12	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
 13	зэв	зэв	ADV	Adv	_	14	advmod	_	_
 14	крутӧя	крутӧя	ADV	Adv	_	15	advmod	_	_
 15	кежӧ	кежны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
@@ -2528,7 +2528,7 @@
 4	зонка	зонка	NOUN	N	Case=Nom|Number=Sing	1	appos	_	_
 5	на	на	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	8	punct	_	_
-7	дзикӧдз	дзик	ADV	Adv	Case=Ter|Number=Sing	8	advmod	_	_
+7	дзикӧдз	дзик	ADV	Adv	Case=Ter	8	advmod	_	_
 8	растеряйтчис	растеряйтчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	8	punct	_	_
 
