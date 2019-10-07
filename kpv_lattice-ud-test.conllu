@@ -1,3 +1,234 @@
+# sent_id = kpv-gt.01
+# text = Ныв ёртыслы гижис письмӧ.
+# text_rus = 
+1	Ныв	ныв	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
+2	ёртыслы	ёрт	NOUN	N	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	гижис	гижны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	письмӧ	письмӧ	NOUN	N	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No|письмӧ|N|Sg|Acc
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.02
+# text = Меным кажитчӧ, мый зэрӧ.
+# text_rus = Мне кажется, что идёт дождь.
+1	Меным	ме	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+2	кажитчӧ	кажитчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|кажитчыны|V|Ind|Prs|Sg3
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	мый	мый	SCONJ	CS	_	5	mark	_	_
+5	зэрӧ	зэрны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|зэрны|V|Ind|Prs|Sg3
+6	.	_	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.03
+# text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ.
+# text_rus = Он попытался бросить курить и пить.
+1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	заводитліс	заводітны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	чӧвтны	чӧвтны	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	куритчӧмсӧ	куритчӧм	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
+5	да	да	CCONJ	CC	_	4	cc	_	_
+6	юӧмсӧ	юӧм	NOUN	N	Case=Acc|Number=Sing	4	conj	_	SpaceAfter=No|юӧм|N|Sg|Acc
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.04
+# text = Кӧсъян мунны?
+# text_rus = Хочешь пойти?
+1	Кӧсъян	кӧсйыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	мунны	мунны	VERB	V	VerbForm=Inf	1	xcomp	_	SpaceAfter=No|мунны|V|Inf
+3	?	?	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = kpv-gt.05
+# text = Сэм, восьты ӧшиньсӧ!
+# text_rus = Сэм, открой окно!
+1	Сэм	сэм	NOUN	N	Case=Nom|Number=Sing	3	vocative	_	SpaceAfter=No|сэм|N|Sg|Nom
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	восьты	восьтны	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+4	ӧшиньсӧ	ӧшинь	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	SpaceAfter=No|ӧшинь|N|Sg|Acc|PxSg3
+5	!	!	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.06
+# text = Сійӧ тшӧктіс верӧсыслы мыськыны машинасӧ.
+# text_rus = Она заставила мужа помыть машину.
+1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	тшӧктіс	тшӧктыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	верӧсыслы	верӧс	NOUN	N	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	_
+4	мыськыны	мыськыны	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	машинасӧ	машина	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	SpaceAfter=No|машина|N|Sg|Acc|PxSg3
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.07
+# text = Петилӧн суседыс краситӧма заборсӧ.
+# text_rus = Сосед Пети покрасил забор.
+1	Петилӧн	Пети	PROPN	N	Case=Gen|Number=Sing	2	nmod	_	_
+2	суседыс	сусед	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+3	краситӧма	краситны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	заборсӧ	забор	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	SpaceAfter=No|забор|N|Sg|Acc|PxSg3
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.08
+# text = Менам батьӧй тэнад батьсьыд бурджык.
+# text_rus = Мой папа круче твоего.
+1	Менам	ме	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+2	батьӧй	бать	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
+3	тэнад	тэ	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
+4	батьсьыд	бать	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	obl	_	_
+5	бурджык	бур	_	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	SpaceAfter=No|бур|A|Sg|Nom|Comp
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = kpv-gt.09
+# text = Мери шедӧдіс бронза, Питер - эзысь, а Джейн - зарни.
+# text_rus = Мэри выиграла бронзу, Питер - серебро, а Джейн - золото.
+1	Мери	Мери	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+2	шедӧдіс	шедӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	бронза	бронза	NOUN	N	Case=Acc|Number=Sing	2	obj	_	_
+4	Питер	Питер	NOUN	N	Case=Nom|Number=Sing	1	conj	_	_
+5	эзысь	эзысь	NOUN	N	Case=Acc|Number=Sing	3	conj	_	_
+6	а	а	SCONJ	CS	_	2	cc	_	_
+7	Джейн	Джейн	NOUN	N	Case=Nom|Number=Sing	1	conj	_	_
+8	зарни	зарни	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No|зарни|N|Sg|Acc
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.10
+# text = Игаузу - тайӧ ыджыд либӧ ичӧт канму?
+# text_rus = Игаузу, это большая или маленькая страна?
+1	Игаузу	Игаузу	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	_
+2	-	-	PUNCT	CLB	_	1	punct	_	_
+3	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	det	_	_
+4	ыджыд	ыджыд	_	A	Case=Nom|Number=Sing	7	amod	_	_
+5	либӧ	либӧ	CCONJ	CC	_	4	cc	_	_
+6	ичӧт	ичӧт	_	A	Case=Nom|Number=Sing	4	conj	_	_
+7	канму	канму	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|канму|N|Sg|Nom
+8	?	?	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = kpv-gt.11
+# text = Эз позь бӧрйыны ни Питер Смитӧс, ни Мери Браунӧс.
+# text_rus = Нельзя было выбрать ни Питера Смита, ни Мэри Браун.
+1	Эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	aux	_	_
+2	позь	позьны	VERB	V	Connegative=Yes	0	root	_	_
+3	бӧрйыны	бӧрйыны	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	ни	ни	PART	Pcle	_	5	advmod	_	_
+5	Питер	Питер	NOUN	N	Case=Nom|Number=Sing	3	obj	_	_
+6	Смитӧс	Смит	NOUN	N	Case=Acc|Number=Sing	5	flat:name	_	SpaceAfter=No|Смит|N|Sg|Acc
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	ни	ни	PART	Pcle	_	9	advmod	_	_
+9	Мери	Мери	NOUN	N	Case=Nom|Number=Sing	5	conj	_	_
+10	Браунӧс	Браун	NOUN	N	Case=Acc|Number=Sing	9	flat:name	_	SpaceAfter=No|Браун|N|Sg|Acc
+11	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.12
+# text = Найӧ дзик оз тӧдны, коді тайӧс гижис.
+# text_rus = Они понятия не имеют, кто это написал.
+1	Найӧ	найӧ	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	дзик	дзик	ADV	Adv	_	4	advmod	_	_
+3	оз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	тӧдны	тӧдны	VERB	V	Connegative=Yes	0	root	_	_
+5	коді	коді	PRON	Pron	Case=Nom|Number=Sing	7	nsubj	_	_
+6	тайӧс	тайӧ	PRON	Pron	Case=Acc|Number=Sing|PronType=Dem	7	obj	_	_
+7	гижис	гижны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	SpaceAfter=No|гижны|V|Ind|Prt1|Sg3
+8	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = kpv-gt.13
+# text = Мый вылӧ тэ видзӧдан?
+# text_rus = На что ты смотришь?
+1	Мый	мый	PRON	Pron	_	4	obj	_	_
+2	вылӧ	вылӧ	ADP	Po	Case=Ill|Number=Sing	1	case	_	_
+3	тэ	тэ	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	видзӧдан	видзӧдны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|видзӧдны|V|Ind|Prs|Sg2
+5	?	?	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = kpv-gt.14
+# text = Тэ кыдзи мӧвпалан, кор верман волыны?
+# text_rus = Как ты думаешь, кoгда ты сможешь прийти?
+1	Тэ	тэ	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	кыдзи	кыдзи	ADV	Adv	_	3	advmod	_	_
+3	мӧвпалан	мӧвпавны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|мӧвпавны|V|Ind|Prs|Sg2
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	кор	кор	ADV	Adv	_	6	advmod	_	_
+6	верман	вермыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	волыны	волыны	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|волыны|V|Inf
+8	?	?	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.15
+# text = Сійӧ ньӧбис машина, а вокыс сӧмын велосипед.
+# text_rus = Он купил машину, а его брат - только велосипед.
+1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ньӧбис	ньӧбны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	машина	машина	NOUN	N	Case=Acc|Number=Sing	2	obj	_	_
+4	а	а	SCONJ	CS	_	5	mark	_	_
+5	вокыс	вок	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
+6	сӧмын	сӧмын	ADV	Adv	_	7	advmod	_	_
+7	велосипед	велосипед	NOUN	N	Case=Nom|Number=Sing	3	conj	_	SpaceAfter=No|велосипед|N|Sg|Nom
+8	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.16
+# text = Питер да Мери кутчысьлісны да петісны вежӧсысь.
+# text_rus = Питер и Мэри обнялись и вышли из комнаты.
+1	Питер	Питер	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+2	да	да	CCONJ	CC	_	3	cc	_	_
+3	Мери	Мери	PROPN	N	Case=Nom|Number=Sing	1	conj	_	_
+4	кутчысьлісны	кутчысьлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	да	да	CCONJ	CC	_	6	cc	_	_
+6	петісны	петны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	вежӧсысь	вежӧс	NOUN	N	Case=Ela|Number=Sing	6	obl	_	SpaceAfter=No|вежӧс|N|Sg|Ela
+8	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = kpv-gt.17
+# text = Сылы коліс юрсисӧ мичаа вӧчны, но мыйлакӧ тайӧ лунӧ сійӧ эз кӧсйы.
+# text_rus = Ей нужно было сделать причёску, но почему-то в тот день она не захотела.
+1	Сылы	сійӧ	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+2	коліс	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	юрсисӧ	юрси	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+4	мичаа	мича	ADV	Adv	_	5	advmod	_	_
+5	вӧчны	вӧчны	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|вӧчны|V|Inf
+6	,	,	PUNCT	CLB	_	2	punct	_	_
+7	но	но	SCONJ	CS	_	13	conj	_	_
+8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	_
+9	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	_
+10	лунӧ	лунӧ	NOUN	N	Case=Ill|Number=Sing	13	obl	_	_
+11	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	эз	эз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	13	aux	_	_
+13	кӧсйы	кӧсйыны	VERB	V	Connegative=Yes	2	advcl	_	SpaceAfter=No|кӧсйыны|V|ConNeg
+14	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = kpv-gt.18
+# text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс.
+# text_rus = Я не смог его догнать, потому что он слишком быстро бежал.
+1	Ме	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	эг	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	3	aux	_	_
+3	вермы	вермыны	VERB	V	Connegative=Yes	0	root	_	_
+4	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	вӧтӧдны	вӧтӧдны	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|вӧтӧдны|V|Inf
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	advmod	_	_
+8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
+9	мый	мый	SCONJ	CS	_	13	mark	_	_
+10	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
+12	тэрыба	тэрыб	ADV	Adv	_	13	advmod	_	_
+13	котӧртіс	котӧртыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|котӧртыны|V|Ind|Prt1|Sg3
+14	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.19
+# text = Тайӧ Петрсянь письмӧ, да сійӧс тӧрыт вайисны.
+# text_rus = Это письмо от Петра, и его доставили вчера.
+1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
+2	Петрсянь	Петр	NOUN	N	Case=Egr|Number=Sing	3	obl	_	_
+3	письмӧ	письмӧ	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|письмӧ|N|Sg|Nom
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	да	да	CCONJ	CC	_	8	mark	_	_
+6	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod	_	_
+8	вайисны	вайны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	3:advcl	SpaceAfter=No|вайны|V|Ind|Prt1|Pl3
+9	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = kpv-gt.20
+# text = Сійӧ быдмис Парижын, Францияса юркарын.
+# text_rus = Она выросла в Париже, в столице Франции.
+1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	быдмис	быдмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Парижын	Париж	NOUN	N	Case=Ine|Number=Sing	2	obl	_	_
+4	Францияса	Франция	_	Adj	_	5	amod	_	_
+5	юркарын	юркар	NOUN	N	Case=Ine|Number=Sing	3	appos	4:amod	SpaceAfter=No|юркар|N|Sg|Ine
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.001
 # text = Бур урожай воис таво миян районувса колхозъясын.
 1	Бур	бур	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
@@ -928,7 +1159,7 @@
 2	весьшӧрӧ	весьшӧрӧ	ADV	Adv	Case=Ill	7	advmod	_	_
 3	на	на	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	7	punct	_	_
-5	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	7	advmod	_	SpaceAfter=No
+5	вӧлӧмкӧ	вӧлӧмкӧ	PART	Pcle	_	7	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	майшассьӧма	майшассьыны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -1223,7 +1454,7 @@
 # text_rus = Это, оказывается, град.
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
-3	вӧлӧмкӧ	вӧлӧмкӧ	ADV	Adv	_	5	advmod	_	SpaceAfter=No
+3	вӧлӧмкӧ	вӧлӧмкӧ	PCLE	Pcle	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	шер	шер	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
@@ -1876,7 +2107,7 @@
 12	казацкӧй	казацкӧй	ADJ	A	Case=Nom|Number=Sing	13	amod	_	_
 13	сикт	сикт	NOUN	N	Case=Nom|Number=Sing	10	obj	_	SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	_
-15	Пятиизбеннӧй	пятиизбеннӧй	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	16	amod	_	_
+15	Пятиизбеннӧй	пятиизбеннӧй	ADJ	A	Case=Nom|Number=Sing	16	amod	_	_
 16	станица	станица	NOUN	N	Case=Nom|Number=Sing	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	18	punct	_	_
 18	ставыс	став	DET	Det	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nsubj	_	_
