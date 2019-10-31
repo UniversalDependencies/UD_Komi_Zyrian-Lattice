@@ -31,6 +31,8 @@ If you use this treebank in your work, please cite:
 
 # Changelog
 
+- 2019-10-11
+  - Improvements in annotation consistency: Unmarked accusatives analysed as nominatives, aux:neg and acl:rel new relations. Individual lemmas corrected. Few missing tags added and POS classes reconsidered Gerunds classified as converbs. Features for PronTypes and Degree improved. New	sentences added. Few typos corrected.
 - 2019-04-30
     - Annotations harmonized
 - 2018-11-01
@@ -49,7 +51,7 @@ UPOS: converted with corrections
 XPOS: automatic with corrections
 Features: automatic with corrections
 Relations: manual native
-Contributors: Partanen, Niko; Lim, KyungTae; Poibeau, Thierry
+Contributors: Partanen, Niko; Lim, KyungTae; Poibeau, Thierry; Rueter, Jack
 Contributing: here
 Contact: nikotapiopartanen@gmail.com
 ===============================================================================
