@@ -777,7 +777,7 @@
 20	,	,	PUNCT	CLB	_	21	punct	_	_
 21	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	22	nsubj	_	_
 22	обеспечитіс	обеспечитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
-23	эськӧ	эськӧ	AUX	Pcle	_	22	aux:cnd	_	_
+23	эськӧ	эськӧ	ADV	Adv	_	22	advmod	_	_
 24	большевистскӧй	большевистскӧй	ADJ	A	Case=Nom|Number=Sing	25	amod	_	_
 25	успех	успех	NOUN	N	Case=Nom|Number=Sing	22	obj	_	_
 26	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	27	obj	_	_
@@ -1283,7 +1283,7 @@
 1	Воа	воны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 3	нӧ	нӧ	PART	Pcle	_	1	advmod	_	_
-4	эськӧ	эськӧ	PART	Pcle	_	1	advmod	_	_
+4	эськӧ	эськӧ	ADV	Adv	_	1	advmod	_	_
 5	зэрӧдзыс	зэр	NOUN	N	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	_
 6	гортӧдз	горт	NOUN	N	Case=Ter|Number=Sing	1	obl	_	SpaceAfter=No
 7	?	?	PUNCT	CLB	_	1	punct	_	_
