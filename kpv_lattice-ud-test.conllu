@@ -1985,7 +1985,7 @@
 6	йывсьыс	йылысь	ADP	Po	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	мый	мый	SCONJ	CS	_	9	mark	_	_
-9	лолывліс	лолывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	лолывліс	лолывлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 10	Ворошилов	Ворошилов	PROPN	N	Case=Nom|Number=Sing	11	nmod	_	_
 11	ёртлӧн	ёрт	NOUN	N	Case=Gen|Number=Sing	13	nmod	_	_
 12	замечательнӧй	замечательнӧй	ADJ	A	Case=Nom|Number=Sing	13	amod	_	_
