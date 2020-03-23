@@ -203,8 +203,8 @@
 4	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	вӧтӧдны	вӧтӧдны	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
-7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	advmod	_	_
-8	вӧсна	вӧсна	ADP	Po	_	7	fixed	_	_
+7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
 9	мый	мый	SCONJ	CS	_	13	mark	_	_
 10	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	зэв	зэв	ADV	Adv	_	12	advmod	_	_
@@ -347,7 +347,7 @@
 9	район	район	NOUN	N	Case=Nom|Number=Sing	11	obl	_	_
 10	пасьта	пасьта	ADP	Po	Case=Nom|Number=Sing	9	case	_	_
 11	мунӧ	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-12	ёна	ёна	ADV	Adv	_	14	advmod	_	_
+12	ёна	ёна	ADV	Adv	_	13	advmod	_	_
 13	ичӧт	ичӧт	ADJ	A	Case=Nom|Number=Sing	14	amod	_	_
 14	ӧдъясӧн	ӧд	NOUN	N	Case=Ins|Number=Plur	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	11	punct	_	_
