@@ -406,7 +406,8 @@
 	"да" CC
 "<юалі>"
 ;	"юавны" V IV Ind Prt1 Err/Dial Sg3
-	"юавны" V TV Ind Prt1 Err/Dial Sg3
+;	"юавны" V TV Ind Prt1 Err/Dial Sg3
+	"юавны" V TV Ind Prt1 Sg1
 
 # sent_id = Minin:OjsjaCvettez:25.1
 # text = Ми вуджим Гырка логсӧ, локтім меддор керка дінас.
@@ -573,7 +574,7 @@
 "<йӧйсямӧн>"
 	"йӧйсямны" Ex/V IV Der/ӧм Der/NomAct N Sg Ins
 "<юаліс>"
-	"юавны" V IV Ind Prt1 Sg3
+;	"юавны" V IV Ind Prt1 Sg3
 	"юавны" V TV Ind Prt1 Sg3
 "<сійӧ>"
 	"сійӧ" Pron Pers Sg3 Nom
