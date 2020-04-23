@@ -141,8 +141,10 @@ def trykk(buffer, tokcount, charcount, t): #{
 			lem = rbase.findall(buffer[1])[0]; 
 		#}
 		categs = rcateg.findall(buffer[1][buffer[1].rfind('"'):]);
-		mor = rparent.findall(buffer[1])[0];
-		etiqueta = rfunc.findall(buffer[1]);
+		#mor = rparent.findall(buffer[1])[0];
+		mor = '_'
+		#etiqueta = rfunc.findall(buffer[1]);
+		etiqueta = '_'
 		if not etiqueta: #{
 			etiqueta = 'X';	
 		else: #{
@@ -195,8 +197,10 @@ def trykk(buffer, tokcount, charcount, t): #{
 			if llinia == '': continue;
 			lem = rbase.findall(llinia)[0];	
 			categs = rcateg.findall(llinia);	
-			mor = rparent.findall(llinia)[0];
-			etiqueta = rfunc.findall(llinia)[0].strip();
+#			mor = rparent.findall(llinia)[0];
+			mor = '_' 
+#			etiqueta = rfunc.findall(llinia)[0].strip();
+			etiqueta = '_'
 			misc = '';
 #			if len(t) > charcount and newt[charcount-1] != ' ': #{
 #				misc = misc + 'SpaceAfter=No|';
