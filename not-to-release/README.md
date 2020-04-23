@@ -4,7 +4,13 @@ The backbone of the tools used is [Giellatekno](http://giellatekno.uit.no/) infr
 
 ## Example
 
-Here will be a concrete example of how to get from plain text to an annotated sentence in the treebank.
+Currently the script is called after manual disambiguation like this:
+
+```
+cat minin-ojsjacvettez-kpv-conllu.prep | grep -v "^;" | perl -wpne 's/(\t[^\n]*)/$1 \#1->1/g;' | python vislcg3-to-conllu.py > minin-ojsjacvettez-kpv.conllu
+```
+
+Unwanted readings are marked with line initial ";".
 
 ## Unfinished tasks
 
@@ -25,16 +31,5 @@ Here will be a concrete example of how to get from plain text to an annotated se
 - Do we need tagging such as case and number for numerals? In principle stuff in cases and plural occurs, i.e. квайтэнэсь.
     - How is stuff like первый annotated in Russian treebanks?
 - сідз жӧ and similar should be annotated consistently
-- Is it so that the object of participle should also be marked as acc?
 - How to analyse ловтӧм?
 
-## Notes
-
-Giellatekno tags were removed temporarily with regex:
-
-```
-'GTtags=[^|\n]+\n' > '_\n'
-'GTtags=[^|\n]+\|' > ''
-```
-
-This was done in Atom text editor after commit 017ae1e6e5a25b475adea2e043c3d51644e5f9c6 in commit baaab1fe5b1790466370115025e8dbf43790789b.
