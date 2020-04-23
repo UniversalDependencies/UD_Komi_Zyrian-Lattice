@@ -3,19 +3,19 @@
 # text_koi = Кӧть сибалӧ ни рыт, а июльскӧй шонді сё эшӧ пӧжӧ жалейттӧг, визывтӧ ньылӧм.
 1	Кӧть	кӧть	_	CS	_	_	_	_	GTtags=CS
 2	матысмӧ	матысмыны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
-3	нин	нин	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-4	рыт	рыт	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+3	нин	нин	_	N	Sg|Nom	2	advmod	_	GTtags=N,Sg,Nom
+4	рыт	рыт	_	N	Sg|Nom	2	nsubj	_	GTtags=N,Sg,Nom
 5	,	,	_	CLB	_	_	_	_	GTtags=CLB
 6	а	а	_	CC	_	_	_	_	GTtags=CC
 7	июль	июль	_	N	Sem/Time|Sg|Nom	_	_	_	GTtags=N,Sem/Time,Sg,Nom
-8	тӧлысся	тӧлысь	_	N	Sg|Der|Der/TempMod|A|Sg|Nom	_	_	_	GTtags=N,Sg,Der,Der/TempMod,A,Sg,Nom
-9	шонді	шонді	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-10	пыр на	пыр на	_	Adv	_	_	_	_	GTtags=Adv
+8	тӧлысся	тӧлысь	_	N	Sg|Der|Der/TempMod|A|Sg|Nom	9	amod	_	GTtags=N,Sg,Der,Der/TempMod,A,Sg,Nom
+9	шонді	шонді	_	N	Sg|Nom	11	nsubj	_	GTtags=N,Sg,Nom
+10	пыр на	пыр на	_	Adv	_	11	advmod	_	GTtags=Adv
 11	пӧжӧ	пӧжны	_	V	TV|Ind|Prs|Sg3	_	_	_	GTtags=V,TV,Ind,Prs,Sg3
-12	жалиттӧг	жалитны	_	V	TV|VCar	_	_	_	GTtags=V,TV,VCar
+12	жалиттӧг	жалитны	_	V	TV|VCar	11	advcl	_	GTtags=V,TV,VCar
 13	,	,	_	CLB	_	_	_	_	GTtags=CLB
 14	киссьӧ	киссьыны	_	V	Refl|Ind|Prs|Sg3	_	_	_	GTtags=V,Refl,Ind,Prs,Sg3
-15	пӧсь	пӧсь	_	A	Sg|Nom	_	_	_	GTtags=A,Sg,Nom
+15	пӧсь	пӧсь	_	A	Sg|Nom	14	nsubj	_	GTtags=A,Sg,Nom
 16	.	.	_	CLB	_	_	_	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:4.1
