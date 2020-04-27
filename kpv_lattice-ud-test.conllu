@@ -2995,7 +2995,7 @@
 10	пыр	пыр	ADV	Adv	_	12	advmod:tmod	_	GTtags=Adv
 11	на	на	ADV	Adv	_	12	advmod:tmod	_	_
 12	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	2	conj	_	GTtags=V,TV,Ind,Prs,Sg3
-13	жалиттӧг	жалитны	VERB	V	Valency=2|VCar	12	advcl	_	GTtags=V,TV,VCar|SpaceAfter=No
+13	жалиттӧг	жалитны	VERB	V	Derivation=VCar|Valency=2	12	advcl	_	GTtags=V,TV,VCar|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
 15	киссьӧ	киссьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|PronType=Ref|Tense=Pres	2	conj	_	GTtags=V,Refl,Ind,Prs,Sg3
 16	пӧсь	пӧсь	ADJ	A	Case=Nom|Number=Sing	15	nsubj	_	GTtags=A,Sg,Nom|SpaceAfter=No
@@ -3164,7 +3164,7 @@
 14	пӧлыньтчӧм	пӧлыньтчыны	VERB	V	Case=Nom|Derivation=Oma|Number=Sing|Tense=Past|Valency=1|VerbForm=Part	15	acl	_	GTtags=V,Refl,Der,Der/ӧм,PastPtc
 15	керка	керка	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
 16	,	,	PUNCT	CLB	_	18	punct	_	GTtags=CLB
-17	кымынкӧ	кымынкӧ	PRON	Pron	PronType=Ind	18	nummod	_	GTtags=Pron,Indef
+17	кымынкӧ	кымынкӧ	ADV	Adv	_	18	advmod	_	GTtags=Pron,Indef
 18	сарай	сарай	NOUN	N	Case=Nom|Number=Sing	15	conj	_	GTtags=N,Sg,Nom
 19	да	да	CCONJ	CC	_	20	cc	_	GTtags=CC
 20	вевтӧдзыс	вевт	NOUN	N	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	GTtags=N,Sg,Ter,PxSg3
@@ -3217,7 +3217,7 @@
 6	,	,	PUNCT	CLB	_	9	punct	_	GTtags=CLB
 7	ӧшиньяссӧ	ӧшинь	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obj	_	GTtags=N,Pl,Acc,PxSg3
 8	пӧвйӧн	пӧвйӧн	NOUN	N	Case=Ins|Number=Sing	9	obl	_	GTtags=N,Sg,Ins
-9	тупкӧма	тупкыны	VERB	V	Case=Nom|Derivation=Vnoun|Derivation=Oma|Derivation=ProprietiveMod|Number=Sing|Valency=2	3	conj	_	GTtags=V,TV,Der,Der/ӧм,Der/NomAct,N,Sg,Der,Der/ProprietiveMod,A,Sg,Nom|SpaceAfter=No
+9	тупкӧма	тупкыны	VERB	V	Case=Nom|Derivation=ProprietiveMod|Number=Sing|Valency=2	3	conj	_	GTtags=V,TV,Der,Der/ӧм,Der/NomAct,N,Sg,Der,Der/ProprietiveMod,A,Sg,Nom|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:27.2
@@ -3257,14 +3257,14 @@
 # sent_id = Minin:OjsjaCvettez:31.1
 # text = Корсюрӧ семьяяс и нимкодясьлісны.
 # text_koi = А мукӧдпырся семьяэзӧ пыравліс и гаж.
-1	Корсюрӧ	корсюрӧ	ADV	Adv	Definite=Ind|Derivation=сюрӧ	4	advmod:tmod	_	GTtags=Adv,Pron,Der/сюрӧ,Indef
+1	Корсюрӧ	корсюрӧ	ADV	Adv	Definite=Ind|Derivation=Sjuro	4	advmod:tmod	_	GTtags=Adv,Pron,Der/сюрӧ,Indef
 2	семьяяс	семья	NOUN	N	Case=Nom|Number=Plur	4	obl	_	GTtags=N,Src/F,Pl,Nom
 3	и	и	ADV	Adv	_	4	advmod	_	GTtags=Adv
 4	нимкодясьлісны	нимкодясьлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Pl3|SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:34.1
-# text = — Кутшӧм талун луныс? — йӧйсямӧн юаліс сійӧ.
+# text = — Кутшӧм талун луныс? — йӧйсямӧмӧн юаліс сійӧ.
 # text_koi = — Кытшӧм талун луныс? — ылӧстӧма юаліс сія.
 1	—	—	PUNCT	PUNCT	_	4	punct	_	GTtags=PUNCT
 2	Кутшӧм	кутшӧм	ADV	Pron	Case=Nom|Number=Sing|PronType=Int	4	advmod	_	GTtags=Pron,Interr,Sg,Nom
@@ -3272,7 +3272,7 @@
 4	луныс	лун	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	GTtags=N,Sg,Nom,PxSg3|SpaceAfter=No
 5	?	?	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 6	—	—	PUNCT	PUNCT	_	8	punct	_	GTtags=PUNCT
-7	йӧйсямӧн	йӧйсямны	VERB	V	Derivation=Oma|Derivation=Vnoun|Number=Sing|Valency=1	8	advcl	_	GTtags=Ex/V,IV,Der/ӧм,Der/NomAct,N,Sg,Ins
+7	йӧйсямӧмӧн	йӧйсямны	VERB	V	Derivation=Omon|Number=Sing|Valency=1	8	advcl	_	GTtags=Ex/V,IV,Der/ӧм,Der/NomAct,N,Sg,Ins
 8	юаліс	юавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=2	4	parataxis	_	GTtags=V,TV,Ind,Prt1,Sg3
 9	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	GTtags=Pron,Pers,Sg3,Nom|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
@@ -3325,7 +3325,7 @@
 # text = — Мый тані оз во сьӧлӧм вылад?
 # text_koi = — Мый татӧн оз гленитчы?
 1	—	—	PUNCT	PUNCT	_	2	punct	_	GTtags=PUNCT
-2	Мый	мый	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	5	advmod	_	GTtags=Pron,Interr,Sg,Nom
+2	Мый	мый	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	GTtags=Pron,Interr,Sg,Nom
 3	тані	тані	ADV	Adv	_	5	advmod:lmod	_	GTtags=Adv
 4	оз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux:neg	_	GTtags=V,Neg,Ind,Prs,Sg3
 5	во	воны	VERB	V	Connegative=Yes|Valency=1	0	root	_	GTtags=V,IV,ConNeg
