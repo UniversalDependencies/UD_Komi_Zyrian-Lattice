@@ -680,7 +680,7 @@
 16	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	20	punct	_	_
 18	быдӧнлы	быдӧн	PRON	Pron	Case=Dat|Number=Sing	20	obl	_	_
-19	должен	должен	ADJ	N	Case=Nom|Number=Sing	20	conj	_	_
+19	должен	должен	ADJ	N	Case=Nom|Number=Sing	20	advmod	_	_
 20	лоны	лоны	VERB	V	VerbForm=Inf	5	conj	_	_
 21	гӧгӧрвоана	гӧгӧрвоана	ADV	Adv	_	20	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	CLB	_	27	punct	_	_
@@ -1593,7 +1593,7 @@
 16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	кӧнкӧ	кӧнкӧ	ADV	Adv	PronType=Ind	18	advmod:lmod	_	_
 18	найӧ	найӧ	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	advcl	_	_
-19	эмӧсь	эм	AUX	V	Number=Plur	18	aux	_	_
+19	эмӧсь	эм	AUX	V	Number=Plur	18	cop	_	_
 20	кӧ	кӧ	SCONJ	CS	_	18	mark	_	SpaceAfter=No
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	24	aux:neg	_	_
