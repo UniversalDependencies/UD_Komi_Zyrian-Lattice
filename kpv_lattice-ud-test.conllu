@@ -504,7 +504,7 @@
 1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
 2	идралӧмын	идравны	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 3	бӧрӧ	бӧрӧ	ADV	Adv	Case=Ill	4	advmod:lmod	_	_
-4	кольччӧмлӧн	кольччӧм	VERB	V	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	кольччӧмлӧн	кольччӧм	VERB	V	Case=Gen|Number=gSing|Tense=Past|VerbForm=Part	5	advcl	_	_
 5	помкаыс	помка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 6	сыын	сійӧ	PRON	Pron	Case=Ine|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	12	punct	_	_
@@ -1341,7 +1341,7 @@
 # text_rus = До этого успел дойти только к осиновой роще.
 1	Сэк	сэк	ADV	Adv	_	3	advmod:tmod	_	_
 2	жӧ	жӧ	PART	Pcle	_	1	advmod	_	_
-3	удиті	удитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	удиті	удитны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
 4	на	на	ADV	Adv	_	3	advmod:tmod	_	_
 5	воны	воны	VERB	V	VerbForm=Inf	3	xcomp	_	_
 6	сӧмын	сӧмын	ADV	Adv	_	8	advmod	_	_
@@ -3041,12 +3041,12 @@
 2	во	во	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=N,Sg,Nom
 3	вежонысь	вежон	NOUN	N	Case=Ela|Number=Sing	5	obl	_	GTtags=N,Sg,Ela
 4	дырджык	дыр	ADV	Adv	Degree=Cmp	5	advmod:tmod	_	GTtags=Adv,Comp
-5	ветлӧдлі	ветлӧдлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Err/Dial,Sg3
+5	ветлӧдлі	ветлӧдлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Err/Dial,Sg3
 6	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	det	_	GTtags=Pron,Dem,Sg,Nom
 7	жӧ	жӧ	ADV	Adv	_	5	advmod	_	GTtags=Adv,Parenthetic
 8	местаясӧдыс	места	NOUN	N	Case=Prl|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	GTtags=N,Pl,Prl,PxSg3|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	10	punct	_	GTtags=CLB
-10	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=1	5	conj	_	GTtags=V,IV,Ind,Prt1,Err/Dial,Sg3
+10	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Valency=1	5	conj	_	GTtags=V,IV,Ind,Prt1,Err/Dial,Sg3
 11	кӧні	кӧні	ADV	Adv	Case=Ine|Number=Sing|PronType=Rel	12	advmod:lmod	_	GTtags=Adv,Spat,Ine,Cop,Sg,Rel
 12	веськалӧ	веськавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	10	xcomp	_	GTtags=V,IV,Ind,Prs,Sg3|SpaceAfter=No
 13	:	:	PUNCT	CLB	_	14	punct	_	GTtags=CLB
@@ -3064,10 +3064,10 @@
 25	тшак	тшак	NOUN	N	Case=Nom|Number=Sing	28	obj	_	GTtags=N,Sg,Nom
 26	да	да	CCONJ	CC	_	27	cc	_	GTtags=CC
 27	вотӧс	вотӧс	NOUN	N	Case=Nom|Number=Sing	25	conj	_	GTtags=N,Sg,Nom
-28	воті	вотны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=2	12	conj	_	GTtags=V,TV,Ind,Prt1,Err/Dial,Sg3|SpaceAfter=No
+28	воті	вотны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Valency=2	12	conj	_	GTtags=V,TV,Ind,Prt1,Err/Dial,Sg3|SpaceAfter=No
 29	,	,	PUNCT	CLB	_	30	punct	_	GTtags=CLB
 30	чери	чери	NOUN	N	Case=Nom|Number=Sing	31	obj	_	GTtags=N,Sg,Nom
-31	кыйи	кыйны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=2	12	conj	_	GTtags=V,TV,Ind,Prt1,Err/Dial,Sg3|SpaceAfter=No
+31	кыйи	кыйны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Valency=2	12	conj	_	GTtags=V,TV,Ind,Prt1,Err/Dial,Sg3|SpaceAfter=No
 32	.	.	PUNCT	CLB	_	5	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:6.1
