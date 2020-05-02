@@ -2997,7 +2997,7 @@
 12	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	2	conj	_	GTtags=V,TV,Ind,Prs,Sg3
 13	жалиттӧг	жалитны	VERB	V	Derivation=VCar|Valency=2	12	advcl	_	GTtags=V,TV,VCar|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
-15	киссьӧ	киссьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|PronType=Ref|Tense=Pres	2	conj	_	GTtags=V,Refl,Ind,Prs,Sg3
+15	киссьӧ	киссьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	GTtags=V,Refl,Ind,Prs,Sg3
 16	пӧсь	пӧсь	ADJ	A	Case=Nom|Number=Sing	15	nsubj	_	GTtags=A,Sg,Nom|SpaceAfter=No
 17	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
 
@@ -3101,7 +3101,7 @@
 1	Талун	талун	ADV	Adv	_	12	advmod:tmod	_	GTtags=Adv,Temp|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 3	кор	кор	ADV	Adv	PronType=Rel	4	advmod:tmod	_	GTtags=Adv,Rel,Temp
-4	аддзысим	аддзысьны	VERB	V	Mood=Ind|Number=Plur|Person=1|PronType=Ref|Tense=Past	1	advcl	_	GTtags=V,Refl,Ind,Prt1,Pl1
+4	аддзысим	аддзысьны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past	1	advcl	_	GTtags=V,Refl,Ind,Prt1,Pl1
 5	ю	ю	NOUN	N	Case=Nom|Number=Sing	4	obl	_	GTtags=N,Sg,Nom
 6	дорын	дорын	ADP	Po	Case=Ine|Number=Sing	5	case	_	GTtags=Po,Sg,Ine|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	9	punct	_	GTtags=CLB
@@ -3282,7 +3282,7 @@
 # text_koi = А медӧддьӧнсӧ повзьӧтчӧ середа ойӧ.
 1	А	а	CCONJ	CC	_	3	mark	_	GTtags=CC
 2	медъёна	ёна	ADV	Adv	Degree=Sup	3	advmod	_	GTtags=Adv,Superl
-3	повзьӧдчӧ	повзьӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|PronType=Ref|Tense=Pres	0	root	_	GTtags=V,Refl,Ind,Prs,Sg3
+3	повзьӧдчӧ	повзьӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=V,Refl,Ind,Prs,Sg3
 4	среда	среда	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	GTtags=N,Sem/Time,Sg,Nom
 5	войӧ	вой	NOUN	N	Case=Ill|Number=Sing	3	obl	_	GTtags=N,Sg,Ill|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
@@ -3291,11 +3291,11 @@
 # text = Войнас пукси берег дорас, вуграся.
 # text_koi = Пукси ойнас берег дорас, вуграся.
 1	Войнас	войнас	ADV	Adv	_	2	advmod:tmod	_	GTtags=Adv
-2	пукси	пуксьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|PronType=Ref|Tense=Past	0	root	_	GTtags=V,Refl,Ind,Prt1,Err/Dial,Sg3
+2	пукси	пуксьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	GTtags=V,Refl,Ind,Prt1,Err/Dial,Sg3
 3	берег	берег	NOUN	N	Case=Nom|Number=Sing	2	obl	_	GTtags=N,Sg,Nom
 4	дорас	дорын	ADP	Po	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	case	_	GTtags=N,Sg,Ill,PxSg3|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
-6	вуграся	вуграсьны	VERB	V	Mood=Ind|Number=Sing|Person=1|PronType=Ref|Tense=Pres	2	conj	_	GTtags=V,Refl,Ind,Prs,Sg1|SpaceAfter=No
+6	вуграся	вуграсьны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	conj	_	GTtags=V,Refl,Ind,Prs,Sg1|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:55.3
