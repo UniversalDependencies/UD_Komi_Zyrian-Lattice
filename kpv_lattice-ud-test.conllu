@@ -504,7 +504,7 @@
 1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
 2	идралӧмын	идравны	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 3	бӧрӧ	бӧрӧ	ADV	Adv	Case=Ill	4	advmod:lmod	_	_
-4	кольччӧмлӧн	кольччӧмлӧн	VERB	V	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+4	кольччӧмлӧн	кольччӧм	VERB	V	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
 5	помкаыс	помка	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	_
 6	сыын	сійӧ	PRON	Pron	Case=Ine|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	12	punct	_	_
