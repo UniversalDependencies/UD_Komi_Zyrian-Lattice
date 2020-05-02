@@ -3339,7 +3339,7 @@
 1	Томъяс	том	ADJ	A	Case=Nom|Number=Plur	4	nsubj	_	GTtags=A,Pl,Nom
 2	менӧ	ме	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	GTtags=Pron,Pers,Sg1,Acc
 3	оз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	4	aux	_	GTtags=V,Neg,Ind,Prs,Pl3
-4	гӧгӧрвоны	гӧгӧрвоны	VERB	V	Connegative=Yes|Number=Plur|Person=3|Valency=2	0	root	_	GTtags=V,TV,ConNeg,Pl3|SpaceAfter=No
+4	гӧгӧрвоны	гӧгӧрвоны	VERB	V	Connegative=Yes|Number=Plur|Valency=2	0	root	_	GTtags=V,TV,ConNeg,Pl3|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	9	punct	_	GTtags=CLB
 6	а	а	CCONJ	CC	_	9	mark	_	GTtags=CC
 7	пӧрысьяс	пӧрысь	ADJ	A	Case=Nom|Number=Plur	9	nsubj	_	GTtags=A,Pl,Nom
