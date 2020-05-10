@@ -27,12 +27,17 @@ If you use this treebank in your work, please cite:
 | kpv_1-7_Vyl_tujod_1939_09_10_0002 | Выль туйӧд 9.10.1939, page 2 | 1939 | http://urn.fi/URN:NBN:fi-fe201802013020 | | | 
 | rossinskiy1925a | Российскӧй Д. 1925: Гут разӧдӧ висьӧмъяс | 1925 | http://urn.fi/URN:NBN:fi-fe2014070332096 | http://komikyv.org/kpv/content/гут-разӧдӧ-висьӧмъяс | 
 | uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
-
+| Minin:OjsjaCvettez | Minjin I. A. (Минин И. А.) 1962. Vojsya dzoridzjas (Войся дзоридзьяс) (висьт) // Войвыв кодзув (1962. №1) | 1962 | | http://komikyv.org/kpv/node/31062 |
 
 # Changelog
 
+- 2020-05-15
+  - Parallel sentences from Minjin shared with Komi_Permyak-UH.
+  - Expanding advmod:mmod, :lmod and :tmod.
+  - Punctuation was harmonized
+  - Various consistency improvements were made, especially in converbs
 - 2019-10-11
-  - Improvements in annotation consistency: Unmarked accusatives analysed as nominatives, aux:neg and acl:relcl new added relations. Individual lemmas corrected. Few missing tags added and POS classes reconsidered Gerunds classified as converbs. Features for PronTypes and Degree improved. New	sentences added. Few typos corrected.
+  - Improvements in annotation consistency: Unmarked accusatives analysed as nominatives, aux:neg and acl:relcl new added relations. Individual lemmas corrected. Few missing tags added and POS classes reconsidered Gerunds classified as converbs. Features for PronTypes and Degree improved. New sentences added. Few typos corrected.
 - 2019-04-30
     - Annotations harmonized
 - 2018-11-01
