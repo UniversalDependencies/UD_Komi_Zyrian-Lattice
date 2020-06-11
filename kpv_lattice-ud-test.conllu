@@ -2895,7 +2895,7 @@
 22	—	—	PUNCT	PUNCT	_	23	punct	_	_
 23	шуам	шуны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	19	conj	_	_
 24	ловтӧм	ловтӧм	NOUN	N	Case=Nom|Number=Sing	25	amod	_	_
-25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	obj	_	SpaceAfter=No
+25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	obl	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	13	punct	_	_
 
 # text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
