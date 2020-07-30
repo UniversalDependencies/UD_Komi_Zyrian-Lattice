@@ -308,9 +308,9 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.005
 # text = Торъя колхозникъяс да колхозницаяс ассьыныс став вынсӧ пуктӧны сы вылӧ, медым урожай идралӧм нуӧдны дженьыд срокъясӧн да некутшӧм вошӧмъястӧг, петкӧдлыны вылын производительностя удж.
 1	Торъя	торъя	ADJ	A	Case=Nom|Derivation=Ja|Number=Sing	2	amod	_	_
-2	колхозникъяс	колхозник	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	_
-3	да	да	CCONJ	CC	_	4	cc	_	_
-4	колхозницаяс	колхозница	NOUN	N	Case=Nom|Number=Plur	2	conj	_	_
+2	колхозникъяс	колхозник	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Lang=Mixed
+3	да	да	CCONJ	CC	_	4	cc	_	Lang=Mixed
+4	колхозницаяс	колхозница	NOUN	N	Case=Nom|Number=Plur	2	conj	_	Lang=Mixed
 5	ассьыныс	ас	PRON	Pron	Case=Ela|Person=3|PronType=Prs|Reflex=Yes	7	nmod	_	_
 6	став	став	DET	Det	Case=Nom|Number=Sing	7	det	_	_
 7	вынсӧ	вын	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
@@ -319,29 +319,29 @@
 10	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	9	case	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	15	punct	_	_
 12	медым	медым	SCONJ	CS	_	15	mark	_	_
-13	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	14	obj	_	_
+13	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	14	obj	_	Lang=Mixed
 14	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	15	obj	_	_
 15	нуӧдны	нуӧдны	VERB	V	VerbForm=Inf	8	advcl	_	_
 16	дженьыд	дженьыд	ADJ	A	Case=Nom|Number=Sing	17	amod	_	_
-17	срокъясӧн	срок	NOUN	N	Case=Ins|Number=Plur	15	obl	_	_
-18	да	да	CCONJ	CC	_	20	cc	_	_
+17	срокъясӧн	срок	NOUN	N	Case=Ins|Number=Plur	15	obl	_	Lang=Mixed
+18	да	да	CCONJ	CC	_	20	cc	_	Lang=Mixed
 19	некутшӧм	некутшӧм	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	20	det	_	_
 20	вошӧмъястӧг	вошӧм	NOUN	N	Case=Car|Number=Plur	17	conj	_	SpaceAfter=No
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	петкӧдлыны	петкӧдлыны	VERB	V	VerbForm=Inf	15	conj	_	_
 23	вылын	вылын	NOUN	N	Case=Ine|Number=Sing	22	obl	_	_
-24	производительностя	производительностя	ADJ	A	Case=Nom|Number=Sing	25	amod	_	_
+24	производительностя	производительностя	ADJ	A	Case=Nom|Number=Sing	25	amod	_	Lang=Mixed
 25	удж	удж	NOUN	N	Case=Nom|Number=Sing	22	obj	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.006
 # text = Но колӧ индыны, мый урожай идралӧм миян район пасьта мунӧ ёна ичӧт ӧдъясӧн.
-1	Но	но	CCONJ	CC	_	2	cc	_	_
+1	Но	но	CCONJ	CC	_	2	cc	_	Lang=Mixed
 2	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	индыны	индыны	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	11	punct	_	_
 5	мый	мый	SCONJ	CS	_	11	mark	_	_
-6	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	7	obj	_	_
+6	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	7	obj	_	Lang=Mixed
 7	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	11	csubj	_	_
 8	миян	ми	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	nmod	_	_
 9	район	район	NOUN	N	Case=Nom|Number=Sing	11	obl:lmod	_	_
@@ -354,43 +354,43 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.007
 # text = Сентябрь 5 лун кежлӧ район пасьта зерновӧй культураяс идралӧма сӧмын на 859 гектар вылысь, либӧ 29 прӧчент план дінӧ.
-1	Сентябрь	сентябрь	NOUN	N	Case=Nom|Number=Sing	3	nmod	_	_
+1	Сентябрь	сентябрь	NOUN	N	Case=Nom|Number=Sing	3	nmod	_	Lang=Mixed
 2	5	5	NUM	Num	Case=Nom|Number=Sing|NumType=Card	3	amod	_	_
 3	лун	лун	NOUN	N	Case=Nom|Number=Sing	9	obl:tmod	_	_
 4	кежлӧ	кежлӧ	ADP	Po	Case=Ill|Number=Sing	3	case	_	_
 5	район	район	NOUN	N	Case=Nom|Number=Sing	9	obl:lmod	_	_
 6	пасьта	пасьта	ADP	Po	Case=Nom|Number=Sing	5	case	_	_
-7	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	8	amod	_	_
-8	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	9	obj	_	_
+7	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	8	amod	_	Lang=Mixed
+8	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	9	obj	_	Lang=Mixed
 9	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10	сӧмын	сӧмын	ADV	Adv	_	13	advmod	_	_
 11	на	на	ADV	Adv	_	10	advmod:tmod	_	_
 12	859	859	NUM	Num	Case=Nom|Number=Sing|NumType=Card	13	nummod	_	_
-13	гектар	гектар	NOUN	N	Case=Nom|Number=Sing	9	obl	_	_
+13	гектар	гектар	NOUN	N	Case=Nom|Number=Sing	9	obl	_	Lang=Mixed
 14	вылысь	вылын	ADP	Po	Case=Ela|Number=Sing	13	case	_	SpaceAfter=No
 15	,	,	PUNCT	CLB	_	18	punct	_	_
-16	либӧ	либӧ	CCONJ	Pcle	_	18	cc	_	_
+16	либӧ	либӧ	CCONJ	Pcle	_	18	cc	_	Lang=Mixed
 17	29	29	NUM	Num	Case=Nom|Number=Sing|NumType=Card	18	nummod	_	_
-18	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	13	conj	_	_
-19	план	план	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	_
+18	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	13	conj	_	Lang=Mixed
+19	план	план	NOUN	N	Case=Nom|Number=Sing	18	nmod	_	Lang=Mixed
 20	дінӧ	дінын	ADP	Po	Case=Ill|Number=Sing	19	case	_	SpaceAfter=No
 21	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.008
 # text = Техническӧй культураяс план дінӧ идралӧма 3 прӧчент вылӧ.
-1	Техническӧй	Техническӧй	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
-2	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	5	obj	_	_
-3	план	план	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
+1	Техническӧй	Техническӧй	ADJ	A	Case=Nom|Number=Sing	2	amod	_	Lang=Mixed
+2	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	5	obj	_	Lang=Mixed
+3	план	план	NOUN	N	Case=Nom|Number=Sing	5	obl	_	Lang=Mixed
 4	дінӧ	дінын	ADP	Po	Case=Ill|Number=Sing	3	case	_	_
 5	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	3	3	NUM	Num	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
-7	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	5	obl	_	_
+7	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	5	obl	_	Lang=Mixed
 8	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	7	case	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.009
 # text = Урожай идралӧмын медся нин бӧрӧ кольччӧны Черныб да Чупрово сельсӧветъясса колхозъяс, кӧні план дінӧ зерновӧй культураяс идралӧма 12-20 прӧчент вылӧ.
-1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
+1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	Lang=Mixed
 2	идралӧмын	идравны	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 3	медся	медся	ADV	Adv	_	6	advmod:deg	_	_
 4	нин	нин	ADV	Adv	_	6	advmod:tmod	_	_
@@ -399,17 +399,17 @@
 7	Черныб	Черныб	PROPN	N	Case=Nom|Number=Sing	11	nmod	_	_
 8	да	да	CCONJ	Pcle	_	9	cc	_	_
 9	Чупрово	Чупрово	PROPN	N	Case=Nom|Number=Sing	7	conj	_	_
-10	сельсӧветъясса	сельсӧветъясса	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
-11	колхозъяс	колхоз	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No
+10	сельсӧветъясса	сельсӧветъясса	ADJ	A	Case=Nom|Number=Sing	11	amod	_	Lang=Mixed
+11	колхозъяс	колхоз	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	Lang=Mixed|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	18	punct	_	_
 13	кӧні	кӧні	ADV	Adv	Case=Ine|Number=Sing|PronType=Int	18	advmod:lmod	_	_
-14	план	план	NOUN	N	Case=Nom|Number=Sing	18	obl	_	_
+14	план	план	NOUN	N	Case=Nom|Number=Sing	18	obl	_	Lang=Mixed
 15	дінӧ	дінын	ADP	Po	Case=Ill|Number=Sing	14	case	_	_
-16	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	17	amod	_	_
-17	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	18	obj	_	_
+16	зерновӧй	зерновӧй	ADJ	A	Case=Nom|Number=Sing	17	amod	_	Lang=Mixed
+17	культураяс	культура	NOUN	N	Case=Nom|Number=Plur	18	obj	_	Lang=Mixed
 18	идралӧма	идравны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	acl	_	_
 19	12-20	12-20	NUM	Num	Case=Nom|Number=Sing|NumType=Card	20	nummod	_	_
-20	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	18	obl	_	_
+20	прӧчент	прӧчент	NOUN	N	Case=Nom|Number=Sing	18	obl	_	Lang=Mixed
 21	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	20	case	_	SpaceAfter=No
 22	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -422,27 +422,27 @@
 5	йылысь	йылысь	ADP	Po	Case=Ela|Number=Sing	4	case	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	мый	мый	SCONJ	CS	_	8	mark	_	_
-8	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	9	amod	_	_
-9	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	20	nsubj	_	SpaceAfter=No
+8	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	9	amod	_	Lang=Mixed
+9	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	20	nsubj	_	Lang=Mixed|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	20	punct	_	_
-11	а	а	CCONJ	CC	_	20	cc	_	_
+11	а	а	CCONJ	CC	_	20	cc	_	Lang=Mixed
 12	сідз	сідз	ADV	Adv	_	20	advmod	_	_
-13	жӧ	жӧ	PART	Pcle	_	12	advmod	_	_
+13	жӧ	жӧ	PART	Pcle	_	12	advmod	_	Lang=Mixed
 14	сиктса	сиктса	ADJ	A	Case=Nom|Number=Sing	15	amod	_	_
-15	общественность	общественность	NOUN	N	Case=Nom|Number=Sing	16	nmod	_	_
-16	колхозникъясӧс	колхозник	NOUN	N	Case=Acc|Number=Plur	20	obj	_	_
+15	общественность	общественность	NOUN	N	Case=Nom|Number=Sing	16	nmod	_	Lang=Mixed
+16	колхозникъясӧс	колхозник	NOUN	N	Case=Acc|Number=Plur	20	obj	_	Lang=Mixed
 17	ӧнӧдз	ӧнӧдз	ADV	Adv	Case=Ter	20	advmod:tmod	_	_
 18	на	на	ADV	Adv	_	17	advmod:tmod	_	_
 19	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past	20	aux:neg	_	_
-20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes	4	acl	_	_
+20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes	4	acl	_	Lang=Mixed
 21	ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	22	amod	_	_
-22	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	23	obj	_	_
+22	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	23	obj	_	Lang=Mixed
 23	босьтӧм	босьтны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 24	вӧсна	вӧсна	ADP	Po	_	23	case	_	_
 25	тышӧ	тышӧ	NOUN	N	Case=Ill|Number=Sing	20	obl:lmod	_	SpaceAfter=No
 26	,	,	PUNCT	CLB	_	31	punct	_	_
 27	аскадӧ	аскадӧ	NOUN	N	Case=Ill|Number=Sing	31	obl:tmod	_	_
-28	да	да	CCONJ	CC	_	31	cc	_	_
+28	да	да	CCONJ	CC	_	31	cc	_	Lang=Mixed
 29	некутшӧм	некутшӧм	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	30	det	_	_
 30	вошӧмъястӧг	вошӧм	NOUN	N	Case=Car|Number=Plur	31	obl	_	_
 31	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
@@ -452,11 +452,11 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.011
 # text = Урожай идралӧм – удж сезоннӧй, сійӧ оз виччысь некутшӧм нюжмасьӧм.
-1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
+1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	Lang=Mixed
 2	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	4	csubj	_	_
 3	–	–	PUNCT	PUNCT	_	4	punct	_	_
 4	удж	удж	NOUN	N	Case=Nom|Number=Sing	0	root	_	_
-5	сезоннӧй	сезоннӧй	ADJ	A	Case=Nom|Number=Sing	4	amod	_	SpaceAfter=No
+5	сезоннӧй	сезоннӧй	ADJ	A	Case=Nom|Number=Sing	4	amod	_	Lang=Mixed|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	9	aux:neg	_	_
@@ -470,11 +470,11 @@
 1	Идралін	идравны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	4	advcl	_	_
 2	аскадӧ	аскадӧ	NOUN	N	Case=Ill|Number=Sing	1	obl:tmod	_	_
 3	–	–	PUNCT	PUNCT	_	4	punct	_	_
-4	выиграйтін	выиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+4	выиграйтін	выиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	Lang=Mixed|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	сёрмӧдчин	сёрмӧдчыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	8	advcl	_	_
 7	–	–	PUNCT	PUNCT	_	8	punct	_	_
-8	проиграйтін	проиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	4	conj	_	SpaceAfter=No
+8	проиграйтін	проиграйтны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	4	conj	_	Lang=Mixed|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.013
@@ -484,7 +484,7 @@
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	кодӧс	коді	PRON	Pron	Case=Acc|Number=Sing|PronType=Int	5	obj	_	_
 5	висьтавліс	висьтавлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	acl	_	_
-6	Сталин	Сталин	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	_
+6	Сталин	Сталин	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	Lang=Mixed
 7	ёрт	ёрт	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	10	aux:neg	_	_
@@ -493,7 +493,7 @@
 12	вунӧдӧма	вунӧдны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	xcomp	_	_
 13	некодӧн	некод	PRON	Pron	Case=Ins|Number=Sing|Polarity=Neg	12	obl	_	_
 14	да	да	CCONJ	CC	_	15	cc	_	_
-15	должен	должен	ADJ	A	Case=Nom|Number=Sing	10	conj	_	_
+15	должен	должен	ADJ	A	Case=Nom|Number=Sing	10	conj	_	Lang=Mixed
 16	лоны	лоны	VERB	V	VerbForm=Inf	15	xcomp	_	_
 17	пӧртӧма	пӧртны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	16	xcomp	_	_
 18	олӧмӧ	олӧм	NOUN	N	Case=Ill|Number=Sing	17	obl	_	SpaceAfter=No
@@ -501,7 +501,7 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.014
 # text = Урожай идралӧмын бӧрӧ кольччӧмлӧн помкаыс сыын, мый колхозъясса председательяс оз тыр нагрузкаӧн уджӧдны уборочнӧй машинаяс, а ӧткымын колхозъясса председательяс умышленнӧя сулӧдӧны машинаяссӧ 4 лун чӧжӧн некутшӧм уджтӧг.
-1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	_
+1	Урожай	урожай	NOUN	N	Case=Nom|Number=Sing	2	obj	_	Lang=Mixed
 2	идралӧмын	идравны	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 3	бӧрӧ	бӧрӧ	ADV	Adv	Case=Ill	4	advmod:lmod	_	_
 4	кольччӧмлӧн	кольччӧм	VERB	V	Case=Gen|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
@@ -509,22 +509,22 @@
 6	сыын	сійӧ	PRON	Pron	Case=Ine|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	12	punct	_	_
 8	мый	мый	SCONJ	CS	_	12	mark	_	_
-9	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	10	amod	_	_
-10	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	_
+9	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	10	amod	_	Lang=Mixed
+10	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	Lang=Mixed
 11	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	12	aux:neg	_	_
 12	тыр	тырны	VERB	V	Connegative=Yes	6	acl:relcl	_	_
-13	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	14	obl	_	_
+13	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	14	obl	_	Lang=Mixed
 14	уджӧдны	уджӧдны	VERB	V	VerbForm=Inf	12	xcomp	_	_
 15	уборочнӧй	уборочнӧй	ADJ	A	Case=Nom|Number=Sing	16	amod	_	_
-16	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	14	obj	_	SpaceAfter=No
+16	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	14	obj	_	Lang=Mixed|SpaceAfter=No
 17	,	,	PUNCT	CLB	_	23	punct	_	_
-18	а	а	CCONJ	CC	_	23	cc	_	_
+18	а	а	CCONJ	CC	_	23	cc	_	Lang=Mixed
 19	ӧткымын	ӧткымын	PRON	Pron	Case=Ine|Number=Sing	20	det	_	_
-20	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	21	amod	_	_
-21	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	23	nsubj	_	_
-22	умышленнӧя	умышленнӧя	ADV	Adv	_	23	advmod	_	_
+20	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	21	amod	_	Lang=Mixed
+21	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	23	nsubj	_	Lang=Mixed
+22	умышленнӧя	умышленнӧя	ADV	Adv	_	23	advmod	_	Lang=Mixed
 23	сулӧдӧны	сулӧдны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	conj	_	_
-24	машинаяссӧ	машина	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	23	obj	_	_
+24	машинаяссӧ	машина	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	23	obj	_	Lang=Mixed
 25	4	4	NUM	Num	Case=Nom|Number=Sing|NumType=Card	26	nummod	_	_
 26	лун	лун	NOUN	N	Case=Nom|Number=Sing	23	obl:tmod	_	_
 27	чӧжӧн	чӧж	ADP	Po	Case=Ins|Number=Sing	26	case	_	_
@@ -537,42 +537,42 @@
 1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	Выль	выль	ADJ	A	Case=Nom|Number=Sing	0	root	_	_
 3	олӧм	олӧм	NOUN	N	Case=Nom|Number=Sing	2	flat:name	_	_
-4	колхоз	колхоз	NOUN	N	Case=Nom|Number=Sing	3	flat:name	_	SpaceAfter=No
+4	колхоз	колхоз	NOUN	N	Case=Nom|Number=Sing	3	flat:name	_	Lang=Mixed|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
-6	председательыс	председатель	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	appos	_	_
-7	Калинин	Калинин	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+6	председательыс	председатель	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	appos	_	Lang=Mixed
+7	Калинин	Калинин	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	Lang=Mixed|SpaceAfter=No
 8	)	)	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.016
 # text = Сельсӧветъясса председательяс да парторгъяс оз нуӧдны решительнӧй тыш сэтшӧм колхозъясса председательяскӧд, кодъяс недооценивайтӧны машиннӧй удж, новлӧдлӧны антимеханизаторскӧй настроение.
-1	Сельсӧветъясса	сельсӧветъясса	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
-2	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	_
-3	да	да	CCONJ	CC	_	4	cc	_	_
-4	парторгъяс	парторг	NOUN	N	Case=Nom|Number=Plur	2	conj	_	_
+1	Сельсӧветъясса	сельсӧветъясса	ADJ	A	Case=Nom|Number=Sing	2	amod	_	Lang=Mixed
+2	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	Lang=Mixed
+3	да	да	CCONJ	CC	_	4	cc	_	Lang=Mixed
+4	парторгъяс	парторг	NOUN	N	Case=Nom|Number=Plur	2	conj	_	Lang=Mixed
 5	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	6	aux:neg	_	_
 6	нуӧдны	нуӧдны	VERB	V	Connegative=Yes	0	root	_	_
-7	решительнӧй	решительнӧй	ADJ	A	Case=Nom|Number=Sing	8	amod	_	_
+7	решительнӧй	решительнӧй	ADJ	A	Case=Nom|Number=Sing	8	amod	_	Lang=Mixed
 8	тыш	тыш	NOUN	N	Case=Nom|Number=Sing	6	obj	_	_
 9	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	_
-10	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	11	amod	_	_
-11	председательяскӧд	председатель	NOUN	N	Case=Com|Number=Plur	8	obl	_	SpaceAfter=No
+10	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	11	amod	_	Lang=Mixed
+11	председательяскӧд	председатель	NOUN	N	Case=Com|Number=Plur	8	obl	_	Lang=Mixed|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	кодъяс	коді	PRON	Pron	Case=Nom|Number=Plur|PronType=Int	14	nsubj	_	_
-14	недооценивайтӧны	недооценивайтны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	acl:relcl	_	_
-15	машиннӧй	машиннӧй	ADJ	A	Case=Nom|Number=Sing	16	amod	_	_
+14	недооценивайтӧны	недооценивайтны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	acl:relcl	_	Lang=Mixed
+15	машиннӧй	машиннӧй	ADJ	A	Case=Nom|Number=Sing	16	amod	_	Lang=Mixed
 16	удж	удж	NOUN	N	Case=Nom|Number=Sing	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	18	punct	_	_
 18	новлӧдлӧны	новлӧдлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	conj	_	_
-19	антимеханизаторскӧй	антимеханизаторскӧй	ADJ	A	Case=Nom|Number=Sing	20	amod	_	_
-20	настроение	настроение	NOUN	N	Case=Nom|Number=Sing	18	obj	_	SpaceAfter=No
+19	антимеханизаторскӧй	антимеханизаторскӧй	ADJ	A	Case=Nom|Number=Sing	20	amod	_	Lang=Mixed
+20	настроение	настроение	NOUN	N	Case=Nom|Number=Sing	18	obj	_	Lang=Mixed|SpaceAfter=No
 21	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.017
 # text = Медым содтыны урожай идралӧмын ӧдъяс, колӧ не сӧмын сувтӧдны удж вылӧ став вундан машинаяс, но и приспособитны лобогрейкаӧ ытшкан машинаяс да используйтны найӧс тыр нагрузкаӧн урожай идралӧм вылӧ.
 1	Медым	медым	SCONJ	CS	_	2	mark	_	_
 2	содтыны	содтыны	VERB	V	VerbForm=Inf	7	advcl	_	_
-3	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	4	obj	_	_
+3	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	4	obj	_	Lang=Mixed
 4	идралӧмын	идравны	VERB	V	Case=Ine|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 5	ӧдъяс	ӧд	NOUN	N	Case=Nom|Number=Plur	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	7	punct	_	_
@@ -584,20 +584,20 @@
 12	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	11	case	_	_
 13	став	став	DET	Det	Case=Nom|Number=Sing	14	det	_	_
 14	вундан	вундыны	VERB	V	Case=Nom|Derivation=An|Number=Sing|PartForm=Pres|VerbForm=Part	15	acl	_	_
-15	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	10	obj	_	SpaceAfter=No
+15	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	10	obj	_	Lang=Mixed|SpaceAfter=No
 16	,	,	PUNCT	CLB	_	17	punct	_	_
-17	но	но	CCONJ	CC	_	19	cc	_	_
-18	и	и	PART	Pcle	_	17	goeswith	_	_
-19	приспособитны	приспособитны	VERB	V	VerbForm=Inf	7	conj	_	_
-20	лобогрейкаӧ	лобогрейка	NOUN	N	Case=Ill|Number=Sing	19	obl	_	_
+17	но	но	CCONJ	CC	_	19	cc	_	Lang=Mixed
+18	и	и	PART	Pcle	_	17	goeswith	_	Lang=Mixed
+19	приспособитны	приспособитны	VERB	V	VerbForm=Inf	7	conj	_	Lang=Mixed
+20	лобогрейкаӧ	лобогрейка	NOUN	N	Case=Ill|Number=Sing	19	obl	_	Lang=Mixed
 21	ытшкан	ытшкыны	VERB	V	Case=Nom|Derivation=An|Number=Sing|PartForm=Pres|VerbForm=Part	22	acl	_	_
-22	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	19	obj	_	_
-23	да	да	CCONJ	CC	_	24	cc	_	_
-24	используйтны	используйтны	VERB	V	VerbForm=Inf	19	conj	_	_
+22	машинаяс	машина	NOUN	N	Case=Nom|Number=Plur	19	obj	_	Lang=Mixed
+23	да	да	CCONJ	CC	_	24	cc	_	Lang=Mixed
+24	используйтны	используйтны	VERB	V	VerbForm=Inf	19	conj	_	Lang=Mixed
 25	найӧс	найӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 26	тыр	тыр	ADJ	A	Case=Nom|Number=Sing	27	amod	_	_
-27	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	24	obl	_	_
-28	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	29	nmod	_	_
+27	нагрузкаӧн	нагрузка	NOUN	N	Case=Ins|Number=Sing	24	obl	_	Lang=Mixed
+28	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	29	nmod	_	Lang=Mixed
 29	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	24	obl	_	_
 30	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	29	case	_	SpaceAfter=No
 31	.	.	PUNCT	CLB	_	7	punct	_	_
@@ -605,7 +605,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.018
 # text = Сідз жӧ колӧ сетны ыджыд тӧдчанлун вошӧмъяскӧд тышкасьӧм вылӧ.
 1	Сідз	сідз	ADV	Adv	_	3	advmod	_	_
-2	жӧ	жӧ	PART	Pcle	_	3	advmod	_	_
+2	жӧ	жӧ	PART	Pcle	_	3	advmod	_	Lang=Mixed
 3	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	сетны	сетны	VERB	V	VerbForm=Inf	3	xcomp	_	_
 5	ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	6	amod	_	_
@@ -618,7 +618,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.019
 # text = Вундігӧн да тэчыгӧн му вылӧ усьӧ уна шеп.
 1	Вундігӧн	вундыны	VERB	V	Derivation=Ig|VerbForm=Conv	6	advcl	_	_
-2	да	да	CCONJ	Pcle	_	3	cc	_	_
+2	да	да	CCONJ	Pcle	_	3	cc	_	Lang=Mixed
 3	тэчыгӧн	тэны	VERB	V	Derivation=Ig|VerbForm=Conv	1	conj	_	_
 4	му	му	NOUN	N	Case=Nom|Number=Sing	6	obl:lmod	_	_
 5	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	4	case	_	_
@@ -631,13 +631,13 @@
 # text = Овлывлӧ сэтшӧм практика, мый колхозъясса председательяс да бригадиръяс му вылӧ кольӧм шеп октӧм оз котыртны, лыддьӧны сійӧс ковтӧмӧн.
 1	Овлывлӧ	овлывлыны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 2	сэтшӧм	сэтшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
-3	практика	практика	NOUN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+3	практика	практика	NOUN	N	Case=Nom|Number=Sing	0	root	_	Lang=Mixed|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	16	punct	_	_
 5	мый	мый	SCONJ	CS	_	16	mark	_	_
-6	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	7	amod	_	_
-7	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	16	nsubj	_	_
-8	да	да	CCONJ	CC	_	9	cc	_	_
-9	бригадиръяс	бригадир	NOUN	N	Case=Nom|Number=Plur	7	conj	_	_
+6	колхозъясса	колхозъясса	ADJ	A	Case=Nom|Number=Sing	7	amod	_	Lang=Mixed
+7	председательяс	председатель	NOUN	N	Case=Nom|Number=Plur	16	nsubj	_	Lang=Mixed
+8	да	да	CCONJ	CC	_	9	cc	_	Lang=Mixed
+9	бригадиръяс	бригадир	NOUN	N	Case=Nom|Number=Plur	7	conj	_	Lang=Mixed
 10	му	му	NOUN	N	Case=Nom|Number=Sing	12	obl:lmod	_	_
 11	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	10	case	_	_
 12	кольӧм	кольны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
@@ -654,7 +654,7 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.021
 # text = Татшӧм настроениеяс лоны оз вермы.
 1	Татшӧм	татшӧм	DET	Det	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
-2	настроениеяс	настроение	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
+2	настроениеяс	настроение	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	Lang=Mixed
 3	лоны	лоны	VERB	V	VerbForm=Inf	5	xcomp	_	_
 4	оз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	5	aux:neg	_	_
 5	вермы	вермыны	VERB	V	Connegative=Yes	0	root	_	SpaceAfter=No
@@ -663,10 +663,10 @@
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.022
 # text = Быд колхозник да колхозница обязанӧсь тышкасьны сы вӧсна, медым му вылӧ эз коль ниӧти шеп, быдӧнлы должен лоны гӧгӧрвоана, мый быд нянь шеп сьӧктаммӧдӧ колхозниклысь трудоденьсӧ, унджык воӧ нянь трудодень вылӧ.
 1	Быд	быд	PRON	Pron	PronType=Tot	2	det	_	_
-2	колхозник	колхозник	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
-3	да	да	CCONJ	CC	_	4	cc	_	_
-4	колхозница	колхозница	NOUN	N	Case=Nom|Number=Sing	2	conj	_	_
-5	обязанӧсь	обязан	ADJ	A	Case=Nom|Number=Plur	0	root	_	_
+2	колхозник	колхозник	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	Lang=Mixed
+3	да	да	CCONJ	CC	_	4	cc	_	Lang=Mixed
+4	колхозница	колхозница	NOUN	N	Case=Nom|Number=Sing	2	conj	_	Lang=Mixed
+5	обязанӧсь	обязан	ADJ	A	Case=Nom|Number=Plur	0	root	_	Lang=Mixed
 6	тышкасьны	тышкасьны	VERB	V	VerbForm=Inf	5	advcl	_	_
 7	сы	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 8	вӧсна	вӧсна	ADP	Po	_	7	case	_	SpaceAfter=No
@@ -680,7 +680,7 @@
 16	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	20	punct	_	_
 18	быдӧнлы	быдӧн	PRON	Pron	Case=Dat|Number=Sing|PronType=Tot	20	obl	_	_
-19	должен	должен	ADJ	N	Case=Nom|Number=Sing	20	advmod	_	_
+19	должен	должен	ADJ	N	Case=Nom|Number=Sing	20	advmod	_	Lang=Mixed
 20	лоны	лоны	VERB	V	VerbForm=Inf	5	conj	_	_
 21	гӧгӧрвоана	гӧгӧрвоана	ADV	Adv	_	20	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	CLB	_	27	punct	_	_
@@ -689,13 +689,13 @@
 25	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	27	nsubj	_	_
 26	шеп	шеп	NOUN	N	Case=Nom|Number=Sing	25	compound	_	_
 27	сьӧктаммӧдӧ	сьӧктаммӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	acl:relcl	_	_
-28	колхозниклысь	колхозник	NOUN	N	Case=Abl|Number=Sing	29	nmod	_	_
-29	трудоденьсӧ	трудодень	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	27	obj	_	SpaceAfter=No
+28	колхозниклысь	колхозник	NOUN	N	Case=Abl|Number=Sing	29	nmod	_	Lang=Mixed
+29	трудоденьсӧ	трудодень	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	27	obj	_	Lang=Mixed|SpaceAfter=No
 30	,	,	PUNCT	CLB	_	32	punct	_	_
 31	унджык	унджык	ADV	Adv	_	32	advmod	_	_
 32	воӧ	воны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	conj	_	_
 33	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	32	nsubj	_	_
-34	трудодень	трудодень	NOUN	N	Case=Nom|Number=Sing	32	obl	_	_
+34	трудодень	трудодень	NOUN	N	Case=Nom|Number=Sing	32	obl	_	Lang=Mixed
 35	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	34	case	_	SpaceAfter=No
 36	.	.	PUNCT	CLB	_	5	punct	_	_
 
