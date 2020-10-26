@@ -6414,7 +6414,7 @@
 "<Ме>"
 	"ме" Pron Pers Sg1 Nom
 "<водзтіястӧ>"
-	"водзтіястӧ" ?
+	"водзті" N Relat Pl Acc PxSg2 ?+
 "<мыйкӧ>"
 	"мыйкӧ" Pron Indef Indef Sg Nom Der/кӧ
 "<эг>"
@@ -6432,9 +6432,9 @@
 "<шензис>"
 	"шензьыны" V IV Ind Prt1 Sg3
 "<Хохол>"
-	"Хохол" ?
+	"Хохол" N Prop Sem/Mal Sg Nom ?+
 "<Иӧра>"
-	"Иӧра" ?
+	"Иӧра" N Prop Sem/Mal Sg Nom ?+
 "<Саш>"
 	"Саш" N Prop Sem/Mal Sg Nom
 "<.>"
@@ -6461,7 +6461,7 @@
 "<,>"
 	"," CLB
 "<водзтіястӧ>"
-	"водзтіястӧ" ?
+	"водзті" N Relat Pl Acc PxSg2 ?+
 "<Микит>"
 	"Микит" N Prop Sem/Mal Sg Nom
 "<татӧні>"
@@ -6494,8 +6494,9 @@
 
 # sent_id = OKK:2000:51:4b:SavinV
 # text = Ылӧясӧ ветлӧма сиктса войтырлӧн кодатайствоыс вичко тупкылӧм йылысь — тшупӧдысь тшупӧдӧ пыр кайӧма вывлань...
+# comment = What is the best way to treat ылӧясӧ here?
 "<Ылӧясӧ>"
-	"Ылӧясӧ" ?
+	"ылӧ" N Relat Pl Ill ?+
 "<ветлӧма>"
 	"ветлыны" V IV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom
 "<сиктса>"
@@ -6539,7 +6540,7 @@
 "<,>"
 	"," CLB
 "<мукӧдлаясын>"
-	"мукӧдлаясын" ?
+	"мукӧдла" Adv Pl Ine ?+
 "<и>"
 	"и" CC
 "<збыльмӧдлісны>"
