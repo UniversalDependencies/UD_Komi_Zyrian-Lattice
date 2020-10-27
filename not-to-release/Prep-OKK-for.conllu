@@ -5530,14 +5530,15 @@
 # sent_id = OKK:2000:52:13:JuxninV
 # text_orig = Гу вылӧ воисны (Ӧльӧш да Прокопей) став дасьлунӧн: шыаӧсь, октӧм пищаляӧсь.
 # text = Гу вылӧ воисны став дасьлунӧн: шыаӧсь, октӧм пищаляӧсь.
+# comment = Dependency at the colon bit unclear to me
 1	Гу	гу	N	_	Sg|Nom	3	obl:l	_	_
 2	вылӧ	вылӧ	Adp	_	Po|Sg|Ill	1	case	_	_
 3	воисны	воны	V	_	IV|Ind|Prt1|Pl3	0	root	_	_
 4	став	став	Pron	_	Sg|Nom	5	det	_	_
 5	дасьлунӧн	дасьлун	N	_	Sg|Ins	3	obl	_	_
-6	:	:	CLB	_	_	5	punct	_	_
+6	:	:	CLB	_	_	7	punct	_	_
 7	шыаӧсь	шыа	A	_	Cop|Pl	5	conj	_	_
-8	,	,	CLB	_	_	7	punct	_	_
+8	,	,	CLB	_	_	10	punct	_	_
 9	октӧм	октыны	V	_	TV|Der|Der/ӧм|PastPtc	10	acl	_	_
 10	пищаляӧсь	пищаля	A	_	Cop|Pl	7	conj	_	_
 11	.	.	CLB	_	_	3	punct	_	_
