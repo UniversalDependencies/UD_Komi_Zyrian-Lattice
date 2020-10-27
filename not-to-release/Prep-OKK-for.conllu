@@ -1972,34 +1972,20 @@
 
 # sent_id = OKK:2000:47:4:BeznosikovV
 # text = Недыр мысти Пешкинъяс пукалісны нин кухняас да клеёнкаа пызан сайын панялісны яя шыд.
-"<Недыр>"
-	"недыр" Adv
-"<мысти>"
-	"мысти" Adp Po
-"<Пешкинъяс>"
-	"Пешкин" N Prop Sem/Sur-Mal Pl Nom
-"<пукалісны>"
-	"пукавны" V IV Ind Prt1 Pl3
-"<нин>"
-	"нин" Adv
-"<кухняас>"
-	"кухня" N Sg Ine PxSg3
-"<да>"
-	"да" CC
-"<клеёнкаа>"
-	"клеёнка" N Sg Der Der/ProprietiveMod A Sg Nom
-"<пызан>"
-	"пызан" N Sg Nom
-"<сайын>"
-	"сайын" Adp Po Sg Ine
-"<панялісны>"
-	"панявны" V TV Ind Prt1 Pl3
-"<яя>"
-	"яя" A Sg Nom
-"<шыд>"
-	"шыд" N Sg Nom
-"<.>"
-	"." CLB
+1	Недыр	недыр	N	_	Sg|Nom	4	obl:tmod	_	_
+2	мысти	мысти	Adp	_	Po	1	case	_	_
+3	Пешкинъяс	Пешкин	N	_	Prop|Sem/Sur-Mal|Pl|Nom	4	nsubj	_	_
+4	пукалісны	пукавны	V	_	IV|Ind|Prt1|Pl3	0	root	_	_
+5	нин	нин	Adv	_	_	4	advmod:tmod	_	_
+6	кухняас	кухня	N	_	Sg|Ine|PxSg3	4	obl:lmod	_	_
+7	да	да	CC	_	_	11	cc	_	_
+8	клеёнкаа	клеёнка	N	_	Sg|Der|Der/ProprietiveMod|A|Sg|Nom	9	nmod	_	_
+9	пызан	пызан	N	_	Sg|Nom	11	obl:lmod	_	_
+10	сайын	сайын	Adp	_	Po|Sg|Ine	9	case	_	_
+11	панялісны	панявны	V	_	TV|Ind|Prt1|Pl3	4	conj	_	_
+12	яя	яя	A	_	Sg|Nom	13	nmod	_	_
+13	шыд	шыд	N	_	Sg|Nom	11	obj	_	_
+14	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:47:5:ShchukinN
 # text = Митяяслӧн керкаыс бокынджык грездса мукӧд керкаясысь...
@@ -4724,13 +4710,13 @@
 # text = Бипур пестӧны берег дорсянь неылын сулалысь ӧтка ыджыд коз улӧ, водзтіястӧ Микит татӧні неӧтчыд жӧ нин войковтліс.
 1	Бипур	бипур	N	_	Sg|Nom	2	nsubj	_	_
 2	пестӧны	пестыны	V	_	TV|Ind|Prs|Pl3	0	root	_	_
-3	берег	берег·дор	N	_	Sg|Egr	2	obl:l	_	_
+3	берег	берег·дор	N	_	Sg|Egr	2	obl:lmod	_	_
 4	дорсянь	дорсянь	Adp	_	Po|Sg|Egr	3	case	_	_
 5	неылын	неылын	Adv	_	Ine	6	advmod	_	_
 6	сулалысь	сулавны	V	_	IV|Der|Der/ысь|ActPrsPtc	9	acl	_	_
 7	ӧтка	ӧтка	A	_	Sg|Nom	9	amod	_	_
 8	ыджыд	ыджыд	A	_	Sg|Nom	9	amod	_	_
-9	коз	коз	N	_	Sg|Ill	2	obl:l	_	_
+9	коз	коз	N	_	Sg|Ill	2	obl:lmod	_	_
 10	улӧ	улӧ	Adp	_	Po|Sg|Ill	9	case	_	_
 11	,	,	CLB	_	_	18	punct	_	_
 12	водзтіястӧ	водзті	Adv	_	Pl|Nom|Clt/тӧ	18	advmod	_	_
@@ -4754,7 +4740,7 @@
 # sent_id = OKK:2000:51:4b:SavinV
 # text = Ылӧясӧ ветлӧма сиктса войтырлӧн кодатайствоыс вичко тупкылӧм йылысь — тшупӧдысь тшупӧдӧ пыр кайӧма вывлань...
 # comment = What is the best way to treat ылӧясӧ here?
-1	Ылӧясӧ	ылӧ	N	_	Relat|Pl|Ill	2	obl:l	_	_
+1	Ылӧясӧ	ылӧ	N	_	Relat|Pl|Ill	2	obl:lmod	_	_
 2	ветлӧма	ветлыны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	0	root	_	_
 3	сиктса	сиктса	A	_	Sg|Der|Der/LocMod|A|Sg|Nom	4	amod	_	_
 4	войтырлӧн	войтыр	N	_	Sg|Gen	5	nmod	_	_
@@ -4763,8 +4749,8 @@
 7	тупкылӧм	тупкывны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom	2	obl	_	_
 8	йылысь	йылысь	Adp	_	Po|Sg|Ela	7	case	_	_
 9	—	—	PUNCT	_	_	13	punct	_	_
-10	тшупӧдысь	тшупӧд	N	_	Sg|Ela	13	obl:l	_	_
-11	тшупӧдӧ	тшупӧд	N	_	Sg|Ill	13	obl:l	_	_
+10	тшупӧдысь	тшупӧд	N	_	Sg|Ela	13	obl:lmod	_	_
+11	тшупӧдӧ	тшупӧд	N	_	Sg|Ill	13	obl:lmod	_	_
 12	пыр	пыр	Adv	_	_	13	advmod	_	_
 13	кайӧма	кайны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	2	conj	_	_
 14	вывлань	вывлань	Adv	_	Apr	13	advmod	_	_
@@ -4815,7 +4801,7 @@
 # text = Пищальӧн пондасны ыліджыкъясті кытшовтавны.
 1	Пищальӧн	пищаль	N	_	Sg|Ins	2	obl	_	_
 2	пондасны	пондыны	V	_	IV|Ind|Fut|Pl3	0	root	_	_
-3	ыліджыкъясті	ылі	N	_	Comp|Pl|Tra	4	obl:l	_	_
+3	ыліджыкъясті	ылі	N	_	Comp|Pl|Tra	4	obl:lmod	_	_
 4	кытшовтавны	кытшовтавны	V	Inf	_	2	xcomp	_	_
 5	.	.	CLB	_	_	2	punct	_	_
 
@@ -4838,7 +4824,7 @@
 14	кӧнкӧ	кӧнікӧ	Adv	_	Indef|Ine|Der/кӧ	_	_	_	_
 15	пувйыс	пув	N	_	Sg|Nom|PxSg3	_	_	_	_
 16	,	,	CLB	_	_	_	_	_	_
-17	аскиясӧ	аски	N	_	Pl|Ill	20	obl:l	_	_
+17	аскиясӧ	аски	N	_	Pl|Ill	20	obl:lmod	_	_
 18	гӧтырыскӧд	гӧтыр	N	_	Sg|Com|PxSg3|So/PC	20	obl	_	_
 19	ӧтлаын	ӧтлаын	Adv	_	Ine	20	advmod	_	_
 20	волыны	волыны	V	_	IV|Inf	_	_	_	_
@@ -4905,7 +4891,7 @@
 # sent_id = OKK:2000:51:11:JushkovG
 # text = Джуджыд кырта йылын тыдовтчис Югыд-Ляга сикт, и вӧлись Виринея кутіс нёджъявны ю пӧлӧнъяссӧ.
 1	Джуджыд	джуджыд	A	_	Sg|Nom	2	amod	_	_
-2	кырта	кырта	N	_	Sg|Nom	4	obl:l	_	_
+2	кырта	кырта	N	_	Sg|Nom	4	obl:lmod	_	_
 3	йылын	йылын	Adp	_	Po|Sg|Ine	2	case	_	_
 4	тыдовтчис	тыдовтчыны	V	_	Refl|Ind|Prt1|Sg3	0	root	_	_
 5	Югыд-Ляга	Югыд-Ляга	N	Prop|Sem/Plc|Sg|Nom	_	6	nmod	_	_
@@ -5209,8 +5195,8 @@
 5	,	,	CLB	_	_	6	punct	_	_
 6	пемыдрудӧсь	пемыдруд	A	_	Cop|Pl	3	conj	_	_
 7	,	,	CLB	_	_	10	punct	_	_
-8	вылын	выв	N	_	Relat|Sg|Ine	10	obl:l	_	_
-9	енэжын	енэж	N	_	Sg|Ine	10	obl:l	_	_
+8	вылын	выв	N	_	Relat|Sg|Ine	10	obl:lmod	_	_
+9	енэжын	енэж	N	_	Sg|Ine	10	obl:lmod	_	_
 10	муткырасьӧны	муткырасьны	V	_	Refl|Ind|Prs|Pl3	3	conj	_	_
 11	...	...	CLB	_	_	3	punct	_	_
 
@@ -5239,7 +5225,7 @@
 # sent_id = OKK:2000:52:11:ToroрovI
 # text = Орчча пасекаын пӧрӧдчисны кык нывбаба — Фрося да Амелия, кыкнанныс ар комын гӧгӧраӧсь, кызіникӧсь.
 1	Орчча	орчча	A	_	Sg|Nom	2	amod	_	_
-2	пасекаын	пасека	N	_	Sg|Ine	3	obl:l	_	_
+2	пасекаын	пасека	N	_	Sg|Ine	3	obl:lmod	_	_
 3	пӧрӧдчисны	пӧрӧдчыны	V	_	Refl|Ind|Prt1|Pl3	_	_	_	_
 4	кык	кык	Num	_	Card|Sg|Nom	5	nummod	_	_
 5	нывбаба	нывбаба	N	_	Sg|Nom	3	nsubj	_	_
@@ -5308,7 +5294,7 @@
 # text_orig = Гу вылӧ воисны (Ӧльӧш да Прокопей) став дасьлунӧн: шыаӧсь, октӧм пищаляӧсь.
 # text = Гу вылӧ воисны став дасьлунӧн: шыаӧсь, октӧм пищаляӧсь.
 # comment = Dependency at the colon bit unclear to me
-1	Гу	гу	N	_	Sg|Nom	3	obl:l	_	_
+1	Гу	гу	N	_	Sg|Nom	3	obl:lmod	_	_
 2	вылӧ	вылӧ	Adp	_	Po|Sg|Ill	1	case	_	_
 3	воисны	воны	V	_	IV|Ind|Prt1|Pl3	0	root	_	_
 4	став	став	Pron	_	Sg|Nom	5	det	_	_
@@ -5594,13 +5580,13 @@
 6	-	-	PUNCT	_	_	5	punct	_	_
 7	пуктӧ	пуктыны	V	_	TV|Ind|Prs|Sg3	5	conj	_	_
 8	турунсӧ	турун	N	_	Sg|Acc|PxSg3	5	obj	_	_
-9	зорӧд	зорӧд	N	_	Sg|Nom	5	obl:l	_	_
+9	зорӧд	зорӧд	N	_	Sg|Nom	5	obl:lmod	_	_
 10	вылӧ	вылӧ	Adp	_	Po|Sg|Ill	9	case	_	_
 11	да	да	CC	_	_	13	cc	_	_
 12	сэсся	сэсся	Adv	_	_	13	advmod	_	_
 13	видзӧдӧ	видзӧдны	V	_	TV|Ind|Prs|Sg3	5	conj	_	_
 14	ас	ас	Pron	_	Det|Refl|Abs	15	det	_	_
-15	гӧгӧрыс	гӧгӧр	N	_	Relat|Sg|Nom|PxSg3	13	obl:l	_	_
+15	гӧгӧрыс	гӧгӧр	N	_	Relat|Sg|Nom|PxSg3	13	obl:lmod	_	_
 16	,	,	CLB	_	_	13	punct	_	_
 17	быттьӧ	быттьӧ	CS	_	_	18	mark	_	_
 18	кӧсйӧ	кӧсйыны	V	_	TV|Ind|Prs|Sg3	13	advcl	_	_
