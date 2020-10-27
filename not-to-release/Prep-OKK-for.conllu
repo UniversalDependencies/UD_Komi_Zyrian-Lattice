@@ -5789,37 +5789,24 @@
 
 # sent_id = OKK:2000:52:15:ToroрovI
 # text = Латвияса му нинӧмӧн ёнасӧ оз торъяв Литваысь, местаясыс быттьӧ сэтшӧмӧсь жӧ таті.
-"<Латвияса>"
-	"Латвия" N Prop Sem/Plc Sem/Plc Sg Der Der/LocMod A Sg Nom
-"<му>"
-	"му" N Sg Nom
-"<нинӧмӧн>"
-	"нинӧм" Pron Neg Sg Ins
-"<ёнасӧ>"
-	"ён" A Der Der/а Clt/сӧ
-"<оз>"
-	"оз" V Neg Ind Prs Sg3
-"<торъяв>"
-	"торъявны" V IV ConNeg
-"<Литваысь>"
-	"Литва" N Prop Sem/Plc Sem/Plc Sg Ela
-"<,>"
-	"," CLB
-"<местаясыс>"
-	"места" N Pl Nom PxSg3
-"<быттьӧ>"
-	"быттьӧ" Adv Parenthetic
-"<сэтшӧмӧсь>"
-	"сэтшӧм" Pron Det Dem Cop Pl
-"<жӧ>"
-	"жӧ" Adv Parenthetic
-"<таті>"
-	"таті" Adv Tra
-"<.>"
-	"." CLB
+1	Латвияса	Латвия	N	_	Prop|Sem/Plc|Sem/Plc|Sg|Der|Der/LocMod|A|Sg|Nom	2	amod	_	_
+2	му	му	N	_	Sg|Nom	6	csubj	_	_
+3	нинӧмӧн	нинӧм	Pron	_	Neg|Sg|Ins	6	advmod	_	_
+4	ёнасӧ	ёна	Adv	_	Clt/сӧ	6	advmod	_	_
+5	оз	оз	V	_	Neg|Ind|Prs|Sg3	6	aux:neg	_	_
+6	торъяв	торъявны	V	_	IV|ConNeg	0	root	_	_
+7	Литваысь	Литва	N	_	Prop|Sem/Plc|Sem/Plc|Sg|Ela	6	obl	_	_
+8	,	,	CLB	_	_	11	punct	_	_
+9	местаясыс	места	N	_	Pl|Nom|PxSg3	11	nsubj:cop	_	_
+10	быттьӧ	быттьӧ	Adv	_	Parenthetic	11	advmod	_	_
+11	сэтшӧмӧсь	сэтшӧм	Pron	_	Det|Dem|Cop|Pl	6	parataxis	_	_
+12	жӧ	жӧ	Adv	_	Parenthetic	11	advmod	_	_
+13	таті	таті	Adv	_	Tra	11	advmod	_	_
+14	.	.	CLB	_	_	6	punct	_	_
 
 # sent_id = OKK:2000:52:16:BeljajevG
 # text = Вавилов... тшапа видзӧдліс матігӧгӧрса лыжникъяс вылӧ да шванитчӧмӧн шуис: — Ставныд ті менам этанӧсь! — да сюйліс чуньсӧ вӧнь костас.
+# comment = Something weird with conversion
 "<Вавилов>"
 	"Вавилов" N Prop Sem/Sur-Mal Sg Nom
 "<...>"
@@ -5925,21 +5912,16 @@
 
 # sent_id = OKK:2000:52:17b:OdincovA
 # text = — Со кӧнӧсь туй индалысьясным.
-"<—>"
-	"—" PUNCT
-"<Со>"
-	"со" Adv Parenthetic
-"<кӧнӧсь>"
-	"кӧні" Adv Interr Ine Cop Pl
-"<туй>"
-	"туй" N Sg Nom
-"<индалысьясным>"
-	"индавны" V TV Der Der/ысь Der/NomAg N Pl Nom PxPl1
-"<.>"
-	"." CLB
+1	—	—	PUNCT	_	_	_	_	_	_
+2	Со	со	Adv	_	Parenthetic	3	advmod	_	_
+3	кӧнӧсь	кӧні	Adv	_	Interr|Ine|Cop|Pl	0	root	_	_
+4	туй	туй	N	_	Sg|Nom	5	obj	_	_
+5	индалысьясным	индавны	V	_	TV|Der|Der/ысь|Der/NomAg|N|Pl|Nom|PxPl1	3	nsubj:cop	_	_
+6	.	.	CLB	_	_	_	_	_	_
 
 # sent_id = OKK:2000:52:18a:JushkovG
 # text = — A тайӧ нӧ кодъяс? — индіс мамыс воддза кык пиыс вылӧ.
+# comment = Something weird with conversion
 "<—>"
 	"—" PUNCT
 "<A>"
@@ -5973,6 +5955,7 @@
 
 # sent_id = OKK:2000:52:18b:JushkovG
 # text = — Найӧ сар дырсяӧсь на. — Но сэсся и абу нин тэнадӧсь? — Менамӧсь эськӧ да.
+# comment = Something weird with conversion
 "<—>"
 	"—" PUNCT
 "<Найӧ>"
@@ -6016,33 +5999,23 @@
 
 # sent_id = OKK:2000:52:18c:JushkovG
 # text = — Но сэсся и абу нин тэнадӧсь?
-"<—>"
-	"—" PUNCT
-"<Но>"
-	"но" CC
-"<сэсся и>"
-	"сэсся и" CC
-"<абу>"
-	"абу" V Neg Cop Ind Sg ?
-"<нин>"
-	"нин" Adv Temp
-"<тэнадӧсь>"
-	"тэ" Pron Pers Sg2 Gen Cop Pl
-"<?>"
-	"?" CLB
+1	—	—	PUNCT	_	_	7	punct	_	_
+2	Но	но	CC	_	_	7	mark	_	_
+3	сэсся	сэсся	Adv	_	_	7	advmod	_	_
+4	и	и	Adv	_	_	7	advmod	_	_
+5	абу	абу	V	_	Neg|Cop|Ind|Sg|?	7	aux:neg	_	_
+6	нин	нин	Adv	_	Temp	7	advmod	_	_
+7	тэнадӧсь	тэ	Pron	_	Pers|Sg2|Gen|Cop|Pl	0	root	_	_
+8	?	?	CLB	_	_	7	punct	_	_
 
 # sent_id = OKK:2000:52:18d:JushkovG
 # text = — Менамӧсь эськӧ да.
-"<—>"
-	"—" PUNCT
-"<Менамӧсь>"
-	"ме" Pron Pers Sg1 Gen Cop Pl
-"<эськӧ>"
-	"эськӧ" Adv
-"<да>"
-	"да" CS
-"<.>"
-	"." CLB
+1	—	—	PUNCT	_	_	2	punct	_	_
+2	Менамӧсь	ме	Pron	_	Pers|Sg1|Gen|Cop|Pl	0	root	_	_
+3	эськӧ	эськӧ	Adv	_	_	2	advmod	_	_
+4	да	да	Adv	_	Parenthetic	2	advmod	_	_
+5	.	.	CLB	_	_	2	punct	_	_
+
 
 # sent_id = OKK:2000:52:19:BelyxI
 # text_orig = И со сійӧ (чӧвтысь) ружӧктӧмӧн шлопкӧбтӧ-пуктӧ турунсӧ зорӧд вылӧ да сэсся видзӧдӧ ас гӧгӧрыс, быттьӧ кӧсйӧ шуны: со пӧ ӧд ми кутшӧмӧсь!
@@ -6078,12 +6051,12 @@
 # text = Эзысь струнаяслӧн гӧлӧсъясыс гораӧсь, сьӧлӧмтӧ вӧрзьӧдланаӧсь, нывъясӧс чуксаланаӧсь.
 1	Эзысь	эзысь	N	_	Sg|Nom	2	nmod	_	_
 2	струнаяслӧн	струна	N	_	Pl|Gen	3	nmod	_	_
-3	гӧлӧсъясыс	гӧлӧс	N	_	Pl|Nom|PxSg3	4	nsubj	_	_
+3	гӧлӧсъясыс	гӧлӧс	N	_	Pl|Nom|PxSg3	4	csubj	_	_
 4	гораӧсь	гора	A	_	Cop|Pl	0	root	_	_
-5	,	,	CLB	_	_	4	punct	_	_
+5	,	,	CLB	_	_	7	punct	_	_
 6	сьӧлӧмтӧ	сьӧлӧм	N	_	Sg|Acc|PxSg2	7	obj	_	_
 7	вӧрзьӧдланаӧсь	вӧрзьӧдлыны	V	_	TV|Der|Der/Ан|PrsPrc|N|Sg|Der|Der/ProprietiveMod|A|Cop|Pl	4	conj	_	_
-8	,	,	CLB	_	_	7	punct	_	_
+8	,	,	CLB	_	_	10	punct	_	_
 9	нывъясӧс	ныв	N	_	Pl|Acc	10	obj	_	_
 10	чуксаланаӧсь	чуксавны	V	_	TV|Der|Der/Ан|PrsPrc|N|Sg|Der|Der/ProprietiveMod|A|Cop|Pl	4	conj	_	_
 11	.	.	CLB	_	_	4	punct	_	_
@@ -6177,9 +6150,9 @@
 # text = — Кутшӧм ті кывзысьысьӧсь менам!
 1	—	—	PUNCT	_	_	4	punct	_	_
 2	Кутшӧм	кутшӧм	Pron	_	Rel	4	advmod	_	_
-3	ті	тэ	Pron	_	Pers|Pl2|Nom	4	nsubj	_	_
+3	ті	тэ	Pron	_	Pers|Pl2|Nom	4	nsubj:cop	_	_
 4	кывзысьысьӧсь	кывзыны	V	_	TV|Der|Der/ысь|Der/NomAg|N|Sg|Ela|Cop|Pl	0	root	_	_
-5	менам	ме	Pron	_	Pers|Sg1|Gen	4	nmod	_	_
+5	менам	ме	Pron	_	Pers|Sg1|Gen	4	obl	_	_
 6	!	!	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:53:3:IzjurovI
@@ -6187,84 +6160,52 @@
 # text = Меным кажитчис, бӧръя воӧмсянь пиньясыс сылӧн ещӧ вижӧдӧмаӧсь.
 1	Меным	ме	Pron	_	Pers|Sg1|Dat	2	obl	_	_
 2	кажитчис	кажитчыны	V	_	Refl|Ind|Prt1|Sg3	0	root	_	_
-3	,	,	CLB	_	_	2	punct	_	_
+3	,	,	CLB	_	_	4	punct	_	_
 4	бӧръя	бӧръя	A	_	Sg|Nom	5	amod	_	_
 5	воӧмсянь	воны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Egr	9	obl	_	_
 6	пиньясыс	пинь	N	_	Pl|Nom|PxSg3	9	nsubj	_	_
 7	сылӧн	сійӧ	Pron	_	Pers|Sg3|Gen	9	nmod	_	_
 8	ещӧ	ещӧ	Adv	_	_	9	advmod	_	_
 9	вижӧдӧмаӧсь	вижӧдны	V	_	IV|Ind|Prt2|Pl3	2	ccomp	_	_
-10	.	.	CLB	_	_	9	punct	_	_
+10	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:53:4:BeznosikovV
 # text = Кык пызан ӧтлаӧдӧмаӧсь, мича скатертъясӧн вевттьӧмаӧсь, гӧгӧрыс сярвидзӧны нывъяс и зонъяс, олӧмаджык суседъяс: вӧччӧмаӧсь, долыд чужӧмаӧсь.
-"<Кык>"
-	"кык" Num Card Sg Nom
-"<пызан>"
-	"пызан" N Sg Nom ?
-"<ӧтлаӧдӧмаӧсь>"
-	"ӧтлаӧдны" V TV Ind Prt2 Pl3
-"<,>"
-	"," CLB
-"<мича>"
-	"мича" A Sg Nom
-"<скатертъясӧн>"
-	"скатерт" N Pl Ins
-"<вевттьӧмаӧсь>"
-	"вевттьыны" V TV Ind Prt2 Pl3
-"<,>"
-	"," CLB
-"<гӧгӧрыс>"
-	"гӧгӧр" N Relat Sg Nom PxSg3
-"<сярвидзӧны>"
-	"сярвидзны" V IV Ind Prs Pl3
-"<нывъяс>"
-	"ныв" N Pl Nom
-"<и>"
-	"и" CC
-"<зонъяс>"
-	"зон" N Pl Nom
-"<,>"
-	"," CLB
-"<олӧмаджык>"
-	"олӧм" N Sg Der Der/ProprietiveMod A Comp Sg Nom
-"<суседъяс>"
-	"сусед" N Pl Nom
-"<:>"
-	":" CLB
-"<вӧччӧмаӧсь>"
-	"вӧччыны" V Refl Ind Prt2 Pl3 ?
-"<,>"
-	"," CLB
-"<долыд>"
-	"долыд" A Sg Nom
-"<чужӧмаӧсь>"
-	"чужӧм" N Sg Der Der/ProprietiveMod A Cop Pl ?
-"<.>"
-	"." CLB
+1	Кык	кык	Num	_	Card|Sg|Nom	2	nummod	_	_
+2	пызан	пызан	N	_	Sg|Nom|?	3	nsubj	_	_
+3	ӧтлаӧдӧмаӧсь	ӧтлаӧдны	V	_	TV|Ind|Prt2|Pl3	0	root	_	_
+4	,	,	CLB	_	_	3	punct	_	_
+5	мича	мича	A	_	Sg|Nom	6	amod	_	_
+6	скатертъясӧн	скатерт	N	_	Pl|Ins	7	obl	_	_
+7	вевттьӧмаӧсь	вевттьыны	V	_	TV|Ind|Prt2|Pl3	3	conj	_	_
+8	,	,	CLB	_	_	7	punct	_	_
+9	гӧгӧрыс	гӧгӧр	N	_	Relat|Sg|Nom|PxSg3	10	obl	_	_
+10	сярвидзӧны	сярвидзны	V	_	IV|Ind|Prs|Pl3	3	conj	_	_
+11	нывъяс	ныв	N	_	Pl|Nom	10	nsubj	_	_
+12	и	и	CC	_	_	13	cc	_	_
+13	зонъяс	зон	N	_	Pl|Nom	11	conj	_	_
+14	,	,	CLB	_	_	10	punct	_	_
+15	олӧмаджык	олӧма	A	_	Comp|Sg|Nom	16	amod	_	_
+16	суседъяс	сусед	N	_	Pl|Nom	11	conj	_	_
+17	:	:	CLB	_	_	_	_	_	_
+18	вӧччӧмаӧсь	вӧччыны	V	_	Refl|Ind|Prt2|Pl3|?	_	_	_	_
+19	,	,	CLB	_	_	_	_	_	_
+20	долыд	долыд	A	_	Sg|Nom	21	amod	_	_
+21	чужӧмаӧсь	чужӧм	N	_	Sg|Der|Der/ProprietiveMod|A|Cop|Pl|?	_	_	_	_
+22	.	.	CLB	_	_	_	_	_	_
 
 # sent_id = OKK:2000:53:5:ToroрovI
 # text = Нывъясыс тай зэв уна эмӧсь, бӧрйы кодӧс колӧ...
-"<Нывъясыс>"
-	"ныв" N Pl Nom PxSg3
-"<тай>"
-	"тай" Adv
-"<зэв>"
-	"зэв" Adv
-"<уна>"
-	"уна" Adv
-"<эмӧсь>"
-	"эм" V Ind Prs Pl3
-"<,>"
-	"," CLB
-"<бӧрйы>"
-	"бӧрйыны" V TV Imprt Sg2
-"<кодӧс>"
-	"коді" Pron Rel Sg Acc
-"<колӧ>"
-	"ковны" V TV Ind Prs Sg3
-"<...>"
-	"..." CLB
+1	Нывъясыс	ныв	N	_	Pl|Nom|PxSg3	4	nsubj:cop	_	_
+2	тай	тай	Adv	_	_	4	advmod	_	_
+3	зэв	зэв	Adv	_	_	4	advmod	_	_
+4	уна	уна	Adv	_	_	0	root	_	_
+5	эмӧсь	эм	V	_	Ind|Prs|Pl3	4	cop	_	_
+6	,	,	CLB	_	_	7	punct	_	_
+7	бӧрйы	бӧрйыны	V	_	TV|Imprt|Sg2	4	parataxis	_	_
+8	кодӧс	коді	Pron	_	Rel|Sg|Acc	7	obj	_	_
+9	колӧ	ковны	V	_	TV|Ind|Prs|Sg3	8	acl:relcl	_	_
+10	...	...	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:53:6:ToroрovI
 # text = Гортын важ газетъяс эмӧсь, унаысь сійӧс снимайтлӧмаӧсь.
