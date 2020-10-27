@@ -2177,57 +2177,31 @@
 
 # sent_id = OKK:2000:47:14:ToroрovI
 # text = ...пипуыс яг пасьталаыс, сё во чӧж быдмӧмаыс, кузь нэмыс чӧж шонді югӧр и шоныд зэр, и ягыслысь пӧтӧс совъяс босьтӧмаыс!
-"<...>"
-	"..." CLB
-"<пипуыс>"
-	"пипу" N Sg Nom PxSg3
-"<яг>"
-	"яг" N Sg Nom
-"<пасьталаыс>"
-	"пасьталаыс" Adp
-"<,>"
-	"," CLB
-"<сё>"
-	"сё" Num Card Sg Nom
-"<во>"
-	"во" N Sg Nom
-"<чӧж>"
-	"чӧж" N Sg Nom
-"<быдмӧмаыс>"
-	"быдмӧм" N Sg Der Der/ProprietiveMod A Sg Nom PxSg3
-"<,>"
-	"," CLB
-"<кузь>"
-	"кузь" A Sg Nom
-"<нэмыс>"
-	"нэм" N Sg Nom PxSg3
-"<чӧж>"
-	"чӧж" N Sg Nom
-"<шонді югӧр>"
-	"шонді югӧр" N Sg Nom
-"<и>"
-	"и" CC
-"<шоныд>"
-	"шоныд" A Sg Nom
-"<зэр>"
-	"зэр" N Sg Nom
-"<,>"
-	"," CLB
-"<и>"
-	"и" Adv
-	"и" CC
-"<ягыслысь>"
-	"Яг" N Prop Sem/Plc EOLang/KOM Sem/Plc EOLang/KPV Sg Abl PxSg3
-	"яг" N Sg Abl PxSg3
-"<пӧтӧс>"
-	"пӧтӧс" A Sg Nom
-"<совъяс>"
-	"сов" N Pl Nom
-"<босьтӧмаыс>"
-	"босьтны" V IV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom PxSg3
-	"босьтны" V TV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom PxSg3
-"<!>"
-	"!" CLB
+1	...	...	CLB	_	_	3	punct	_	_
+2	пипуыс	пипу	N	_	Sg|Nom|PxSg3	3	nsubj:cop	_	_
+3	яг	яг	N	_	Sg|Nom	0	root	_	_
+4	пасьталаыс	пасьталаыс	Adp	_	_	3	case	_	_
+5	,	,	CLB	_	_	9	punct	_	_
+6	сё	сё	Num	_	Card|Sg|Nom	7	nummod	_	_
+7	во	во	N	_	Sg|Nom	9	obl	_	_
+8	чӧж	чӧж	ADP	_	Sg|Nom	7	case	_	_
+9	быдмӧмаыс	быдмӧм	N	_	Sg|Der|Der/ProprietiveMod|A|Sg|Nom|PxSg3	3	conj	_	_
+10	,	,	CLB	_	_	15	punct	_	_
+11	кузь	кузь	A	_	Sg|Nom	12	amod	_	_
+12	нэмыс	нэм	N	_	Sg|Nom|PxSg3	_	_	_	_
+13	чӧж	чӧж	ADP	_	Sg|Nom	12	case	_	_
+14	шонді	шонді·югӧр	N	_	Sg|Nom	15	nmod	_	_
+15	югӧр	_	NOUN	_	_	3	conj	_	_
+16	и	и	CC	_	_	18	cc	_	_
+17	шоныд	шоныд	A	_	Sg|Nom	18	amod	_	_
+18	зэр	зэр	N	_	Sg|Nom	15	conj	_	_
+19	,	,	CLB	_	_	24	punct	_	_
+20	и	и	CC	_	_	24	cc	_	_
+21	ягыслысь	яг	N	_	Sg|Abl|PxSg3	24	obl:lmod	_	_
+22	пӧтӧс	пӧтӧс	A	_	Sg|Nom	23	amod	_	_
+23	совъяс	сов	N	_	Pl|Nom	24	obj	_	_
+24	босьтӧмаыс	босьтны	V	_	TV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom|PxSg3	3	conj	_	_
+25	!	!	CLB	_	_	3	punct	_	_
 
 # sent_id = OKK:2000:47:15:KuratovI
 # text = Коми шогъяс кокньыдика нуны Ме эг вермыв нэм!
