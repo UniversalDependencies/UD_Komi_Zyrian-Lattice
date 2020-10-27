@@ -5388,7 +5388,7 @@
 # text = Но окотатӧ тешитӧмыд висьӧм кодь вӧлӧма: веськалас прӧст здук, и ми Венякӧд — вӧрынӧсь либӧ ва дорынӧсь нин...
 1	Но	но	CC	_	_	5	cc	_	_
 2	окотатӧ	окота	N	_	Sg|Acc|PxSg2	3	obj	_	_
-3	тешитӧмыд	тешитны	V	_	TV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom|PxSg2	5	nsubj	_	_
+3	тешитӧмыд	тешитны	V	_	TV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom|PxSg2	5	nsubj:cop	_	_
 4	висьӧм	висьӧм	N	_	Sg|Nom	5	nmod	_	_
 5	кодь	кодь	A	_	CompMod|Sg|Nom	0	root	_	_
 6	вӧлӧма	вӧвны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	5	aux	_	_
@@ -5424,12 +5424,12 @@
 # sent_id = OKK:2000:52:8:OdincovA
 # text = Локтысь кымӧръяс гожсякодьӧсь нин, пемыдрудӧсь, вылын енэжын муткырасьӧны...
 1	Локтысь	локны	V	_	IV|Der|Der/ысь|ActPrsPtc	2	acl	_	_
-2	кымӧръяс	кымӧр	N	_	Pl|Nom	3	nsubj	_	_
+2	кымӧръяс	кымӧр	N	_	Pl|Nom	3	nsubj:cop	_	_
 3	гожсякодьӧсь	гожся	A	_	Der|Der/кодь|A|Cop|Pl	0	root	_	_
 4	нин	нин	Adv	_	Temp	3	advmod	_	_
-5	,	,	CLB	_	_	3	punct	_	_
+5	,	,	CLB	_	_	6	punct	_	_
 6	пемыдрудӧсь	пемыдруд	A	_	Cop|Pl	3	conj	_	_
-7	,	,	CLB	_	_	6	punct	_	_
+7	,	,	CLB	_	_	10	punct	_	_
 8	вылын	выв	N	_	Relat|Sg|Ine	10	obl:l	_	_
 9	енэжын	енэж	N	_	Sg|Ine	10	obl:l	_	_
 10	муткырасьӧны	муткырасьны	V	_	Refl|Ind|Prs|Pl3	3	conj	_	_
@@ -5438,23 +5438,24 @@
 # sent_id = OKK:2000:52:9:TiminV
 # text = Кык чой пӧшти ӧткодьӧсь, еджыд юрсиаӧсь.
 1	Кык	кык	Num	_	Card|Sg|Nom	2	nummod	_	_
-2	чой	чой	N	_	Sg|Nom	4	nsubj	_	_
+2	чой	чой	N	_	Sg|Nom	4	nsubj:cop	_	_
 3	пӧшти	пӧшти	Adv	_	_	4	advmod	_	_
 4	ӧткодьӧсь	ӧткодь	A	_	Cop|Pl	0	root	_	_
-5	,	,	CLB	_	_	4	punct	_	_
-6	еджыд юрсиаӧсь	еджыд·юрсиа	A	_	Cop|Pl|?	4	conj	_	_
-7	.	.	CLB	_	_	4	punct	_	_
+5	,	,	CLB	_	_	7	punct	_	_
+6	еджыд	еджыд	A	_	Cop|Pl	7	amod	_	_
+7	юрсиаӧсь	юрсиа	A	_	_	4	cop	_	_
+8	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:52:10:FjodorovG
 # text = Джуджыдӧсь Висер юпӧлӧнса зӧм сулалысь слуда берегъяс.
-1	Джуджыдӧсь	джуджыд	A	_	Cop|Pl	3	amod	_	_
+1	Джуджыдӧсь	джуджыд	A	_	Cop|Pl	0	root	_	_
 2	Висер	Висер	N	_	Prop|Sg|Nom	3	nmod	_	_
 3	юпӧлӧнса	юпӧлӧнса	A	_	Der/LocMod|Sg|Nom	7	amod	_	_
 4	зӧм	зӧм	A	_	Sg|Nom	5	amod	_	_
 5	сулалысь	Сула	N	_	Prop|Sem/Plc|EOLang/KOM|Sem/Plc|EOLang/KPV|Sg|Abl|?	7	acl	_	_
 6	слуда	слуда	N	_	Sg|Nom	7	nmod	_	_
-7	берегъяс	берег	N	_	Pl|Nom	0	root	_	_
-8	.	.	CLB	_	_	7	punct	_	_
+7	берегъяс	берег	N	_	Pl|Nom	1	nsubj:cop	_	_
+8	.	.	CLB	_	_	1	punct	_	_
 
 # sent_id = OKK:2000:52:11:ToroрovI
 # text = Орчча пасекаын пӧрӧдчисны кык нывбаба — Фрося да Амелия, кыкнанныс ар комын гӧгӧраӧсь, кызіникӧсь.
