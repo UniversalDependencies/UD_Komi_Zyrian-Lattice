@@ -4707,7 +4707,7 @@
 # text = Ме ог зэв вӧлі пукси шойтчыныястӧ.
 1	Ме	ме	Pron	_	Pers|Sg1|Nom	5	nsubj	_	_
 2	ог	оз	V	_	Neg|Ind|Prs|Sg1	5	aux:neg	_	_
-3	зэв	зэв	Adv	_	_	_	_	_	_
+3	зэв	зэв	Adv	_	_	5	advmod	_	_
 4	вӧлі	вӧвны	V	_	IV|Ind|Prt1|Sg1	5	aux	_	_
 5	пукси	пуксьыны	V	_	Refl|Ind|Prt1|Sg1	_	_	_	_
 6	шойтчыныястӧ	шойтны	V	_	IV|Der/чы|IV|Inf|Pl|Clt/тӧ	5	xcomp	_	_
@@ -4794,7 +4794,7 @@
 2	ӧшӧдӧм	ӧшӧдны	V	_	TV|Der|Der/ӧм|PastPtc	4	advcl	_	_
 3	содтӧдъя	содтӧдъя	A	_	Sg|Nom	4	amod	_	_
 4	приказын	приказ	N	_	Sg|Ine	8	obl	_	_
-5	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	8	nsubj	_	_
+5	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	8	nsubj:cop	_	_
 6	вӧлі	вӧвны	V	_	IV|Ind|Prt1|Sg3	8	aux	_	_
 7	нин	нин	Adv	_	_	8	advcl	_	_
 8	босьтӧмаяс	босьтны	V	_	TV|Der|Der/ӧм|PastPtc|N|Pl|Nom	0	root	_	_
@@ -4869,39 +4869,41 @@
 # sent_id = OKK:2000:51:2:ToroрovI
 # text = Ме водзтіястӧ мыйкӧ эг и казявлы татшӧмсӧ,— шензис Хохол Иӧра Саш.
 1	Ме	ме	Pron	_	Pers|Sg1|Nom	6	nsubj	_	_
-2	водзтіястӧ	водзті	Adv	_	Pl|Acc|PxSg2|?+	6	advmod	_	_
+2	водзтіястӧ	водзті	Adv	_	Pl|Nom|Clt/тӧ	6	advmod	_	_
 3	мыйкӧ	мыйкӧ	Pron	_	Indef|Sg|Nom|Der/кӧ	6	advmod	_	_
 4	эг	оз	V	_	Neg|Ind|Prt1|Sg1	6	aux:neg	_	_
 5	и	и	Adv	_	_	6	advmod	_	_
-6	казявлы	казявлыны	V	_	TV|ConNeg	10	_	_	_
+6	казявлы	казявлыны	V	_	TV|ConNeg	0	root	_	_
 7	татшӧмсӧ	татшӧм	Pron	_	Det|Dem|Clt/сӧ	6	obj	_	_
-8	,	,	CLB	_	_	7	punct	_	_
+8	,	,	CLB	_	_	6	punct	_	_
 9	—	—	PUNCT	_	_	10	punct	_	_
-10	шензис	шензьыны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
+10	шензис	шензьыны	V	_	IV|Ind|Prt1|Sg3	6	parataxis	_	_
 11	Хохол	Хохол	N	_	Prop|Sem/Mal|Sg|Nom|?+	10	nsubj	_	_
 12	Иӧра	Иӧра	N	_	Prop|Sem/Mal|Sg|Nom|?+	11	flat:name	_	_
 13	Саш	Саш	N	_	Prop|Sem/Mal|Sg|Nom	12	flat:name	_	_
-14	.	.	CLB	_	_	10	punct	_	_
+14	.	.	CLB	_	_	6	punct	_	_
 
 # sent_id = OKK:2000:51:3:ToroрovI
 # text = Бипур пестӧны берег дорсянь неылын сулалысь ӧтка ыджыд коз улӧ, водзтіястӧ Микит татӧні неӧтчыд жӧ нин войковтліс.
 1	Бипур	бипур	N	_	Sg|Nom	2	nsubj	_	_
 2	пестӧны	пестыны	V	_	TV|Ind|Prs|Pl3	0	root	_	_
-3	берег дорсянь	берег·дор	N	_	Sg|Egr	2	obl:l	_	_
-4	неылын	неылын	Adv	_	Ine	5	advmod	_	_
-5	сулалысь	сулавны	V	_	IV|Der|Der/ысь|ActPrsPtc	8	advcl	_	_
-6	ӧтка	ӧтка	A	_	Sg|Nom	8	amod	_	_
-7	ыджыд	ыджыд	A	_	Sg|Nom	8	amod	_	_
-8	коз улӧ	коз·ув	N	_	Sg|Ill	2	obl:l	_	_
-9	,	,	CLB	_	_	8	punct	_	_
-10	водзтіястӧ	водзті	Adv	_	Pl|Acc|PxSg2|?+	16	advmod	_	_
-11	Микит	Микит	N	_	Prop|Sem/Mal|Sg|Nom	16	nsubj	_	_
-12	татӧні	татӧні	Adv	_	_	16	advmod	_	_
-13	неӧтчыд	неӧтчыд	Adv	_	_	16	advmod	_	_
-14	жӧ	жӧ	Adv	_	Parenthetic	16	advmod	_	_
-15	нин	нин	Adv	_	Temp	16	advmod	_	_
-16	войковтліс	войковтлыны	V	_	IV|Ind|Prt1|Sg3	2	conj	_	_
-17	.	.	CLB	_	_	16	punct	_	_
+3	берег	берег·дор	N	_	Sg|Egr	2	obl:l	_	_
+4	дорсянь	дорсянь	Adp	_	Po|Sg|Egr	3	case	_	_
+5	неылын	неылын	Adv	_	Ine	6	advmod	_	_
+6	сулалысь	сулавны	V	_	IV|Der|Der/ысь|ActPrsPtc	9	acl	_	_
+7	ӧтка	ӧтка	A	_	Sg|Nom	9	amod	_	_
+8	ыджыд	ыджыд	A	_	Sg|Nom	9	amod	_	_
+9	коз	коз	N	_	Sg|Ill	2	obl:l	_	_
+10	улӧ	улӧ	Adp	_	Po|Sg|Ill	9	case	_	_
+11	,	,	CLB	_	_	18	punct	_	_
+12	водзтіястӧ	водзті	Adv	_	Pl|Nom|Clt/тӧ	18	advmod	_	_
+13	Микит	Микит	N	_	Prop|Sem/Mal|Sg|Nom	18	nsubj	_	_
+14	татӧні	татӧні	Adv	_	_	18	advmod	_	_
+15	неӧтчыд	неӧтчыд	Adv	_	_	18	advmod	_	_
+16	жӧ	жӧ	Adv	_	Parenthetic	18	advmod	_	_
+17	нин	нин	Adv	_	Temp	18	advmod	_	_
+18	войковтліс	войковтлыны	V	_	IV|Ind|Prt1|Sg3	2	conj	_	_
+19	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:51:4a:SavinV
 # text = Таво матіясас эз вӧв вотӧсыс.
@@ -4910,49 +4912,50 @@
 3	эз	оз	V	_	Neg|Ind|Prt1|Sg3	5	aux:neg	_	_
 4	вӧв	вӧвны	V	_	IV|ConNeg	5	aux	_	_
 5	вотӧсыс	вотӧс	N	_	Sg|Nom|PxSg3	2	nsubj	_	_
-6	.	.	CLB	_	_	5	punct	_	_
+6	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:51:4b:SavinV
 # text = Ылӧясӧ ветлӧма сиктса войтырлӧн кодатайствоыс вичко тупкылӧм йылысь — тшупӧдысь тшупӧдӧ пыр кайӧма вывлань...
 # comment = What is the best way to treat ылӧясӧ here?
-1	Ылӧясӧ	ылӧ	N	_	Relat|Pl|Ill|?+	2	obl:l	_	_
-2	ветлӧма	ветлыны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	5	acl	_	_
+1	Ылӧясӧ	ылӧ	N	_	Relat|Pl|Ill	2	obl:l	_	_
+2	ветлӧма	ветлыны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	0	root	_	_
 3	сиктса	сиктса	A	_	Sg|Der|Der/LocMod|A|Sg|Nom	4	amod	_	_
 4	войтырлӧн	войтыр	N	_	Sg|Gen	5	nmod	_	_
-5	кодатайствоыс	кодатайство	N	_	Sg|Nom|PxSg3	7	nsubj	_	_
+5	кодатайствоыс	кодатайство	N	_	Sg|Nom|PxSg3	2	nsubj	_	_
 6	вичко	вичко	N	_	Sg|Nom	7	nmod	_	_
-7	тупкылӧм	тупкывны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom	0	root	_	_
+7	тупкылӧм	тупкывны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom	2	obl	_	_
 8	йылысь	йылысь	Adp	_	Po|Sg|Ela	7	case	_	_
-9	—	—	PUNCT	_	_	8	punct	_	_
+9	—	—	PUNCT	_	_	13	punct	_	_
 10	тшупӧдысь	тшупӧд	N	_	Sg|Ela	13	obl:l	_	_
 11	тшупӧдӧ	тшупӧд	N	_	Sg|Ill	13	obl:l	_	_
 12	пыр	пыр	Adv	_	_	13	advmod	_	_
-13	кайӧма	кайны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	_	_	_	_
+13	кайӧма	кайны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Der|Der/ProprietiveMod|A|Sg|Nom	2	conj	_	_
 14	вывлань	вывлань	Adv	_	Apr	13	advmod	_	_
-15	...	...	CLB	_	_	14	punct	_	_
+15	...	...	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:51:5:SavinV
 # text_orig = Кӧнсюрӧ прӧстӧ гызьылӧм вӧлі (вичко тупкӧм вӧсна), мукӧдлаясын и збыльмӧдлісны баитӧмъяснысӧ.
 # text = Кӧнсюрӧ прӧстӧ гызьылӧм вӧлі, мукӧдлаясын и збыльмӧдлісны баитӧмъяснысӧ.
+# comment = Whether this is parataxis should be checked
 1	Кӧнсюрӧ	кӧнсюрӧ	Adv	_	_	0	root	_	_
 2	прӧстӧ	прӧст	A	_	Sg|Ill	3	amod	_	_
-3	гызьылӧм	гызьывны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom	1	nsubj	_	_
-4	вӧлі	вӧвны	V	_	IV|Ind|Prt1|Sg3	3	aux	_	_
-5	,	,	CLB	_	_	_	_	_	_
+3	гызьылӧм	гызьывны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom	1	csubj	_	_
+4	вӧлі	вӧвны	V	_	IV|Ind|Prt1|Sg3	1	cop	_	_
+5	,	,	CLB	_	_	8	punct	_	_
 6	мукӧдлаясын	мукӧдла	Adv	_	Pl|Ine|?+	8	advmod	_	_
 7	и	и	Adv	_	_	8	advmod	_	_
-8	збыльмӧдлісны	збыльмӧдлыны	V	_	TV|Ind|Prt1|Pl3	_	_	_	_
+8	збыльмӧдлісны	збыльмӧдлыны	V	_	TV|Ind|Prt1|Pl3	1	parataxis	_	_
 9	баитӧмъяснысӧ	баитны	V	_	IV|Der|Der/ӧм|Der/NomAct|N|Pl|Acc|PxPl3	8	xcomp	_	_
 10	.	.	CLB	_	_	8	punct	_	_
 
 # sent_id = OKK:2000:51:6a:ToroрovI
 # text = Ок, ёна жӧрадліс сэки Капит Паш!
-1	Ок	ок	Interj	_	_	_	_	_	_
-2	,	,	CLB	_	_	_	_	_	_
+1	Ок	ок	Interj	_	_	4	discourse	_	_
+2	,	,	CLB	_	_	4	punct	_	_
 3	ёна	ёна	Adv	_	_	4	advmod	_	_
-4	жӧрадліс	жӧрадлыны	V	_	TV|Ind|Prt1|Sg3	_	_	_	_
+4	жӧрадліс	жӧрадлыны	V	_	TV|Ind|Prt1|Sg3	0	root	_	_
 5	сэки	сэки	Adv	_	_	4	advmod	_	_
-6	Капит	Капит	N	_	Prop|Sem/Mal|Sg|Nom	_	_	_	_
+6	Капит	Капит	N	_	Prop|Sem/Mal|Sg|Nom	4	nsubj	_	_
 7	Паш	Паш	N	_	Prop|Sem/Mal|Sg|Nom	6	flat:name	_	_
 8	!	!	CLB	_	_	4	punct	_	_
 
@@ -4968,7 +4971,7 @@
 2	регыд	регыд	Adv	_	_	4	advcl	_	_
 3	и	и	Adv	_	_	4	advcl	_	_
 4	вӧралысь	вӧралысь	N	_	Sg|Nom	0	root	_	_
-5	лоӧ	лоны	V	_	IV|Ind|Prs|Sg3	4	aux	_	_
+5	лоӧ	лоны	V	_	IV|Ind|Prs|Sg3	4	cop	_	_
 6	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:51:6d:ToroрovI
@@ -4976,11 +4979,12 @@
 1	Пищальӧн	пищаль	N	_	Sg|Ins	2	obl	_	_
 2	пондасны	пондыны	V	_	IV|Ind|Fut|Pl3	0	root	_	_
 3	ыліджыкъясті	ылі	N	_	Comp|Pl|Tra	4	obl:l	_	_
-4	кытшовтавны	кытшовтавны	?	_	_	2	xcomp	_	_
+4	кытшовтавны	кытшовтавны	V	Inf	_	2	xcomp	_	_
 5	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:51:7:ToroрovI
 # text = Колӧ кӧть пув сикъяссӧ тэрмасьтӧг кытшовтны, и сэсся, эмышт на кӧ кӧнкӧ пувйыс, аскиясӧ гӧтырыскӧд ӧтлаын волыны...
+# comment = This is only partially annotated now.
 1	Колӧ	ковны	V	_	TV|Ind|Prs|Sg3	_	_	_	_
 2	кӧть	кӧть	CS	_	_	_	_	_	_
 3	пув	пув	N	_	Sg|Nom	4	nmod	_	_
@@ -5005,6 +5009,7 @@
 
 # sent_id = OKK:2000:51:8:ToroрovI
 # text = Ме неважӧн лыдди газетысь: Эжва гӧгӧръясын пӧ ӧні джын лэбачыс лоӧма... катша да рака!
+# comment = Conversion issue in Annotatrix
 "<Ме>"
 	"ме" Pron Pers Sg1 Nom
 "<неважӧн>"
