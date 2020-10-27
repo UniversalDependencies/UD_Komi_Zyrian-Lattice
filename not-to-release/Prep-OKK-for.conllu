@@ -5054,6 +5054,7 @@
 
 # sent_id = OKK:2000:52:6:OdincovA
 # text = Но окотатӧ тешитӧмыд висьӧм кодь вӧлӧма: веськалас прӧст здук, и ми Венякӧд — вӧрынӧсь либӧ ва дорынӧсь нин...
+# comment = Here is one dependency that needs to be decided
 1	Но	но	CC	_	_	5	cc	_	_
 2	окотатӧ	окота	N	_	Sg|Acc|PxSg2	3	obj	_	_
 3	тешитӧмыд	тешитны	V	_	TV|Der|Der/ӧм|Der/NomAct|N|Sg|Nom|PxSg2	5	nsubj:cop	_	_
@@ -5130,7 +5131,7 @@
 # text = Орчча пасекаын пӧрӧдчисны кык нывбаба — Фрося да Амелия, кыкнанныс ар комын гӧгӧраӧсь, кызіникӧсь.
 1	Орчча	орчча	A	_	Sg|Nom	2	amod	_	_
 2	пасекаын	пасека	N	_	Sg|Ine	3	obl:lmod	_	_
-3	пӧрӧдчисны	пӧрӧдчыны	V	_	Refl|Ind|Prt1|Pl3	_	_	_	_
+3	пӧрӧдчисны	пӧрӧдчыны	V	_	Refl|Ind|Prt1|Pl3	0	root	_	_
 4	кык	кык	Num	_	Card|Sg|Nom	5	nummod	_	_
 5	нывбаба	нывбаба	N	_	Sg|Nom	3	nsubj	_	_
 6	—	—	PUNCT	_	_	7	punct	_	_
