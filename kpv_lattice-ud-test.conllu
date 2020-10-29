@@ -5642,7 +5642,7 @@
 13	,	,	PUNCT	CLB	_	14	punct	_	_
 14	гожӧмын	гожӧм	NOUN	N	Case=Ine|Number=Sing	4	list	_	GTtags=Sg,Ine
 15	—	—	PUNCT	PUNCT	_	14	punct	_	_
-16-19	сир-ёкыш	_	_	_	_	_	_	_	SpaceAfter=No
+16-18	сир-ёкыш	_	_	_	_	_	_	_	SpaceAfter=No
 16	сир	сир	NOUN	N	Case=Nom|Number=Sing	14	appos	_	GTtags=Sg,Nom
 17	-	-	PUNCT	PUNCT	_	16	punct	_	_
 18	ёкыш	ёкыш	NOUN	N	Case=Nom|Number=Sing	16	conj	_	GTtags=Sg,Nom
