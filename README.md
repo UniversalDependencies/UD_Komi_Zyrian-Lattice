@@ -31,7 +31,7 @@ If you use this treebank in your work, please cite:
 
 In the release 2.7 various sentences used in grammar *Ӧнія коми кыв* (2000) were included. These sentences are marked with sent_id's that contain components `OKK:2000:page:n-th sentence:original author`. These sentences were included to cover more thoroughly different grammatical phenomena in Komi. When refering to these sentences, we advice to cite also the original source:
 
-- Федюнёва, Г. (Ед.); Некрасова, Г.; Лудыкова, В.; Цыпанов, Е.; Попова, Э. 2000: *Ӧнія коми кыв: Морфология.* [Modern Komi Language: Morphology] Сыктывкар: Коми небӧг лэдзанін. 
+- Федюнёва, Г. (Ed.); Некрасова, Г.; Лудыкова, В.; Цыпанов, Е.; Попова, Э. 2000: *Ӧнія коми кыв: Морфология.* [Modern Komi Language: Morphology] Сыктывкар: Коми небӧг лэдзанін. 
 - Fedûnëva, G. (Ed.); Nekrasova, G.; Ludykova, V.; Cypanov, E.; Popova, È. 2000: *Ӧnìâ komi kyv: Morfologiâ.* [Modern Komi Language: Morphology] Syktyvkar: Komi nebӧg lèdzanіn. 
 
 
@@ -39,7 +39,6 @@ In the release 2.7 various sentences used in grammar *Ӧнія коми кыв* 
 
 - 2020-10-31
   - 193 new sentences added
-  - README file updated
 - 2020-05-15
   - Parallel sentences from Minjin shared with Komi_Permyak-UH.
   - Expanding advmod:mmod, :lmod and :tmod.
