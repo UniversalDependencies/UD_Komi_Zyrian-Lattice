@@ -8,7 +8,7 @@ The treebank contains continuous texts in the written Komi-Zyrian language. All 
 
 # Acknowledgments
 
-This work has been developed within the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). In the UD release 2.7 [Kone Foundation](https://koneensaatio.fi/en/)-funded research project [Language Documentation meets Language Technology: The Next Step in the Description of Komi](langdoc.github.io/IKDP-2), led by [Rogier Blokland](https://katalog.uu.se/profile/?id=N14-1060) and [Michael Rießler](https://uefconnect.uef.fi/en/person/michael.riesler/), has started to expand the treebank, and the work will continue to release 2.8. In this phase the annotation work is being done by Niko Partanen and Jack Rueter.
+This work has been developed within the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). In the UD release 2.7 [Kone Foundation](https://koneensaatio.fi/en/)-funded research project [Language Documentation meets Language Technology: The Next Step in the Description of Komi](langdoc.github.io/IKDP-2), led by [Rogier Blokland](https://katalog.uu.se/profile/?id=N14-1060) and [Michael Rießler](https://uefconnect.uef.fi/en/person/michael.riesler/), has started to expand the treebank, and the work will continue to release 2.8. In this phase the annotation work is being done by Niko Partanen and Jack Rueter. [GiellaLT](https://giellalt.uit.no/) infrastucture was used in morphological analysis.
 
 If you use this treebank in your work, please cite:
 
@@ -38,7 +38,8 @@ In the release 2.7 various sentences used in grammar *Ӧнія коми кыв* 
 # Changelog
 
 - 2020-10-31
-  - 193 new sentences added
+  - 193 new sentences added from grammar Ӧнія коми кыв: морфология
+  - 10 new parallel sentences added that are shared with [Komi Permyak](https://github.com/UniversalDependencies/UD_Komi_Permyak-UH) treebank
 - 2020-05-15
   - Parallel sentences from Minjin shared with Komi_Permyak-UH.
   - Expanding advmod:mmod, :lmod and :tmod.
