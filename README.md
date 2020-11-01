@@ -29,7 +29,7 @@ If you use this treebank in your work, please cite:
 | uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
 | Minin:OjsjaCvettez | Minjin I. A. (Минин И. А.) 1962. Vojsya dzoridzjas (Войся дзоридзьяс) (висьт) // Войвыв кодзув (1962. №1) | 1962 | | http://komikyv.org/kpv/node/31062 |
 
-In the release 2.7 various sentences used in grammar *Ӧнія коми кыв* (2000) were included. These sentences are marked with sent_id's that contain components `OKK:2000:page:n-th sentence:original author`. These sentences were included to cover more thoroughly different grammatical phenomena in Komi. When refering to these sentences, we advice to cite also the original source:
+In release 2.7 various sentences used in the Komi-language grammar *Ӧнія коми кыв* (2000) were included. These sentences are marked with sent_id's that contain components `OKK:2000:page:n-th sentence:original author`. These sentences were included to cover different grammatical phenomena in Komi more thoroughly. When refering to these sentences, we advice you also cite the original source:
 
 - Федюнёва, Г. (Ed.); Некрасова, Г.; Лудыкова, В.; Цыпанов, Е.; Попова, Э. 2000: *Ӧнія коми кыв: Морфология.* [Modern Komi Language: Morphology] Сыктывкар: Коми небӧг лэдзанін. 
 - Fedûnëva, G. (Ed.); Nekrasova, G.; Ludykova, V.; Cypanov, E.; Popova, È. 2000: *Ӧnìâ komi kyv: Morfologiâ.* [Modern Komi Language: Morphology] Syktyvkar: Komi nebӧg lèdzanіn. 
