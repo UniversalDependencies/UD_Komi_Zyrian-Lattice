@@ -8,7 +8,7 @@ The treebank contains continuous texts in the written Komi-Zyrian language. All 
 
 # Acknowledgments
 
-This work has been developed within the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). In the UD release 2.7 [Kone Foundation](https://koneensaatio.fi/en/)-funded research project [Language Documentation meets Language Technology: The Next Step in the Description of Komi](langdoc.github.io/IKDP-2), led by [Rogier Blokland](https://katalog.uu.se/profile/?id=N14-1060) and [Michael Rießler](https://uefconnect.uef.fi/en/person/michael.riesler/), has started to expand the treebank, and the work will continue to release 2.8. In this phase the annotation work is being done by Niko Partanen and Jack Rueter. [GiellaLT](https://giellalt.uit.no/) infrastucture was used in morphological analysis.
+This work has been developed within the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02). Thierry Poibeau is also partially supported by a RGNF-CNRS (grant between the LATTICE-CNRS Laboratory and the Russian State University for the Humanities in Moscow). In the UD release 2.7 [Kone Foundation](https://koneensaatio.fi/en/)-funded research project [Language Documentation meets Language Technology: The Next Step in the Description of Komi](langdoc.github.io/IKDP-2), led by [Rogier Blokland](https://katalog.uu.se/profile/?id=N14-1060) and [Michael Rießler](https://uefconnect.uef.fi/en/person/michael.riesler/), has started to expand the treebank, and the work will continue to release 2.8. In this phase the annotation work is being done by Niko Partanen and Jack Rueter. [GiellaLT](https://giellalt.uit.no/lang-kpv) infrastucture was used in morphological analysis.
 
 If you use this treebank in your work, please cite:
 
@@ -29,7 +29,7 @@ If you use this treebank in your work, please cite:
 | uspensky1940a | Успенский, Лев 1940: Нёль боевӧй случай | 1940 | http://urn.fi/URN:NBN:fi-fe2014102045428 | | | 
 | Minin:OjsjaCvettez | Minjin I. A. (Минин И. А.) 1962. Vojsya dzoridzjas (Войся дзоридзьяс) (висьт) // Войвыв кодзув (1962. №1) | 1962 | | http://komikyv.org/kpv/node/31062 |
 
-In release 2.7 various sentences used in the Komi-language grammar *Ӧнія коми кыв* (2000) were included. These sentences are marked with sent_id's that contain components `OKK:2000:page:n-th sentence:original author`. These sentences were included to cover different grammatical phenomena in Komi more thoroughly. When refering to these sentences, we advice you also cite the original source:
+In release 2.7 various sentences used in the Komi-language grammar *Ӧнія коми кыв* (2000) were included. These sentences are marked with sent_id's that contain components `OKK:2000:page:n-th sentence:original author`. These sentences were included to cover different grammatical phenomena in Komi more thoroughly. When refering to these sentences, we advise you also cite the original source:
 
 - Федюнёва, Г. (Ed.); Некрасова, Г.; Лудыкова, В.; Цыпанов, Е.; Попова, Э. 2000: *Ӧнія коми кыв: Морфология.* [Modern Komi Language: Morphology] Сыктывкар: Коми небӧг лэдзанін. 
 - Fedûnëva, G. (Ed.); Nekrasova, G.; Ludykova, V.; Cypanov, E.; Popova, È. 2000: *Ӧnìâ komi kyv: Morfologiâ.* [Modern Komi Language: Morphology] Syktyvkar: Komi nebӧg lèdzanіn. 
