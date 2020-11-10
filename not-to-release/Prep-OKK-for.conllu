@@ -522,16 +522,12 @@
 # text = Гришлӧн 49 вӧлі мода сэтшӧм-татшӧм уджъяс вылӧ кесйӧдлыны томджыкъясӧс.
 "<Гришлӧн>"
 	"Гриш" N Prop Sem/Mal Sg Gen
-"<49>"
-	"49" Num Arab Sg Nom
-	"<49" Num Arab Sg Nom
 "<вӧлі>"
 	"вӧвны" V IV Ind Prt1 Sg3
 "<мода>"
 	"Мод" N Prop Sem/Ant Sg Der Der/ProprietiveMod A Sg Nom
 	"мода" N Sg Nom
 "<сэтшӧм-татшӧм>"
-	"сэтшӧм-татшӧм" Pron Det Dem
 	"сэтшӧм-татшӧм" Pron Det Dem Sg Nom
 "<уджъяс>"
 	"удж" N Pl Nom
@@ -539,10 +535,8 @@
 	"вылӧ" Adp Po Sg Ill
 "<кесйӧдлыны>"
 	"кесйӧдлыны" V TV Inf
-	"кӧсйӧдлыны" V IV Inf
 "<томджыкъясӧс>"
 	"том" A Comp Pl Acc
-	"том" A Comp Pl Acc PxSg1
 "<.>"
 	"." CLB
 
@@ -558,9 +552,7 @@
 	"нэм" N Sg Nom PxSg3
 "<некӧн>"
 	"некӧн" Adv Neg Spat Ine
-	"некӧні" Adv Neg
 "<и>"
-	"и" Adv
 	"и" CC
 "<некодӧс>"
 	"некод" Pron Neg Sg Acc
@@ -577,7 +569,6 @@
 # text_orig = Вылын ӧшиньяса да ён пӧв дзиръяа ыджыд керка ӧшинюлӧ Хохол Йӧра Саш тшӧктіс сувтӧдны (машинасӧ).
 # text = Вылын ӧшиньяса да ён пӧв дзиръяа ыджыд керка ӧшинюлӧ Хохол Йӧра Саш тшӧктіс сувтӧдны.
 "<Вылын>"
-	"выв" N Relat Sg Ine
 	"вылын" Adv Ine
 "<ӧшиньяса>"
 	"ӧшинь" N Pl Der Der/ProprietiveMod A Sg Nom
@@ -596,14 +587,13 @@
 "<ӧшинюлӧ>"
 	"ӧшинь ув" N Sg Ill
 "<Хохол>"
-	"Хохол" ?
+	"Хохол" N Prop Sg Nom
 "<Йӧра>"
 	"йӧр" N Sg Der Der/ProprietiveMod A Sg Nom
 "<Саш>"
 	"Саш" N Prop Sem/Mal Sg Nom
 "<тшӧктіс>"
 	"тшӧктыны" V IV Ind Prt1 Sg3
-	"тшӧктыны" V TV Ind Prt1 Sg3
 "<сувтӧдны>"
 	"сувтӧдны" V TV Inf
 "<.>"
@@ -612,7 +602,6 @@
 # sent_id = OKK:2000:49:3:ToroрovI
 # text = И ӧні тайӧ мореыс, берегъястӧм мореыс, пасьталаыс валъясис, миян пурным пондіс дзӧрны-катласьны.
 "<И>"
-	"и" Adv
 	"и" CC
 "<ӧні>"
 	"ӧні" Adv
@@ -629,9 +618,7 @@
 "<,>"
 	"," CLB
 "<пасьталаыс>"
-	"пасьта" A Sg Cns PxSg3
-	"пасьта" N Sg Cns PxSg3
-	"пасьталаыс" Adv
+	"пасьталаыс" Adv PxSg3
 "<валъясис>"
 	"валъясьны" V IV Ind Prt1 Sg3
 "<,>"
@@ -640,12 +627,11 @@
 	"ме" Pron Pers Pl1 Gen
 "<пурным>"
 	"пур" N Sg Nom PxPl1
-	"пурны" V TV Inf Px1
 "<пондіс>"
 	"пондыны" V IV Ind Prt1 Sg3
 "<дзӧрны-катласьны>"
-	"катласьны" V Refl Inf
-		"дзӧрны" V IV Inf Cmp/Serial Cmp
+	"дзӧрны" V IV Inf Cmp/Serial Cmp
+		"катласьны" V Refl Inf
 "<.>"
 	"." CLB
 
@@ -669,13 +655,11 @@
 	"морӧс" N Sg Nom
 "<шуйгаладорас>"
 	"шуйгаладор" N Der Der/дор Sg Ill PxSg3
-	"шуйгаладор" N Der Der/дор Sg Ine PxSg3
 "<,>"
 	"," CLB
 "<китель>"
 	"китель" N Sg Nom
 "<улас>"
-	"улын" Adp Po Sg Ine PxSg3
 	"улӧ" Adp Po Sg Ill PxSg3
 "<,>"
 	"," CLB
@@ -705,7 +689,7 @@
 "<пукалӧ>"
 	"пукавны" V IV Ind Prs Sg3
 "<вылын-паськыд>"
-	"вылын-паськыд" ?
+	"вылын-паськыд" N Sg Nom PxSg2
 "<морӧсъяса>"
 	"морӧс" N Pl Der Der/ProprietiveMod A Sg Nom
 "<артиллерист>"
@@ -732,7 +716,6 @@
 "<,>"
 	"," CLB
 "<важиник>"
-	"важ" A Der Der/Иник Sg Nom
 	"важиник" A Sg Nom
 "<ковтаа>"
 	"ковта" N Sg Der Der/ProprietiveMod A Sg Nom
@@ -740,15 +723,12 @@
 	"," CLB
 "<юрас>"
 	"юр" N Sg Ill PxSg3
-	"юр" N Sg Ine PxSg3
 "<тусьӧсь-тусьӧсь>"
 	"тусьӧсь-тусьӧсь" ?
 "<чышъяна>"
 	"чышъян" N Sg Der Der/ProprietiveMod A Sg Nom
-	"чышъян" N V Der Der/Ан Sg Der Der/ProprietiveMod A Sg Nom
 "<пӧчӧ>"
 	"пӧч" N Sg Ill
-	"пӧчӧ" N Sg Nom
 "<.>"
 	"." CLB
 
@@ -767,14 +747,12 @@
 "<—>"
 	"—" PUNCT
 "<мӧдарӧ>"
-	"мӧдарӧ" Adv
 	"мӧдарӧ" Adv Pron Qnt Ill
 "<,>"
 	"," CLB
 "<коймӧдъяс>"
 	"коймӧд" Det Ord Pl Nom
 "<выліӧ>"
-	"вылі" A Sg Ill
 	"вылі" N Sg Ill
 "<каттьысьӧны>"
 	"каттьысьны" V Refl Ind Prs Pl3
@@ -786,7 +764,6 @@
 "<Ӧтияс>"
 	"ӧти" Num Card Pl Nom
 "<ышӧдана>"
-	"ышӧдан" N V Der Der/Ан Sg Der Der/ProprietiveMod A Sg Nom
 	"ышӧдны" V TV Der Der/Ан PrsPrc N Sg Der Der/ProprietiveMod A Sg Nom
 "<синъясӧн>"
 	"син" N Pl Ins
@@ -795,9 +772,7 @@
 "<ме>"
 	"ме" Pron Pers Sg1 Nom
 "<вылӧ>"
-	"вывны" V IV Ind Prs Sg3
 	"вылӧ" Adp Po Sg Ill
-	"вылӧ" Adv Ill
 "<,>"
 	"," CLB
 "<мӧдъяс>"
@@ -806,7 +781,6 @@
 	"лэдзны" V TV Ind Prs Pl3
 "<синъяссӧ>"
 	"син" N Pl Acc PxSg3
-	"синйыны" V TV Ind Fut Sg3 Clt/сӧ
 "<.>"
 	"." CLB
 
@@ -816,18 +790,15 @@
 	"коймӧд" Det Ord Pl Nom
 "<быттьӧ>"
 	"быттьӧ" Adv Parenthetic
-	"быттьӧ" CS
 "<спектак>"
 	"спектакл" N Sg Nom
 "<вылӧ>"
 	"вылӧ" Adp Po Sg Ill
 "<петӧмаӧсь>"
-	"петны" V IV Ind Prt2 Pl1
 	"петны" V IV Ind Prt2 Pl3
 "<—>"
 	"—" PUNCT
 "<окота>"
-	"окота" Adv
 	"окота" N Sg Nom
 "<аддзывны>"
 	"аддзывны" V TV Inf
@@ -836,7 +807,6 @@
 "<мыйӧн>"
 	"мыйӧн" CS
 "<ставыс>"
-	"став" N Sg Nom PxSg3
 	"став" Pron Sg Nom PxSg3
 "<помасяс>"
 	"помасьны" V Refl Ind Fut Sg3
@@ -846,21 +816,16 @@
 # sent_id = OKK:2000:49:9:ToroрovI
 # text = Паськыдкодь ягыслысь ӧтар джынсӧ коркӧ пӧрӧдлӧмаӧсь, буракӧ, во ветымынъяс сайын...
 "<Паськыдкодь>"
-	"паськыд" A Der Der/кодь A Sg Nom
 	"паськыд" A Der Der/кодь CompMod Sg Nom
 "<ягыслысь>"
-	"Яг" N Prop Sem/Plc EOLang/KOM Sem/Plc EOLang/KPV Sg Abl PxSg3
 	"яг" N Sg Abl PxSg3
 "<ӧтар>"
 	"ӧтар" Pron Qnt A Der/MWN Sg Nom
 "<джынсӧ>"
 	"джын" N Sg Acc PxSg3
 "<коркӧ>"
-	"коркӧ" Adv
-	"коркӧ" Adv Der/кӧ Indef
 	"коркӧ" Adv Indef Temp Der/кӧ
 "<пӧрӧдлӧмаӧсь>"
-	"пӧрӧдлыны" V TV Ind Prt2 Pl1
 	"пӧрӧдлыны" V TV Ind Prt2 Pl3
 "<,>"
 	"," CLB
@@ -870,34 +835,29 @@
 	"," CLB
 "<во>"
 	"во" N Sg Nom
-	"воны" V IV Imprt Sg2
 "<ветымынъяс>"
 	"ветымын" Num Card Pl Nom
 "<сайын>"
 	"сайын" Adp Po Sg Ine
-	"сайын" Adv Spat Ine
 "<...>"
 	"..." CLB
 
 # sent_id = OKK:2000:49:10:FjodorovG
 # text = Тадзи и уджавліс во дас витъяс сайын Мартин.
 "<Тадзи>"
-        "тадзи" Adv Manner
+	"тадзи" Adv Manner
 "<и>"
-        "и" Adv
-        "и" CC
+	"и" Adv
 "<уджавліс>"
-        "уджавлыны" V IV Ind Prt1 Sg3
+	"уджавлыны" V IV Ind Prt1 Sg3
 "<во>"
-        "во" N Sg Nom
+	"во" N Sg Nom
 "<дас витъяс>"
-        "дас вит" Num Card Pl Nom
+	"дас вит" Num Card Pl Nom
 "<сайын>"
-        "сайын" Adp Po Sg Ine
-        "сайын" Adv Spat Ine
+"сайын" Adp Po Sg Ine
 "<Мартин>"
-        "Мартин" N Prop Sem/Mal Sg Nom
-        "Мартин" N Prop Sem/Sur-Mal Sg Nom
+	"Мартин" N Prop Sem/Sur-Mal Sg Nom
 "<.>"
         "." CLB
 
@@ -919,7 +879,6 @@
 "<,>"
 	"," CLB
 "<и>"
-	"и" Adv
 	"и" CC
 "<жаль>"
 	"жаль" Interj
@@ -985,36 +944,30 @@
 "<Кодъяскӧ>"
 	"кодкӧ" Pron Indef Pl Nom Der/кӧ
 "<волӧмаӧсь>"
-	"волыны" V IV Ind Prt2 Pl1
 	"волыны" V IV Ind Prt2 Pl3
 "<дзик>"
 	"дзик" Adv Deg
 "<на>"
 	"на" Adv
 "<регыд>"
-	"регыд" A Sg Nom
 	"регыд" Adv
 "<,>"
 	"," CLB
 "<войнас>"
 	"вой" N Sg Ins PxSg3
-	"войнас" Adv
 "<,>"
 	"," CLB
 "<тыдалӧ>"
-	"тыдавны" V IV Ind Prs Sg3
 	"тыдалӧ" Adv Parenthetic
 "<,>"
 	"," CLB
 "<тэрмасьӧмӧн>"
 	"тэрмасьӧмӧн" Adv V Der Der/ӧмӧн
 "<сӧвтӧмаӧсь>"
-	"сӧвтны" V IV Ind Prt2 Pl1
 	"сӧвтны" V IV Ind Prt2 Pl3
 "<да>"
 	"да" CC
 "<нуӧмаӧсь>"
-	"нуны" V TV Ind Prt2 Pl1
 	"нуны" V TV Ind Prt2 Pl3
 "<сэсь>"
 	"сэсь" Adv
@@ -1026,16 +979,10 @@
 # sent_id = OKK:2000:49:12b:FjodorovG
 # text = Кодъяс тадзсӧ пакӧститчӧмаӧсь — Варук дыр эз кут юрсӧ жугӧдлыны.
 "<Кодъяс>"
-	"код" A Pl Nom
-	"код" N Pl Nom
-	"кодйыны" V IV Ind Fut Sg3
-	"кодйыны" V TV Ind Fut Sg3
 	"коді" Pron Interr Pl Nom
-	"коді" Pron Rel Pl Nom
 "<тадзсӧ>"
-	"тадзсӧ" ?
+	"тадзсӧ" Adv Manner Clt/сӧ
 "<пакӧститчӧмаӧсь>"
-	"пакӧститчыны" V Refl Ind Prt2 Pl1
 	"пакӧститчыны" V Refl Ind Prt2 Pl3
 "<—>"
 	"—" PUNCT
@@ -1062,11 +1009,9 @@
 "<Павел>"
 	"Павел" N Prop Sem/Mal Sg Nom
 "<Григоръевич>"
-	"Григоръевич" ?
+	"Григоръевич" N Prop Sg Nom
 "<!>"
 	"!" CLB
-: 
-
 "<—>"
 	"—" PUNCT
 "<Ласей>"
@@ -1091,10 +1036,8 @@
 "<—>"
 	"—" PUNCT
 "<Ваддорса>"
-	"Вад" N Prop Sg Der Der/дорса A Sg Nom
 	"вад" N Sg Der Der/дорса A Sg Nom
 "<видз>"
-	"видз" N Sg Nom
 	"видз" N Sg Nom
 "<вылысь>"
 	"вывны" V IV Der Der/ысь ActPrsPtc
@@ -1105,7 +1048,6 @@
 "<турун>"
 	"турун" N Sg Nom
 "<нуӧмаӧсь>"
-	"нуны" V TV Ind Prt2 Pl1
 	"нуны" V TV Ind Prt2 Pl3
 "<.>"
 	"." CLB
@@ -1115,16 +1057,9 @@
 "<—>"
 	"—" PUNCT
 "<Кодъяс>"
-	"код" A Pl Nom
-	"код" N Pl Nom
-	"кодйыны" V IV Ind Fut Sg3
-	"кодйыны" V TV Ind Fut Sg3
 	"коді" Pron Interr Pl Nom
-	"коді" Pron Rel Pl Nom
 "<?>"
 	"?" CLB
-: 
-
 "<—>"
 	"—" PUNCT
 "<друг>"
@@ -1135,10 +1070,8 @@
 	"чӧвлӧняс" ?
 "<юаліс>"
 	"юавны" V IV Ind Prt1 Sg3
-	"юавны" V TV Ind Prt1 Sg3
 "<председатель>"
 	"председатель" N Sg Nom
-	"председатель" N Src/F Sg Nom
 "<.>"
 	"." CLB
 
@@ -1150,8 +1083,6 @@
 	"тайӧ" Pron Dem Pl Nom
 "<!>"
 	"!" CLB
-: 
-
 "<—>"
 	"—" PUNCT
 "<Ласей>"
@@ -1370,8 +1301,6 @@
 	"усьны" V IV Ind Prt1 Err/Dial Sg3
 "<сэтшӧмъясыслӧн>"
 	"сэтшӧм" Pron Det Dem Pl Gen PxSg3
-"<50>"
-	"50" Num Arab Sg Nom
 "<и>"
 	"и" CC
 "<морт>"
@@ -1472,12 +1401,11 @@
 	"," CLB
 "<...>"
 	"..." CLB
-
 "<паськыда>"
 	"паськыда" Adv
 "<нязгис-ворсіс>"
-	"ворсны" V IV Ind Prt1 Sg3
-		"нязгыны" V IV Ind Prt1 Sg3 Cmp/Serial Cmp
+	"нязгыны" V IV Ind Prt1 Sg3 Cmp/Serial Cmp
+		"ворсны" V IV Ind Prt1 Sg3
 "<.>"
 	"." CLB
 
