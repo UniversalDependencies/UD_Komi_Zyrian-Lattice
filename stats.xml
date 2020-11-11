@@ -5,150 +5,175 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>232</sentences><tokens>2455</tokens><words>2455</words><fused>0</fused></total>
+    <total><sentences>435</sentences><tokens>4978</tokens><words>5002</words><fused>12</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>232</sentences><tokens>2455</tokens><words>2455</words><fused>0</fused></test>
+    <test><sentences>435</sentences><tokens>4978</tokens><words>5002</words><fused>12</fused></test>
   </size>
-  <lemmas unique="904" /><!-- ., ,, оз, сійӧ, да, вылын, мый, ?, и, —, тайӧ, жӧ, ме, вӧвны, идравны -->
-  <forms unique="1208" /><!-- ., ,, да, мый, сійӧ, ?, вылӧ, и, —, эз, жӧ, оз, тайӧ, а, нин -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="1696" /><!-- ,, ., да, сійӧ, оз, и, —, ме, ..., мый, вылын, вӧвны, ?, нин, а -->
+  <forms unique="2354" /><!-- ,, ., да, и, —, ..., сійӧ, мый, ?, нин, вылӧ, жӧ, эз, вӧлі, но -->
+  <fusions unique="12" /><!-- yв-йӧг, кыдз-пипу, кӧм-пась, лебмӧм-сісьмӧм, лыдтӧм-тшӧттӧм, няръялӧма-песӧма, пусьӧма-нӧгыльтчӧма, сир-ёкыш, сьӧла-тар, шлопкӧбтӧ-пуктӧ, шӧтӧ-локтӧ, ыркалӧм-сьӧктаммӧм -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">185</tag><!-- ыджыд, важ, ичӧтик, колхозъясса, кодь, белӧй, боевӧй, великӧй, неыджыд, пӧсь -->
-    <tag name="ADP">92</tag><!-- вылын, вӧсна, йылысь, дорын, дінын, улын, весьт, водз, вылӧ, кодь -->
-    <tag name="ADV">233</tag><!-- нин, зэв, на, сӧмын, кыдзи, пыр, дзик, сідз, водз, кӧні -->
-    <tag name="AUX">75</tag><!-- оз, вӧвны, лоны, абу, лолыны, овлывлыны, эм -->
-    <tag name="CCONJ">90</tag><!-- да, а, и, но, либӧ, али -->
-    <tag name="DET">21</tag><!-- став, татшӧм, ас, сэтшӧм -->
-    <tag name="INTJ">2</tag><!-- Ага, ох -->
-    <tag name="NOUN">545</tag><!-- урожай, машина, лун, враг, председатель, удж, зэр, керка, колхоз, олӧм -->
-    <tag name="NUM">17</tag><!-- ӧти, кык, 12-20, 16, 18, 1940, 29, 3, 4, 5 -->
-    <tag name="PART">54</tag><!-- жӧ, весиг, и, ни, не, ӧд, быттьӧ, вӧлӧмкӧ, да, нӧ -->
-    <tag name="PRON">169</tag><!-- сійӧ, тайӧ, ме, коді, ми, мый, тэ, найӧ, ас, сэтшӧм -->
-    <tag name="PROPN">37</tag><!-- Ворошилов, Ефрем, Климент, Краснӧй, Сталин, Валентина, Волга, Ивановна, Калинин, Льӧмва -->
-    <tag name="PUNCT">452</tag><!-- ., ,, ?, —, !, -, _, –, …, ( -->
-    <tag name="SCONJ">39</tag><!-- мый, кӧ, медым, кор, кӧть, мед, мыйла -->
-    <tag name="VERB">444</tag><!-- идравны, лоны, воны, вермыны, мунны, кутны, ковны, тӧдны, петны, вӧчны -->
+    <tag name="ADJ">348</tag><!-- ыджыд, кодь, бур, мича, важ, еджыд, ичӧтик, колхозъясса, том, кыз -->
+    <tag name="ADP">175</tag><!-- вылын, вылӧ, йылысь, вӧсна, дінӧ, дорын, моз, улын, дінын, бӧрын -->
+    <tag name="ADV">510</tag><!-- нин, на, зэв, и, сӧмын, жӧ, кыдзи, дзик, пыр, сэсся -->
+    <tag name="AUX">128</tag><!-- оз, вӧвны, абу, эм, вӧвлыны, овлывлыны, эмышт -->
+    <tag name="CCONJ">196</tag><!-- да, и, а, но, либӧ, али, дай, ли -->
+    <tag name="DET">36</tag><!-- став, уна, татшӧм, ас, кыкнан, быд·сикас, гоз-мӧд, кымын, кымынкӧ, мӧд -->
+    <tag name="INTJ">5</tag><!-- мыйкӧ, Ага, ок, ох -->
+    <tag name="NOUN">1294</tag><!-- син, керка, урожай, ва, вӧр, лун, ки, машина, туй, удж -->
+    <tag name="NUM">41</tag><!-- кык, ӧти, комын, 12-20, 16, 18, 1940, 29, 3, 4 -->
+    <tag name="PART">55</tag><!-- жӧ, ни, весиг, и, не, ӧд, быттьӧ, вӧлӧмкӧ, да, нӧ -->
+    <tag name="PRON">306</tag><!-- сійӧ, ме, тайӧ, тэ, коді, ас, мый, ми, став, быд -->
+    <tag name="PROPN">39</tag><!-- Ворошилов, Ефрем, Климент, Краснӧй, Сталин, Валентина, Волга, Ивановна, Калинин, Льӧмва -->
+    <tag name="PUNCT">942</tag><!-- ,, ., —, ..., ?, !, -, :, _, « -->
+    <tag name="SCONJ">66</tag><!-- мый, кӧ, мед, медым, кӧть, кор, быттьӧ, да, мыйла, моз -->
+    <tag name="VERB">861</tag><!-- лоны, воны, идравны, вермыны, кутны, мунны, локны, ковны, петны, тӧдны -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="75">
+  <feats unique="94">
     <feat name="Abbr" value="Yes" upos="ADV">1</feat><!-- с.в. -->
-    <feat name="AdpType" value="Post" upos="ADP,NOUN">6</feat><!-- вылад, дорын, дінад, дінас, пӧвстысь, улӧ -->
-    <feat name="Animacy" value="Hum" upos="NOUN,PROPN">5</feat><!-- Гырка, Митя, Нетулика, Сеня, Тулика -->
-    <feat name="Case" value="Abl" upos="NOUN,PRON">8</feat><!-- миянлысь, воинлысь, кодлыськӧ, колхозниклысь, овмӧслысь, ходлысь -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">64</feat><!-- сійӧс, менӧ, машинасӧ, олӧмӧс, тайӧс, Браунӧс, Ворошиловӧс, Енсӧ, Комиссарӧс, Одсӧ -->
-    <feat name="Case" value="Apr" upos="NOUN,PRON,PROPN">9</feat><!-- гортлань, Волгалань, кадланьыс, карлань, машиналань, мелань, рытыввывлань, шӧрлань -->
-    <feat name="Case" value="Car" upos="NOUN,PROPN">4</feat><!-- вошӧмъястӧг, Льӧмватӧгыс, уджтӧг -->
-    <feat name="Case" value="Com" upos="NOUN,PRON,PROPN">6</feat><!-- Ефремовичкӧд, Мекӧд, вошӧмъяскӧд, ныркӧд, председательяскӧд, фактъясыскӧд -->
-    <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN">18</feat><!-- меным, сылы, Максимлы, Машалы, Мортлы, белӧйяслы, быдӧнлы, велӧдысьлы, верӧсыслы, миянлы -->
-    <feat name="Case" value="Egr" upos="ADP,ADV,NOUN">8</feat><!-- Колхозъяссянь, Петрсянь, асыв-войвывсянь, асыв-войвывсяньыс, боксянь, вылісянь, ылысянь, юсянь -->
-    <feat name="Case" value="Ela" upos="ADP,ADV,NOUN,PRON,PROPN">37</feat><!-- йылысь, вылысь, кежысь, Быдлаысь, Зэрсьыс, Кытысь, Мыйысь, Мӧдлапӧлысь, ассьыныс, батьсьыд -->
-    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN,VERB">24</feat><!-- миян, сылӧн, Ворошиловлӧн, Менам, Налӧн, Петилӧн, аслас, взрывъяслӧн, винтовкаяслӧн, йӧзлӧн -->
-    <feat name="Case" value="Ill" upos="ADP,ADV,NOUN">80</feat><!-- вылӧ, дінӧ, весьшӧрӧ, аскадӧ, бокӧ, бӧрӧ, водзӧ, радӧ, разведкаӧ, тышӧ -->
-    <feat name="Case" value="Ine" upos="ADP,ADV,NOUN,PRON,VERB">60</feat><!-- вылын, идралӧмын, кӧні, дорын, Медбӧрын, бӧрын, весьтын, водзын, колхозъясын, районын -->
-    <feat name="Case" value="Ins" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN">36</feat><!-- вочасӧн, командирӧн, корӧсьӧн, нагрузкаӧн, орччӧн, торъясӧн, Аскинас, Сталинградӧн, армияӧн, большевикӧн -->
-    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">753</feat><!-- сійӧ, тайӧ, урожай, мый, став, коді, сы, идралӧм, тэ, ыджыд -->
-    <feat name="Case" value="Prl" upos="NOUN">3</feat><!-- местаясӧдыс, туйӧд, щельясӧд -->
-    <feat name="Case" value="Ter" upos="ADP,ADV,NOUN">12</feat><!-- дзикӧдз, гортӧдз, ӧнӧдз, бергӧдчанінӧдзыс, ваӧдз, вевтӧдзыс, весьтӧдз, зэрӧдзыс -->
-    <feat name="Case" value="Tra" upos="ADP,ADV">2</feat><!-- вывті, пӧвстті -->
-    <feat name="Clitic" value="O" upos="AUX">1</feat><!-- оз-ӧ -->
-    <feat name="Clitic" value="So" upos="ADV">1</feat><!-- Первойсӧ -->
-    <feat name="Connegative" value="Yes" upos="AUX,VERB">46</feat><!-- вермы, кут, вӧв, жалит, позь, тӧд, тӧр, виччысь, во, вӧвны -->
-    <feat name="Definite" value="Ind" upos="ADV">1</feat><!-- Корсюрӧ -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">13</feat><!-- Тэрыбджыка, бурджык, водзджык, дырджык, кокниджыка, лёкджык, матӧджык, надзӧнджык, отаджыкӧсь, унджык -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">4</feat><!-- Медбӧрын, меддор, медъёна -->
-    <feat name="Derivation" value="A" upos="ADJ,ADV">5</feat><!-- Присада, гыма, кокниджыка, чорыдджыка, ӧткаӧн -->
-    <feat name="Derivation" value="An" upos="VERB">7</feat><!-- воан, вундан, идралан, колян, петкӧдлан, участвуйтан, ытшкан -->
-    <feat name="Derivation" value="Ig" upos="VERB">5</feat><!-- Вундігӧн, Гымалігад, Зэригас, петігӧн, тэчыгӧн -->
+    <feat name="AdpType" value="Post" upos="ADP,NOUN">77</feat><!-- вылӧ, вылын, дінӧ, моз, дорӧ, йылысь, ордӧ, сайын, бӧрын, вылас -->
+    <feat name="AdvType" value="Man" upos="ADV">9</feat><!-- кыдзи, Тадзи, кутшӧма, кыдзисюрӧ, сідз -->
+    <feat name="AdvType" value="Tim" upos="ADV">17</feat><!-- нин, Аскинас, кор, Таво, Талун, кoр -->
+    <feat name="Animacy" value="Hum" upos="NOUN,PROPN">56</feat><!-- Ваньӧ, Иван, Митяяслӧн, Педьӧ, Амелия, Анялӧн, Вань, Ваньӧлы, Ваньӧӧс, Вась -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON">17</feat><!-- миянлысь, Люсялысь, воинлысь, гӧтырыдлысь, зверлысь, кодлыськӧ, колхозниклысь, овмӧслысь, пармалысь, пурлысь -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">132</feat><!-- сійӧс, менӧ, найӧс, машинасӧ, юрсӧ, кодӧс, олӧмӧс, сьӧлӧмтӧ, тайӧс, черитӧ -->
+    <feat name="Case" value="Apr" upos="ADV,NOUN,PRON,PROPN">14</feat><!-- гортлань, Волгалань, Вӧр, вывлань, йывлань, кадланьыс, карлань, катыдлань, кывтыдлань, машиналань -->
+    <feat name="Case" value="Car" upos="NOUN,PROPN">6</feat><!-- вошӧмъястӧг, Льӧмватӧгыс, Туйтӧг, Шогтӧг, уджтӧг -->
+    <feat name="Case" value="Cns" upos="NOUN">1</feat><!-- сямлунлаыс -->
+    <feat name="Case" value="Com" upos="NOUN,PRON,PROPN">11</feat><!-- тэкӧд, Венякӧд, Ефремовичкӧд, Лёнякӧд, Мекӧд, вошӧмъяскӧд, гӧтырыскӧд, ныркӧд, председательяскӧд, фактъясыскӧд -->
+    <feat name="Case" value="Comp" upos="ADP">1</feat><!-- бӧрся -->
+    <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN">37</feat><!-- меным, сылы, синъяслы, Ваньӧлы, Домналы, Кӧинъяслы, Максимлы, Машалы, Михайловичьяслы, Мортлы -->
+    <feat name="Case" value="Egr" upos="ADP,ADV,NOUN,VERB">14</feat><!-- Колхозъяссянь, Ноддясянь, Петрсянь, асыв-войвывсянь, асыв-войвывсяньыс, берег, боксянь, воӧмсянь, вылісянь, дорсянь -->
+    <feat name="Case" value="Ela" upos="ADP,ADV,NOUN,PRON,PROPN,SCONJ,VERB">75</feat><!-- йылысь, вылысь, йывсьыд, кежысь, керкаясысь, кытысь, медысь, сэтысь, Быдлаысь, Зэрсьыс -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN,VERB">64</feat><!-- миян, сылӧн, менам, Митяяслӧн, мортлӧн, налӧн, Анялӧн, Ворошиловлӧн, Елькинлӧн, Епимъяслӧн -->
+    <feat name="Case" value="Ill" upos="ADJ,ADP,ADV,NOUN,PRON,VERB">146</feat><!-- вылӧ, дінӧ, дорӧ, водзӧ, кытчӧкӧ, ордӧ, бокӧ, весьшӧрӧ, вылас, улӧ -->
+    <feat name="Case" value="Ine" upos="ADJ,ADP,ADV,NOUN,PRON,VERB">149</feat><!-- вылын, кӧні, идралӧмын, бӧрын, енэжын, улын, дорын, пытшкас, сайын, Медбӧрын -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,VERB">98</feat><!-- кинас, орччӧн, вочасӧн, другъясӧн, командирӧн, корӧсьӧн, лымйӧн, нагрузкаӧн, торъясӧн, Аскинас -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">1488</feat><!-- сійӧ, тайӧ, ме, кык, став, урожай, ыджыд, ми, мый, кодь -->
+    <feat name="Case" value="Prl" upos="ADP,NOUN">7</feat><!-- Печораӧдыс, ва, вылӧдыс, местаясӧдыс, нёкчимъясӧдыс, туйӧд, щельясӧд -->
+    <feat name="Case" value="Ter" upos="ADP,ADV,NOUN">16</feat><!-- дзикӧдз, гортӧдз, ӧнӧдз, бергӧдчанінӧдзыс, ваӧдз, вевтӧдзыс, весьтӧдз, зэрӧдзыс, лэччандорӧдз, ортӧдзыс -->
+    <feat name="Case" value="Tra" upos="ADP,ADV,NOUN">6</feat><!-- таті, весьтті, вывті, пӧвстті, ыліджыкъясті -->
+    <feat name="Clitic" value="A" upos="NOUN">1</feat><!-- нывбабаыс-а -->
+    <feat name="Clitic" value="O" upos="ADV,AUX">3</feat><!-- оз-ӧ, уна-ӧ -->
+    <feat name="Clitic" value="So" upos="ADV,PRON">7</feat><!-- ставсӧ, Первойсӧ, татшӧмсӧ, ёнасӧ, ёнджыкасӧ -->
+    <feat name="Clitic" value="To" upos="ADV,VERB">5</feat><!-- водзтіястӧ, Весигтӧ, вуграсьнытӧ, шойтчыныястӧ -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">72</feat><!-- вермы, вӧв, кут, позь, жалит, тыдав, тӧд, тӧр, аддзы, бырны -->
+    <feat name="Definite" value="Ind" upos="ADV,DET,PRON">12</feat><!-- кытчӧкӧ, кӧнкӧ, мыйкӧ, Корсюрӧ, Кымынкӧ, кодкӧ, кыдзисюрӧ, мыйтакӧ -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NOUN">22</feat><!-- бокынджык, ӧдйӧджык, Тэрыбджыка, бурджык, водзджык, дырджык, зумышджыкӧсь, кокниджыка, лёкджык, мастерджыкыс -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">6</feat><!-- Медбӧрын, медводдза, меддор, медъёна -->
+    <feat name="Derivation" value="A" upos="ADJ,ADV">7</feat><!-- Присада, гыма, кокниджыка, кокньыдика, чорыдджыка, ёна, ӧткаӧн -->
+    <feat name="Derivation" value="An" upos="VERB">10</feat><!-- Вӧралан, Пожъясян, воан, вундан, дрӧжжитан, идралан, колян, петкӧдлан, участвуйтан, ытшкан -->
+    <feat name="Derivation" value="Ana" upos="VERB">3</feat><!-- вӧрзьӧдланаӧсь, уськӧданаыс, чуксаланаӧсь -->
+    <feat name="Derivation" value="Ig" upos="VERB">6</feat><!-- Вундігӧн, Гымалігад, Зэригас, петігӧн, тэчыгӧн, ӧвтыштліганыс -->
     <feat name="Derivation" value="Igdyrji" upos="VERB">1</feat><!-- горзігтырйи -->
-    <feat name="Derivation" value="Igmoz" upos="VERB">2</feat><!-- Мунігмозыс, видзӧдігмоз -->
+    <feat name="Derivation" value="Igmoz" upos="VERB">5</feat><!-- Мунігмозыс, видзӧдігмоз, гуляйтігмоз, лӧсьӧдігмоз, топӧдігмоз -->
+    <feat name="Derivation" value="Igtyr" upos="VERB">1</feat><!-- чатрасигтыр -->
     <feat name="Derivation" value="Ik" upos="ADJ,ADV">9</feat><!-- ичӧтик, Ньӧжйӧник, векньыдик -->
+    <feat name="Derivation" value="Inik" upos="ADJ">1</feat><!-- кызіникӧсь -->
     <feat name="Derivation" value="Ja" upos="ADJ">1</feat><!-- Торъя -->
-    <feat name="Derivation" value="Oma" upos="VERB">3</feat><!-- Кольӧм, вӧйӧм, пӧлыньтчӧм -->
-    <feat name="Derivation" value="Omon" upos="VERB">6</feat><!-- воодушедитчӧмӧн, йӧйсямӧмӧн, курччӧмӧн, петӧмӧн, помасьӧмӧн, тэрмасьӧмӧн -->
-    <feat name="Derivation" value="PrivMod" upos="NOUN">1</feat><!-- мустӧм -->
-    <feat name="Derivation" value="ProprietiveMod" upos="NOUN,VERB">3</feat><!-- Дядя, тупкӧма, уска -->
-    <feat name="Derivation" value="Sjuro" upos="ADV">1</feat><!-- Корсюрӧ -->
-    <feat name="Derivation" value="TempMod" upos="NOUN">1</feat><!-- тӧлысся -->
+    <feat name="Derivation" value="Ko" upos="ADV,INTJ,PRON">11</feat><!-- мыйкӧ, кытчӧкӧ, кутшӧмкӧ, кодкӧ, кӧнкӧ -->
+    <feat name="Derivation" value="Kodj" upos="ADJ">3</feat><!-- гожсякодьӧсь, паськыдкодь, ыджыдкодь -->
+    <feat name="Derivation" value="LocMod" upos="ADJ,NOUN">8</feat><!-- грездса, сиктса, Латвияса, Письмӧса, тӧдса, юпӧлӧнса -->
+    <feat name="Derivation" value="NomAg" upos="ADJ,VERB">21</feat><!-- Локтысь, воысьясӧс, вӧтчысь, дзирдалысь, дзользьысь, индалысьясным, кужысь, куйлысь, кулысьясӧс, кывзысьысьӧсь -->
+    <feat name="Derivation" value="Oma" upos="NOUN,VERB">6</feat><!-- Кольӧм, босьтӧмаыс, быдмӧмаыс, вольсалӧма, вӧйӧм, пӧлыньтчӧм -->
+    <feat name="Derivation" value="Omon" upos="ADV,VERB">8</feat><!-- воодушедитчӧмӧн, йӧйсямӧмӧн, курччӧмӧн, кутӧмӧн, петӧмӧн, помасьӧмӧн, судзмӧн, тэрмасьӧмӧн -->
+    <feat name="Derivation" value="PrivMod" upos="ADJ,NOUN,VERB">7</feat><!-- Кӧмтӧм, Пасьтӧм, кытшовтӧм, лыдтӧм, мустӧм, пыкӧдтӧмӧсь, сӧстӧмӧсь -->
+    <feat name="Derivation" value="ProprietiveMod" upos="ADJ,ADV,NOUN,VERB">30</feat><!-- ваа, гӧна, сора, Дядя, Кӧра, Сюра, бисера, гажа, гӧгӧраӧсь, катша -->
+    <feat name="Derivation" value="Sjuro" upos="ADV,PRON">3</feat><!-- Корсюрӧ, кыдзисюрӧ, мыйсюрӧ -->
+    <feat name="Derivation" value="TempMod" upos="NOUN">2</feat><!-- тӧвся, тӧлысся -->
     <feat name="Derivation" value="Tom" upos="ADJ">2</feat><!-- тыртӧм, шуштӧм -->
-    <feat name="Derivation" value="VCar" upos="VERB">7</feat><!-- дугдывтӧг, жалиттӧг, Тӧдлытӧг, виччысьтӧг, чинтытӧг -->
+    <feat name="Derivation" value="VCar" upos="VERB">11</feat><!-- виччысьтӧг, дугдывтӧг, жалиттӧг, Тӧдлытӧг, бергӧдлытӧг, повтӧг, тэрмасьтӧг, чинтытӧг -->
+    <feat name="Derivation" value="Vnoun" upos="ADJ,VERB">26</feat><!-- Мудзӧм, баитӧмъяснысӧ, босьтӧмаяс, видзысьяс, воӧмсянь, вурӧм, вӧчӧм, гызьылӧм, дзользьӧмӧн, дивитӧмӧн -->
+    <feat name="Derivation" value="VTer" upos="VERB">3</feat><!-- веравтӧдзыд, мунтӧдз, пемдытӧдз -->
     <feat name="Derivation" value="Ysj" upos="VERB">2</feat><!-- командуйтысь, локтысь -->
-    <feat name="Evident" value="Nfh" upos="AUX,VERB">18</feat><!-- идралӧма, Чеглалӧма, вайӧма, вартӧма, воӧмаӧсь, вунӧдӧма, вӧлӧма, домавлӧмаӧсь, краситӧма, майшассьӧма -->
-    <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- Кутчысь, восьты -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">323</feat><!-- эз, оз, вӧлі, колӧ, кутіс, лои, ог, воис, эг, вешйис -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,VERB">210</feat><!-- миян, председательяс, кодъяс, ми, казакъяс, культураяс, машинаяс, миянлысь, найӧ, белӧйяс -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1162</feat><!-- сійӧ, вылӧ, тайӧ, вӧлі, урожай, став, сы, коді, вылын, идралӧм -->
-    <feat name="Number[psor]" value="Plur" upos="ADP,DET,NOUN">5</feat><!-- кияснысӧ, паськӧмнысӧ, ставныс, уланыс, чужӧмнысӧ -->
-    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,DET,NOUN,PROPN,VERB">142</feat><!-- шоферыс, машинасӧ, туйыс, шерыс, вылас, дінас, луныс, олӧмӧс, пуляясыс, ставыс -->
-    <feat name="NumType" value="Card" upos="NUM,PRON">18</feat><!-- ӧти, кык, 12-20, 16, 18, 1940, 29, 3, 4, 5 -->
-    <feat name="NumType" value="Mult" upos="ADV">1</feat><!-- выльысь -->
-    <feat name="NumType" value="Ord" upos="PRON">1</feat><!-- мӧд -->
+    <feat name="Evident" value="Nfh" upos="AUX,VERB">37</feat><!-- идралӧма, вӧлӧма, серӧдӧма, Чеглалӧма, ваймӧма, вайӧма, вартӧма, вевттьӧмаӧсь, ветлӧма, вижӧдӧмаӧсь -->
+    <feat name="Mood" value="Imp" upos="VERB">8</feat><!-- Вайӧ, Кутчысь, Кывзы, Мыччыв, Юав, бӧрйы, восьты, унмовськӧдчы -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">625</feat><!-- эз, вӧлі, оз, колӧ, эг, кутіс, лои, ог, он, Локтас -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,NOUN,PRON,VERB">430</feat><!-- ми, миян, найӧ, председательяс, кодъяс, воисны, казакъяс, культураяс, машинаяс, местаясыс -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,INTJ,NOUN,NUM,PRON,PROPN,SCONJ,VERB">2371</feat><!-- сійӧ, вылӧ, вӧлі, тайӧ, ме, кык, вылын, став, урожай, ыджыд -->
+    <feat name="Number[psor]" value="Plur" upos="ADP,DET,NOUN,PRON,VERB">27</feat><!-- кыкнанныс, ставныс, Кыкнанным, баитӧмъяснысӧ, газныд, горным, зорӧдъясным, индалысьясным, кианыс, киясаныс -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">308</feat><!-- шоферыс, вылас, ставыс, туйыс, вӧрыс, дінас, кинас, машинасӧ, местаясыс, пытшкас -->
+    <feat name="Number[subj]" value="Plur" upos="ADJ,ADP,ADV,AUX,NOUN,PRON,VERB">59</feat><!-- кодьӧсь, ӧткодьӧсь, Джуджыдӧсь, Менамӧсь, абуӧсь, веськыдӧсь, вӧраӧсь, вӧрзьӧдланаӧсь, вӧрынӧсь, гажаӧсь -->
+    <feat name="NumType" value="Appr" upos="NUM">1</feat><!-- Нёль-ӧ-вит -->
+    <feat name="NumType" value="Card" upos="DET,NUM,PRON">42</feat><!-- кык, ӧти, комын, 12-20, 16, 18, 1940, 29, 3, 4 -->
+    <feat name="NumType" value="Mult" upos="ADV">3</feat><!-- Гоз-мӧдысь, выльысь, мӧдысь -->
+    <feat name="NumType" value="Ord" upos="DET,PRON">3</feat><!-- Мӧдыс, мӧд, мӧдным -->
+    <feat name="NumType" value="OrdMult" upos="DET">1</feat><!-- гоз-мӧдысь -->
     <feat name="PartForm" value="Pres" upos="VERB">9</feat><!-- воан, вундан, идралан, колян, командуйтысь, локтысь, петкӧдлан, участвуйтан, ытшкан -->
-    <feat name="Person" value="1" upos="AUX,PRON,VERB">80</feat><!-- ме, миян, ог, меным, менӧ, ми, эг, думайта, миянлысь, мӧдӧдчи -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">28</feat><!-- тэ, он, Водінныд, Идралін, Кутчысь, Кӧсъян, Сюринныд, верман, видзӧдан, восьты -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">315</feat><!-- сійӧ, эз, оз, вӧлі, сы, колӧ, кутіс, лои, сійӧс, воис -->
-    <feat name="Person[psor]" value="1" upos="ADJ,NOUN">12</feat><!-- олӧмӧс, Лолӧй, Мамӧй, Паськӧмӧй, батьӧй, воськовъясӧс, вын-эбӧсӧй, кӧлуйӧс, опаснӧй, первомайскӧй -->
-    <feat name="Person[psor]" value="2" upos="ADP,NOUN,VERB">12</feat><!-- Гортад, Гымалігад, Чериыд, батьсьыд, вылад, вын-эбӧстӧ, дінад, йывсьыд, кымӧрыд, паметяд -->
-    <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,DET,NOUN,PROPN,VERB">123</feat><!-- шоферыс, машинасӧ, туйыс, шерыс, вылас, дінас, луныс, пуляясыс, ставыс, сынӧдыс -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,PART,PRON,VERB">77</feat><!-- эз, оз, ни, ог, некутшӧм, эг, неыджыд, он, абу, нинӧм -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">31</feat><!-- тайӧ, сэтшӧм, татшӧм, тайӧс, Мӧд, сы -->
-    <feat name="PronType" value="Ind" upos="ADV,PRON">8</feat><!-- коркӧ, кодлыськӧ, кутшӧмкӧ, кытчӧкӧ, кӧнкӧ, мыйкӧ, мыйлакӧ -->
-    <feat name="PronType" value="Int" upos="ADV,PRON">38</feat><!-- мый, кыдзи, коді, кодъяс, кыдз, кӧні, Кутшӧм, Кытчӧ, Кытысь, Мыйысь -->
-    <feat name="PronType" value="Prs" upos="PRON">95</feat><!-- сійӧ, сы, тэ, ме, миян, сійӧс, меным, менӧ, ми, миянлысь -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">7</feat><!-- коді, кор, кӧні, кыдзи -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">136</feat><!-- ме, ми, миян, меным, эг, менам, ог, менӧ, думайта, миянлысь -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">55</feat><!-- тэ, он, эн, тэкӧд, ті, Аддзан, Аддзывлан, Вайӧ, Водінныд, Идралін -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">617</feat><!-- сійӧ, эз, вӧлі, оз, колӧ, сы, сылӧн, сійӧс, кутіс, лои -->
+    <feat name="Person[psor]" value="1" upos="ADJ,ADP,DET,NOUN,PRON,VERB">22</feat><!-- лолӧй, олӧмӧс, Кыкнанным, Мамӧй, Паськӧмӧй, батьӧй, воськовъясӧс, вын-эбӧсӧй, горным, зорӧдъясным -->
+    <feat name="Person[psor]" value="2" upos="ADP,NOUN,VERB">51</feat><!-- йывсьыд, синмыд, сьӧлӧмтӧ, черитӧ, Вертолётъясыд, Гортад, Гымалігад, Роктӧ, Татшӧмторйыд, Чериыд -->
+    <feat name="Person[psor]" value="3" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">262</feat><!-- шоферыс, вылас, ставыс, туйыс, вӧрыс, дінас, кинас, машинасӧ, местаясыс, пытшкас -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,PART,PRON,VERB">117</feat><!-- эз, оз, абу, эг, ни, ог, он, некутшӧм, некод, неыджыд -->
+    <feat name="PronType" value="Dem" upos="ADJ,DET,PRON">44</feat><!-- тайӧ, татшӧм, сэтшӧм, мӧд, тайӧс, сы, сэтшӧмӧсь, татшӧмсӧ -->
+    <feat name="PronType" value="Ind" upos="ADV,INTJ,PRON">16</feat><!-- мыйкӧ, кутшӧмкӧ, коркӧ, кодкӧ, кодлыськӧ, кытчӧкӧ, кӧнкӧ, мыйлакӧ, мыйсюрӧ -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">49</feat><!-- мый, кыдзи, коді, кӧні, кодъяс, кыдз, Кутшӧм, кымын, Кытчӧ, Кытысь -->
+    <feat name="PronType" value="Prs" upos="PRON">169</feat><!-- сійӧ, ме, ми, миян, сы, тэ, сылӧн, меным, сійӧс, менам -->
+    <feat name="PronType" value="Ref" upos="PRON,VERB">47</feat><!-- ас, кыпӧдчис, пукси, шыасис, Пожъясян, асьным, асьсӧ, веськӧдчис, вуграсьнытӧ, вӧтчысь -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">21</feat><!-- кор, кыдзи, кӧні, коді, Кодлӧн, Кутшӧм, кoр, кодӧс, кутшӧма, кутшӧмӧсь -->
     <feat name="PronType" value="Tot" upos="PRON">6</feat><!-- быд, быдӧн, быдӧнлы -->
     <feat name="Reflex" value="Yes" upos="PRON">5</feat><!-- аслас, ассьыныс, ачым, ачымӧс, ачыс -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">17</feat><!-- ковмас, лоас, петас, воспитайтасны, гымалас, зэрас, кокаласны, кутас, кӧтӧдас, лысьтас -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">240</feat><!-- эз, вӧлі, идралӧм, идралӧмын, кутіс, лои, воис, эг, вешйис, гижис -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">106</feat><!-- оз, колӧ, ог, думайта, мунӧ, он, висьталӧны, воӧ, новлӧдлӧны, тӧдӧны -->
-    <feat name="Valency" value="1" upos="AUX,VERB">23</feat><!-- Кольӧм, вермы, веськалӧ, ветлӧдлі, во, воӧ, вӧйӧм, вӧлі, йӧйсямӧмӧн, лои -->
-    <feat name="Valency" value="2" upos="VERB">19</feat><!-- аддза, аддзыліс, воті, вуджим, гӧгӧрвоны, жалиттӧг, кезйӧдлӧ, кокаласны, кыйи, мыччис -->
-    <feat name="VerbForm" value="Conv" upos="VERB">21</feat><!-- дугдывтӧг, жалиттӧг, Вундігӧн, Гымалігад, Зэригас, Мунігмозыс, Тӧдлытӧг, видзӧдігмоз, виччысьтӧг, воодушедитчӧмӧн -->
-    <feat name="VerbForm" value="Inf" upos="VERB">73</feat><!-- лоны, мунны, восьлавны, вӧчны, воӧдчыны, дзебсьыны, индыны, кайны, тӧдны, Пукавны -->
-    <feat name="VerbForm" value="Part" upos="VERB">49</feat><!-- идралӧм, идралӧмын, кольӧм, босьтӧм, вартӧм, воан, вооружитчӧм, воӧм, вундан, вӧйӧм -->
+    <feat name="Tense" value="Fut" upos="VERB">32</feat><!-- Локтас, ковмас, вермас, лоас, петас, веськалас, воспитайтасны, гымалас, зэрас, кокаласны -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">458</feat><!-- эз, вӧлі, идралӧм, эг, кутіс, лои, идралӧмын, воис, вешйис, воисны -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">199</feat><!-- оз, колӧ, ог, он, мунӧ, думайта, видзӧдӧ, висьталӧны, виччысьӧ, воӧ -->
+    <feat name="Valency" value="1" upos="AUX,VERB">242</feat><!-- вӧлі, Локтас, воисны, лоны, вермас, вӧв, вӧліны, кульмыны, лои, лоӧ -->
+    <feat name="Valency" value="2" upos="VERB">172</feat><!-- колӧ, Радейтісны, вевттис, вермы, видзӧдліс, видзӧдӧ, кутісны, перйис, серӧдӧма, шуны -->
+    <feat name="VerbForm" value="Conv" upos="VERB">27</feat><!-- дугдывтӧг, жалиттӧг, Вундігӧн, Гымалігад, Зэригас, Мунігмозыс, Тӧдлытӧг, видзчысьӧмӧн, видзӧдігмоз, виччысьтӧг -->
+    <feat name="VerbForm" value="Inf" upos="VERB">110</feat><!-- лоны, мунны, восьлавны, вӧчны, шуны, волыны, воӧдчыны, дзебсьыны, индыны, кайны -->
+    <feat name="VerbForm" value="Part" upos="VERB">78</feat><!-- идралӧм, идралӧмын, кольӧм, октӧм, босьтӧм, босьтӧмаяс, быдмӧм, вайӧм, вартӧм, воан -->
     <feat name="Voice" value="Act" upos="VERB">2</feat><!-- командуйтысь, локтысь -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
-    <dep name="acl">26</dep>
-    <dep name="acl:relcl">18</dep>
-    <dep name="advcl">63</dep>
-    <dep name="advmod">129</dep>
-    <dep name="advmod:deg">25</dep>
-    <dep name="advmod:lmod">25</dep>
-    <dep name="advmod:mmod">14</dep>
-    <dep name="advmod:tmod">80</dep>
-    <dep name="amod">149</dep>
-    <dep name="appos">8</dep>
-    <dep name="aux">5</dep>
-    <dep name="aux:neg">51</dep>
-    <dep name="case">92</dep>
-    <dep name="cc">87</dep>
-    <dep name="ccomp">16</dep>
-    <dep name="compound">10</dep>
-    <dep name="conj">113</dep>
-    <dep name="cop">17</dep>
-    <dep name="csubj">12</dep>
-    <dep name="det">50</dep>
-    <dep name="discourse">2</dep>
+  <deps unique="45">
+    <dep name="acl">66</dep>
+    <dep name="acl:relcl">24</dep>
+    <dep name="advcl">93</dep>
+    <dep name="advcl:tmod">5</dep>
+    <dep name="advmod">287</dep>
+    <dep name="advmod:deg">34</dep>
+    <dep name="advmod:lmod">44</dep>
+    <dep name="advmod:mmod">15</dep>
+    <dep name="advmod:neg">6</dep>
+    <dep name="advmod:tmod">128</dep>
+    <dep name="amod">260</dep>
+    <dep name="appos">35</dep>
+    <dep name="aux">13</dep>
+    <dep name="aux:neg">85</dep>
+    <dep name="case">176</dep>
+    <dep name="cc">188</dep>
+    <dep name="ccomp">35</dep>
+    <dep name="compound">9</dep>
+    <dep name="conj">314</dep>
+    <dep name="cop">28</dep>
+    <dep name="csubj">16</dep>
+    <dep name="det">100</dep>
+    <dep name="discourse">15</dep>
     <dep name="dislocated">1</dep>
-    <dep name="flat:name">17</dep>
+    <dep name="fixed">1</dep>
+    <dep name="flat:name">41</dep>
     <dep name="goeswith">1</dep>
-    <dep name="list">9</dep>
-    <dep name="mark">41</dep>
-    <dep name="nmod">98</dep>
-    <dep name="nsubj">187</dep>
-    <dep name="nummod">15</dep>
-    <dep name="obj">120</dep>
-    <dep name="obl">115</dep>
-    <dep name="obl:lmod">84</dep>
-    <dep name="obl:tmod">14</dep>
-    <dep name="orphan">5</dep>
-    <dep name="parataxis">11</dep>
-    <dep name="punct">452</dep>
-    <dep name="root">232</dep>
-    <dep name="vocative">6</dep>
-    <dep name="xcomp">55</dep>
+    <dep name="list">12</dep>
+    <dep name="mark">77</dep>
+    <dep name="nmod">237</dep>
+    <dep name="nmod:comp">2</dep>
+    <dep name="nmod:poss">13</dep>
+    <dep name="nsubj">361</dep>
+    <dep name="nsubj:cop">54</dep>
+    <dep name="nummod">40</dep>
+    <dep name="obj">217</dep>
+    <dep name="obl">278</dep>
+    <dep name="obl:lmod">147</dep>
+    <dep name="obl:tmod">25</dep>
+    <dep name="orphan">11</dep>
+    <dep name="parataxis">24</dep>
+    <dep name="punct">942</dep>
+    <dep name="root">435</dep>
+    <dep name="vocative">7</dep>
+    <dep name="xcomp">100</dep>
   </deps>
 </treebank>
