@@ -1541,6 +1541,7 @@
 # sent_id = belykh1997a.052
 # text = Гымалігад пу улын сулавны оз позь.
 # text_rus = При грозе под деревом стоять нельзя.
+# text_en = When there is thunder, you shouldn't stand under a tree.
 1	Гымалігад	гымавны	VERB	V	Derivation=Ig|Number[psor]=Sing|Person[psor]=2|VerbForm=Conv	4	advcl	_	_
 2	пу	пу	NOUN	N	Case=Nom|Number=Sing	4	obl:lmod	_	_
 3	улын	улын	ADP	Po	Case=Ine|Number=Sing	2	case	_	_
@@ -5763,6 +5764,7 @@
 
 # sent_id = OKK:2000:48:7:JuxninV
 # text = Но гӧгӧр сулалысь ылі вӧръяс абу на вежсьӧмаӧсь.
+# text_en = But the surrounding distant forests have not changed yet.
 1	Но	но	CCONJ	CC	_	8	cc	_	_
 2	гӧгӧр	гӧгӧр	ADV	Adv	_	3	advmod:lmod	_	_
 3	сулалысь	сулавны	VERB	V	PartForm=Pres|VerbForm=Part|Voice=Act|Valency=1	5	acl	_	GTtags=IV,Der,Der/ысь,ActPrsPtc
