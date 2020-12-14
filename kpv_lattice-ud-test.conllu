@@ -7299,7 +7299,7 @@
 3	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=1	4	aux	_	GTtags=IV,Ind,Prt1,Sg3
 4	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,Sg3
 5	татшӧм	татшӧм	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	det	_	GTtags=Det,Dem,Sg,Nom
-6	сьӧлӧманас	сьӧлӧма	ADJ	A	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	advmod	_	GTtags=Sg,Ins,PxSg3
+6	сьӧлӧманас	сьӧлӧма	ADJ	A	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	GTtags=Sg,Ins,PxSg3
 7	лоны	лоны	VERB	V	Valency=1|VerbForm=Inf	4	xcomp	_	GTtags=IV,Inf|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
