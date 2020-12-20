@@ -1,9 +1,7 @@
 # sent_id = OKK:2000:47:17a:KuratovI
 # text = Пуртӧ, ваӧй, биӧй!
 "<Пуртӧ>"
-	"пур" N Sg Acc PxSg2
-	"пурны" V TV Imprt Sg2 Clt/тӧ
-	"пурт" N Sg Ill
+	"пурт" N Sg Nom PxSg1
 "<,>"
 	"," CLB
 "<ваӧй>"
@@ -84,14 +82,13 @@
 "<,>"
 	"," CLB
 "<кытсюрӧясті>"
-	"кытсюрӧясті" ?
+	"кытсюрӧясті" Adv Indef Pl Prl
 "<чишкасьыштӧма>"
 	"чишкасьыштны" V IV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom
 "<би>"
 	"би" N Sg Nom
 "<дорын>"
 	"дорын" Adp Po Sg Ine
-	"дорын" Adv Ine
 "<шонтысигъясӧ>"
 	"шонтысьны" V Refl Der Der/иг Ger Pl Ill
 "<.>"
