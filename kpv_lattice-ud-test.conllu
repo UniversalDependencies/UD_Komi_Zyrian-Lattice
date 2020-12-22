@@ -617,9 +617,9 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.019
 # text = Вундігӧн да тэчыгӧн му вылӧ усьӧ уна шеп.
-1	Вундігӧн	вундыны	VERB	V	Derivation=Ig|VerbForm=Conv	6	advcl	_	_
+1	Вундігӧн	вундыны	VERB	V	Case=Ins|Derivation=Ig|VerbForm=Conv	6	advcl	_	_
 2	да	да	CCONJ	Pcle	_	3	cc	_	Lang=Mixed
-3	тэчыгӧн	тэны	VERB	V	Derivation=Ig|VerbForm=Conv	1	conj	_	_
+3	тэчигӧн	тэчыны	VERB	V	Case=Ins|Derivation=Ig|VerbForm=Conv	1	conj	_	_
 4	му	му	NOUN	N	Case=Nom|Number=Sing	6	obl:lmod	_	_
 5	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	4	case	_	_
 6	усьӧ	усьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -1373,7 +1373,7 @@
 # sent_id = belykh1997a.037
 # text = Зэригас кая гортӧдз.
 # text_rus = В дождь дойду до дома.
-1	Зэригас	зэрны	VERB	V	Derivation=Ig|Number[psor]=Sing|Person[psor]=3|VerbForm=Conv	2	advcl	_	_
+1	Зэригас	зэрны	VERB	V	Case=Ill|Derivation=Ig|Number[psor]=Sing|Person[psor]=3|VerbForm=Conv	2	advcl	_	_
 2	кая	кайны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	гортӧдз	горт	NOUN	N	Case=Ter|Number=Sing	2	obl:lmod	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -1542,7 +1542,7 @@
 # text = Гымалігад пу улын сулавны оз позь.
 # text_rus = При грозе под деревом стоять нельзя.
 # text_en = When there is thunder, you shouldn't stand under a tree.
-1	Гымалігад	гымавны	VERB	V	Derivation=Ig|Number[psor]=Sing|Person[psor]=2|VerbForm=Conv	4	advcl	_	_
+1	Гымалігад	гымавны	VERB	V	Case=Ill|Derivation=Ig|Number[psor]=Sing|Person[psor]=2|VerbForm=Conv	4	advcl	_	_
 2	пу	пу	NOUN	N	Case=Nom|Number=Sing	4	obl:lmod	_	_
 3	улын	улын	ADP	Po	Case=Ine|Number=Sing	2	case	_	_
 4	сулавны	сулавны	VERB	V	VerbForm=Inf	6	xcomp	_	_
@@ -2273,7 +2273,7 @@
 # text_rus = Перед самым выходом в поле стало известно, что командиром броневика поедет командующий армией Климент Ефре﻿мович Ворошилов.
 1	Эрд	эрд	NOUN	N	Case=Nom|Number=Sing	3	obl:lmod	_	_
 2	вылӧ	вылын	ADP	Po	Case=Ill|Number=Sing	1	case	_	_
-3	петігӧн	петны	VERB	V	Derivation=Ig|VerbForm=Conv	4	advcl	_	_
+3	петігӧн	петны	VERB	V	Case=Ins|Derivation=Ig|VerbForm=Conv	4	advcl	_	_
 4	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	известнӧ	известнӧ	NOUN	N	Case=Nom|Number=Sing	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
@@ -2543,7 +2543,7 @@
 7	,	,	PUNCT	CLB	_	11	punct	_	_
 8	кыдз	кыдз	ADV	Adv	PronType=Int	11	advmod	_	_
 9	казакъяс	казак	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	_
-10	горзігтырйи	горзыны	VERB	V	Derivation=Igdyrji|VerbForm=Conv	11	advcl	_	_
+10	горзігтырйи	горзыны	VERB	V	Derivation=Igtyrji|VerbForm=Conv	11	advcl	_	_
 11	уськӧдчисны	уськӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	advcl	_	_
 12	машиналань	машина	NOUN	N	Case=Apr|Number=Sing	11	obl:lmod	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
@@ -3038,7 +3038,7 @@
 # sent_id = Minin:OjsjaCvettez:4.4
 # text = Кольӧм во вежонысь дырджык ветлӧдлі тайӧ жӧ местаясӧдыс, узьлі кӧні веськалӧ: коз улын, ю дорын, тыртӧм сарайын, быд лун тшак да вотӧс воті, чери кыйи.
 # text_koi =  Мӧйму, эта жӧ кадӧ, неделяся дыржык ветлӧті эна местаэзӧт, узьлі, кытӧн шедас: кӧз увтын, ю дорын, киссьӧм сарайын, быд лун кошши тшаккез да ягӧд, чериалі.
-1	Кольӧм	кольны	VERB	V	Case=Nom|Derivation=Oma|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	GTtags=V,IV,Der,Der/ӧм,PastPtc
+1	Кольӧм	кольны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	GTtags=V,IV,Der,Der/ӧм,PastPtc
 2	во	во	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=N,Sg,Nom
 3	вежонысь	вежон	NOUN	N	Case=Ela|Number=Sing	5	obl	_	GTtags=N,Sg,Ela
 4	дырджык	дыр	ADV	Adv	Degree=Cmp	5	advmod:tmod	_	GTtags=Adv,Comp
@@ -3162,7 +3162,7 @@
 11	пыдын	пыдын	ADV	Adv	Case=Ine	12	advmod:lmod	_	GTtags=Adv,Ine
 12	сулалӧны	сулавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	GTtags=V,IV,Ind,Prs,Pl3
 13	куим	куим	NUM	Num	Case=Nom|Number=Sing|NumType=Card	15	nummod	_	GTtags=Num,Card,Sg,Nom
-14	пӧлыньтчӧм	пӧлыньтчыны	VERB	V	Case=Nom|Derivation=Oma|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	GTtags=V,Refl,Der,Der/ӧм,PastPtc
+14	пӧлыньтчӧм	пӧлыньтчыны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	GTtags=V,Refl,Der,Der/ӧм,PastPtc
 15	керка	керка	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
 16	,	,	PUNCT	CLB	_	18	punct	_	GTtags=CLB
 17	кымынкӧ	кымынкӧ	ADV	Adv	_	18	advmod	_	GTtags=Pron,Indef
@@ -3170,7 +3170,7 @@
 19	да	да	CCONJ	CC	_	20	cc	_	GTtags=CC
 20	вевтӧдзыс	вевт	NOUN	N	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	GTtags=N,Sg,Ter,PxSg3
 21	муӧ	му	NOUN	N	Case=Ill|Number=Sing	22	obl	_	GTtags=N,Sg,Ill
-22	вӧйӧм	вӧйны	VERB	V	Case=Nom|Derivation=Oma|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	GTtags=V,IV,Der,Der/ӧм,PastPtc
+22	вӧйӧм	вӧйны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	GTtags=V,IV,Der,Der/ӧм,PastPtc
 23	важ	важ	ADJ	A	Case=Nom|Number=Sing	24	amod	_	GTtags=A,Sg,Nom
 24	пывсян	пывсян	NOUN	N	Case=Nom|Number=Sing	15	conj	_	GTtags=N,Sg,Nom|SpaceAfter=No
 25	.	.	PUNCT	CLB	_	12	punct	_	GTtags=CLB
@@ -5819,7 +5819,7 @@
 5	нин	нин	ADV	Adv	AdvType=Tim	7	advmod:tmod	_	GTtags=Temp
 6	сэсся	сэсся	ADV	Adv	_	7	advmod:tmod	_	_
 7	волыны	волыны	VERB	V	Connegative=Yes|Number=Plur|Person=3	0	root	_	GTtags=IV,ConNeg,Pl3
-8	миянланьӧ	ме	PRON	Pron	AprIll|Number=Plur|Person=1|PronType=Prs	7	obl:lmod	_	GTtags=Pers,Pl1,AprIll|SpaceAfter=No
+8	миянланьӧ	ме	PRON	Pron	Case=AprIll|Number=Plur|Person=1|PronType=Prs	7	obl:lmod	_	GTtags=Pers,Pl1,AprIll|SpaceAfter=No
 9	,	,	PUNCT	CLB	_	13	punct	_	_
 10	найӧ	сійӧ	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	GTtags=Pers,Pl3,Nom
 11	кӧнкӧ	кӧнікӧ	ADV	Adv	Case=Ine|Definite=Ind|Derivation=Ko	13	advmod:lmod	_	GTtags=Indef,Ine,Der/кӧ
