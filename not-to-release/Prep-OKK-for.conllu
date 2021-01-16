@@ -1,17 +1,11 @@
 # sent_id = OKK:2000:47:17a:KuratovI
 # text = Пуртӧ, ваӧй, биӧй!
-"<Пуртӧ>"
-	"пурт" N Sg Nom PxSg1
-"<,>"
-	"," CLB
-"<ваӧй>"
-	"ва" N Sg Nom PxSg1
-"<,>"
-	"," CLB
-"<биӧй>"
-	"би" N Sg Nom PxSg1
-"<!>"
-	"!" CLB
+1	Пуртӧ	пурт	N	_	Sg|Nom|PxSg1	0	root	_	_
+2	,	,	CLB	_	_	3	punct	_	_
+3	ваӧй	ва	N	_	Sg|Nom|PxSg1	1	conj	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	биӧй	би	N	_	Sg|Nom|PxSg1	1	conj	_	_
+6	!	!	CLB	_	_	1	punct	_	_
 
 # sent_id = OKK:2000:50:1:JuxninV
 # text = Прохор Иванович Асныров уна во нин кӧнъясынкӧ ветлӧм бӧрын регыдӧн на воӧм, карса паськӧма, ...паськыда нязгис-ворсіс.
@@ -26,7 +20,7 @@
 "<во>"
 	"во" N Sg Nom
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<кӧнъясынкӧ>"
 	"кӧнъясынкӧ" Adv Indef Der/кӧ
 "<ветлӧм>"
@@ -78,7 +72,7 @@
 "<важмӧма>"
 	"важмыны" V IV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<,>"
 	"," CLB
 "<кытсюрӧясті>"
@@ -125,7 +119,7 @@
 "<,>"
 	"," CLB
 "<коръясӧ>"
-	"кор" Adv Temp Pl Ill Rel
+	"кор" Adv Sem/Time Pl Ill Rel
 "<тэа-меа>"
 	"тэа-меа" ?
 "<окыштчылім>"
@@ -220,7 +214,7 @@
 "<унаысь>"
 	"унаысь" Adv Iter
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<воліс>"
 	"волыны" V IV Ind Prt1 Sg3
 "<,>"
@@ -285,7 +279,7 @@
 "<локтӧ>"
 	"локны" V IV Ind Prs Sg3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<вӧлі>"
 	"вӧвны" V IV Ind Prt1 Sg3
 "<ветымын>"
@@ -502,7 +496,7 @@
 "<личкан>"
 	"личкыны" V TV Der Der/Ан PrsPtc
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<сійӧс>"
 	"сійӧ" Pron Pers Sg3 Acc
 "<улад>"
@@ -940,7 +934,7 @@
 "<абу>"
 	"абу" V Neg Cop Ind Sg
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<тэнадӧсь>"
 	"тэ" Pron Pers Sg2 Gen Cop Pl
 "<?>"
@@ -1055,7 +1049,7 @@
 "<вӧрынӧсь>"
 	"вӧр" N Sg Ine Cop Pl
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<вӧліны>"
 	"вӧвны" V IV Ind Prt1 Pl3
 "<,>"
@@ -1063,7 +1057,7 @@
 "<пӧрӧдчисны>"
 	"пӧрӧдчыны" V Refl Ind Prt1 Pl3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<.>"
 	"." CLB
 
@@ -1965,7 +1959,7 @@
 "<эз>"
 	"оз" V Neg Ind Prt1 Sg3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<яндысьны>"
 	"яндысьны" V Refl Inf
 "<гырддзананыс>"
@@ -2053,7 +2047,7 @@
 "<олысьяс>"
 	"олысь" N Pl Nom
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<,>"
 	"," CLB
 "<кодъяслӧн>"
@@ -2160,7 +2154,7 @@
 "<—>"
 	"—" PUNCT
 "<кор>"
-	"кор" Adv Temp Interr ?
+	"кор" Adv Sem/Time Interr ?
 "<кыдзи>"
 	"кыдзи" Pron Adv Manner Interr ?
 "<,>"
@@ -2359,7 +2353,7 @@
 "<талунсянь>"
 	"талун" N Sg Egr
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<босьтчыны>"
 	"босьтчыны" V Refl Inf
 "<разьны>"
@@ -2460,7 +2454,7 @@
 "<Бӧръяӧн>"
 	"бӧръя" A Sg Ins
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<петісны>"
 	"петны" V IV Ind Prt1 Pl3
 "<найӧ>"
@@ -2795,7 +2789,7 @@
 "<жӧ>"
 	"жӧ" Adv Parenthetic
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<муніс>"
 	"мунны" V IV Ind Prt1 Sg3
 "<,>"
@@ -2992,7 +2986,7 @@
 # sent_id = OKK:2000:58:4:ShaxovР
 # text = Сёрӧнджык культпросветотдел и баян ыстіс Буждӧм сиктса клубӧ, но ворсны велӧдчигкостаыс и стройысь петіс, кӧть, видзӧдӧмъяпырысь, ыджыд да ён вӧлі пуд сьӧкта тульскӧй баян.
 "<Сёрӧнджык>"
-	"сёрӧн" Adv Temp Comp
+	"сёрӧн" Adv Sem/Time Comp
 "<культпросветотдел>"
 	"культпросветотдел" N Sg Nom
 "<и>"
@@ -3053,7 +3047,7 @@
 # sent_id = OKK:2000:58:5:JushkovG
 # text = Бӧртинас синваыс чепӧсйис...
 "<Бӧртинас>"
-	"бӧртинас" Adp Po Temp Tra Ins PxSg3
+	"бӧртинас" Adp Po Sem/Time Tra Ins PxSg3
 "<синваыс>"
 	"синва" N Sg Nom PxSg3
 "<чепӧсйис>"
@@ -3271,7 +3265,7 @@
 "<дерт>"
 	"дерт" Adv Parenthetic
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<оз>"
 	"оз" V Neg Ind Prs Sg3
 "<сет>"
@@ -3364,7 +3358,7 @@
 "<пуксьӧмсяньыс>"
 	"пуксьыны" V Refl Der Der/ӧм Der/NomAct N Sg Egr PxSg3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<.>"
 	"." CLB
 
@@ -3397,7 +3391,7 @@
 "<петкӧдчас>"
 	"петкӧдчыны" V Refl Ind Fut Sg3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<.>"
 	"." CLB
 
@@ -3414,7 +3408,7 @@
 "<эз>"
 	"оз" V Neg Ind Prt1 Sg3
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<ылалӧм>"
 	"ылавны" V IV Der Der/ӧм PastPtc
 "<синмӧн>"
@@ -3544,7 +3538,7 @@
 "<Сідзкӧ>"
 	"сідзкӧ" Adv
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<шуны>"
 	"шуны" V TV Inf
 "<,>"
@@ -3707,7 +3701,7 @@
 "<дерт>"
 	"дерт" Adv Parenthetic
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<.>"
 	"." CLB
 
@@ -3742,7 +3736,7 @@
 "<выйӧдзыд>"
 	"выйӧдз" Adp Po Sg Ter PxSg2
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<волан>"
 	"волыны" V IV Ind Prs Sg2
 "<,>"
@@ -3817,7 +3811,7 @@
 "<важӧн>"
 	"важ" A Sg Ins
 "<нин>"
-	"нин" Adv Temp
+	"нин" Adv Sem/Time
 "<шкоргис-узис>"
 	"узьны" V IV Ind Prt1 Sg3
 		"шкоргыны" V IV Ind Prt1 Sg3 Cmp/Serial Cmp
@@ -4533,7 +4527,7 @@
 "<Коркӧ>"
 	"коркӧ" Adv
 	"коркӧ" Adv Der/кӧ Indef
-	"коркӧ" Adv Indef Temp Der/кӧ
+	"коркӧ" Adv Indef Sem/Time Der/кӧ
 "<сёрӧн>"
 	"сёр" A Sg Ins
 "<нин>"
@@ -7410,8 +7404,8 @@
 "<коръя>"
 	"кор" N Sg Der Der/ProprietiveMod A Sg Nom
 	"коръя" A Sg Nom
-	"коръя" Adv Temp Interr
-	"коръя" Adv Temp Rel
+	"коръя" Adv Sem/Time Interr
+	"коръя" Adv Sem/Time Rel
 "<,>"
 	"," CLB
 "<Зільӧ>"
@@ -8085,7 +8079,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<субъект>"
 	"субъект" N Sg Nom
 "<вӧчӧ>"
@@ -9308,7 +9302,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<вокыс>"
 	"вок" N Sg Nom PxSg3
 "<,>"
@@ -11916,7 +11910,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<вокъяс>"
 	"вок" N Pl Nom
 "<—>"
@@ -12163,7 +12157,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<Вова>"
 	"Вова" N Prop Sem/Mal Sg Nom
 "<да>"
@@ -12771,7 +12765,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<став>"
 	"став" Pron Sg Nom
 "<вӧрыс>"
@@ -13574,7 +13568,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<сылы>"
 	"сійӧ" Pron Pers Sg3 Dat
 "<лоӧ>"
@@ -15926,8 +15920,8 @@
 # sent_id = OKK:2000:81:6:Riddle
 # text = Кор зептын эм, мем ставыс радӧсь.
 "<Кор>"
-	"кор" Adv Rel Temp
-	"кор" Adv Temp Interr
+	"кор" Adv Rel Sem/Time
+	"кор" Adv Sem/Time Interr
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -16380,7 +16374,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<туриясыд>"
 	"тури" N Pl Nom PxSg2
 "<бӧр>"
@@ -16637,7 +16631,7 @@
 "<коркӧ>"
 	"коркӧ" Adv
 	"коркӧ" Adv Der/кӧ Indef
-	"коркӧ" Adv Indef Temp Der/кӧ
+	"коркӧ" Adv Indef Sem/Time Der/кӧ
 "<слугаын>"
 	"слуга" N Sg Ine
 "<овлі>"
@@ -16732,8 +16726,8 @@
 # sent_id = OKK:2000:82:11:UljanovA
 # text = Кор дзикӧдз нин югдіс, нӧшта на гӧгӧртіс керка пытшкӧссӧ, петаліс гид-картаӧ , пыраліс чуланӧ, гӧбӧчӧ , тупкаліс-игналіс быд розь.
 "<Кор>"
-	"кор" Adv Rel Temp
-	"кор" Adv Temp Interr
+	"кор" Adv Rel Sem/Time
+	"кор" Adv Sem/Time Interr
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -17862,7 +17856,7 @@
 "<коркӧ>"
 	"коркӧ" Adv
 	"коркӧ" Adv Der/кӧ Indef
-	"коркӧ" Adv Indef Temp Der/кӧ
+	"коркӧ" Adv Indef Sem/Time Der/кӧ
 "<,>"
 	"," CLB
 "<во>"
@@ -18003,8 +17997,8 @@
 "<!>"
 	"!" CLB
 "<Кор>"
-	"кор" Adv Rel Temp
-	"кор" Adv Temp Interr
+	"кор" Adv Rel Sem/Time
+	"кор" Adv Sem/Time Interr
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -18026,8 +18020,8 @@
 "<...>"
 	"..." CLB
 "<Кор>"
-	"кор" Adv Rel Temp
-	"кор" Adv Temp Interr
+	"кор" Adv Rel Sem/Time
+	"кор" Adv Sem/Time Interr
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -18039,7 +18033,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -18390,7 +18384,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<аддзис>"
 	"аддзыны" V TV Ind Prt1 Sg3
 "<Раялысь>"
@@ -18597,7 +18591,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<мойяссӧ>"
 	"мой" N Pl Acc PxSg3
 "<вайӧмаӧсь>"
@@ -18857,7 +18851,7 @@
 "<Коркӧ>"
 	"коркӧ" Adv
 	"коркӧ" Adv Der/кӧ Indef
-	"коркӧ" Adv Indef Temp Der/кӧ
+	"коркӧ" Adv Indef Sem/Time Der/кӧ
 "<сійӧ>"
 	"сійӧ" Pron Pers Sg3 Nom
 "<,>"
@@ -21828,7 +21822,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<сійӧ>"
 	"сійӧ" Pron Pers Sg3 Nom
 "<биа>"
@@ -23136,8 +23130,8 @@
 # sent_id = OKK:2000:91:19:VanaevA
 # text = Koр турӧбъясӧн Дурӧ Воркута, Ухтаын — тулыс, Леткаланьын — гожӧм.
 "<Koр>"
-	"кор" Adv Rel Temp
-	"кор" Adv Temp Interr
+	"кор" Adv Rel Sem/Time
+	"кор" Adv Sem/Time Interr
 	"кор" CS
 	"кор" N Sg Nom
 	"корны" V IV Imprt Sg2
@@ -23211,7 +23205,7 @@
 "<коркӧ>"
 	"коркӧ" Adv
 	"коркӧ" Adv Der/кӧ Indef
-	"коркӧ" Adv Indef Temp Der/кӧ
+	"коркӧ" Adv Indef Sem/Time Der/кӧ
 "<кутшӧмкӧ>"
 	"кутшӧмкӧ" Pron Indef Der/кӧ
 "<важ>"
@@ -24118,7 +24112,7 @@
 "<,>"
 	"," CLB
 "<кодыр>"
-	"кодыр" Adv Temp Rel
+	"кодыр" Adv Sem/Time Rel
 "<ноксьӧ>"
 	"ноксьыны" V IV Ind Prs Sg3
 	"ноксьыны" V Refl Ind Prs Sg3
@@ -24127,7 +24121,7 @@
 "<,>"
 	"," CLB
 "<кодыр>"
-	"кодыр" Adv Temp Rel
+	"кодыр" Adv Sem/Time Rel
 "<артасьӧ>"
 	"артасьны" V Refl Ind Prs Sg3
 "<да>"
@@ -24543,7 +24537,7 @@
 "<,>"
 	"," CLB
 "<кор>"
-	"кор" Adv Rel Temp
+	"кор" Adv Rel Sem/Time
 "<йӧзыс>"
 	"йӧз" N Sg Nom PxSg3
 "<вӧліны>"
