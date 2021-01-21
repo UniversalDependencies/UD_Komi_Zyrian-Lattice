@@ -866,7 +866,7 @@
 3	жӧ	жӧ	PART	Pcle	_	2	advmod	_	Lang=Mixed
 4	ачымӧс	ас	PRON	Pron	Case=Acc|Person=1|Reflex=Yes	5	obj	_	_
 5	лыддя	лыддьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-6	шудаӧн	шуда	ADV	A	Case=Ins|Number=Sing	5	advmod	_	SpaceAfter=No
+6	шудаӧн	шуда	ADV	A	Case=Ins|Number=Sing	5	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	CLB	_	10	punct	_	_
 8	ӧд	ӧд	PART	Pcle	_	10	advmod:mmod	_	_
 9	менӧ	ме	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
@@ -880,7 +880,7 @@
 17	,	,	PUNCT	CLB	_	19	punct	_	_
 18	ме	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 19	лоа	лоны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	conj	_	_
-20	воинӧн	воин	NOUN	N	Case=Ins|Number=Sing	19	obl	_	Lang=Mixed|SpaceAfter=No
+20	воинӧн	воин	NOUN	N	Case=Ins|Number=Sing	19	xcomp	_	Lang=Mixed|SpaceAfter=No
 21	,	,	PUNCT	CLB	_	22	punct	_	_
 22	кута	кутны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	19	conj	_	_
 23	видзны	видзны	VERB	V	VerbForm=Inf	22	xcomp	_	_
@@ -1909,7 +1909,7 @@
 1	Кыдзи	кыдзи	ADV	Adv	PronType=Int	3	advmod	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	большевикӧн	большевик	NOUN	N	Case=Ins|Number=Sing	3	obl	_	SpaceAfter=No
+4	большевикӧн	большевик	NOUN	N	Case=Ins|Number=Sing	3	xcomp	_	SpaceAfter=No
 5	?	?	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = uspensky1940a.006
@@ -1919,7 +1919,7 @@
 2	лои	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	Краснӧй	краснӧй	ADJ	A	Case=Nom|Number=Sing	4	amod	_	_
 4	Армияса	армияса	ADJ	A	Case=Nom|Number=Sing	5	amod	_	_
-5	командирӧн	командир	NOUN	N	Case=Ins|Number=Sing	2	obl	_	SpaceAfter=No
+5	командирӧн	командир	NOUN	N	Case=Ins|Number=Sing	2	xcomp	_	SpaceAfter=No
 6	?	?	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = uspensky1940a.007
@@ -2066,7 +2066,7 @@
 20	ӧні	ӧні	ADV	Adv	_	22	advmod:tmod	_	_
 21	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	шусьӧ	шусьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	parataxis	_	Note=Check
-23	Сталинградӧн	Сталинград	PROPN	N	Case=Ins|Number=Sing	22	obl	_	SpaceAfter=No
+23	Сталинградӧн	Сталинград	PROPN	N	Case=Ins|Number=Sing	22	xcomp	_	SpaceAfter=No
 24	)	)	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -2892,11 +2892,11 @@
 18	ог	оз	AUX	V	Mood=Ind|Person=1|Polarity=Neg|Tense=Pres	19	aux:neg	_	_
 19	шуӧй	шуны	VERB	V	Connegative=Yes	13	advcl	_	_
 20	кулӧм	кувны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	21	amod	_	_
-21	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	19	obl	_	_
+21	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	19	xcomp	_	_
 22	—	—	PUNCT	PUNCT	_	23	punct	_	_
 23	шуам	шуны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	19	conj	_	_
 24	ловтӧм	ловтӧм	NOUN	N	Case=Nom|Number=Sing	25	amod	_	_
-25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	obl	_	SpaceAfter=No
+25	торъясӧн	тор	NOUN	N	Case=Ins|Number=Plur	23	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	CLB	_	13	punct	_	_
 
 # text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
@@ -3436,7 +3436,7 @@
 1	Ми	ме	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	GTtags=Pers,Pl1,Nom
 2	тэкӧд	тэ	PRON	Pron	Case=Com|Number=Sing|Person=2|PronType=Prs	1	nmod	_	GTtags=Pers,Sg2,Com
 3	бур	бур	ADJ	A	Case=Nom|Number=Sing	4	amod	_	GTtags=Sg,Nom
-4	другъясӧн	друг	NOUN	N	Case=Ins|Number=Plur	6	obl	_	GTtags=Pl,Ins
+4	другъясӧн	друг	NOUN	N	Case=Ins|Number=Plur	6	xcomp	_	GTtags=Pl,Ins
 5	на	на	ADV	Adv	_	6	advmod:tmod	_	_
 6	лоам	лоны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,Pl1|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	10	punct	_	_
