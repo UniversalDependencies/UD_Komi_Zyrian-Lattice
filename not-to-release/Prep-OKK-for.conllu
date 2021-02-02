@@ -1281,6 +1281,34 @@
 23	югзис	югзьыны	V	_	IV|Ind|Prt1|Sg3	18	conj	_	_
 24	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = ViktorNapalkov:2000:85
+# text = Люда мича кокни платтьӧа, вӧсни ковтаа, лип волысъясыс тӧдчӧны.
+1	Люда	Люда	N	_	Prop|Sg|Nom	4	nsubj:cop	_	_
+2	мича	мича	A	_	Sg|Nom	4	amod	_	_
+3	кокни	кокни	A	_	Sg|Nom	4	amod	_	_
+4	платтьӧа	платтьӧ	N	_	Sg|Der|Der/ProprietiveMod|A|Sg|Nom	0	root	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	вӧсни	вӧсни	A	_	Sg|Nom	7	amod	_	_
+7	ковтаа	ковта	N	_	Sg|Der|Der/ProprietiveMod|A|Sg|Nom	4	conj	_	_
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	лип	лип	N	_	Sg|Nom	10	compound	_	_
+10	волысъясыс	волыс	N	_	Pl|Nom|PxSg3	11	nsubj	_	_
+11	тӧдчӧны	тӧдчыны	V	_	Refl|Ind|Prs|Pl3	4	conj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ViktorNapalkov:2000:94
+# text = Кымын ичӧтджык пызаныд, сымын озырджыкӧн кажитчӧ пызан вылыд.
+1	Кымын	кымын	CS	_	_	2	mark	_	_
+2	ичӧтджык	ичӧт	A	_	Comp|Sg|Nom	0	root	_	_
+3	пызаныд	пызан	N	_	Sg|Nom|PxSg2	2	nsubj:cop	_	_
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	сымын	сымын	CS	_	_	7	mark	_	_
+6	озырджыкӧн	озыр	A	_	Comp|Sg|Ins	7	xcomp	_	_
+7	кажитчӧ	кажитчӧ	Adv	_	Parenthetic	2	advcl	_	_
+8	пызан	пызан	N	_	Sg|Nom	9	compound	_	_
+9	вылыд	выв	N	_	Relat|Sg|Nom|PxSg2	7	conj	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = OKK:2000:56:4:JushkovG
 # text = Лывкмунліс да сялькӧбтыліс пыжыс быд сыныштӧмысь.
 "<Лывкмунліс>"
@@ -1317,7 +1345,7 @@
 "<ӧдзӧсъяс>"
 	"ӧдзӧс" N Pl Nom
 "<сайын>"
-	"сайын" Adp Po Sg Ine
+	"сай" N Relat Sg Ine
 "<,>"
 	"," CLB
 "<некӧн>"
@@ -1356,7 +1384,7 @@
 "<миян>"
 	"ме" Pron Pers Pl1 Gen
 "<армейскӧй>"
-	"армейскӧй" ?
+	"армейскӧй" A Sg Nom
 "<овмӧсаным>"
 	"овмӧс" N Sg Ine PxPl1
 "<.>"
