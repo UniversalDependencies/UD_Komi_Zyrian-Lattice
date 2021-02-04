@@ -1335,6 +1335,16 @@
 22	дінӧ	дінӧ	N	_	Relat|Sg|Ill	20	obl:lmod	_	_
 23	.	.	CLB	_	_	1	punct	_	_
 
+# sent_id = 1.Bikin:1
+# text = Гожӧм чӧжӧн ме велалі лысьтыны мӧс.
+1	Гожӧм	гожӧм	N	_	Sg|Nom	2	nmod	_	_
+2	чӧжӧн	чӧж	N	_	Relat|Sg|Ins	4	obl:tmod	_	_
+3	ме	ме	Pron	_	Pers|Sg1|Nom	4	nsubj	_	_
+4	велалі	велавны	V	_	Ind|Prt1|Sg1	0	root	_	_
+5	лысьтыны	лысьтыны	V	_	Inf	4	xcomp	_	_
+6	мӧс	мӧс	N	_	Sg|Nom	5	obj	_	_
+7	.	.	CLB	_	_	7	punct	_	_
+
 # sent_id = OKK:2000:56:4:JushkovG
 # text = Лывкмунліс да сялькӧбтыліс пыжыс быд сыныштӧмысь.
 "<Лывкмунліс>"
