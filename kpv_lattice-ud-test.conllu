@@ -8707,7 +8707,7 @@
 13	ӧшӧдӧмӧн	ӧшӧдны	VERB	V	Case=Ins|Number=Sing|Valency=2|VerbForm=Vnoun	11	advcl	_	GTtags=TV,Der,Der/ӧм,Der/NomAct,N,Sg,Ins|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	19	punct	_	_
 15	кытш	кытш	NOUN	N	Case=Nom|Number=Sing	16	compound	_	GTtags=Sg,Nom
-16	бӧрся	бӧр	NOUN	N	Case=Cmpr|Number=Sing	17	amod	_	GTtags=Relat,Sg,Der,Der/TempMod,A,Sg,Nom
+16	бӧрся	бӧр	NOUN	N	Case=Cmp|Number=Sing	17	amod	_	GTtags=Relat,Sg,Der,Der/TempMod,A,Sg,Nom
 17	кытш	кытш	NOUN	N	Case=Nom|Number=Sing	19	obj	_	GTtags=Sg,Nom
 18	сыкӧд	сійӧ	PRON	Pron	Case=Com|Number=Sing|Person=3|PronType=Prs	19	obl	_	GTtags=Pers,Sg3,Com
 19	вӧчлім	вӧчлыны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|Valency=2	11	conj	_	GTtags=TV,Ind,Prt1,Pl1|SpaceAfter=No
