@@ -1,80 +1,45 @@
 # sent_id = OKK:2000:56:12:JushkovG
 # text = — Кыдзи тіянлы бурджык, — коса вочавидзис Галина, но вом пельӧссяньыс нырӧдзыс лайкова нёков артмыліс.
-"<—>"
-	"—" PUNCT
-"<Кыдзи>"
-	"кыдзи" Pron Adv Manner Rel
-"<тіянлы>"
-	"тэ" Pron Pers Pl2 Dat
-"<бурджык>"
-	"бур" A Comp Sg Nom
-"<,>"
-	"," CLB
-"<—>"
-	"—" PUNCT
-"<коса>"
-	"коса" Adv
-"<вочавидзис>"
-	"вочавидзны" V IV Ind Prt1 Sg3
-"<Галина>"
-	"Галина" N Prop Sem/Fem Sg Nom
-"<,>"
-	"," CLB
-"<но>"
-	"но" CC
-"<вом>"
-	"вом" N Sg Nom
-"<пельӧссяньыс>"
-	"пельӧс" N Sg Egr PxSg3
-"<нырӧдзыс>"
-	"ныр" N Sg Ter PxSg3
-"<лайкова>"
-	"лайкова" ?
-"<нёков>"
-	"нёков" N Sg Nom
-"<артмыліс>"
-	"артмывны" V IV Ind Prt1 Sg3
-"<.>"
-	"." CLB
+1	—	—	PUNCT	_	_	_	_	_	_
+2	Кыдзи	кыдзи	Pron	_	Adv|Manner|Rel	4	mark	_	_
+3	тіянлы	тэ	Pron	_	Pers|Pl2|Dat	4	obl	_	_
+4	бурджык	бур	A	_	Comp|Sg|Nom	0	root	_	_
+5	,	,	CLB	_	_	8	punct	_	_
+6	—	—	PUNCT	_	_	8	punct	_	_
+7	коса	коса	Adv	_	_	8	advmod	_	_
+8	вочавидзис	вочавидзны	V	_	IV|Ind|Prt1|Sg3	4	parataxis	_	_
+9	Галина	Галина	N	_	Prop|Sem/Fem|Sg|Nom	8	nsubj	_	_
+10	,	,	CLB	_	_	17	punct	_	_
+11	но	но	CC	_	_	17	cc	_	_
+12	вом	вом	N	_	Sg|Nom	13	compound	_	_
+13	пельӧссяньыс	пельӧс	N	_	Sg|Egr|PxSg3	17	obl	_	_
+14	нырӧдзыс	ныр	N	_	Sg|Ter|PxSg3	17	obl	_	_
+15	лайкова	лайкова	A	_	Sg|Nom	_	_	_	_
+16	нёков	нёков	N	_	Sg|Nom	_	_	_	_
+17	артмыліс	артмывны	V	_	IV|Ind|Prt1|Sg3	8	conj	_	_
+18	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:56:13:JushkovG
 # text = Улыс увъяссӧ козйыслысь ваыс чегъялӧма, a сэсся и черӧн на кодкӧ ӧтилаті босьтышталӧма, пыжа туй вӧчӧма.
-"<Улыс>"
-	"ув" N Relat Sg Nom PxSg3
-"<увъяссӧ>"
-	"ув" N Relat Pl Acc PxSg3
-"<козйыслысь>"
-	"коз" N Sg Abl PxSg3
-"<ваыс>"
-	"ва" N Sg Nom PxSg3
-"<чегъялӧма>"
-	"чегъявны" V TV Der Der/ӧм Der/NomAct N Sg Der Der/ProprietiveMod A Sg Nom
-"<,>"
-	"," CLB
-"<a>"
-	"а" CC
-"<сэсся и>"
-	"сэсся и" CC
-"<черӧн>"
-	"чер" N Sg Ins
-"<на>"
-	"на" Adv
-"<кодкӧ>"
-	"кодкӧ" Pron Indef Sg Nom Der/кӧ
-"<ӧтилаті>"
-	"ӧтилаті" Adv Tra
-"<босьтышталӧма>"
-	"босьтыштавны" V TV Ind Prt2 Sg3
-"<,>"
-	"," CLB
-"<пыжа>"
-	"пыж" N Sg Der Der/ProprietiveMod A Sg Nom
-"<туй>"
-	"туй" N Sg Nom
-"<вӧчӧма>"
-	"вӧчны" V TV Ind Prt2 Sg3
-"<.>"
-	"." CLB
+1	Улыс	улыс	NOUN	_	Sg|Nom	2	nmod	_	_
+2	увъяссӧ	ув	N	_	Pl|Acc|PxSg3	5	obj	_	_
+3	козйыслысь	коз	N	_	Sg|Abl|PxSg3	5	obl	_	_
+4	ваыс	ва	N	_	Sg|Nom|PxSg3	5	nsubj	_	_
+5	чегъялӧма	чегъявны	V	_	TV|Ind|Prt2|Sg3	0	root	_	_
+6	,	,	CLB	_	_	14	punct	_	_
+7	a	а	CC	_	_	14	cc	_	_
+8	сэсся	сэсся·и	ADV	_	_	14	advmod:tmod	_	_
+9	и	_	CCONJ	_	_	8	cc	_	_
+10	черӧн	чер	N	_	Sg|Ins	14	obl	_	_
+11	на	на	Adv	_	_	10	advmod:tmod	_	_
+12	кодкӧ	кодкӧ	Pron	_	Indef|Sg|Nom|Der/кӧ	14	nsubj	_	_
+13	ӧтилаті	ӧтилаті	Adv	_	Tra	14	advmod:lmod	_	_
+14	босьтышталӧма	босьтыштавны	V	_	TV|Ind|Prt2|Sg3	5	conj	_	_
+15	,	,	CLB	_	_	18	punct	_	_
+16	пыжа	пыж	N	_	Sg|Der|Der/ProprietiveMod|A|Sg|Nom	17	nmod	_	_
+17	туй	туй	N	_	Sg|Nom	18	obj	_	_
+18	вӧчӧма	вӧчны	V	_	TV|Ind|Prt2|Sg3	14	conj	_	_
+19	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = OKK:2000:57:1:KuratovaN
 # text_orig = Нёльӧнӧс быдтісны (Степан да Люба гозъя), некод абу шыбитана, гортас кӧть йӧз дорын авъяӧсь.
