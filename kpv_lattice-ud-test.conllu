@@ -6021,7 +6021,7 @@
 3	вылӧ	вылӧ	ADP	Adp	AdpType=Post|Case=Ill|Number=Sing	2	case	_	GTtags=Po,Sg,Ill
 4	петіс	петны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Sg3
 5	ёнкодь	ёнкодь	ADJ	A	_	7	amod	_	_
-6	на	на	ADV	Adv	Sem/Tim	5	advmod:tmod	_	GTtags=Sem/Tim
+6	на	на	ADV	Adv	AdvType=Tim	5	advmod:tmod	_	GTtags=Sem/Tim
 7	мыгӧръяса	мыгӧр	NOUN	N	Derivation=ProprietiveMod|Number=Plur	15	nmod	_	GTtags=Pl,Der,Der/ProprietiveMod,A,Sg,Nom|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	10	punct	_	_
 9	важиник	важиник	ADJ	A	Case=Nom|Number=Sing	10	amod	_	GTtags=Sg,Nom
@@ -6080,7 +6080,7 @@
 
 # sent_id = OKK:2000:49:9:ToroрovI
 # text = Паськыдкодь ягыслысь ӧтар джынсӧ коркӧ пӧрӧдлӧмаӧсь, буракӧ, во ветымынъяс сайын...
-1	Паськыдкодь	паськыд	ADJ	A	Case=Nom|CompMod|Derivation=кодь|Number=Sing	2	amod	_	GTtags=Der,Der/кодь,CompMod,Sg,Nom
+1	Паськыдкодь	паськыд	ADJ	A	Case=Nom|Derivation=CompMod|Number=Sing	2	amod	_	GTtags=Der,Der/кодь,CompMod,Sg,Nom
 2	ягыслысь	яг	NOUN	N	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	GTtags=Sg,Abl,PxSg3
 3	ӧтар	ӧтар	PRON	Pron	Case=Nom|Derivation=MWN|Number=Sing	4	det	_	GTtags=Qnt,A,Der/MWN,Sg,Nom
 4	джынсӧ	джын	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	GTtags=Sg,Acc,PxSg3
@@ -8200,7 +8200,7 @@
 8	вылад	_	ADP	Adp	_	7	case	_	_
 9	уджалігӧн	уджавны	VERB	V	Case=Ins|Derivation=Ig|Number=Sing|Valency=1|VerbForm=Conv	12	advcl	_	GTtags=IV,Der,Der/иг,Ger,Sg,Ins|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	9	punct	_	_
-11	ёнакодь	ён	ADJ	A	Derivation=а|Derivation=кодь	12	advmod	_	GTtags=Der,Der/а,Der,Der/кодь
+11	ёнакодь	ёна	ADV	Adv	Derivation=CompMod	12	advmod	_	GTtags=Der,Der/а,Der,Der/кодь
 12	гожъялӧмаӧсь	гожъявны	VERB	V	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|Valency=1	5	conj	_	GTtags=IV,Ind,Prt2,Pl3
 13	да	да	CCONJ	CC	_	15	cc	_	_
 14	тшупӧдӧн	тшупӧд	NOUN	N	Case=Ins|Number=Sing	15	obl	_	GTtags=Sg,Ins
@@ -8574,7 +8574,7 @@
 
 # sent_id = OKK:2000:55:4c:FjodorovG
 # text = Чинтыштан?
-1	Чинтыштан	чинтыштны	V	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Valency=2	0	root	_	_
+1	Чинтыштан	чинтыштны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Valency=2	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = OKK:2000:55:5:FjodorovG
