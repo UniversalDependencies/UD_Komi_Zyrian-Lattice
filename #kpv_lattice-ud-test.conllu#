@@ -7895,7 +7895,7 @@
 4	газетысь	газет	NOUN	N	Case=Ela|Number=Sing	3	obl:lmod	_	GTtags=Sg,Ela|SpaceAfter=No
 5	:	:	PUNCT	CLB	_	14	punct	_	_
 6	Эжва	Эжва	NOUN	N	Case=Nom|Number=Sing	7	compound	_	GTtags=Prop,Sem/Plc,Sg,Nom
-7	гӧгӧръясын	гӧгӧр	NOUN	N	Relat|Case=Ine|Number=Plur	14	obl:lmod	_	GTtags=Relat,Pl,Ine
+7	гӧгӧръясын	гӧгӧр	NOUN	N	Case=Ine|Number=Plur	14	obl:lmod	_	GTtags=Relat,Pl,Ine
 8	пӧ	пӧ	ADV	Adv	_	7	advmod	_	GTtags=Parenthetic
 9	ӧні	ӧні	ADV	Adv	_	14	advmod:tmod	_	_
 10	джын	джын	NOUN	_	Case=Nom|Number=Sing	11	nmod	_	GTtags=Sg,Nom
