@@ -2108,7 +2108,7 @@
 5	миян	ми	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	nmod	_	_
 6	войскаяс	войска	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	_
 7	ас	ас	DET	Det	_	8	nmod	_	_
-8	водзсьыныс	водз	ADV	Adv	Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl:lmod	_	_
+8	водзсьыныс	водз	NOUN	N	NounType=Relat|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl:lmod	_	_
 9	ылысь	ылын	ADP	Po	Case=Ela	8	case	_	_
 10	аддзисны	аддзыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	21	advcl	_	_
 11	неыджыд	неыджыд	ADJ	A	Case=Nom|Number=Sing|Polarity=Neg	12	amod	_	_
@@ -4766,7 +4766,7 @@
 6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	видзӧдӧ	видзӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	GTtags=TV,Ind,Prs,Sg3
 8	лэбысь	лэбны	VERB	V	Case=Nom|Derivation=NomAg|Number=Sing	7	obl	_	GTtags=IV,Der,Der/ысь,Der/NomAg,N,Sg,Nom
-9	бӧрся	бӧрся	ADP	Adp	AdpType=Post|Case=Comp|Number=Sing	8	case	_	GTtags=Po,Sg,Cmpr|SpaceAfter=No
+9	бӧрся	бӧрся	ADP	Adp	AdpType=Post|Case=Cmp|Number=Sing	8	case	_	GTtags=Po,Sg,Cmpr|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	син	син	NOUN	N	Case=Nom|Number=Sing	12	nmod	_	GTtags=Sg,Nom
 12	ортӧдзыс	орт	NOUN	N	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obl	_	GTtags=Sg,Ter,PxSg3
