@@ -437,7 +437,7 @@
 20	мобилизуйтны	мобилизуйтны	VERB	V	Connegative=Yes	4	acl	_	Lang=Mixed
 21	ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	22	amod	_	_
 22	урожай	урожай	NOUN	N	Case=Nom|Number=Sing	23	obj	_	Lang=Mixed
-23	босьтӧм	босьтны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	25	acl:caucl	_	_
+23	босьтӧм	босьтны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	25	acl:relcl	_	_
 24	вӧсна	вӧсна	ADP	Po	_	23	case	_	_
 25	тышӧ	тышӧ	NOUN	N	Case=Ill|Number=Sing	20	obl:lmod	_	SpaceAfter=No
 26	,	,	PUNCT	CLB	_	31	punct	_	_
@@ -445,7 +445,7 @@
 28	да	да	CCONJ	CC	_	31	cc	_	Lang=Mixed
 29	некутшӧм	некутшӧм	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	30	det	_	_
 30	вошӧмъястӧг	вошӧм	NOUN	N	Case=Car|Number=Plur	31	obl	_	_
-31	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	33	acl:caucl	_	_
+31	идралӧм	идравны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
 32	вӧсна	вӧсна	ADP	Po	_	31	case	_	_
 33	тышӧ	тышӧ	NOUN	N	Case=Ill|Number=Sing	25	conj	_	SpaceAfter=No
 34	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -3654,7 +3654,7 @@
 42	гажаа	гажаа	ADV	Adv	_	43	advmod	_	_
 43	сярвидзысь	сярвидзны	VERB	V	Derivation=NomAg	44	acl	_	GTtags=IV,Der,Der/ысь,ActPrsPtc
 44	веж	веж	ADJ	A	Case=Nom|Number=Sing	49	amod	_	GTtags=Sg,Nom|SpaceAfter=No
-45	,	,	PUNCT	CLB	_	51	punct	_	_
+45	,	,	PUNCT	CLB	_	49	punct	_	_
 46	паськыд	паськыд	ADJ	A	Case=Nom|Number=Sing	49	amod	_	GTtags=Sg,Nom
 47	да	да	CCONJ	CC	_	48	cc	_	_
 48	тшӧг	тшӧг	NOUN	N	Case=Nom|Number=Sing	46	conj	_	GTtags=Sg,Nom
@@ -8842,7 +8842,7 @@
 4	велалі	велавны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg1
 5	лысьтыны	лысьтыны	VERB	V	VerbForm=Inf	4	xcomp	_	GTtags=Inf
 6	мӧс	мӧс	NOUN	N	Case=Nom|Number=Sing	5	obj	_	GTtags=Sg,Nom|SpaceAfter=No
-7	.	.	PUNCT	CLB	_	7	punct	_	_
+7	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = OKK:2000:56:4:JushkovG
 # text = Лывкмунліс да сялькӧбтыліс пыжыс быд сыныштӧмысь.
