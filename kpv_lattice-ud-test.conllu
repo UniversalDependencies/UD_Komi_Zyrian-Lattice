@@ -307,7 +307,7 @@
 
 # sent_id = kpv_1-7_Vyl_tujod_1939_09_10_0001.005
 # text = Торъя колхозникъяс да колхозницаяс ассьыныс став вынсӧ пуктӧны сы вылӧ, медым урожай идралӧм нуӧдны дженьыд срокъясӧн да некутшӧм вошӧмъястӧг, петкӧдлыны вылын производительностя удж.
-1	Торъя	торъя	ADJ	A	Case=Nom|Derivation=Ja|Number=Sing	2	amod	_	_
+1	Торъя	торъя	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	колхозникъяс	колхозник	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	Lang=Mixed
 3	да	да	CCONJ	CC	_	4	cc	_	Lang=Mixed
 4	колхозницаяс	колхозница	NOUN	N	Case=Nom|Number=Plur	2	conj	_	Lang=Mixed
