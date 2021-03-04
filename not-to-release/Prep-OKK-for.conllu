@@ -1,6 +1,6 @@
 # sent_id = OKK:2000:56:12:JushkovG
 # text = — Кыдзи тіянлы бурджык, — коса вочавидзис Галина, но вом пельӧссяньыс нырӧдзыс лайкова нёков артмыліс.
-1	—	—	PUNCT	_	_	_	_	_	_
+1	—	—	PUNCT	_	_	4	punct	_	_
 2	Кыдзи	кыдзи	Pron	_	Adv|Manner|Rel	4	mark	_	_
 3	тіянлы	тэ	Pron	_	Pers|Pl2|Dat	4	obl	_	_
 4	бурджык	бур	A	_	Comp|Sg|Nom	0	root	_	_
@@ -44,502 +44,282 @@
 # sent_id = OKK:2000:57:1:KuratovaN
 # text_orig = Нёльӧнӧс быдтісны (Степан да Люба гозъя), некод абу шыбитана, гортас кӧть йӧз дорын авъяӧсь.
 # text = Нёльӧнӧс быдтісны, некод абу шыбитана, гортас кӧть йӧз дорын авъяӧсь.
-"<Нёльӧнӧс>"
-	"Нёльӧнӧс" ?
-"<быдтісны>"
-	"быдтыны" V TV Ind Prt1 Pl3
-"<,>"
-	"," CLB
-"<некод>"
-	"некод" Pron Neg Sg Nom
-"<абу>"
-	"абу" V Neg Cop Ind Sg
-"<шыбитана>"
-	"шыбитан" N V Der Der/Ан Sg Der Der/ProprietiveMod A Sg Nom
-"<,>"
-	"," CLB
-"<гортас>"
-	"горт" N Sg Ine PxSg3
-"<кӧть>"
-	"кӧть" CS
-"<йӧз>"
-	"йӧз" N Sg Nom
-"<дорын>"
-	"дорын" Adp Po Sg Ine
-"<авъяӧсь>"
-	"авъя" A Cop Pl
-"<.>"
-	"." CLB
+1	Нёльӧнӧс	Нёльӧнӧс	Num	_	Dist|Sg|Acc	2	obj	_	_
+2	быдтісны	быдтыны	V	_	TV|Ind|Prt1|Pl3	0	root	_	_
+3	,	,	CLB	_	_	6	punct	_	_
+4	некод	некод	Pron	_	Neg|Sg|Nom	6	nsubj:cop	_	_
+5	абу	абу	V	_	Neg|Cop|Ind|Sg	6	advmod:neg	_	_
+6	шыбитана	шыбитана	V	_	Der|Der/Анa|A|Sg|Nom	2	conj	_	_
+7	,	,	CLB	_	_	6	punct	_	_
+8	гортас	горт	N	_	Sg|Ine|PxSg3	12	obl:lmod	_	_
+9	кӧть	кӧть	CS	_	_	12	mark	_	_
+10	йӧз	йӧз	N	_	Sg|Nom	12	nmod	_	_
+11	дорын	дорын	Adp	_	Po|Sg|Ine	10	case	_	_
+12	авъяӧсь	авъя	A	_	Cop|Pl	2	conj	_	_
+13	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:57:2:РystinI
 # text = Краснӧйяс даснаныс Понгорттуй сиктӧдз локтісны.
-"<Краснӧйяс>"
-	"краснӧй" N Pl Nom
-"<даснаныс>"
-	"даснан" Pron AssocColl Sg Nom PxSg3
-"<Понгорттуй>"
-	"Понгорттуй" ?
-"<сиктӧдз>"
-	"сикт" N Sg Ter
-"<локтісны>"
-	"локны" V IV Ind Prt1 Pl3
-"<.>"
-	"." CLB
+1	Краснӧйяс	краснӧй	N	_	Pl|Nom	5	nsubj	_	_
+2	даснаныс	даснан	Pron	_	AssocColl|Sg|Nom|PxSg3	1	det	_	_
+3	Понгорттуй	Понгорттуй	N	_	Prop|Sg|Nom	4	compound:nn	_	_
+4	сиктӧдз	сикт	N	_	Sg|Ter	5	obl:lmod	_	_
+5	локтісны	локны	V	_	IV|Ind|Prt1|Pl3	0	root	_	_
+6	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = OKK:2000:57:3:JushkovG
 # text = «Ӧтнам, шойччӧй, — вочавидзис Павел, кӧть бурджык вӧлі кыкнас.
-"<«>"
-	"«" PUNCT LEFT
-"<Ӧтнам>"
-	"ӧт" Card Sg Ins PxSg1
-"<,>"
-	"," CLB
-"<шойччӧй>"
-	"шойччыны" V IV Imprt Pl2
-"<,>"
-	"," CLB
-"<—>"
-	"—" PUNCT
-"<вочавидзис>"
-	"вочавидзны" V IV Ind Prt1 Sg3
-"<Павел>"
-	"Павел" N Prop Sem/Mal Sg Nom
-"<,>"
-	"," CLB
-"<кӧть>"
-	"кӧть" CS
-"<бурджык>"
-	"бур" A Comp Sg Nom
-"<вӧлі>"
-	"вӧвны" V IV Ind Prt1 Sg3
-"<кыкнас>"
-	"кык" Num Card Sg Ins PxSg3
-"<.>"
-	"." CLB
+1	«	«	PUNCT	_	LEFT	2	punct	_	_
+2	Ӧтнам	ӧт	Card	_	Sg|Ins|PxSg1	0	root	_	_
+3	,	,	CLB	_	_	4	punct	_	_
+4	шойччӧй	шойччыны	V	_	IV|Imprt|Pl2	2	conj	_	_
+5	,	,	CLB	_	_	4	punct	_	_
+6	—	—	PUNCT	_	_	7	punct	_	_
+7	вочавидзис	вочавидзны	V	_	IV|Ind|Prt1|Sg3	2	parataxis	_	_
+8	Павел	Павел	N	_	Prop|Sem/Mal|Sg|Nom	7	nsubj	_	_
+9	,	,	CLB	_	_	7	punct	_	_
+10	кӧть	кӧть	CS	_	_	11	mark	_	_
+11	бурджык	бур	A	_	Comp|Sg|Nom	2	conj	_	_
+12	вӧлі	вӧвны	V	_	IV|Ind|Prt1|Sg3	11	cop	_	_
+13	кыкнас	кык	Num	_	Card|Sg|Ins|PxSg3	11	nsubj	_	_
+14	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:57:4:KuratovaN
 # text = Господи, кутшӧм гажа кыкӧныдлы!
-"<Господи>"
-	"господи" Interj
-"<,>"
-	"," CLB
-"<кутшӧм>"
-	"кутшӧм" Pron Rel Sg Nom
-"<гажа>"
-	"гажа" A Sg Nom
-"<кыкӧныдлы>"
-	"кыкӧныдлы" ?
-"<!>"
-	"!" CLB
+1	Господи	господи	Interj	_	_	4	discourse	_	_
+2	,	,	CLB	_	_	1	punct	_	_
+3	кутшӧм	кутшӧм	ADJ	_	Rel|Sg|Nom	4	advmod	_	_
+4	гажа	гажа	A	_	Sg|Nom	0	root	_	_
+5	кыкӧныдлы	кыкӧн	Num	_	Dist|Sg|Dat|PxSg2	4	obl	_	_
+6	!	!	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:5a:JushkovG
 # text = Мыйыс сӧмын абу тані!
-"<Мыйыс>"
-	"Мыйыс" ?
-"<сӧмын>"
-	"сӧмын" Adv
-"<абу>"
-	"абу" V Neg Cop Ind Sg
-"<тані>"
-	"тані" Adv
-"<!>"
-	"!" CLB
+1	Мыйыс	мый	Pron	_	Sg|Nom|PxSg3	4	nsubj	_	_
+2	сӧмын	сӧмын	Adv	_	_	4	advmod	_	_
+3	абу	абу	V	_	Neg|Cop|Ind|Sg	4	advmod:neg	_	_
+4	тані	тані	Adv	_	_	0	root	_	_
+5	!	!	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:5b:JushkovG
 # text = Коднаныд ветланныд карӧ, ӧтнад тэ и жалитан ставнысӧ.
-"<Коднаныд>"
-	"код" N Sg Ins PxPl2
-"<ветланныд>"
-	"ветлан" N V Der Der/Ан Sg Nom PxPl2
-"<карӧ>"
-	"кар" N Sg Ill
-"<,>"
-	"," CLB
-"<ӧтнад>"
-	"ӧт" Card Sg Ins PxSg2
-"<тэ>"
-	"тэ" Pron Pers Sg2 Nom
-"<и>"
-	"и" Adv
-"<жалитан>"
-	"жалитны" V TV Der Der/Ан PrsPtc
-"<ставнысӧ>"
-	"став" Pron Sg Ill PxPl3
-"<.>"
-	"." CLB
+1	Коднаныд	код	N	_	Sg|Ins|PxPl2	2	nsubj	_	_
+2	ветланныд	ветлан	N	_	V|Der|Der/Ан|Sg|Nom|PxPl2	0	root	_	_
+3	карӧ	кар	N	_	Sg|Ill	2	obl:lmod	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	ӧтнад	ӧт	Card	_	Sg|Ins|PxSg2	2	conj	_	_
+6	тэ	тэ	Pron	_	Pers|Sg2|Nom	5	nsubj	_	_
+7	и	и	Adv	_	_	8	cc	_	_
+8	жалитан	жалитны	V	_	TV|Der|Der/Ан|PrsPtc	2	conj	_	_
+9	ставнысӧ	став	Pron	_	Sg|Ill|PxPl3	8	obj	_	_
+10	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:57:6:NaрalkovV
 # text = Мый нӧ Семуков вермас вӧчны аскӧдыс, Ольгаыс сы сьӧлӧмын пукалӧ да.
-"<Мый>"
-	"мый" Pron Interr Sg Nom
-"<нӧ>"
-	"нӧ" Adv
-"<Семуков>"
-	"Семуков" N Prop Sem/Sur-Mal Sg Nom
-"<вермас>"
-	"вермыны" V TV Ind Fut Sg3
-"<вӧчны>"
-	"вӧчны" V TV Inf
-"<аскӧдыс>"
-	"ас" Pron Refl Sg3 Com
-"<,>"
-	"," CLB
-"<Ольгаыс>"
-	"Ольга" N Prop Sem/Fem Sg Nom PxSg3
-"<сы>"
-	"сійӧ" Pron Dem ?
-"<сьӧлӧмын>"
-	"сьӧлӧм" N Sg Ine
-"<пукалӧ>"
-	"пукавны" V IV Ind Prs Sg3
-"<да>"
-	"да" CS
-"<.>"
-	"." CLB
+1	Мый	мый	Pron	_	Interr|Sg|Nom	5	obj	_	_
+2	нӧ	нӧ	Adv	_	_	1	advmod	_	_
+3	Семуков	Семуков	N	_	Prop|Sem/Sur-Mal|Sg|Nom	4	nsubj	_	_
+4	вермас	вермыны	V	_	TV|Ind|Fut|Sg3	0	root	_	_
+5	вӧчны	вӧчны	V	_	TV|Inf	4	xcomp	_	_
+6	аскӧдыс	ас	Pron	_	Refl|Sg3|Com	5	obl	_	_
+7	,	,	CLB	_	_	11	punct	_	_
+8	Ольгаыс	Ольга	N	_	Prop|Sem/Fem|Sg|Nom|PxSg3	11	nsubj	_	_
+9	сы	сійӧ	Pron	_	Dem|Short	10	det	_	_
+10	сьӧлӧмын	сьӧлӧм	N	_	Sg|Ine	11	obl:lmod	_	_
+11	пукалӧ	пукавны	V	_	IV|Ind|Prs|Sg3	4	conj	_	_
+12	да	да	ADV	_	_	11	advmod	_	_
+13	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:7:ShaxovР
 # text = Веськыда кӧ сёрнитны, ог лӧсяв морткӧд, коді би ни ва вермӧ скӧрмыны, a тані ачым сэтшӧмкодьнас лои...
-"<Веськыда>"
-	"веськыда" Adv
-"<кӧ>"
-	"кӧ" CS
-"<сёрнитны>"
-	"сёрнитны" V IV Inf
-"<,>"
-	"," CLB
-"<ог>"
-	"оз" V Neg Ind Prs Sg1
-"<лӧсяв>"
-	"лӧсявны" V IV ConNeg
-"<морткӧд>"
-	"морт" N Sg Com
-"<,>"
-	"," CLB
-"<коді>"
-	"коді" Pron Rel Sg Nom
-"<би>"
-	"би" N Sg Nom
-"<ни>"
-	"ни" CC
-"<ва>"
-	"ва" N Sg Nom
-"<вермӧ>"
-	"вермыны" V TV Ind Prs Sg3
-"<скӧрмыны>"
-	"скӧрмыны" V IV Inf
-"<,>"
-	"," CLB
-"<a>"
-	"а" CC
-"<тані>"
-	"тані" Adv
-"<ачым>"
-	"ас" Pron Refl Sg1 Nom
-"<сэтшӧмкодьнас>"
-	"сэтшӧмкодьнас" ?
-"<лои>"
-	"лоны" V IV Ind Prt1 Sg3
-"<...>"
-	"..." CLB
+1	Веськыда	веськыда	Adv	_	_	3	advmod	_	_
+2	кӧ	кӧ	CS	_	_	3	mark	_	_
+3	сёрнитны	сёрнитны	V	_	IV|Inf	6	advcl	_	_
+4	,	,	CLB	_	_	3	punct	_	_
+5	ог	оз	V	_	Neg|Ind|Prs|Sg1	6	aux:neg	_	_
+6	лӧсяв	лӧсявны	V	_	IV|ConNeg	0	root	_	_
+7	морткӧд	морт	N	_	Sg|Com	6	obl	_	_
+8	,	,	CLB	_	_	13	punct	_	_
+9	коді	коді	Pron	_	Rel|Sg|Nom	13	nsubj	_	_
+10	би	би	N	_	Sg|Nom	14	obj	_	_
+11	ни	ни	CC	_	_	12	cc	_	_
+12	ва	ва	N	_	Sg|Nom	10	conj	_	_
+13	вермӧ	вермыны	V	_	TV|Ind|Prs|Sg3	7	acl:relcl	_	_
+14	скӧрмыны	скӧрмыны	V	_	IV|Inf	13	xcomp	_	_
+15	,	,	CLB	_	_	13	punct	_	_
+16	a	а	CC	_	_	20	cc	_	_
+17	тані	тані	Adv	_	_	20	advmod:lmod	_	_
+18	ачым	ас	Pron	_	Refl|Sg1|Nom	20	nsubj	_	_
+19	сэтшӧмкодьнас	сэтшӧмкодь	A	_	Sg|Nom	20	obl	_	_
+20	лои	лоны	V	_	IV|Ind|Prt1|Sg3	6	conj	_	_
+21	...	...	CLB	_	_	6	punct	_	_
 
 # sent_id = OKK:2000:57:8:FjodorovG
 # text = Тадзнад сійӧ сідзи конйыштас менсьым фирмаӧс — кӧзяин менӧ пыр жӧ служба вылысь вӧтлас!
-"<Тадзнад>"
-	"тадзинад" Adv Parenthetic
-"<сійӧ>"
-	"сійӧ" Pron Pers Sg3 Nom
-"<сідзи>"
-	"сідзи" Adv Manner
-"<конйыштас>"
-	"конйыштны" V TV Ind Fut Sg3
-"<менсьым>"
-	"ме" Pron Pers Sg1 Ela
-"<фирмаӧс>"
-	"фирма" N Sg Acc
-"<—>"
-	"—" PUNCT
-"<кӧзяин>"
-	"кӧзяин" N Sg Nom
-"<менӧ>"
-	"ме" Pron Pers Sg1 Acc
-"<пыр>"
-	"пыр" Adv
-"<жӧ>"
-	"жӧ" Adv Parenthetic
-"<служба>"
-	"служба" N Sg Nom
-"<вылысь>"
-	"вывны" V IV Der Der/ысь Der/NomAg N Sg Nom
-"<вӧтлас>"
-	"вӧтлыны" V TV Ind Fut Sg3
-"<!>"
-	"!" CLB
+1	Тадзнад	тадзинад	Adv	_	Parenthetic	4	advmod	_	_
+2	сійӧ	сійӧ	Pron	_	Pers|Sg3|Nom	4	nsubj	_	_
+3	сідзи	сідзи	Adv	_	Manner	4	advmod	_	_
+4	конйыштас	конйыштны	V	_	TV|Ind|Fut|Sg3	0	root	_	_
+5	менсьым	ме	Pron	_	Pers|Sg1|Ela	6	nmod:poss	_	_
+6	фирмаӧс	фирма	N	_	Sg|Acc	4	obj	_	_
+7	—	—	PUNCT	_	_	14	punct	_	_
+8	кӧзяин	кӧзяин	N	_	Sg|Nom	14	nsubj	_	_
+9	менӧ	ме	Pron	_	Pers|Sg1|Acc	14	obj	_	_
+10	пыр	пыр	Adv	_	_	14	advmod:tmod	_	_
+11	жӧ	жӧ	Adv	_	Parenthetic	10	advmod	_	_
+12	служба	служба	N	_	Sg|Nom	13	nmod	_	_
+13	вылысь	выв	N	_	Relat|Sg|Ela	14	obl:lmod	_	_
+14	вӧтлас	вӧтлыны	V	_	TV|Ind|Fut|Sg3	4	conj	_	_
+15	!	!	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:9:JushkovG
 # text = Ho и сэтчаняс бой жӧ нин муніс, «ура» сорӧн.
-"<Ho и>"
-	"но и" CC
-"<сэтчаняс>"
-	"сэтчаняс" ?
-"<бой>"
-	"бой" N Sg Nom
-"<жӧ>"
-	"жӧ" Adv Parenthetic
-"<нин>"
-	"нин" Adv Sem/Time
-"<муніс>"
-	"мунны" V IV Ind Prt1 Sg3
-"<,>"
-	"," CLB
-"<«>"
-	"«" PUNCT LEFT
-"<ура>"
-	"ура" Interj
-"<»>"
-	"»" PUNCT RIGHT
-"<сорӧн>"
-	"сор" N Sg Ins
-"<.>"
-	"." CLB
+1	Ho	но·и	CC	_	_	7	cc	_	_
+2	и	_	CCONJ	_	_	1	fixed	_	_
+3	сэтчаняс	сэтчаняс	Adv	_	EgrIne|Px3Sg	7	advmod:lmod	_	_
+4	бой	бой	N	_	Sg|Nom	7	nsubj	_	_
+5	жӧ	жӧ	Adv	_	Parenthetic	4	advmod	_	_
+6	нин	нин	Adv	_	Sem/Time	7	advmod:tmod	_	_
+7	муніс	мунны	V	_	IV|Ind|Prt1|Sg3	0	root	_	_
+8	,	,	CLB	_	_	12	punct	_	_
+9	«	«	PUNCT	_	LEFT	10	punct	_	_
+10	ура	ура	Interj	_	_	12	compound:nn	_	_
+11	»	»	PUNCT	_	RIGHT	10	punct	_	_
+12	сорӧн	сор	N	_	Sg|Ins	7	obl	_	_
+13	.	.	CLB	_	_	7	punct	_	_
 
 # sent_id = OKK:2000:57:10:JushkovG
 # text = Но унасӧ нинӧм тан висьтавныс.
-"<Но>"
-	"но" CC
-"<унасӧ>"
-	"уна" Adv Clt/сӧ
-"<нинӧм>"
-	"нинӧм" Pron Neg Sg Nom
-"<тан>"
-	"тан" Adv
-"<висьтавныс>"
-	"висьтавны" V TV Inf Px3
-"<.>"
-	"." CLB
+# text_en = But there is nothing much to say here.
+1	Но	но	CC	_	_	5	cc	_	_
+2	унасӧ	уна	Pron	_	Sg|Acc|PxSg3	5	obj	_	_
+3	нинӧм	нинӧм	Pron	_	Neg|Sg|Nom	2	det	_	_
+4	тан	тан	Adv	_	_	5	advmod:lmod	_	_
+5	висьтавныс	висьтавны	V	_	TV|Inf|Px3	0	root	_	_
+6	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = OKK:2000:57:11a:VanejevA
 # text = Мамӧй, ставыс ворсӧ тэнад киын.
-"<Мамӧй>"
-	"мам" N Sg Nom PxSg1
-"<,>"
-	"," CLB
-"<ставыс>"
-	"став" Pron Sg Nom PxSg3
-"<ворсӧ>"
-	"ворсны" V IV Ind Prs Sg3
-"<тэнад>"
-	"тэ" Pron Pers Sg2 Gen
-"<киын>"
-	"ки" N Sg Ine
-"<.>"
-	"." CLB
+1	Мамӧй	мам	N	_	Sg|Nom|PxSg1	4	vocative	_	_
+2	,	,	CLB	_	_	1	punct	_	_
+3	ставыс	став	Pron	_	Sg|Nom|PxSg3	4	nsubj	_	_
+4	ворсӧ	ворсны	V	_	IV|Ind|Prs|Sg3	0	root	_	_
+5	тэнад	тэ	Pron	_	Pers|Sg2|Gen	6	nmod:poss	_	_
+6	киын	ки	N	_	Sg|Ine	4	obl:lmod	_	_
+7	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:11b:VanejevA
 # text = Пӧрысьлань кӧть котравнытӧ ланьт.
-"<Пӧрысьлань>"
-	"пӧрысь" A Sg Apr
-"<кӧть>"
-	"кӧть" CS
-"<котравнытӧ>"
-	"котравны" V IV Inf Clt/тӧ
-"<ланьт>"
-	"ланьтны" V IV Imprt Sg2
-"<.>"
-	"." CLB
+1	Пӧрысьлань	пӧрысь	A	_	Sg|Apr	4	obl:tmod	_	_
+2	кӧть	кӧть	ADV	_	_	4	advmod	_	_
+3	котравнытӧ	котравны	V	_	IV|Inf|Clt/тӧ	4	xcomp	_	_
+4	ланьт	ланьтны	V	_	IV|Imprt|Sg2	0	root	_	_
+5	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:12:VanejevA
 # text = Комияс ми уджавнытӧ кужам, сӧмын, гашкӧ, шойччынысӧ ог.
-"<Комияс>"
-	"коми" N Pl Nom
-"<ми>"
-	"ме" Pron Pers Pl1 Nom
-"<уджавнытӧ>"
-	"уджавны" V IV Inf Clt/тӧ
-"<кужам>"
-	"кужны" V TV Ind Prs Pl1
-"<,>"
-	"," CLB
-"<сӧмын>"
-	"сӧмын" CS
-"<,>"
-	"," CLB
-"<гашкӧ>"
-	"гашкӧ" Adv
-"<,>"
-	"," CLB
-"<шойччынысӧ>"
-	"шойччыны" V IV Inf Clt/сӧ
-"<ог>"
-	"оз" V Neg Ind Prs Sg1
-"<.>"
-	"." CLB
+1	Комияс	коми	N	_	Pl|Nom	4	dislocated	_	_
+2	ми	ме	Pron	_	Pers|Pl1|Nom	4	nsubj	_	_
+3	уджавнытӧ	уджавны	V	_	IV|Inf|Clt/тӧ	4	xcomp	_	_
+4	кужам	кужны	V	_	TV|Ind|Prs|Pl1	0	root	_	_
+5	,	,	CLB	_	_	11	punct	_	_
+6	сӧмын	сӧмын	CS	_	_	11	cc	_	_
+7	,	,	CLB	_	_	8	punct	_	_
+8	гашкӧ	гашкӧ	Adv	_	_	11	dislocated	_	_
+9	,	,	CLB	_	_	8	punct	_	_
+10	шойччынысӧ	шойччыны	V	_	IV|Inf|Clt/сӧ	11	orphan	_	_
+11	ог	оз	V	_	Neg|Ind|Prs|Sg1	4	conj	_	_
+12	.	.	CLB	_	_	4	punct	_	_
 
 # sent_id = OKK:2000:57:13:JushkovG
-# text = Сэки, орденсӧ 58 босьтігас, дерт, эз висьтась, мый повзьыліс жӧ.
-"<Сэки>"
-	"сэки" Adv
-"<,>"
-	"," CLB
-"<орденсӧ>"
-	"орден" N Sg Acc PxSg3
-"<58>"
-	"58" Num Arab Sg Nom
-"<босьтігас>"
-	"босьтны" V TV Der Der/иг Ger Sg Ill PxSg3
-"<,>"
-	"," CLB
-"<дерт>"
-	"дерт" Adv Parenthetic
-"<,>"
-	"," CLB
-"<эз>"
-	"оз" V Neg Ind Prt1 Sg3
-"<висьтась>"
-	"висьтасьны" V Refl ConNeg
-"<,>"
-	"," CLB
-"<мый>"
-	"мый" CS
-"<повзьыліс>"
-	"повзьывны" V IV Ind Prt1 Sg3
-"<жӧ>"
-	"жӧ" Adv Parenthetic
-"<.>"
-	"." CLB
+# text = Сэки, орденсӧ босьтігас, дерт, эз висьтась, мый повзьыліс жӧ.
+1	Сэки	сэки	Adv	_	_	9	advmod:tmod	_	_
+2	,	,	CLB	_	_	4	punct	_	_
+3	орденсӧ	орден	N	_	Sg|Acc|PxSg3	4	obj	_	_
+4	босьтігас	босьтны	V	_	TV|Der|Der/иг|Ger|Sg|Ill|PxSg3	9	advcl:tcl	_	_
+5	,	,	CLB	_	_	6	punct	_	_
+6	дерт	дерт	Adv	_	Parenthetic	9	advmod:mmod	_	_
+7	,	,	CLB	_	_	6	punct	_	_
+8	эз	оз	V	_	Neg|Ind|Prt1|Sg3	9	aux:neg	_	_
+9	висьтась	висьтасьны	V	_	Refl|ConNeg	0	root	_	_
+10	,	,	CLB	_	_	12	punct	_	_
+11	мый	мый	CS	_	_	12	mark	_	_
+12	повзьыліс	повзьывны	V	_	IV|Ind|Prt1|Sg3	9	ccomp	_	_
+13	жӧ	жӧ	Adv	_	Parenthetic	12	advmod	_	_
+14	.	.	CLB	_	_	9	punct	_	_
 
 # sent_id = OKK:2000:58:1:FjodorovG
 # text = Верӧсыскӧд тӧдмасьлӧмаӧсь зодчество да ваяние кузя Строгановскӧй училищеын велӧдчиганыс на.
-"<Верӧсыскӧд>"
-	"верӧс" N Sg Com PxSg3
-"<тӧдмасьлӧмаӧсь>"
-	"тӧдмасьлыны" V IV Ind Prt2 Pl3
-"<зодчество>"
-	"зодчество" N Sg Nom
-"<да>"
-	"да" CC
-"<ваяние>"
-	"ваяние" N Sg Nom
-"<кузя>"
-	"кузя" Adp Po
-"<Строгановскӧй>"
-	"строгановскӧй" A Sg Nom
-"<училищеын>"
-	"училище" N Sg Ine
-"<велӧдчиганыс>"
-	"велӧдчыны" V Refl Der Der/иг Ger Sg Ill PxPl3
-"<на>"
-	"на" Adv
-"<.>"
-	"." CLB
+1	Верӧсыскӧд	верӧс	N	_	Sg|Com|PxSg3	2	obl	_	_
+2	тӧдмасьлӧмаӧсь	тӧдмасьлыны	V	_	IV|Ind|Prt2|Pl3	0	root	_	_
+3	зодчество	зодчество	N	_	Sg|Nom	9	obl	_	_
+4	да	да	CC	_	_	5	cc	_	_
+5	ваяние	ваяние	N	_	Sg|Nom	3	conj	_	_
+6	кузя	кузя	Adp	_	Po	3	case	_	_
+7	Строгановскӧй	строгановскӧй	A	_	Sg|Nom	8	amod	_	_
+8	училищеын	училище	N	_	Sg|Ine	9	obl:lmod	_	_
+9	велӧдчиганыс	велӧдчыны	V	_	Refl|Der|Der/иг|Ger|Sg|Ill|PxPl3	2	advcl:tcl	_	_
+10	на	на	Adv	_	_	9	advmod:tmod	_	_
+11	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = OKK:2000:58:2:TiminV
 # text = Тасмаӧс да пилоткаӧс Дудник пыригам босьтіс.
-"<Тасмаӧс>"
-	"тасма" N Sg Acc PxSg1
-"<да>"
-	"да" CC
-"<пилоткаӧс>"
-	"пилотка" N Sg Acc
-"<Дудник>"
-	"Дудник" N Prop Sem/Sur Sg Nom
-"<пыригам>"
-	"пыриг" N Sg Ill PxSg1 ?
-"<босьтіс>"
-	"босьтны" V TV Ind Prt1 Sg3
-"<.>"
-	"." CLB
+1	Тасмаӧс	тасма	N	_	Sg|Acc|PxSg1	6	obj	_	_
+2	да	да	CC	_	_	3	cc	_	_
+3	пилоткаӧс	пилотка	N	_	Sg|Acc	1	conj	_	_
+4	Дудник	Дудник	N	_	Prop|Sem/Sur|Sg|Nom	6	nsubj	_	_
+5	пыригам	пырны	V	_	Der/иг|Ger|Sg|Ill|PxSg1	6	advcl:tcl	_	_
+6	босьтіс	босьтны	V	_	TV|Ind|Prt1|Sg3	0	root	_	_
+7	.	.	CLB	_	_	6	punct	_	_
 
 # sent_id = OKK:2000:58:3:JushkovG
 # text = Водз асывсянь да лун шӧр кадӧдзыс сэсся виччысисны, вердісны номсӧ гусьӧн куйліганыс.
-"<Водз>"
-	"водз" A Sg Nom
-"<асывсянь>"
-	"асыв" N Sg Egr
-"<да>"
-	"да" CC
-"<лун>"
-	"лун" N Sg Nom
-"<шӧр>"
-	"шӧр" A Sg Nom
-"<кадӧдзыс>"
-	"кад" N Sg Ter PxSg3
-"<сэсся>"
-	"сэсся" Adv
-"<виччысисны>"
-	"виччысьны" V TV Ind Prt1 Pl3
-"<,>"
-	"," CLB
-"<вердісны>"
-	"вердны" V TV Ind Prt1 Pl3
-"<номсӧ>"
-	"ном" N Sg Acc PxSg3
-"<гусьӧн>"
-	"гусьӧн" Adv Ins
-"<куйліганыс>"
-	"куйлыны" V IV Der Der/иг Ger Sg Ill PxPl3
-"<.>"
-	"." CLB
+1	Водз	водз	A	_	Sg|Nom	2	amod	_	_
+2	асывсянь	асыв	N	_	Sg|Egr	8	obl:tmod	_	_
+3	да	да	CC	_	_	6	cc	_	_
+4	лун	лун	N	_	Sg|Nom	5	nmod	_	_
+5	шӧр	шӧр	NOUN	_	Sg|Nom	6	nmod	_	_
+6	кадӧдзыс	кад	N	_	Sg|Ter|PxSg3	2	conj	_	_
+7	сэсся	сэсся	Adv	_	_	8	advmod:tmod	_	_
+8	виччысисны	виччысьны	V	_	TV|Ind|Prt1|Pl3	0	root	_	_
+9	,	,	CLB	_	_	10	punct	_	_
+10	вердісны	вердны	V	_	TV|Ind|Prt1|Pl3	8	conj	_	_
+11	номсӧ	ном	N	_	Sg|Acc|PxSg3	10	obj	_	_
+12	гусьӧн	гусьӧн	Adv	_	Ins	13	advmod	_	_
+13	куйліганыс	куйлыны	V	_	IV|Der|Der/иг|Ger|Sg|Ill|PxPl3	10	advcl:tcl	_	_
+14	.	.	CLB	_	_	8	punct	_	_
 
 # sent_id = OKK:2000:58:4:ShaxovР
 # text = Сёрӧнджык культпросветотдел и баян ыстіс Буждӧм сиктса клубӧ, но ворсны велӧдчигкостаыс и стройысь петіс, кӧть, видзӧдӧмъяпырысь, ыджыд да ён вӧлі пуд сьӧкта тульскӧй баян.
-"<Сёрӧнджык>"
-	"сёрӧн" Adv Sem/Time Comp
-"<культпросветотдел>"
-	"культпросветотдел" N Sg Nom
-"<и>"
-	"и" CC
-"<баян>"
-	"баян" N Sg Nom
-"<ыстіс>"
-	"ыстыны" V TV Ind Prt1 Sg3
-"<Буждӧм>"
-	"буждыны" V IV Der Der/ӧм PastPtc
-"<сиктса>"
-	"сикт" N Sg Der Der/LocMod A Sg Nom
-"<клубӧ>"
-	"клуб" N Sg Ill
-"<,>"
-	"," CLB
-"<но>"
-	"но" CC
-"<ворсны>"
-	"ворсны" V IV Inf
-"<велӧдчигкостаыс>"
-	"велӧдчигкостаыс" ?
-"<и>"
-	"и" CC
-"<стройысь>"
-	"строй" N Sg Ela
-"<петіс>"
-	"петны" V IV Ind Prt1 Sg3
-"<,>"
-	"," CLB
-"<кӧть>"
-	"кӧть" CS
-"<,>"
-	"," CLB
-"<видзӧдӧмъяпырысь>"
-	"видзӧдӧмъяпырысь" ?
-"<,>"
-	"," CLB
-"<ыджыд>"
-	"ыджыд" A Sg Nom
-"<да>"
-	"да" CC
-"<ён>"
-	"ён" A Sg Nom
-"<вӧлі>"
-	"вӧвны" V IV Ind Prt1 Sg3
-"<пуд>"
-	"пуд" N Sg Nom
-"<сьӧкта>"
-	"сьӧкта" A Sg Nom
-"<тульскӧй>"
-	"тульскӧй" A Sg Nom
-"<баян>"
-	"баян" N Sg Nom
-"<.>"
-	"." CLB
+1	Сёрӧнджык	сёрӧн	Adv	_	Sem/Time|Comp	5	advmod:tmod	_	_
+2	культпросветотдел	культпросветотдел	N	_	Sg|Nom	5	obj	_	_
+3	и	и	CC	_	_	4	cc	_	_
+4	баян	баян	N	_	Sg|Nom	2	conj	_	_
+5	ыстіс	ыстыны	V	_	TV|Ind|Prt1|Sg3	0	root	_	_
+6	Буждӧм	Буждӧм	N	_	Prop|Sg|Nom	7	compound:nn	_	_
+7	сиктса	сикт	N	_	Sg|Der|Der/LocMod|A|Sg|Nom	8	nmod:lmod	_	_
+8	клубӧ	клуб	N	_	Sg|Ill	5	obl:lmod	_	_
+9	,	,	CLB	_	_	15	punct	_	_
+10	но	но	CC	_	_	15	cc	_	_
+11	ворсны	ворсны	V	_	IV|Inf	12	xcomp	_	_
+12	велӧдчигкостаыс	велӧдчыны	VERB	_	Refl|Der|Der/IgKosta|Ger|PxSg3	_	_	_	_
+13	и	и	ADV	_	_	14	advmod	_	_
+14	стройысь	строй	N	_	Sg|Ela	15	nsubj	_	_
+15	петіс	петны	V	_	IV|Ind|Prt1|Sg3	5	conj	_	_
+16	,	,	CLB	_	_	21	punct	_	_
+17	кӧть	кӧть	CS	_	_	21	mark	_	_
+18	,	,	CLB	_	_	19	punct	_	_
+19	видзӧдӧмъяпырысь	видзӧдӧмъяпырысь	Adv	_	_	21	advmod:mmod	_	_
+20	,	,	CLB	_	_	19	punct	_	_
+21	ыджыд	ыджыд	A	_	Sg|Nom	15	ccomp	_	_
+22	да	да	CC	_	_	23	cc	_	_
+23	ён	ён	A	_	Sg|Nom	21	conj	_	_
+24	вӧлі	вӧвны	AUX	_	IV|Ind|Prt1|Sg3	21	cop	_	_
+25	пуд	пуд	N	_	Sg|Nom	26	nmod	_	_
+26	сьӧкта	сьӧкта	A	_	Sg|Nom	28	amod	_	_
+27	тульскӧй	тульскӧй	A	_	Sg|Nom	28	amod	_	_
+28	баян	баян	N	_	Sg|Nom	21	nsubj:cop	_	_
+29	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = OKK:2000:58:5:JushkovG
 # text = Бӧртинас синваыс чепӧсйис...
