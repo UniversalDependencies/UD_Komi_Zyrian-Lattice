@@ -2683,7 +2683,7 @@
 
 # sent_id = uspensky1940a.065
 # text = И вот найӧ шыбласьӧны нин канаваӧ, кыссьӧны турун пӧвстті, старайтчӧны воӧдчыны кыдз позьӧ матӧджык.
-# text_rus = И вот они уже кидаются в канавы, ползут по траве, ста-﻿раются подобраться как можно ближе.
+# text_rus = И вот они уже кидаются в канавы, ползут по траве, стараются подобраться как можно ближе.
 1	И	и	PART	Pcle	_	4	advmod	_	_
 2	вот	вот	PART	Pcle	_	4	advmod	_	_
 3	найӧ	найӧ	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
@@ -4115,6 +4115,7 @@
 
 # sent_id = OKK:2000:41:14:ToroрovI
 # text = A тані колӧ шуны, мый вокъяс ордӧ зонкауловыд век вӧлі шӧтӧ-локтӧ.
+# text_en = But here it must be said that the young boys were always hanging around the brothers' place.
 1	A	а	CCONJ	CC	_	3	cc	_	_
 2	тані	тані	ADV	Adv	_	3	advmod	_	_
 3	колӧ	ковны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,Sg3
@@ -5422,6 +5423,7 @@
 
 # sent_id = OKK:2000:47:11:LebedevM
 # text = Иван Иванычьяс эз на миян бырны, но найӧс позьӧ эрдӧдны да зырны.
+# text_en = There is no end to our Ivan Ivanoviches, but they can be condemned and exhiled.
 1	Иван	Иван	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	6	nsubj	_	GTtags=Prop,Sem/Mal,Sg,Nom
 2	Иванычьяс	Иванович	NOUN	N	Case=Nom|Number=Plur	1	flat:name	_	GTtags=Prop,Orth/Colloq,Sem/Patr-Mal,Pl,Nom
 3	эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	6	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
@@ -7359,6 +7361,7 @@
 
 # sent_id = Minin:OjsjaCvettez:66.3
 # text = Сійӧ ӧд оз кут виччысьны, кор ме дугда больгыны.
+# text_en = So he won't wait for me to stop chattering.
 # text_koi = А сія эд видзчисьны оз понды, кӧр дугда боньгыныт.
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg3,Nom
 2	ӧд	ӧд	ADV	Adv	_	1	discourse	_	GTtags=Parenthetic
@@ -8222,6 +8225,7 @@
 
 # sent_id = OKK:2000:53:14d:BelyxI
 # text = Ставыс лоас бур».
+# text_en = Everything will be fine.
 1	Ставыс	став	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Tot	3	nsubj	_	GTtags=Sg,Nom,PxSg3
 2	лоас	лоны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Valency=1	0	root	_	GTtags=IV,Ind,Fut,Sg3
 3	бур	бур	ADJ	A	Case=Nom|Number=Sing	2	xcomp	_	GTtags=Sg,Nom|SpaceAfter=No
