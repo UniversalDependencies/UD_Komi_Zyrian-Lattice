@@ -889,7 +889,6 @@
 "<сорс>"
 	"сорс" N Sg Nom
 "<йылас>"
-	"йылын" Adp Po Sg Ine PxSg3
 	"йылӧ" Adp Po Sg Ill PxSg3
 "<,>"
 	"," CLB
@@ -904,11 +903,8 @@
 "<пондісны>"
 	"пондыны" V IV Ind Prt1 Pl3
 "<сэк>"
-	"сэк" CS
-	"сэк" N Sg Nom
 	"сэки" Adv Sem/Time
 "<лёкысь>"
-	"лёк" N Sg Ela
 	"лёкысь" Adv
 "<пессьыны>"
 	"пессьыны" V Refl Inf
@@ -926,7 +922,6 @@
 	"пӧ" Adv Parenthetic
 "<абу>"
 	"абу" Pcle Aux Neg
-	"абу" V Neg Cop Ind Sg
 "<каета>"
 	"каета" N Sg Nom
 "<,>"
@@ -940,7 +935,6 @@
 "<Челядьныд>"
 	"челядь" N Sg Nom PxPl2
 "<аскӧдныд>"
-	"ас" N Sg Com PxPl2 So/CP
 	"ас" Pron Refl Pl2 Com So/CP
 "<тшӧтш>"
 	"тшӧтш" Adv
@@ -954,17 +948,11 @@
 # text = ...Уналӧн, кодъяс эз вӧвны специалистъясӧн, быри важ уджныс, a таысь нин уси сэтшӧмъясыслӧн и морт доныс.
 "<...>"
 	"..." CLB
-
 "<Уналӧн>"
 	"уна" Det Sg Gen
 "<,>"
 	"," CLB
 "<кодъяс>"
-	"код" A Pl Nom
-	"код" N Pl Nom
-	"кодйыны" V IV Ind Fut Sg3
-	"кодйыны" V TV Ind Fut Sg3
-	"коді" Pron Interr Pl Nom
 	"коді" Pron Rel Pl Nom
 "<эз>"
 	"оз" V Neg Ind Prt1 Pl3
@@ -988,35 +976,29 @@
 	"тайӧ" Pron Dem Sg Ela
 "<нин>"
 	"нин" Adv Sem/Time
-	"нин" N Sg Nom
 "<уси>"
 	"усьны" V IV Ind Prt1 Err/Dial Sg3
 "<сэтшӧмъясыслӧн>"
 	"сэтшӧм" A Pl Gen PxSg3 So/PC
-	"сэтшӧм" Pron Det Dem Pl Gen PxSg3 So/PC
 "<и>"
 	"и" Adv
 "<морт>"
 	"морт" N Sg Nom
 "<доныс>"
-	"дон" A Sg Nom PxSg3
 	"дон" N Sg Nom PxSg3
 "<.>"
 	"." CLB
 
-: 
 # sent_id = OKK:2000:59:7:JushkovG
 # text = Сійӧ быттьӧ торйӧдіс нин асьсӧ шогӧ усьӧмъяссьыс.
 "<Сійӧ>"
 	"сійӧ" Pron Pers Sg3 Nom
 "<быттьӧ>"
 	"быттьӧ" Adv Parenthetic
-	"быттьӧ" CS
 "<торйӧдіс>"
 	"торйӧдны" V TV Ind Prt1 Sg3
 "<нин>"
 	"нин" Adv Sem/Time
-	"нин" N Sg Nom
 "<асьсӧ>"
 	"ас" Pron Refl Sg3 Acc
 "<шогӧ усьӧмъяссьыс>"
@@ -1024,7 +1006,6 @@
 "<.>"
 	"." CLB
 
-: 
 # sent_id = OKK:2000:59:8:FjodorovG
 # text = Пӧттӧдзныс сералыштӧм да сьӧлӧмъяснысӧ личӧдыштӧм бӧрын Домна сэсся юаліс Пронялысь...
 "<Пӧттӧдзныс>"
@@ -1039,30 +1020,23 @@
 	"личӧдыштны" V IV Der Der/ӧм Der/NomAct N Sg Nom
 "<бӧрын>"
 	"бӧрын" Adp Po Sg Ine
-	"бӧрын" Adv Ine
 "<Домна>"
 	"Домна" N Prop Sem/Fem Sg Nom
-	"Домна" N Prop Sem/Mal Sg Nom
-	"домна" N Sg Nom
 "<сэсся>"
 	"сэсся" Adv
 "<юаліс>"
 	"юавны" V IV Ind Prt1 Sg3
-	"юавны" V TV Ind Prt1 Sg3
 "<Пронялысь>"
-	"Пронь" N Prop Sem/Mal Sg Der Der/ProprietiveMod A Sg Abl
 	"Проня" N Prop Sem/Mal Sg Abl
 "<...>"
 	"..." CLB
 
-: 
 # sent_id = OKK:2000:59:9:JushkovG
 # text = Кувнытӧ ӧд кыскӧ, кытӧн чужлӧмыд.
 "<Кувнытӧ>"
 	"кувны" V IV Inf Clt/тӧ
 "<ӧд>"
 	"ӧд" Adv Parenthetic
-	"ӧд" N Sg Nom
 "<кыскӧ>"
 	"кыскыны" V TV Ind Prs Sg3
 "<,>"
@@ -1074,14 +1048,12 @@
 "<.>"
 	"." CLB
 
-: 
 # sent_id = OKK:2000:59:10:KuratovN
 # text = Сы мында йӧз чукӧрмис Марья пӧчкӧд прӧщайтчыныс.
 "<Сы>"
 	"сійӧ" Pron Dem
 "<мында>"
 	"мында" Adp Po
-	"мында" N Sg Nom
 "<йӧз>"
 	"йӧз" N Sg Nom
 "<чукӧрмис>"
@@ -1095,22 +1067,18 @@
 "<.>"
 	"." CLB
 
-: 
-# sent_id = OKK:2000:59:11:JushkovG
-# text = Пӧлатяс, пияныс дорын.,узьліс сэсся Васька мыйкӧ дыра; ...Тадзи он на тешитчы верӧсыд вылын..
+# sent_id = OKK:2000:59:11:JushkovGa
+# text = Пӧлатяс, пияныс дорын.,узьліс сэсся Васька мыйкӧ дыра;
 "<Пӧлатяс>"
-	"пӧлать" N Sg Ill PxSg3 So/CP
 	"пӧлать" N Sg Ine PxSg3 So/CP
 "<,>"
 	"," CLB
 "<пияныс>"
 	"пи" N Pl Nom PxSg3
-	"пиян" N Sg Nom PxSg3
 "<дорын>"
 	"дорын" Adv Ine
 "<.>"
 	"." CLB
-
 "<,>"
 	"," CLB
 "<узьліс>"
@@ -1122,23 +1090,22 @@
 "<мыйкӧ>"
 	"мыйкӧ" Pron Indef Indef Sg Nom Der/кӧ
 "<дыра>"
-	"дыр" N Sg Der Der/ProprietiveMod A Sg Nom
 	"дыра" Adp Po
 "<;>"
 	";" CLB
+
+# sent_id = OKK:2000:59:11:JushkovGb
+# text = ...Тадзи он на тешитчы верӧсыд вылын..
 "<...>"
 	"..." CLB
-
 "<Тадзи>"
 	"тадзи" Adv Manner
-	"тадзи" N Sg Nom
 "<он>"
 	"оз" V Neg Ind Prs Sg2
 "<на>"
 	"на" Adv
 "<тешитчы>"
 	"тешитчыны" V Refl ConNeg
-	"тешитчыны" V Refl Imprt Sg2
 "<верӧсыд>"
 	"верӧс" N Sg Nom PxSg2
 "<вылын>"
@@ -1146,7 +1113,6 @@
 "<..>"
 	".." CLB
 
-: 
 # sent_id = OKK:2000:63:1:ToropovI
 # text = Лым еджыд тшакъяс чурвидзисны важ пипу коръяс увсянь...
 "<Лым еджыд>"
@@ -1162,13 +1128,10 @@
 "<коръяс>"
 	"кор" N Pl Nom
 "<увсянь>"
-	"ув" N Sg Egr
-	"увсянь" Adp Po Sg Egr
-	"увсянь" Adv Egr
+	"ув" N Relat Sg Egr
 "<...>"
 	"..." CLB
 
-: 
 # sent_id = OKK:2000:63:2:KuratovI
 # text = Тайӧ муса кылӧн Чой-вок сёрнитӧны, Тайӧ кылӧн меным ай-мам бурсиӧны!
 "<Тайӧ>"
