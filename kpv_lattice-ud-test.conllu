@@ -3600,7 +3600,7 @@
 # text = A Ыджыд Сюра Бать заводитӧ петны, кор сылы лоӧ арӧсӧн-джынйӧн.
 1	A	а	CCONJ	CC	_	5	cc	_	_
 2	Ыджыд	ыджыд	ADJ	A	Case=Nom|Number=Sing	3	amod	_	GTtags=Sg,Nom
-3	Сюра	сюр	NOUN	N	Case=Prp|Number=Sing	4	nmod:prp	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
+3	Сюра	сюр	NOUN	N	Case=Prp|Number=Sing	4	nmod	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
 4	Бать	бать	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	GTtags=Sg,Nom
 5	заводитӧ	заводитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,Sg3
 6	петны	петны	VERB	V	VerbForm=Inf	5	ccomp	_	GTtags=IV,Inf|SpaceAfter=No
@@ -3699,7 +3699,7 @@
 9	ыркалӧм	ыркавны	VERB	V	Tense=Past|VerbForm=Part	12	acl	_	GTtags=IV,Der,Der/ӧм,Der/NomAct,N,Cmp
 10	-	-	PUNCT	PUNCT	_	9	punct	_	_
 11	сьӧктаммӧм	сьӧктаммыны	VERB	V	Tense=Past|VerbForm=Part	9	conj	_	GTtags=Der,Der/ӧм,Sg,Nom
-12	ваа	ва	NOUN	N	Case=Prp|Number=Sing	14	nmod:prp	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
+12	ваа	ва	NOUN	N	Case=Prp|Number=Sing	14	nmod	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
 13	неыджыд	неыджыд	ADJ	A	Case=Nom|Number=Sing	14	amod	_	GTtags=Sg,Nom
 14	ю	ю	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
 15	,	,	PUNCT	CLB	_	25	punct	_	_
@@ -3937,7 +3937,7 @@
 # sent_id = OKK:2000:41:5:JuxninV
 # text = Уна чукыля, джуджыд да сӧстӧм ваа Вӧръю аслас мичлуннас, кажитчӧ, отсаліс уджлы.
 1	Уна	уна	DET	Det	_	2	det	_	_
-2	чукыля	чукыль	NOUN	N	Case=Prp|Number=Sing	8	nmod:Prp	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom|SpaceAfter=No
+2	чукыля	чукыль	NOUN	N	Case=Prp|Number=Sing	8	nmod	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	7	punct	_	_
 4	джуджыд	джуджыд	ADJ	A	Case=Nom|Number=Sing	7	amod	_	GTtags=Sg,Nom
 5	да	да	CCONJ	CC	_	6	cc	_	_
@@ -9694,8 +9694,8 @@
 1	Военнӧйясӧн	военнӧй	NOUN	N	Case=Ins|Number=Plur	2	obl	_	GTtags=Pl,Ins
 2	кыпӧдӧм	кыпӧдны	VERB	V	Case=Nom|Number=Sing|Valency=2|VerbForm=Vnoun	5	acl	_	GTtags=TV,Der,Der/ӧм,Der/NomAct,N,Sg,Nom
 3	кык	кык	NUM	Num	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	GTtags=Card,Sg,Nom
-4	судта	судта	NOUN	N	Case=Nom|Number=Sing	5	nmod:proprietive	_	GTtags=Sg,Nom
-5	керкаяса	керка	NOUN	N	Case=Prp|Number=Plur	7	nmod:prp	_	GTtags=Pl,Der,Der/ProprietiveMod,A,Sg,Nom
+4	судта	судта	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	GTtags=Sg,Nom
+5	керкаяса	керка	NOUN	N	Case=Prp|Number=Plur	7	nmod	_	GTtags=Pl,Der,Der/ProprietiveMod,A,Sg,Nom
 6	ичӧтик	ичӧтик	ADJ	A	Case=Nom|Number=Sing	7	amod	_	GTtags=Sg,Nom
 7	кар	кар	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	GTtags=Sg,Nom
 8	важӧн	важ	ADJ	A	Case=Ins|Number=Sing	10	advmod:tmod	_	GTtags=Sg,Ins
@@ -9790,14 +9790,14 @@
 20	мамыс	мам	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	21	nmod	_	GTtags=Sg,Nom,PxSg3
 21	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	22	amod	_	GTtags=CompMod,Sg,Nom
 22-23	нырисасӧ	_	_	_	_	_	_	_	_
-22	ныриса	ныриса	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	nmod:prp	_	GTtags=Sg,Acc,PxSg3
+22	ныриса	ныриса	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	nmod	_	GTtags=Sg,Acc,PxSg3
 23	сӧ	_	PRON	_	_	18	appos	_	_
 24	да	да	CCONJ	CC	_	29	cc	_	_
 25	батьыс	бать	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	nmod	_	GTtags=Sg,Nom,PxSg3
 26	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	28	amod	_	GTtags=CompMod,Sg,Nom
 27	кузь	кузь	ADJ	A	Case=Nom|Number=Sing	28	amod	_	GTtags=Sg,Nom
 28-29	кокъясасӧ	_	_	_	_	_	_	_	SpaceAfter=No
-28	кокъяса	кок	NOUN	N	Case=Prp|Number=Plur	29	nmod:prp	_	GTtags=Pl,Der,Der/ProprietiveMod,A,Sg,Acc,PxSg3
+28	кокъяса	кок	NOUN	N	Case=Prp|Number=Plur	29	nmod	_	GTtags=Pl,Der,Der/ProprietiveMod,A,Sg,Acc,PxSg3
 29	сӧ	ыс	PRON	Pron	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	conj	_	_
 30	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
