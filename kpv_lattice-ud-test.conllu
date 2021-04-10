@@ -10175,7 +10175,7 @@
 
 # sent_id = OKK:2000:64:12:Kuratova
 # text = Петас, вокъяс, шонді-й тан!
-# text = Hey brothers, the sun is going to come out here, too!
+# text_en = Hey brothers, the sun is going to come out here, too!
 1	Петас	петны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Valency=1	0	root	_	GTtags=IV,Ind,Fut,Sg3|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	вокъяс	вок	NOUN	N	Case=Nom|Number=Plur	1	vocative	_	GTtags=Pl,Nom|SpaceAfter=No
