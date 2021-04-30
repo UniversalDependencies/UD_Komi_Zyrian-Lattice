@@ -37,6 +37,8 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+-2020-04-30
+  - New sentences added from grammar Ӧнія коми кыв: морфология
 - 2020-10-31
   - 193 new sentences added from grammar Ӧнія коми кыв: морфология
   - 10 new parallel sentences added that are shared with [Komi Permyak](https://github.com/UniversalDependencies/UD_Komi_Permyak-UH) treebank
