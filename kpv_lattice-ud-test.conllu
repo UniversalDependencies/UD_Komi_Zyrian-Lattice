@@ -9580,7 +9580,7 @@
 
 # sent_id = OKK:2000:58:24a:JushkovG
 # text = — Сійӧ ӧд ныв, абу и мича сылы вӧзйысьнысӧ.
-# comment = advmod relation to aux-leaf
+# comment = advmod relation to aux-leaf
 1	—	—	PUNCT	PUNCT	_	4	punct	_	_
 2	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj:cop	_	GTtags=Pers,Sg3,Nom
 3	ӧд	ӧд	ADV	Adv	Case=Nom|Number=Sing	4	advmod:eval	_	GTtags=Sg,Nom
@@ -9595,7 +9595,7 @@
 
 # sent_id = OKK:2000:58:25:JushkovG
 # text = Огыд ӧні тэнад кык ныра, водзӧ и бӧрӧ, — вочааліс Ревекка.
-# text_en = Your answer "no" is now two-ended, backward and forward, -- answered Revekka.
+# text_en = Your answer «no» is now two-ended, backward and forward, -- answered Revekka.
 # comment = mention огыд
 1	Огыд	оз	AUX	V	Mood=Ind|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=2|Tense=Pres	5	nsubj:cop	_	GTtags=Ind,Pres,Sg1,PxSg2
 2	ӧні	ӧні	ADV	Adv	_	5	advmod:tmod	_	_
