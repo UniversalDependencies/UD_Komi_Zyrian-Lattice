@@ -3561,7 +3561,7 @@
 8	»	»	PUNCT	PUNCT	_	7	punct	_	GTtags=RIGHT
 9	—	—	PUNCT	PUNCT	_	7	punct	_	_
 10	петіс	петны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Sg3
-11	куим	Куим	NOUN	N	Case=Nom|Number=Sing	12	nummod	_	GTtags=Prop,Sem/Plc,EOLang/KOM,Sem/Plc,EOLang/KPV,Sg,Nom
+11	куим	куим	NUM	Num	Case=Nom|Number=Sing|NumType=Card	12	nummod	_	GTtags=Num,Card,Sg,Nom
 12	во	во	NOUN	N	Case=Nom|Number=Sing	10	obl	_	GTtags=Sg,Nom
 13	сайын	сайын	ADP	Adp	AdpType=Post|Case=Ine|Number=Sing	12	case	_	GTtags=Po,Sg,Ine|SpaceAfter=No
 14	.	.	PUNCT	CLB	_	10	punct	_	_
