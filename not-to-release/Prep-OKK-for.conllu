@@ -1,143 +1,4 @@
-# sent_id = OKK:2000:65:1:DoroninP
-# text = Пыстин Максим, Куршайт Гришлӧн батьыс, дас кык арӧсӧн заводитіс вӧрын келавны.
-"<Пыстин>"
-	"Пыстин" N Prop Sem/Sur-Mal Sg Nom
-"<Максим>"
-	"Максим" N Prop Sem/Mal Sg Nom
-"<,>"
-	"," PUNCT
-"<Куршайт>"
-	"Куршайт" N Prop Sem/Ant Sg Nom
-"<Гришлӧн>"
-	"Гриш" N Prop Sem/Mal Sg Gen
-"<батьыс>"
-	"бать" N Sg Nom PxSg3
-	"батьыс" N Sg Nom
-"<,>"
-	"," PUNCT
-"<дас кык>"
-	"дас кык" Num Card Sg Nom
-"<арӧсӧн>"
-	"арӧс" N Sg Ins
-"<заводитіс>"
-	"заводитны" V IV Ind Prt1 Sg3
-"<вӧрын>"
-	"вӧр" N Sg Ine
-"<келавны>"
-	"келавны" V IV Inf
-"<.>"
-	"." PUNCT
 
-# sent_id = OKK:2000:65:2:JuxninV
-# text = А Микитлӧн батьыс, Чугун Ӧльӧш , гажтӧма оліс: лунъюгыдсӧ эз аддзыв, войяссӧ узьны эз вермы.
-"<А>"
-	"а" Adv
-	"а" CC
-	"а" Interj
-"<Микитлӧн>"
-	"Микит" N Prop Sem/Mal Sg Gen
-"<батьыс>"
-	"бать" N Sg Nom PxSg3
-	"батьыс" N Sg Nom
-"<,>"
-	"," PUNCT
-"<Чугун>"
-	"чугун" N Sg Nom
-"<Ӧльӧш>"
-	"Ӧльӧш" N Prop Sem/Mal Sg Nom
-"<,>"
-	"," PUNCT
-"<гажтӧма>"
-	"гажтӧма" Adv
-"<оліс>"
-	"овны" V IV Ind Prt1 Sg3
-"<:>"
-	":" PUNCT
-"<лунъюгыдсӧ>"
-	"лунъюгыд" N Sg Acc PxSg3
-"<эз>"
-	"оз" V Neg Ind Prt1 Sg3
-"<аддзыв>"
-	"аддзывны" V TV ConNeg
-"<,>"
-	"," PUNCT
-"<войяссӧ>"
-	"вой" N Pl Acc PxSg3
-"<узьны>"
-	"узьны" V IV Inf
-"<эз>"
-	"оз" V Neg Ind Prt1 Sg3
-"<вермы>"
-	"вермыны" V IV ConNeg
-	"вермыны" V TV ConNeg
-"<.>"
-	"." PUNCT
-
-: 
-# sent_id = OKK:2000:65:3:OdintsovA
-# text = Ми, зонпосни , туриясӧн вайӧм шудсӧ гӧгӧрволім ас ног.
-"<Ми>"
-	"ме" Pron Pers Pl1 Nom
-	"ми" N Sg Nom
-"<,>"
-	"," PUNCT
-"<зонпосни>"
-	"зонпосни" N Sg Nom
-"<,>"
-	"," PUNCT
-"<туриясӧн>"
-	"тури" N Pl Ins
-"<вайӧм>"
-	"вайны" V TV Der Der/ӧм PastPtc
-"<шудсӧ>"
-	"шуд" N Sg Acc PxSg3
-"<гӧгӧрволім>"
-	"гӧгӧрволыны" V TV Ind Prt1 Pl1
-"<ас>"
-	"ас" N Sg Nom
-"<ног>"
-	"ног" N Sg Nom
-"<.>"
-	"." PUNCT
-
-: 
-# sent_id = OKK:2000:65:4:OdintsovA
-# text = Ми, челядь , отсалім бур дядьӧлы тэчны додьсӧ, а сійӧ топыда таляліс турунсӧ.
-"<Ми>"
-	"ме" Pron Pers Pl1 Nom
-	"ми" N Sg Nom
-"<,>"
-	"," PUNCT
-"<челядь>"
-	"челядь" N Sg Nom
-"<,>"
-	"," PUNCT
-"<отсалім>"
-	"отсавны" V IV Ind Prt1 Pl1
-"<бур>"
-	"бур" A Sg Nom
-"<дядьӧлы>"
-	"дядьӧ" N Sg Dat
-"<тэчны>"
-	"тэчны" V TV Inf
-"<додьсӧ>"
-	"додь" N Sg Acc PxSg3
-"<,>"
-	"," PUNCT
-"<а>"
-	"а" CC
-"<сійӧ>"
-	"сійӧ" Pron Pers Sg3 Nom
-"<топыда>"
-	"топыда" Adv
-"<таляліс>"
-	"талявны" V TV Ind Prt1 Sg3
-"<турунсӧ>"
-	"турун" N Sg Acc PxSg3
-"<.>"
-	"." PUNCT
-
-: 
 # sent_id = OKK:2000:65:5:OdintsovA
 # text = Шоныд муясысь воисны дыр виччысян гӧстьяс, сырчик гозъя , кодъяс уна во нин дорвыв быдтысьлісны ӧшинь юрйылын.
 "<Шоныд>"
@@ -206,8 +67,6 @@
 	"," PUNCT
 "<збыль-ӧ>"
 	"збыль" A Sg Nom Qst/Oe
-	"збыль" Adv Qst/Oe
-	"збыль" N Sg Nom Qst/Oe
 "<сійӧ>"
 	"сійӧ" Pron Pers Sg3 Nom
 "<висьталӧ>"
@@ -371,7 +230,6 @@
 	"челядь" N Sg Nom
 "<и>"
 	"и" Adv
-	"и" CC
 "<эмӧсь>"
 	"эм" V Ind Prs Pl3
 "<.>"
