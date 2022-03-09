@@ -7876,7 +7876,7 @@
 2	неважӧн	неважӧн	ADV	Adv	Case=Ins	3	advmod:tmod	_	GTtags=Ins
 3	лыдди	лыддьыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,Sg1
 4	газетысь	газет	NOUN	N	Case=Ela|Number=Sing	3	obl:lmod	_	GTtags=Sg,Ela|SpaceAfter=No
-5	:	:	PUNCT	CLB	_	3	punct	_	_
+5	:	:	PUNCT	CLB	_	12	punct	_	_
 6	Эжва	Эжва	NOUN	N	Case=Nom|Number=Sing	7	compound	_	GTtags=Prop,Sem/Plc,Sg,Nom
 7	гӧгӧръясын	гӧгӧр	NOUN	N	Case=Ine|Number=Plur	14	obl:lmod	_	GTtags=Relat,Pl,Ine
 8	пӧ	пӧ	ADV	Adv	_	7	advmod:eval	_	GTtags=Parenthetic
@@ -10317,7 +10317,7 @@
 7	,	,	PUNCT	PUNCT	_	5	punct	_	_
 8	гажтӧма	гажтӧма	ADV	Adv	_	9	advmod	_	_
 9	оліс	овны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,Sg3|SpaceAfter=No
-10	:	:	PUNCT	PUNCT	_	9	punct	_	_
+10	:	:	PUNCT	PUNCT	_	13	punct	_	_
 11	лунъюгыдсӧ	лунъюгыд	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obj	_	GTtags=Sg,Acc,PxSg3
 12	эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
 13	аддзыв	аддзывны	VERB	V	Connegative=Yes|Valency=2	9	parataxis	_	GTtags=TV,ConNeg|SpaceAfter=No
