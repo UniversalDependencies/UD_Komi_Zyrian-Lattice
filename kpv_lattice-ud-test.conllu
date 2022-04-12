@@ -10363,15 +10363,15 @@
 
 # sent_id = IgnatovMI:Medborja_addzysjlom:VK1980:6:44
 # text = Свадьбаныс мукӧдлӧнысь торъя гӧль ни озыр эз жӧ ло.
-1	Свадьбаныс	свадьба	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nsubj	_	_
+1	Свадьбаныс	свадьба	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nsubj	_	gloss_en=wedding
 2-3	мукӧдлӧнысь	_	_	_	_	_	_	_	_
-2	мукӧдлӧн	мукӧд	PRON	Pron	Case=Gen|Number=Sing	4	nmod:comp	_	_
+2	мукӧдлӧн	мукӧд	PRON	Pron	Case=Gen|Number=Sing	4	nmod:comp	_	gloss_en=other
 3	ысь	ыс	PRON	MWN	Case=Ela|Number=Sing	_	_	_	_
-4	торъя	торъя	ADV	_	_	5	advmod	_	_
-5	гӧль	гӧль	ADJ	A	Case=Nom|Number=Sing	10	xcomp	_	_
-6	ни	ни	CCONJ	CC	_	7	cc	_	_
-7	озыр	озыр	ADJ	A	Case=Nom|Number=Sing	5	conj	_	_
-8	эз	оз	AUX	V	_	10	aux:neg	_	_
+4	торъя	торъя	ADV	_	_	5	advmod	_	gloss_en=specifically
+5	гӧль	гӧль	ADJ	A	Case=Nom|Number=Sing	10	xcomp	_	gloss_en=poor
+6	ни	ни	CCONJ	CC	_	7	cc	_	gloss_en=nor
+7	озыр	озыр	ADJ	A	Case=Nom|Number=Sing	5	conj	_	gloss_en=rich
+8	эз	оз	AUX	V	_	10	aux:neg	_	gloss_en=not
 9	жӧ	жӧ	ADV	Adv	_	10	advmod:eval	_	_
-10	ло	лоны	VERB	V	Connegative=Yes	0	root	_	SpaceAfter=No
+10	ло	лоны	VERB	V	Connegative=Yes	0	root	_	gloss_en=become|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
