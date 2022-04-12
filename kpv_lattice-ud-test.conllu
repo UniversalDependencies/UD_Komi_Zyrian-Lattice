@@ -10363,6 +10363,7 @@
 
 # sent_id = IgnatovMI:Medborja_addzysjlom:VK1980:6:44
 # text = Свадьбаныс мукӧдлӧнысь торъя гӧль ни озыр эз жӧ ло.
+# comment = see issue 859
 1	Свадьбаныс	свадьба	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nsubj	_	gloss_en=wedding
 2-3	мукӧдлӧнысь	_	_	_	_	_	_	_	_
 2	мукӧдлӧн	мукӧд	PRON	Pron	Case=Gen|Number=Sing	4	nmod:comp	_	gloss_en=other
