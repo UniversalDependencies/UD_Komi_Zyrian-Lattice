@@ -2180,7 +2180,7 @@
 5	лёкджык	лёк	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
 6	медся	медся	ADV	Adv	_	7	advmod:deg	_	_
 7	ён	ён	ADJ	A	Case=Nom|Number=Sing	8	amod	_	_
-8	бойысь	бой	NOUN	N	Case=Ela|Number=Sing	5	nmod:comp	_	SpaceAfter=No
+8	бойысь	бой	NOUN	N	Case=Ela|Number=Sing	5	obl:comp	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = uspensky1940a.026
@@ -4148,7 +4148,7 @@
 5	пась	пась	NOUN	N	Case=Nom|Number=Sing	3	conj	_	GTtags=Sg,Nom
 6	вурӧм	вурны	VERB	V	Case=Nom|Number=Sing|VerbForm=Vnoun	8	nmod	_	GTtags=TV,Der,Der/ӧм,Der/NomAct,N,Sg,Nom
 7	кузя	кузя	ADP	Adp	AdpType=Post	6	case	_	GTtags=Po
-8	Пӧлашысь	Пӧлаш	PROPN	N	Animacy=Hum|Case=Ela|Number=Sing	9	nmod:comp	_	GTtags=Prop,Sem/Fem,Sg,Ela
+8	Пӧлашысь	Пӧлаш	PROPN	N	Animacy=Hum|Case=Ela|Number=Sing	9	obl:comp	_	GTtags=Prop,Sem/Fem,Sg,Ela
 9	мастерджыкыс	мастерджыкыс	NOUN	N	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	GTtags=Cmpr,Sg,Nom
 10	матігӧгӧрын	матігӧгӧрын	ADV	Adv	Case=Ine	9	advmod:lmod	_	GTtags=Ine
 11	некод	некод	PRON	Pron	Case=Nom|Number=Sing|Polarity=Neg	9	nsubj	_	GTtags=Neg,Sg,Nom
@@ -8497,11 +8497,11 @@
 15	аслыспӧлӧслунным	аслыспӧлӧслун	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	17	nsubj	_	GTtags=Sg,Nom,PxPl1
 16	вермас	вермыны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Valency=1	17	aux:pot	_	GTtags=TV,Ind,Fut,Sg3
 17	кыпӧдны	кыпӧдны	VERB	V	Valency=2|VerbForm=Inf	12	csubj	_	GTtags=TV,Inf
-18	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur	19	nmod:comp	_	GTtags=Pl,Ela
+18	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur	19	obl:comp	_	GTtags=Pl,Ela
 19	вылӧджык	выв	NOUN	N	Case=Ill|Degree=Cmp|NounType=Relat|Number=Sing	17	obl	_	GTtags=Relat,Sg,Ill,Comp
 20	либӧ	либӧ	CCONJ	CC	_	21	cc	_	_
 21	уськӧдны	уськӧдны	VERB	V	Valency=2|VerbForm=Inf	17	conj	_	GTtags=TV,Inf
-22	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur	23	nmod:comp	_	GTtags=Pl,Ela
+22	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur	23	obl:comp	_	GTtags=Pl,Ela
 23	улӧ	ув	NOUN	N	Case=Ill|NounType=Relat|Number=Sing	21	obl:lmod	_	GTtags=Po,Sg,Ill|SpaceAfter=No
 24	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -10366,8 +10366,8 @@
 # comment = see issue 859
 1	Свадьбаныс	свадьба	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	nsubj	_	gloss_en=wedding
 2-3	мукӧдлӧнысь	_	_	_	_	_	_	_	_
-2	мукӧдлӧн	мукӧд	PRON	Pron	Case=Gen|Number=Sing	4	nmod:comp	_	gloss_en=other
-3	ысь	ыс	PRON	MWN	Case=Ela|Number=Sing	_	_	_	_
+2	мукӧдлӧн	мукӧд	PRON	Pron	Case=Gen|Number=Sing	3	nmod	_	gloss_en=other
+3	ысь	ыс	PRON	MWN	Case=Ela|Number=Sing	4	obl:comp	_	_
 4	торъя	торъя	ADV	_	_	5	advmod	_	gloss_en=specifically
 5	гӧль	гӧль	ADJ	A	Case=Nom|Number=Sing	10	xcomp	_	gloss_en=poor
 6	ни	ни	CCONJ	CC	_	7	cc	_	gloss_en=nor
