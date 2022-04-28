@@ -37,6 +37,10 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+- 2022-04-30
+  - Feature development
+  - Deprel correction and documentation
+  - Trouble shooting in dependencies
 - 2021-10-31
   - Auxiliary, feature and deprel documentation
   - New sentences added from grammar Ӧнія коми кыв: морфология
