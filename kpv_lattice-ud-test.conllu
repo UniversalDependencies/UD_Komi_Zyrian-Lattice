@@ -10014,7 +10014,7 @@
 11	мӧдӧдчисны	мӧдӧдчыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	2	conj	_	GTtags=Refl,Ind,Prt1,Pl3
 12	нин	нин	ADV	Adv	AdvType=Tim	11	advmod:tmod	_	GTtags=Sem/Time
 13	зорӧдъяс	зорӧд	NOUN	N	Case=Nom|Number=Plur	14	nmod:obj	_	GTtags=Pl,Nom
-14	чӧвтанінӧ	чӧвтны	VERB	V	Case=Ill|Derivation=Anin|Number=Sing|Valency=2	11	advcl:lmod	_	GTtags=TV,Der,Der/Ан,Der/Ин,N,Sg,Ill|SpaceAfter=No
+14	чӧвтанінӧ	чӧвтны	VERB	V	Case=Ill|Derivation=Anin|Number=Sing|Valency=2	11	advcl:lcl	_	GTtags=TV,Der,Der/Ан,Der/Ин,N,Sg,Ill|SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = OKK:2000:64:1:DoroninP
