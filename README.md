@@ -37,6 +37,9 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+* 2022-10-31
+  * Grammar research input
+  * Migrating :lmp, :lto, :lfrom into :lmod, and :comp to :cmp
 - 2022-04-30
   - Feature development
   - Deprel correction and documentation
