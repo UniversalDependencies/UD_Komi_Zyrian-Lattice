@@ -4,7 +4,7 @@ UD Komi-Zyrian Lattice is a treebank of written standard Komi-Zyrian.
 
 # Introduction
 
-The treebank contains continuous texts in the written Komi-Zyrian language. All of the data comes from openly available sources. The largest segments are from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was added to [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Some articles from the newspaper [Выль туйӧд's 1939 number 67](http://urn.fi/URN:NBN:fi-fe201802013020) have also been included as complete texts. Several texts are used for individual examples, and these are marked with the tag `-ind`, to distinguish them from the running text. The complete list of sources with additional information and further links is available in this README file below.
+The treebank contains continuous texts in the written Komi-Zyrian language. All of the data comes from openly available sources, or are individual sentences used here with exact references to the original works. The largest segments are from Lev Uspenskiy's book *Нёль боевӧй случай* (URN http://urn.fi/URN:NBN:fi-fe2014102045428), which was digitalized in the National Library of Finland's [Fenno-Ugrica](https://fennougrica.kansalliskirjasto.fi/) project, and Ivan Belyx's short story which was added to [Komi Nebögain online library](http://komikyv.org) by the author himself in 2013. Some articles from the newspaper [Выль туйӧд's 1939 number 67](http://urn.fi/URN:NBN:fi-fe201802013020) have also been included as complete texts. Several texts are used for individual examples, and these are marked with the tag `-ind`, to distinguish them from the running text. The complete list of sources with additional information and further links is available in this README file below.
 
 # Acknowledgments
 
@@ -37,6 +37,9 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+* 2022-10-31
+  * Grammar research input
+  * Migrating :lmp, :lto, :lfrom into :lmod, and :comp to :cmp
 - 2022-04-30
   - Feature development
   - Deprel correction and documentation
