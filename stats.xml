@@ -142,12 +142,12 @@
     <feat name="Voice" value="Act" upos="VERB">3</feat><!-- Вӧралысь, кыйсьысь, шептасьысь -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="73">
+  <deps unique="66">
     <dep name="acl">109</dep>
     <dep name="acl:relcl">36</dep>
     <dep name="advcl">130</dep>
     <dep name="advcl:eval">2</dep>
-    <dep name="advcl:lto">1</dep>
+    <dep name="advcl:lcl">1</dep>
     <dep name="advcl:tcl">29</dep>
     <dep name="advmod">101</dep>
     <dep name="advmod:cau">3</dep>
@@ -156,10 +156,7 @@
     <dep name="advmod:eval">120</dep>
     <dep name="advmod:foc">76</dep>
     <dep name="advmod:freq">14</dep>
-    <dep name="advmod:lfrom">7</dep>
-    <dep name="advmod:lmod">46</dep>
-    <dep name="advmod:lmp">10</dep>
-    <dep name="advmod:lto">31</dep>
+    <dep name="advmod:lmod">94</dep>
     <dep name="advmod:mmod">102</dep>
     <dep name="advmod:tmod">246</dep>
     <dep name="amod">345</dep>
@@ -190,8 +187,7 @@
     <dep name="mark">122</dep>
     <dep name="nmod">326</dep>
     <dep name="nmod:appos">6</dep>
-    <dep name="nmod:lfrom">1</dep>
-    <dep name="nmod:lmod">29</dep>
+    <dep name="nmod:lmod">30</dep>
     <dep name="nmod:obj">44</dep>
     <dep name="nmod:poss">38</dep>
     <dep name="nmod:subj">12</dep>
@@ -202,11 +198,8 @@
     <dep name="obl">421</dep>
     <dep name="obl:agent">5</dep>
     <dep name="obl:cau">3</dep>
-    <dep name="obl:comp">5</dep>
-    <dep name="obl:lfrom">1</dep>
-    <dep name="obl:lmod">243</dep>
-    <dep name="obl:lmp">1</dep>
-    <dep name="obl:lto">7</dep>
+    <dep name="obl:cmp">5</dep>
+    <dep name="obl:lmod">252</dep>
     <dep name="obl:mcl">1</dep>
     <dep name="obl:tmod">54</dep>
     <dep name="orphan">15</dep>
