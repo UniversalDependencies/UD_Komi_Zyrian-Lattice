@@ -32,7 +32,7 @@
     <tag name="VERB">1351</tag><!-- лоны, воны, мунны, шуны, идравны, локны, петны, сулавны, овны, босьтны -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="107">
+  <feats unique="105">
     <feat name="Abbr" value="Yes" upos="ADV">1</feat><!-- с.в. -->
     <feat name="AdpType" value="Post" upos="ADP,NOUN">159</feat><!-- вылӧ, бӧрын, вылын, дорын, дінӧ, йылысь, вылас, дорӧ, сайын, гӧгӧр -->
     <feat name="AdvType" value="Deg" upos="ADV">6</feat><!-- дзик, медся -->
@@ -130,8 +130,6 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">55</feat><!-- Локтас, вермас, ковмас, лоас, петас, кутас, мунас, Тӧдмалас, быдмасны, бӧръяс -->
     <feat name="Tense" value="Past" upos="AUX,VERB">714</feat><!-- эз, вӧлі, эг, воис, вӧліны, идралӧм, кутіс, лои, идралӧмын, видзӧдліс -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">318</feat><!-- оз, колӧ, он, ог, мунӧ, позьӧ, эм, аддза, воӧ, думайта -->
-    <feat name="Valency" value="1" upos="AUX,VERB">216</feat><!-- вӧлі, вӧліны, колӧ, воис, пов, вермытӧм, ворсіс, вочавидзис, лоам, локтӧ -->
-    <feat name="Valency" value="2" upos="VERB">151</feat><!-- шуны, аддза, виччысьны, шуис, Арендуйтам, Вежис, Кӧсъян, Радейтісны, Тӧдтӧм, Чинтыштан -->
     <feat name="Variant" value="Nomin" upos="NOUN">8</feat><!-- Коктӧм, Кӧмтӧм, Пасьтӧм, Погонъястӧм, берегъястӧм, помтӧмӧсь, пыкӧдтӧмӧсь, шуштӧм -->
     <feat name="Variant" value="Vclause" upos="NOUN,PROPN">7</feat><!-- вошӧмъястӧг, Льӧмватӧгыс, Туйтӧг, Шогтӧг, уджтӧг, шондіястӧг -->
     <feat name="VerbForm" value="Conv" upos="VERB">49</feat><!-- видзӧдігмоз, дугдывтӧг, жалиттӧг, петігӧн, Вермасигъясад, Вундігӧн, Гымалігад, Зэригас, Мунігмозыс, Пуктысигъясӧ -->
