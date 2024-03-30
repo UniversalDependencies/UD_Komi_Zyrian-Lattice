@@ -682,7 +682,7 @@
 18	,	,	PUNCT	CLB	_	20	punct	_	_
 19	кутшӧм	кутшӧм	ADJ	A	_	20	amod	_	_
 20	вӧлі	вӧвны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	acl:relcl	_	_
-21	Хасан	Хасан	PROPN	N	Case=Nom|Number=Sing	23	nmod:appos	_	OrigLang=ru
+21	Хасан	Хасан	PROPN	N	Case=Nom|Number=Sing	23	compound:nn	_	OrigLang=ru
 22	ты	ты	NOUN	N	Case=Nom|Number=Sing	21	flat:name	_	_
 23	районын	район	NOUN	N	Case=Ine|Number=Sing	20	obl:lmod	_	OrigLang=ru
 24	японскӧй	японскӧй	ADJ	A	Case=Nom|Number=Sing	25	amod	_	OrigLang=ru
@@ -8763,7 +8763,7 @@
 # text = Краснӧйяс даснаныс Понгорттуй сиктӧдз локтісны.
 1	Краснӧйяс	краснӧй	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	GTtags=Pl,Nom
 2	даснаныс	даснаныс	PRON	Pron	Case=Nom|Number=Sing|NumType=Sets|Person=3|PronType=Tot	1	det	_	GTtags=AssocColl,Sg,Nom,PxSg3
-3	Понгорттуй	Понгорттуй	NOUN	N	Case=Nom|Number=Sing	4	nmod:appos	_	GTtags=Prop,Sg,Nom
+3	Понгорттуй	Понгорттуй	NOUN	N	Case=Nom|Number=Sing	4	compound:nn	_	GTtags=Prop,Sg,Nom
 4	сиктӧдз	сикт	NOUN	N	Case=Ter|Number=Sing	5	obl:lmod	_	GTtags=Sg,Ter
 5	локтісны	локны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Pl3|SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -8884,7 +8884,7 @@
 7	муніс	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Sg3|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	12	punct	_	_
 9	«	«	PUNCT	PUNCT	_	10	punct	_	GTtags=LEFT|SpaceAfter=No
-10	ура	ура	INTJ	Interj	_	12	nmod:appos	_	SpaceAfter=No
+10	ура	ура	INTJ	Interj	_	12	compound:nn	_	SpaceAfter=No
 11	»	»	PUNCT	PUNCT	_	10	punct	_	GTtags=RIGHT
 12	сорӧн	сор	NOUN	N	Case=Ins|Number=Sing	7	obl	_	GTtags=Sg,Ins|SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -8997,7 +8997,7 @@
 3	и	и	CCONJ	CC	_	4	cc	_	_
 4	баян	баян	NOUN	N	Case=Nom|Number=Sing	2	conj	_	GTtags=Sg,Nom
 5	ыстіс	ыстыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,Sg3
-6	Буждӧм	Буждӧм	NOUN	N	Case=Nom|Number=Sing	7	nmod:appos	_	GTtags=Prop,Sg,Nom
+6	Буждӧм	Буждӧм	NOUN	N	Case=Nom|Number=Sing	7	compound:nn	_	GTtags=Prop,Sg,Nom
 7	сиктса	сикт	NOUN	N	Case=Loc|Number=Sing	8	nmod:lmod	_	GTtags=Sg,Der,Der/LocMod,A,Sg,Nom
 8	клубӧ	клуб	NOUN	N	Case=Ill|Number=Sing	5	obl:lmod	_	GTtags=Sg,Ill|SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	15	punct	_	_
@@ -9114,7 +9114,7 @@
 1	Кывсьыліс	кывсьывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Sg3
 2	таӧдз	тайӧ	PRON	Pron	Case=Ter|Number=Sing|PronType=Dem	1	obl	_	GTtags=Dem,Sg,Ter|SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	10	punct	_	_
-4	Эжва	Эжва	NOUN	N	Case=Nom|Number=Sing	5	nmod:appos	_	GTtags=Prop,Sem/Plc,Sg,Nom
+4	Эжва	Эжва	NOUN	N	Case=Nom|Number=Sing	5	compound:nn	_	GTtags=Prop,Sem/Plc,Sg,Nom
 5	вожын	вож	NOUN	N	Case=Ine|Number=Sing	10	obl:lmod	_	GTtags=Sg,Ine
 6	пӧ	пӧ	ADV	Adv	_	5	advmod:eval	_	GTtags=Parenthetic
 7	гӧльыс	гӧль	ADJ	A	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	GTtags=Sg,Nom,PxSg3
@@ -9871,7 +9871,7 @@
 # text = Шонді пуксигӧн Ручпиян сиктсянь шептасьысь нянь йӧръяс костті... ю дорӧ лэччисны ныв-зон чукӧр.
 1	Шонді	шонді	NOUN	N	Case=Nom|Number=Sing	2	nmod:subj	_	GTtags=Sg,Nom
 2	пуксигӧн	пуксьыны	VERB	V	Case=Ins|Derivation=Ig|Number=Sing|VerbForm=Conv	12	advcl:tcl	_	GTtags=Refl,Der,Der/иг,Ger,Sg,Ins
-3	Ручпиян	ручпи	NOUN	N	Case=Nom|Number=Plur	4	nmod:appos	_	GTtags=Pl,Nom
+3	Ручпиян	ручпи	NOUN	N	Case=Nom|Number=Plur	4	compound:nn	_	GTtags=Pl,Nom
 4	сиктсянь	сикт	NOUN	N	Case=Egr|Number=Sing	12	obl:lmod	_	GTtags=Sg,Egr
 5	шептасьысь	шептасьны	VERB	V	Derivation=NomAg|PartForm=Pres|VerbForm=Part|Voice=Act	6	acl	_	GTtags=Refl,Der,Der/ысь,ActPrsPtc
 6	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	GTtags=Sg,Nom
