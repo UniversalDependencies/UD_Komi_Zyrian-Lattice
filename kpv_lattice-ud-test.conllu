@@ -3581,7 +3581,7 @@
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = OKK:2000:40:9:ToroрovI
-# text = Ваньӧӧс вуграсьнытӧ оз нин ков велӧдны, вугырӧн и кыснанӧн быд пӧлӧс черитӧ не этша нин лэптывліс.
+# text = Ваньӧӧс вуграсьнытӧ оз нин ков велӧдны, вугырӧн и кыкнанӧн быд пӧлӧс черитӧ не этша нин лэптывліс.
 1	Ваньӧӧс	Ваньӧ	NOUN	N	Animacy=Hum|Case=Acc|Number=Sing	6	obj	_	GTtags=Prop,Sem/Mal,Sg,Acc
 2	вуграсьнытӧ	вуграсьны	VERB	V	Clitic=To|VerbForm=Inf	6	xcomp	_	GTtags=Refl,Inf,Clt/тӧ
 3	оз	оз	AUX	Aux	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux:neg	_	GTtags=Neg,Ind,Prs,Sg3
@@ -3591,7 +3591,7 @@
 7	,	,	PUNCT	CLB	_	17	punct	_	_
 8	вугырӧн	вугыр	NOUN	N	Case=Ins|Number=Sing	17	obl	_	GTtags=Sg,Ins
 9	и	и	CCONJ	CC	_	10	cc	_	_
-10	кыснанӧн	кыснан	NOUN	N	Case=Ins|Number=Sing	8	conj	_	GTtags=Sg,Ins
+10	кыкнанӧн	кыкнан	PRON	Pron	Case=Ins|Number=Sing|NumType=Sets	8	conj	_	GTtags=Sg,Ins
 11	быд	быд	PRON	Pron	_	12	det	_	GTtags=Qnt
 12	пӧлӧс	пӧлӧс	ADJ	A	Case=Nom|Number=Sing	13	amod	_	GTtags=Sg,Nom
 13	черитӧ	чери	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	17	obj	_	GTtags=Sg,Acc,PxSg2
@@ -7574,7 +7574,7 @@
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = OKK:2000:50:16:ToroрovI
-# text = Водзвыв кульыштӧм сюмӧд вылӧ Виталей лэпталіс сирсӧ и ёкышсӧ, абу ёна гырысьӧсь чериясыс, но абу и посниӧсь кыснан вылад шедӧмаясыд...
+# text = Водзвыв кульыштӧм сюмӧд вылӧ Виталей лэпталіс сирсӧ и ёкышсӧ, абу ёна гырысьӧсь чериясыс, но абу и посниӧсь кыкнан вылад шедӧмаясыд...
 1	Водзвыв	водзвыв	ADV	Adv	_	2	advmod:tmod	_	_
 2	кульыштӧм	кульыштны	VERB	V	VerbForm=Vnoun	3	acl	_	GTtags=TV,Der,Der/ӧм,PastPtc
 3	сюмӧд	сюмӧд	NOUN	N	Case=Nom|Number=Sing	6	obl:lmod	_	GTtags=Sg,Nom
@@ -7594,7 +7594,7 @@
 17	абу	абу	AUX	V	Mood=Ind|Number=Sing|Polarity=Neg	19	aux:neg	_	GTtags=Neg,Cop,Ind,Sg
 18	и	и	ADV	Adv	_	19	advmod:foc	_	_
 19	посниӧсь	посни	ADJ	A	Number[subj]=Plur	13	conj	_	GTtags=Cop,Pl
-20	кыснан	кыснан	NOUN	N	Case=Nom|Number=Sing|NumType=Sets	22	obl	_	GTtags=Sg,Nom
+20	кыкнан	кыкнан	PRON	Pron	Case=Nom|Number=Sing|NumType=Sets	22	obl	_	GTtags=Sg,Nom
 21	вылад	вылӧ	ADP	Adp	AdpType=Post|Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=2	20	case	_	GTtags=Po,Sg,Ill,PxSg2
 22	шедӧмаясыд	шедны	VERB	V	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	19	nsubj:cop	_	GTtags=IV,Der,Der/ӧм,PastPtc,N,Pl,Nom|PxSg2|SpaceAfter=No
 23	...	...	PUNCT	CLB	_	6	punct	_	_
