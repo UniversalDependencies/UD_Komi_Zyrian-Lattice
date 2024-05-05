@@ -37,6 +37,8 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+* 2024-04-29
+  * Add compound:nn
 * 2023-10-29
   * Add CCC variant to train.conllu for minimal data split
 * 2023-04-29
