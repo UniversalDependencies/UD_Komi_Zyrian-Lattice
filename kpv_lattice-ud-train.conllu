@@ -106,7 +106,7 @@
 # sent_id = kpv-brat_2018:11
 # text = Эз позь бӧрйыны ни Питер Смитӧс, ни Мери Браунӧс.
 # text_ru = Нельзя было выбрать ни Питера Смита, ни Мэри Браун.
-1	Эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	3	aux:neg	_	_
+1	Эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	3	aux	_	_
 2	позь	позьны	AUX	V	Connegative=Yes	3	aux:pot	_	_
 3	бӧрйыны	бӧрйыны	VERB	V	VerbForm=Inf	0	root	_	_
 4	ни	ни	CCONJ	CC	Polarity=Neg	5	cc:preconj	_	_
@@ -123,7 +123,7 @@
 # text_ru = Они понятия не имеют, кто это написал.
 1	Найӧ	найӧ	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	дзик	дзик	ADV	Adv	_	4	advmod:deg	_	_
-3	оз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	4	aux:neg	_	_
+3	оз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	4	aux	_	_
 4	тӧдны	тӧдны	VERB	V	Connegative=Yes	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	коді	коді	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
@@ -191,7 +191,7 @@
 9	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	_
 10	лунӧ	лунӧ	NOUN	N	Case=Ill|Number=Sing	13	obl:tmod	_	_
 11	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-12	эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	aux:neg	_	_
+12	эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	aux	_	_
 13	кӧсйы	кӧсйыны	VERB	V	Connegative=Yes	5	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -199,7 +199,7 @@
 # text = Ме эг вермы сійӧс вӧтӧдны, сы вӧсна мый сійӧ зэв тэрыба котӧртіс.
 # text_ru = Я не смог его догнать, потому что он слишком быстро бежал.
 1	Ме	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-2	эг	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	5	aux:neg	_	_
+2	эг	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	5	aux	_	_
 3	вермы	вермыны	AUX	V	Connegative=Yes	5	aux:pot	_	_
 4	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	вӧтӧдны	вӧтӧдны	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
