@@ -40,6 +40,7 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 * 2024-11-01
   * Add use of Foreign feature
   * Add Nomzr Ag
+  * nmod:poss not det with pronoun possession
   * correct discourse deprels
 * 2024-04-29
   * Add compound:nn
