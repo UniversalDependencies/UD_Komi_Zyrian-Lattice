@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Komi_Zyrian-Lattice:
-commit 68d16710c94739801457a58a345d1258cf15de24
-Merge: ac2d7e3 e284841
+commit 164d309135180abdb2b6c33198b70ad03fac80d0
+Merge: b5b0160 5a7c76e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 8083 of 8083 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.17952618150342.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       1128
-Udapi: found 1128 bugs.
+               TOTAL       1127
+Udapi: found 1127 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 8083 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang kpv --max-err=10 UD_Komi_Zyrian-Lattice/kpv_lattice-ud-test.conllu
