@@ -5419,8 +5419,8 @@
 # text = Кӧдзыдъяс вӧсна вежон чӧж нин эз велӧдны школаясын.
 1	Кӧдзыдъяс	кӧдзыд	NOUN	N	Case=Nom|Number=Plur	7	obl:cau	_	GTtags=Pl,Nom
 2	вӧсна	вӧсна	ADP	Adp	AdpType=Post	1	case	_	GTtags=Po
-3	вежон	вежон	NOUN	N	Case=Nom|Number=Sing	7	obl:tmod	_	GTtags=Sg,Nom
-4	чӧж	чӧж	NOUN	N	Case=Nom|Number=Sing	3	case	_	GTtags=Sg,Nom
+3	вежон	вежон	NOUN	N	Case=Nom|Number=Sing	4	nmod	_	GTtags=Sg,Nom
+4	чӧж	чӧж	NOUN	N	Case=Nom|Number=Sing	7	obl:tmod	_	GTtags=Sg,Nom
 5	нин	нин	ADV	Adv	AdvType=Tim	7	advmod:tmod	_	GTtags=Temp
 6	эз	оз	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past	7	aux	_	GTtags=Neg,Ind,Prt1,Pl3
 7	велӧдны	велӧдны	VERB	V	Connegative=Yes|Number=Plur|Person=3	0	root	_	GTtags=TV,ConNeg,Pl3
@@ -6184,7 +6184,7 @@
 6	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	GTtags=IV,Ind,Prt1,Sg3
 7	нин	нин	ADV	Adv	_	8	advcl	_	_
 8	босьтӧмаяс	босьтны	VERB	V	Case=Nom|Number=Plur|VerbForm=Vnoun	0	root	_	GTtags=TV,Der,Der/ӧм,PastPtc,N,Pl,Nom
-9	лыдын	лыд	NOUN	N	Case=Ine|Number=Sing	8	case	_	GTtags=Sg,Ine|SpaceAfter=No
+9	лыдын	лыд	NOUN	N	Case=Ine|Number=Sing	8	obl	_	GTtags=Sg,Ine|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	8	punct	_	_
 
 # sent_id = OKK:2000:51:1a:BelyxI
@@ -6467,8 +6467,8 @@
 15	,	,	PUNCT	CLB	_	10	punct	_	_
 16	—	—	PUNCT	PUNCT	_	10	punct	_	_
 17	бур	бур	ADJ	A	Case=Nom|Number=Sing	18	amod	_	GTtags=Sg,Nom
-18	удж	удж	NOUN	N	Case=Nom|Number=Sing	4	conj	_	GTtags=Sg,Nom
-19	дінынӧсь	дін	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	18	case	_	GTtags=Relat,Sg,Ine,Cop,Pl|SpaceAfter=No
+18	удж	удж	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=Sg,Nom
+19	дінынӧсь	дін	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	4	conj	_	GTtags=Relat,Sg,Ine,Cop,Pl|SpaceAfter=No
 20	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = OKK:2000:52:1:LytkinV
@@ -8075,17 +8075,17 @@
 
 # sent_id = OKK:2000:53:19b:JushkovG
 # text = — Паськыд ва сайынӧсь ми батьыдкӧд, сы сертитӧ кӧ.
-1	—	—	PUNCT	PUNCT	_	3	punct	_	_
-2	Паськыд	паськыд	ADJ	A	Case=Nom|Number=Sing	3	amod	_	GTtags=Sg,Nom
-3	ва	ва	NOUN	N	Case=Nom|Number=Sing	0	root	_	GTtags=Sg,Nom
-4	сайынӧсь	сай	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	3	case	_	GTtags=Relat,Sg,Ine,Cop,Pl,?
-5	ми	ме	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:cop	_	GTtags=Pers,Pl1,Nom
+1	—	—	PUNCT	PUNCT	_	4	punct	_	_
+2	Паськыд	паськыд	ADJ	A	Case=Nom|Number=Sing	4	amod	_	GTtags=Sg,Nom
+3	ва	ва	NOUN	N	Case=Nom|Number=Sing	4	nmod	_	GTtags=Sg,Nom
+4	сайынӧсь	сай	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	0	root	_	GTtags=Relat,Sg,Ine,Cop,Pl,?
+5	ми	ме	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj:cop	_	GTtags=Pers,Pl1,Nom
 6	батьыдкӧд	бать	NOUN	N	Case=Com|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	nmod	_	GTtags=Sg,Com,PxSg2|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
-8	сы	сійӧ	PRON	Pron	Case=Adp|Number=Sing|Person=3|PronType=Prs	3	advcl	_	GTtags=Pers,Sg3,Cmpl
+8	сы	сійӧ	PRON	Pron	Case=Adp|Number=Sing|Person=3|PronType=Prs	4	advcl	_	GTtags=Pers,Sg3,Cmpl
 9	сертитӧ	сертитӧ	ADP	Adp	AdpType=Post|Clitic=To	8	case	_	GTtags=Po,Clt/To
 10	кӧ	кӧ	SCONJ	CS	_	8	mark	_	SpaceAfter=No
-11	.	.	PUNCT	CLB	_	3	punct	_	_
+11	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = OKK:2000:53:20z:LodyginV
 # text = A тьӧща блинсӧ пиянлы нин вайӧ Да шуӧ меным: «Тэ кодьӧсь жӧ дзик».
@@ -8176,27 +8176,27 @@
 
 # sent_id = OKK:2000:54:1:ToroрovI
 # text = A co тай, буракӧ, и асьныс ӧшинь вӧчысь-тэчысьясыс — вевт вылынӧсь, дӧмлӧны жӧ сэті...
-1	A	а	CCONJ	CC	_	14	cc	_	_
-2	co	со	ADV	Adv	_	14	advmod:eval	_	GTtags=Parenthetic
+1	A	а	CCONJ	CC	_	15	cc	_	_
+2	co	со	ADV	Adv	_	15	advmod:eval	_	GTtags=Parenthetic
 3	тай	тай	ADV	Adv	_	2	advmod:eval	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	5	punct	_	_
-5	буракӧ	буракӧ	ADV	Adv	_	14	advmod:eval	_	GTtags=Parenthetic|SpaceAfter=No
+5	буракӧ	буракӧ	ADV	Adv	_	15	advmod:eval	_	GTtags=Parenthetic|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	и	и	CCONJ	CC	_	10	advmod:foc	_	_
 8	асьныс	ас	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	nmod:poss	_	GTtags=Refl,Pl3,Nom
 9	ӧшинь	ӧшинь	NOUN	N	Case=Nom|Number=Sing	10	nmod:obj	_	GTtags=Sg,Nom
 10-12	вӧчысь-тэчысьясыс	_	_	_	_	_	_	_	_
-10	вӧчысь	вӧчны	VERB	V	Case=Nom|Nomzr=Ag|Number=Sing	14	nsubj:cop	_	GTtags=Nom,NomAg,Number,Sg,Prs,Prt
+10	вӧчысь	вӧчны	VERB	V	Case=Nom|Nomzr=Ag|Number=Sing	15	nsubj:cop	_	GTtags=Nom,NomAg,Number,Sg,Prs,Prt
 11	-	-	PUNCT	PUNCT	_	12	punct	_	_
 12	тэчысьясыс	тэчны	VERB	V	Case=Nom|Nomzr=Ag|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	conj	_	GTtags=Nom,NomAg,Pl,PxSg3,Prs,Act
-13	—	—	PUNCT	PUNCT	_	14	punct	_	_
-14	вевт	вевт	NOUN	N	Case=Nom|Number=Sing	0	root	_	GTtags=Sg,Nom
-15	вылынӧсь	выв	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	14	case	_	GTtags=Relat,Sg,Ine,Cop,Pl|SpaceAfter=No
+13	—	—	PUNCT	PUNCT	_	15	punct	_	_
+14	вевт	вевт	NOUN	N	Case=Nom|Number=Sing	15	nmod	_	GTtags=Sg,Nom
+15	вылынӧсь	выв	NOUN	N	Case=Ine|Number=Sing|Number[subj]=Plur	0	root	_	GTtags=Relat,Sg,Ine,Cop,Pl|SpaceAfter=No
 16	,	,	PUNCT	CLB	_	17	punct	_	_
-17	дӧмлӧны	дӧмлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	conj	_	GTtags=TV,Ind,Prs,Pl3
+17	дӧмлӧны	дӧмлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	conj	_	GTtags=TV,Ind,Prs,Pl3
 18	жӧ	жӧ	ADV	Adv	_	17	advmod:eval	_	GTtags=Parenthetic
 19	сэті	сэті	ADV	Adv	Case=Tra	17	advmod:lmod	_	GTtags=Tra|SpaceAfter=No
-20	...	...	PUNCT	CLB	_	14	punct	_	_
+20	...	...	PUNCT	CLB	_	15	punct	_	_
 
 # sent_id = OKK:2000:54:2:FjodorovG
 # text = Прӧньӧ ая-пиа век на би дорынӧсь.
@@ -8329,8 +8329,8 @@
 8	,	,	PUNCT	CLB	_	13	punct	_	_
 9	a	а	CCONJ	CC	_	13	cc	_	_
 10	мамъяс	мам	NOUN	N	Case=Nom|Number=Plur	13	nsubj	_	GTtags=Pl,Nom
-11	сы	сійӧ	PRON	Pron	Case=Adp|Number=Sing|Person=3|PronType=Prs	13	obl	_	GTtags=Pers,Sg3,Cmpl
-12	нимӧн	ним	NOUN	N	Case=Ins|Number=Sing	11	case	_	GTtags=Sg,Ins
+11	сы	сійӧ	PRON	Pron	Case=Adp|Number=Sing|Person=3|PronType=Prs	14	nmod	_	GTtags=Pers,Sg3,Cmpl
+12	нимӧн	ним	NOUN	N	Case=Ins|Number=Sing	13	obl	_	GTtags=Sg,Ins
 13	повзьӧдлӧны	повзьӧдлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	conj	_	GTtags=TV,Ind,Prs,Pl3
 14	челядьнысӧ	челядь	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	13	obj	_	GTtags=Sg,Acc,PxPl3|SpaceAfter=No
 15	,	,	PUNCT	CLB	_	16	punct	_	_
