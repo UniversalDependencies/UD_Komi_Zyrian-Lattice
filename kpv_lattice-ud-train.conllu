@@ -16,7 +16,7 @@
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мый	мый	SCONJ	CS	_	5	mark	_	_
 5	зэрӧ	зэрны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	csubj	_	SpaceAfter=No
-6	.	_	PUNCT	CLB	_	2	punct	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-brat_2018:03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ.
