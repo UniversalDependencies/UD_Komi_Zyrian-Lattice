@@ -2032,7 +2032,7 @@
 11	уланыс	улын	ADP	Po	AdpType=Post|Case=Ill|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	case	_	_
 12	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past	13	aux	_	_
 13	вӧв	вӧвны	VERB	V	Connegative=Yes	3	conj	_	SpaceAfter=No
-14	.	_	PUNCT	CLB	_	3	punct	_	_
+14	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = uspensky1940a.031
 # text = Эрд вылӧ петігӧн лои известнӧ, мый броневикса командирӧн мунӧ армияӧн командуйтысь Климент Ефремович Ворошилов.
@@ -2107,7 +2107,7 @@
 3	сылӧн	сійӧ	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 4	вӧлі	вӧвны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	cop	_	_
 5	куш	куш	ADJ	A	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
-6	.	_	PUNCT	CLB	_	5	punct	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = uspensky1940a.035
 # text = Но врагъяс вермисны дзебсьыны бокиса переулокъясас.
@@ -2189,7 +2189,7 @@
 3	сэтысь	сэтысь	ADV	Adv	Case=Ela	2	obl:lmod	_	_
 4	эз	оз	AUX	V	Mood=Ind|Person=3|Polarity=Neg|Tense=Past	2	aux	_	_
 5	вӧв	вӧвны	AUX	V	Connegative=Yes	2	cop	_	SpaceAfter=No
-6	.	_	PUNCT	CLB	_	2	punct	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = uspensky1940a.041
 # text = Сэні, переулок помас, пу заборъяс дінӧ домавлӧмаӧсь седлӧа казацкӧй вӧвъясӧс.
@@ -3336,8 +3336,8 @@
 3	сідзжӧ	сідзжӧ	ADV	Adv	_	4	advmod:mmod	_	_
 4	пырисны	пырны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Pl3
 5	«	«	PUNCT	PUNCT	_	7	punct	_	GTtags=LEFT|SpaceAfter=No
-6	Парма	Парма·гор	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	GTtags=Prop,Sem/Txt,Sg,Nom
-7	гор	_	NOUN	N	_	9	nmod	_	SpaceAfter=No
+6	Парма	Парма	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	GTtags=Prop,Sem/Txt,Sg,Nom
+7	гор	гор	NOUN	N	_	9	nmod	_	SpaceAfter=No
 8	»	»	PUNCT	PUNCT	_	7	punct	_	GTtags=RIGHT
 9	гижӧд	гижӧд	NOUN	N	Case=Nom|Number=Sing	10	nmod	_	GTtags=Sg,Nom
 10	чукӧрӧ	чукӧр	NOUN	N	Case=Ill|Number=Sing	4	obl:lmod	_	GTtags=Sg,Ill|SpaceAfter=No
@@ -3466,11 +3466,11 @@
 13	неыджыд	неыджыд	ADJ	A	Case=Nom|Number=Sing	14	amod	_	GTtags=Sg,Nom
 14	ю	ю	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
 15	,	,	PUNCT	CLB	_	25	punct	_	_
-16	ва	ва·веркӧс	NOUN	N	Case=Prl|Number=Sing|Number[psor]=Sing|Person[psor]=3	17	nmod	_	GTtags=Sg,Prl,PxSg3
-17	веркӧсӧдыс	_	NOUN	N	_	25	obl	_	SpaceAfter=No
+16	ва	ва	NOUN	N	Case=Nom|Number=Sing	17	nmod	_	GTtags=Sg,Prl,PxSg3
+17	веркӧсӧдыс	веркӧс	NOUN	N	Case=Prl|Number=Sing|Number[psor]=Sing|Person[psor]=3	25	obl	_	SpaceAfter=No
 18	,	,	PUNCT	CLB	_	22	punct	_	_
-19	уна	уна·рӧма	ADJ	A	Case=Nom|Number=Sing	20	amod	_	GTtags=Sg,Nom
-20	рӧма	_	NOUN	N	_	22	nmod	_	_
+19	уна	уна	ADJ	A	Case=Nom|Number=Sing	20	amod	_	GTtags=Sg,Nom
+20	рӧма	рӧма	NOUN	N	_	22	nmod	_	_
 21	чери	чери	NOUN	N	Case=Nom|Number=Sing	22	nmod	_	GTtags=Sg,Nom
 22	сьӧм	сьӧм	NOUN	N	Case=Nom|Number=Sing	25	obl	_	GTtags=Sg,Nom
 23	моз	моз	ADP	Adp	AdpType=Post	22	case	_	GTtags=Po|SpaceAfter=No
@@ -3837,8 +3837,8 @@
 4	шор	шор	NOUN	N	Case=Nom|Number=Sing	5	nmod	_	GTtags=Sg,Nom
 5	васӧ	ва	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod:obj	_	GTtags=Sg,Acc,PxSg3
 6	чибльӧгалӧм	чибльӧгавны	VERB	V	Tense=Past|VerbForm=Part	8	acl	_	GTtags=TV,Der,Der/ӧм,Der/NomAct,N,Sg,Nom
-7	ки	ки·пыдӧс	NOUN	N	Case=Nom|Number=Sing	8	nmod	_	GTtags=Sg,Nom
-8	пыдӧс	_	NOUN	N	_	3	obl:lmod	_	_
+7	ки	ки	NOUN	N	Case=Nom|Number=Sing	8	nmod	_	GTtags=Sg,Nom
+8	пыдӧс	пыдӧс	NOUN	N	_	3	obl:lmod	_	_
 9	вылас	вылӧ	ADP	Adp	AdpType=Post|Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	case	_	GTtags=Po,Sg,Ill,PxSg3|SpaceAfter=No
 10	...	...	PUNCT	CLB	_	3	punct	_	_
 
@@ -4087,8 +4087,8 @@
 10	водзӧ	водзӧ	ADV	Adv	Case=Ill	11	advmod:lmod	_	GTtags=Ill
 11	кыскис	кыскыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	GTtags=TV,Ind,Prt1,Sg3
 12	татчӧ	татчӧ	ADV	Adv	_	11	advmod:lmod	_	_
-13	быд	быд·сикас	DET	Det	Case=Nom|Number=Sing	14	det	_	GTtags=Sg,Nom
-14	сикас	_	NOUN	N	_	15	nmod	_	_
+13	быд	быд	DET	Det	Case=Nom|Number=Sing	14	det	_	GTtags=Sg,Nom
+14	сикас	сикас	NOUN	N	_	15	nmod	_	_
 15	йӧзсӧ	йӧз	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obj	_	GTtags=Sg,Acc,PxSg3|SpaceAfter=No
 16	...	...	PUNCT	CLB	_	7	punct	_	_
 
@@ -4142,8 +4142,8 @@
 
 # sent_id = OKK:2000:42:14:OdincovA
 # text = Льӧм пу ньӧръясысь песӧм гезъясӧн кык пӧвстӧн кӧртавлім пурлысь быд пельӧс.
-1	Льӧм	льӧм·пу	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	GTtags=Sg,Nom
-2	пу	_	NOUN	N	_	3	nmod	_	_
+1	Льӧм	льӧм	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	GTtags=Sg,Nom
+2	пу	пу	NOUN	N	_	3	nmod	_	_
 3	ньӧръясысь	ньӧр	NOUN	N	Case=Ela|Number=Plur	4	obl	_	GTtags=Pl,Ela
 4	песӧм	песны	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	GTtags=TV,Der,Der/ӧм,PastPtc
 5	гезъясӧн	гез	NOUN	N	Case=Ins|Number=Plur	8	obl	_	GTtags=Pl,Ins
@@ -4335,7 +4335,7 @@
 4	сора	сор	NOUN	N	Case=Nom|Derivation=ProprietiveMod|Number=Sing	9	nmod	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
 5-7	кыдз-пипу	_	_	_	_	_	_	_	_
 5	кыдз	кыдз	NOUN	N	Case=Nom|Number=Sing	8	nmod	_	GTtags=Sg,Nom
-6	-	_	PUNCT	PUNCT	_	5	punct	_	_
+6	-	-	PUNCT	PUNCT	_	5	punct	_	_
 7	пипу	пипу	NOUN	N	Case=Nom|Number=Sing	5	conj	_	GTtags=Sg,Nom
 8	сора	сор	NOUN	N	Case=Nom|Derivation=ProprietiveMod|Number=Sing	9	nmod	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
 9	берегыс	берег	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nsubj:cop	_	GTtags=Sg,Nom,PxSg3
@@ -4648,7 +4648,7 @@
 15	нин	нин	ADV	Adv	_	14	advmod:emph	_	_
 16-18	няръялӧма-песӧма	_	_	_	_	_	_	_	SpaceAfter=No
 16	няръялӧма	няръявны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	GTtags=IV,Der,Der/ӧм,PastPtc,N,Cmp
-17	-	_	PUNCT	PUNCT	_	16	punct	_	_
+17	-	-	PUNCT	PUNCT	_	16	punct	_	_
 18	песӧма	песӧм	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	16	conj	_	GTtags=Der,Der/ӧм,Sg,Der,Der/ProprietiveMod,A,Sg,Nom
 19	...	...	PUNCT	CLB	_	3	punct	_	_
 
@@ -4756,8 +4756,8 @@
 7	колхозник	колхозник	NOUN	N	Case=Nom|Number=Sing	2	appos	_	GTtags=Sg,Nom
 8	Педьӧ	Педьӧ	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	7	flat:name	_	GTtags=Prop,Sem/Mal,Sg,Nom
 9	да	да	CCONJ	CC	_	12	cc	_	_
-10	ӧтка	ӧтка·олысь	ADV	Adv	Case=Nom|Number=Sing	11	advmod	_	GTtags=Sg,Nom
-11	олысь	_	VERB	V	_	12	nmod	_	_
+10	ӧтка	ӧтка	ADV	Adv	Case=Nom|Number=Sing	11	advmod	_	GTtags=Sg,Nom
+11	олысь	олысь	VERB	V	_	12	nmod	_	_
 12	Рӧдьӧ	Рӧдьӧ	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	7	conj	_	GTtags=Prop,Sem/Mal,Sg,Nom
 13	тшӧтш	тшӧтш	ADV	Adv	_	14	advmod:foc	_	_
 14	пуктісны	пуктыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt1,Pl3
@@ -5391,8 +5391,8 @@
 4	сьӧкыд	сьӧкыд	ADJ	A	Case=Nom|Number=Sing	5	amod	_	GTtags=Sg,Nom
 5	кадъяс	кад	NOUN	N	Case=Nom|Number=Plur	10	nsubj	_	GTtags=Pl,Nom|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	8	punct	_	_
-7	мунан	мунан·во	VERB	V	Case=Nom|Number=Plur	8	acl	_	GTtags=Pl,Nom
-8	вояс	_	NOUN	N	_	5	appos	_	_
+7	мунан	мунан	VERB	V	Case=Nom|Number=Plur	8	acl	_	GTtags=Pl,Nom
+8	вояс	во	NOUN	N	_	5	appos	_	_
 9	Бара	бара	ADV	Adv	_	10	advmod:tmod	_	GTtags=Parenthetic
 10	воалӧны	воавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	GTtags=IV,Ind,Prs,Pl3|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	10	punct	_	_
@@ -5751,7 +5751,7 @@
 14	пондіс	пондыны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	aux:aspect	_	GTtags=IV,Ind,Prt1,Sg3
 15-17	дзӧрны-катласьны	_	_	_	_	_	_	_	SpaceAfter=No
 15	дзӧрны	дзӧрны	VERB	V	VerbForm=Inf	10	conj	_	GTtags=IV,Inf,Cmp/Serial,Cmp
-16	-	_	PUNCT	PUNCT	_	15	punct	_	_
+16	-	-	PUNCT	PUNCT	_	15	punct	_	_
 17	катласьны	катласьны	VERB	V	VerbForm=Inf	15	conj	_	GTtags=Refl,Inf
 18	.	.	PUNCT	CLB	_	10	punct	_	_
 
@@ -8048,8 +8048,8 @@
 6	сёрнитыштны	сёрнитыштны	VERB	V	VerbForm=Inf	4	advcl	_	GTtags=IV,Inf|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	сералыштны	сералыштны	VERB	V	VerbForm=Inf	6	conj	_	GTtags=IV,Inf
-9	прӧст	прӧст·кад	NOUN	N	Case=Ill|Number=Sing	10	nmod	_	GTtags=Sg,Ill
-10	кадӧ	_	NOUN	N	_	8	obl	_	SpaceAfter=No
+9	прӧст	прӧст	NOUN	N	Case=Ill|Number=Sing	10	nmod	_	GTtags=Sg,Ill
+10	кадӧ	кад	NOUN	N	_	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	сьывны	сьывны	VERB	V	VerbForm=Inf	6	conj	_	GTtags=TV,Inf
 13	ассьыныс	ас	PRON	Pron	Case=Ela|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	nmod:poss	_	GTtags=Refl,Pl3,Ela
@@ -8392,8 +8392,8 @@
 3	»	»	PUNCT	PUNCT	_	2	punct	_	GTtags=RIGHT|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	9	punct	_	_
 5	—	—	PUNCT	PUNCT	_	9	punct	_	_
-6	ӧшинь	ӧшинь·выв	NOUN	N	Case=Ela|Number=Sing	9	obl:lmod	_	GTtags=Sg,Ela
-7	вылысь	_	ADP	Adp	_	6	case	_	_
+6	ӧшинь	ӧшинь	NOUN	N	Case=Nom|Number=Sing	9	obl:lmod	_	GTtags=Sg,Ela
+7	вылысь	выв	ADP	Adp	Case=Ela|Number=Sing	6	case	_	_
 8	шапкасӧ	шапка	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obj	_	GTtags=Sg,Acc,PxSg3
 9	кватитіс	кватитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	GTtags=TV,Ind,Prt1,Sg3
 10	Геня	Геня	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	9	nsubj	_	GTtags=Prop,Sem/Mal,Sg,Nom|SpaceAfter=No
@@ -8729,8 +8729,8 @@
 5	чегъялӧма	чегъявны	VERB	V	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=TV,Ind,Prt2,Sg3|SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	14	punct	_	_
 7	a	а	CCONJ	CC	_	14	cc	_	_
-8	сэсся	сэсся·и	ADV	Adv	_	14	advmod:tmod	_	_
-9	и	_	CCONJ	CC	_	8	cc	_	_
+8	сэсся	сэсся	ADV	Adv	_	14	advmod:tmod	_	_
+9	и	и	CCONJ	CC	_	8	cc	_	_
 10	черӧн	чер	NOUN	N	Case=Ins|Number=Sing	14	obl	_	GTtags=Sg,Ins
 11	на	на	ADV	Adv	_	10	advmod:tmod	_	_
 12	кодкӧ	кодкӧ	PRON	Pron	Case=Nom|Derivation=Ko|Number=Sing|PronType=Ind	14	nsubj	_	GTtags=Indef,Sg,Nom,Der/кӧ
@@ -8875,8 +8875,8 @@
 
 # sent_id = OKK:2000:57:9:JushkovG
 # text = Ho и сэтчаняс бой жӧ нин муніс, «ура» сорӧн.
-1	Ho	но·и	CCONJ	CC	_	7	cc	_	_
-2	и	_	CCONJ	CC	_	1	fixed	_	_
+1	Ho	но	CCONJ	CC	_	7	cc	_	_
+2	и	и	CCONJ	CC	_	1	fixed	_	_
 3	сэтчаняс	сэтчаняс	ADV	Adv	_	7	advmod:lmod	_	GTtags=EgrIne,Px3Sg
 4	бой	бой	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	GTtags=Sg,Nom
 5	жӧ	жӧ	ADV	Adv	_	4	advmod:eval	_	GTtags=Parenthetic
@@ -9380,8 +9380,8 @@
 1	Варовлуныс	варовлун	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	GTtags=Sg,Nom,PxSg3
 2	тшӧтш	тшӧтш	ADV	Adv	_	1	advmod:foc	_	_
 3	вошлі	вошлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Err/Dial,Sg3
-4	та	та·вӧсна	PRON	Pron	_	3	obl	_	_
-5	вӧсна	_	ADP	Adp	_	4	case	_	_
+4	та	та	PRON	Pron	_	3	obl	_	_
+5	вӧсна	вӧсна	ADP	Adp	_	4	case	_	_
 6	ас	ас	PRON	Pron	PronType=Prs|Reflex=Yes	3	obl	_	GTtags=Det,Refl,Abs
 7	костаныс	костын	ADP	Adp	AdpType=Post|Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=3	6	case	_	GTtags=Po,Sg,Ine,PxPl3|SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
@@ -9542,7 +9542,7 @@
 21	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	22	amod	_	GTtags=CompMod,Sg,Nom
 22-23	нырисасӧ	_	_	_	_	_	_	_	_
 22	ныриса	ныриса	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	nmod	_	GTtags=Sg,Acc,PxSg3
-23	сӧ	_	PRON	_	_	18	appos	_	_
+23	сӧ	сӧ	PRON	_	_	18	appos	_	_
 24	да	да	CCONJ	CC	_	29	cc	_	_
 25	батьыс	бать	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	26	nmod	_	GTtags=Sg,Nom,PxSg3
 26	кодь	кодь	ADJ	A	Case=Nom|Number=Sing	28	amod	_	GTtags=CompMod,Sg,Nom
@@ -10061,8 +10061,8 @@
 5	Гришлӧн	Гриш	NOUN	N	Animacy=Hum|Case=Gen|Number=Sing	4	flat	_	GTtags=Prop,Sem/Mal,Sg,Gen
 6	батьыс	бать	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	appos	_	GTtags=Sg,Nom,PxSg3|SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	6	punct	_	_
-8	дас	дас·кык	NUM	Num	Case=Nom|Number=Sing|NumType=Card	10	nummod	_	GTtags=Card,Sg,Nom
-9	кык	_	NUM	Num	_	8	flat	_	_
+8	дас	дас	NUM	Num	Case=Nom|Number=Sing|NumType=Card	10	nummod	_	GTtags=Card,Sg,Nom
+9	кык	кык	NUM	Num	_	8	flat	_	_
 10	арӧсӧн	арӧс	NOUN	N	Case=Ins|Number=Sing	11	obl	_	GTtags=Sg,Ins
 11	заводитіс	заводитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=IV,Ind,Prt1,Sg3
 12	вӧрын	вӧр	NOUN	N	Case=Ine|Number=Sing	13	obl:lmod	_	GTtags=Sg,Ine
@@ -10139,4 +10139,3 @@
 9	жӧ	жӧ	ADV	Adv	_	10	advmod:eval	_	_
 10	ло	лоны	VERB	V	Connegative=Yes	0	root	_	gloss_en=become|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
-
