@@ -5661,7 +5661,7 @@
 
 # sent_id = OKK:2000:48:14:DoroninР
 # text = Ӧдва кӧ и ӧзъяс, — ас кежас гораа сёрнитіс Демит, надзӧникӧн пондіс бӧрйыны васӧдмӧм шомъяс пиысь косджыкъяссӧ и мӧд пӧв лэдзис би самӧварӧ.
-1	Ӧдва	ӧдва	ADV	Adv	_	4	advmod	_	_
+1	Ӧдва	ӧдва	ADV	Adv	ExtPos=ADV	4	advmod	_	_
 2	кӧ	кӧ	SCONJ	CS	_	1	fixed	_	_
 3	и	и	ADV	Adv	_	4	advmod:foc	_	_
 4	ӧзъяс	ӧзйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	GTtags=IV,Ind,Fut,Sg3|SpaceAfter=No
@@ -8875,7 +8875,7 @@
 
 # sent_id = OKK:2000:57:9:JushkovG
 # text = Ho и сэтчаняс бой жӧ нин муніс, «ура» сорӧн.
-1	Ho	но	CCONJ	CC	_	7	cc	_	_
+1	Ho	но	CCONJ	CC	ExtPos=CCONJ	7	cc	_	_
 2	и	и	CCONJ	CC	_	1	fixed	_	_
 3	сэтчаняс	сэтчаняс	ADV	Adv	_	7	advmod:lmod	_	GTtags=EgrIne,Px3Sg
 4	бой	бой	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	GTtags=Sg,Nom
@@ -10139,3 +10139,4 @@
 9	жӧ	жӧ	ADV	Adv	_	10	advmod:eval	_	_
 10	ло	лоны	VERB	V	Connegative=Yes	0	root	_	gloss_en=become|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
+
