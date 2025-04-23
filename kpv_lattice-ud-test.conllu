@@ -3306,7 +3306,7 @@
 8	бурӧдыштны	бурӧдыштны	VERB	V	VerbForm=Inf	2	conj	_	GTtags=TV,Inf
 9	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	GTtags=Pers,Sg3,Acc|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
-11	гоз-мӧдысь	гоз-мӧдысь	ADV	Adv	NumType=OrdMult	12	advmod	_	GTtags=Ord,Iter
+11	гоз-мӧдысь	гоз-мӧдысь	ADV	Adv	NumType=Mult,Ord	12	advmod	_	GTtags=Ord,Iter
 12	шылькнитіс	шылькнитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	GTtags=IV,Ind,Prt1,Sg3
 13	мыш	мыш	NOUN	N	Case=Nom|Number=Sing	12	obl	_	GTtags=Sg,Nom
 14	вылӧдыс	вылӧд	ADP	Adp	AdpType=Post|Case=Prl|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	case	_	GTtags=Po,Sg,Prl,PxSg3|SpaceAfter=No
@@ -8281,7 +8281,7 @@
 8	ӧтчыд	ӧтчыд	ADV	Adv	NumType=Mult	9	advmod:tmod	_	GTtags=Iter
 9	инман	инмыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	6	parataxis	_	GTtags=IV,Ind,Prs,Sg2|SpaceAfter=No
 10	,	,	PUNCT	CLB	_	12	punct	_	_
-11	мӧдысь	мӧд	ADV	Adv	NumType=OrdMult	12	advmod:tmod	_	GTtags=Ord,Iter
+11	мӧдысь	мӧд	ADV	Adv	NumType=Mult,Ord	12	advmod:tmod	_	GTtags=Ord,Iter
 12	он	оз	AUX	_	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	9	conj	_	GTtags=Neg,Ind,Prs,Sg2|SpaceAfter=No
 13	...	...	PUNCT	CLB	_	6	punct	_	_
 
