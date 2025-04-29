@@ -187,7 +187,7 @@
 5	вӧчны	вӧчны	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	13	punct	_	_
 7	но	но	CCONJ	CC	_	13	cc	_	OrigLang=ru
-8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod:cau	_	_
+8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	_
 9	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	_
 10	лунӧ	лунӧ	NOUN	N	Case=Ill|Number=Sing	13	obl	_	_
 11	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -204,7 +204,7 @@
 4	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	вӧтӧдны	вӧтӧдны	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	13	punct	_	_
-7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	obl:cau	_	_
+7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
 9	мый	мый	SCONJ	CS	_	13	mark	_	_
 10	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
