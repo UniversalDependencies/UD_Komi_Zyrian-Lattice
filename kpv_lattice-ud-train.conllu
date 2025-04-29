@@ -174,7 +174,7 @@
 4	кутчысьлісны	кутчысьлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	да	да	CCONJ	CC	_	6	cc	_	OrigLang=ru
 6	петісны	петны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	_
-7	вежӧсысь	вежӧс	NOUN	N	Case=Ela|Number=Sing	6	obl:lmod	_	SpaceAfter=No
+7	вежӧсысь	вежӧс	NOUN	N	Case=Ela|Number=Sing	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-brat_2018:17
@@ -231,7 +231,7 @@
 # text_ru = Она выросла в Париже, в столице Франции.
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	быдмис	быдмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	Парижын	Париж	NOUN	N	Case=Ine|Number=Sing	2	obl:lmod	_	OrigLang=ru|SpaceAfter=No
+3	Парижын	Париж	NOUN	N	Case=Ine|Number=Sing	2	obl	_	OrigLang=ru|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Францияса	Франция	PROPN	Prop	Case=Loc|Number=Sing	6	amod	_	OrigLang=ru
 6	юркарын	юркар	NOUN	N	Case=Ine|Number=Sing	3	appos	_	SpaceAfter=No
