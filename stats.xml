@@ -10,7 +10,7 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>643</sentences><tokens>7872</tokens><words>7925</words><fused>29</fused></test>
   </size>
-  <lemmas unique="2334" /><!-- ,, ., сійӧ, да, оз, и, —, ..., ме, нин, а, вӧвны, мый, вылӧ, ас -->
+  <lemmas unique="2333" /><!-- ,, ., сійӧ, да, оз, и, —, ..., ме, нин, а, вӧвны, мый, вылӧ, ас -->
   <forms unique="3494" /><!-- ,, ., да, и, —, ..., нин, сійӧ, мый, эз, !, вылӧ, ?, вӧлі, жӧ -->
   <fusions unique="29" /><!-- yв-йӧг, ай-мам, босьтӧма-лӧсьӧдӧма, вевттьӧма-сайӧдӧма, вӧрсалӧн, вӧчысь-тэчысьясыс, гӧрисны-кӧдзисны, дзӧрны-катласьны, довгыны-мунны, кокъясасӧ, кыдз-пипу, кӧм-пась, кӧм-паськӧм, лебмӧм-сісьмӧм, лыдтӧм-тшӧттӧм -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -19,7 +19,7 @@
     <tag name="ADP">269</tag><!-- вылӧ, вылын, йылысь, бӧрын, дорын, вӧсна, дінӧ, кузя, моз, улын -->
     <tag name="ADV">876</tag><!-- нин, жӧ, на, и, сӧмын, сэсся, зэв, кыдзи, пыр, дзик -->
     <tag name="AUX">308</tag><!-- оз, вӧвны, абу, вермыны, ковны, кутны, лоны, позьны, эм, не -->
-    <tag name="CCONJ">335</tag><!-- да, и, а, но, либӧ, ни, дай, _, ли, али -->
+    <tag name="CCONJ">335</tag><!-- да, и, а, но, либӧ, ни, дай, ли, _, али -->
     <tag name="DET">44</tag><!-- став, уна, мӧд, ас, татшӧм, коймӧд, ӧти, быд·сикас, кыкнан, кымын -->
     <tag name="INTJ">10</tag><!-- но, ок, Ага, господи, мыйкӧ, ох, ура, э -->
     <tag name="NOUN">2034</tag><!-- вӧр, син, ва, керка, сикт, удж, выв, морт, шонді, лун -->
@@ -32,11 +32,11 @@
     <tag name="VERB">1351</tag><!-- лоны, воны, мунны, шуны, идравны, локны, петны, сулавны, овны, босьтны -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="106">
+  <feats unique="108">
     <feat name="Abbr" value="Yes" upos="ADV">1</feat><!-- с.в. -->
     <feat name="AdpType" value="Post" upos="ADP,NOUN">235</feat><!-- вылӧ, вылын, йылысь, бӧрын, дінӧ, вӧсна, вылас, дорын, дорӧ, ордӧ -->
     <feat name="AdvType" value="Deg" upos="ADV">6</feat><!-- дзик, медся -->
-    <feat name="AdvType" value="Loc" upos="ADV">2</feat><!-- некӧн -->
+    <feat name="AdvType" value="Loc" upos="ADV">3</feat><!-- некӧн, Татчӧ -->
     <feat name="AdvType" value="Man" upos="ADV">22</feat><!-- кыдзи, Тадзи, Тадзнад, кутшӧма, кыдз, кыдзисюрӧ, кыдзкӧ, сідз, сідзи, тадзсӧ -->
     <feat name="AdvType" value="Tim" upos="ADP,ADV,NOUN">64</feat><!-- нин, кор, на, Аскинас, коркӧ, Аскомысьнас, Бӧртинас, Сэсся, Сёрӧнджык, Таво -->
     <feat name="Animacy" value="Hum" upos="NOUN,PROPN">148</feat><!-- Ваньӧ, Павел, Гриш, Свежов, Варук, Вась, Демит, Микитлӧн, Саш, Асныров -->
@@ -73,7 +73,6 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">8</feat><!-- Медбӧрын, медводдза, Медводдзаысьсӧ, меддор, медъён, медъёна -->
     <feat name="Derivation" value="An" upos="NOUN,VERB">24</feat><!-- Вӧралан, Пожъясян, ветланныд, воан, вундан, дзордзалан, дрӧжжитан, жалитан, идралан, колан -->
     <feat name="Derivation" value="Ana" upos="VERB">11</feat><!-- аддзанаӧн, вӧрзьӧдланаӧсь, колана, тӧдчана, уськӧданаыс, чуксаланаӧсь, чышъяна, шыбитана, ышӧдана, юасянаӧн -->
-    <feat name="Derivation" value="Anin" upos="VERB">1</feat><!-- чӧвтанінӧ -->
     <feat name="Derivation" value="CompMod" upos="ADJ,ADV">5</feat><!-- паськыдкодь, гожсякодьӧсь, ыджыдкодь, ёнакодь -->
     <feat name="Derivation" value="Ig" upos="VERB">24</feat><!-- петігӧн, Вермасигъясад, Вундігӧн, Гымалігад, Зэригас, Пуктысигъясӧ, Рытйысигъясын, босьтігас, велӧдчиганыс, келалігъясын -->
     <feat name="Derivation" value="Igkost" upos="VERB">1</feat><!-- чӧвтігкостаныс -->
@@ -94,9 +93,12 @@
     <feat name="Derivation" value="Voc" upos="NOUN">2</feat><!-- нылӧ -->
     <feat name="Derivation" value="VTer" upos="VERB">4</feat><!-- Пӧттӧдзныс, веравтӧдзыд, мунтӧдз, пемдытӧдз -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">69</feat><!-- идралӧма, вӧлӧма, лоӧма, нуӧмаӧсь, серӧдӧма, Чеглалӧма, босьтышталӧма, босьтӧма, важмӧма, ваймӧма -->
+    <feat name="ExtPos" value="ADV" upos="ADV">1</feat><!-- Ӧдва -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">1</feat><!-- Ho -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">23</feat><!-- Эн, бӧрйы, Вайӧ, Кутчысь, Кывзы, Мун, Мыччыв, Юав, вай, видзӧдлы -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">1018</feat><!-- эз, вӧлі, оз, колӧ, абу, он, эг, ог, воис, вӧліны -->
     <feat name="Nomzr" value="Ag" upos="VERB">38</feat><!-- сулалысь, дзирдалысь, локтысь, Вӧралысь, видзысьяс, воысьясӧс, вӧтчысь, вӧчысь, дзользьысь, индалысьясным -->
+    <feat name="Nomzr" value="Loc" upos="NOUN,VERB">9</feat><!-- бергӧдчанінӧдзыс, вӧчанінас, лэдзанінын, оланіныс, петанін, сёянінсьыныс, тӧдсаинӧ, узянінлань, чӧвтанінӧ -->
     <feat name="NounType" value="Relat" upos="NOUN">19</feat><!-- выв, вылысь, вылад, водзсьыныс, вывсьыс, вывсӧ, вылын, вылӧджык, кост, пасьталаыс -->
     <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,VERB">786</feat><!-- ми, найӧ, миян, кодъяс, эз, вӧліны, найӧс, кодзувъяс, колхозъясса, председательяс -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">3695</feat><!-- сійӧ, вӧлі, вылӧ, тайӧ, ме, эз, оз, кык, ыджыд, став -->
@@ -108,8 +110,8 @@
     <feat name="NumType" value="Card" upos="DET,NUM,PRON">64</feat><!-- кык, ӧти, дас, ӧтияс, ветымынъяс, комын, куим, 12-20, 16, 18 -->
     <feat name="NumType" value="Dist" upos="ADV,NUM">5</feat><!-- Нёльӧнӧс, Унаӧнӧсь, быдсӧн, кыкӧныдлы, кыкӧныс -->
     <feat name="NumType" value="Mult" upos="ADV">8</feat><!-- унаысь, ӧтчыд, Гоз-мӧдысь, выльысь, кыкысь, мӧдысь -->
+    <feat name="NumType" value="Mult,Ord" upos="ADV">2</feat><!-- гоз-мӧдысь, мӧдысь -->
     <feat name="NumType" value="Ord" upos="ADJ,DET,NUM,PRON">11</feat><!-- коймӧдъяс, мӧд, мӧдъяс, Кызьӧд, Мӧдыс, мӧдным, мӧдыслы, татшӧм -->
-    <feat name="NumType" value="OrdMult" upos="ADV">2</feat><!-- гоз-мӧдысь, мӧдысь -->
     <feat name="NumType" value="Sets" upos="DET,PRON">8</feat><!-- кыкнан, кыкнанныс, Коднаныд, Кыкнанным, даснаныс, кыкнанӧн -->
     <feat name="PartForm" value="Neg" upos="VERB">9</feat><!-- вермытӧм, Тыдавлытӧм, Тӧдтӧм, вердтӧмӧсь, ветлытӧм, гӧгӧрвотӧм, йывдытӧмӧсь, юктавтӧмӧсь -->
     <feat name="PartForm" value="Pres" upos="VERB">2</feat><!-- Вӧралысь, шептасьысь -->
@@ -141,30 +143,17 @@
     <feat name="Voice" value="Act" upos="VERB">3</feat><!-- Вӧралысь, кыйсьысь, шептасьысь -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="66">
+  <deps unique="48">
     <dep name="acl">109</dep>
     <dep name="acl:relcl">36</dep>
-    <dep name="advcl">129</dep>
-    <dep name="advcl:eval">2</dep>
-    <dep name="advcl:lcl">1</dep>
-    <dep name="advcl:tcl">29</dep>
-    <dep name="advmod">101</dep>
-    <dep name="advmod:cau">3</dep>
+    <dep name="advcl">161</dep>
+    <dep name="advmod">756</dep>
     <dep name="advmod:deg">52</dep>
     <dep name="advmod:emph">19</dep>
-    <dep name="advmod:eval">120</dep>
-    <dep name="advmod:foc">76</dep>
-    <dep name="advmod:freq">14</dep>
-    <dep name="advmod:lmod">94</dep>
-    <dep name="advmod:mmod">102</dep>
-    <dep name="advmod:tmod">246</dep>
     <dep name="amod">345</dep>
     <dep name="appos">71</dep>
-    <dep name="aux">144</dep>
-    <dep name="aux:aspect">22</dep>
-    <dep name="aux:nec">16</dep>
+    <dep name="aux">208</dep>
     <dep name="aux:neg">24</dep>
-    <dep name="aux:pot">26</dep>
     <dep name="aux:tense">15</dep>
     <dep name="case">270</dep>
     <dep name="cc">322</dep>
@@ -185,8 +174,7 @@
     <dep name="flat:num">2</dep>
     <dep name="list">12</dep>
     <dep name="mark">122</dep>
-    <dep name="nmod">321</dep>
-    <dep name="nmod:lmod">30</dep>
+    <dep name="nmod">351</dep>
     <dep name="nmod:obj">44</dep>
     <dep name="nmod:poss">49</dep>
     <dep name="nmod:subj">12</dep>
@@ -194,13 +182,9 @@
     <dep name="nsubj:cop">106</dep>
     <dep name="nummod">55</dep>
     <dep name="obj">287</dep>
-    <dep name="obl">423</dep>
+    <dep name="obl">733</dep>
     <dep name="obl:agent">5</dep>
-    <dep name="obl:cau">3</dep>
     <dep name="obl:cmp">5</dep>
-    <dep name="obl:lmod">252</dep>
-    <dep name="obl:mcl">1</dep>
-    <dep name="obl:tmod">54</dep>
     <dep name="orphan">15</dep>
     <dep name="parataxis">67</dep>
     <dep name="punct">1577</dep>
