@@ -16,7 +16,7 @@
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	мый	мый	SCONJ	CS	_	5	mark	_	_
 5	зэрӧ	зэрны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	csubj	_	SpaceAfter=No
-6	.	_	PUNCT	CLB	_	2	punct	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = kpv-brat_2018:03
 # text = Сійӧ заводитліс чӧвтны куритчӧмсӧ да юӧмсӧ.
@@ -107,7 +107,7 @@
 # text = Эз позь бӧрйыны ни Питер Смитӧс, ни Мери Браунӧс.
 # text_ru = Нельзя было выбрать ни Питера Смита, ни Мэри Браун.
 1	Эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	3	aux	_	_
-2	позь	позьны	AUX	V	Connegative=Yes	3	aux:pot	_	_
+2	позь	позьны	AUX	V	Connegative=Yes	3	aux	_	_
 3	бӧрйыны	бӧрйыны	VERB	V	VerbForm=Inf	0	root	_	_
 4	ни	ни	CCONJ	CC	Polarity=Neg	5	cc:preconj	_	_
 5	Питер	Питер	NOUN	N	Case=Nom|Number=Sing	3	obj	_	OrigLang=ru
@@ -144,11 +144,11 @@
 # text = Тэ кыдзи мӧвпалан, кор верман волыны?
 # text_ru = Как ты думаешь, кoгда ты сможешь прийти?
 1	Тэ	тэ	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	кыдзи	кыдзи	ADV	Adv	PronType=Int	3	advmod:mmod	_	_
+2	кыдзи	кыдзи	ADV	Adv	PronType=Int	3	advmod	_	_
 3	мӧвпалан	мӧвпавны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	7	punct	_	_
-5	кор	кор	ADV	Adv	_	7	advmod:tmod	_	_
-6	верман	вермыны	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	7	aux:pot	_	_
+5	кор	кор	ADV	Adv	_	7	advmod	_	_
+6	верман	вермыны	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres	7	aux	_	_
 7	волыны	волыны	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
 8	?	?	PUNCT	CLB	_	3	punct	_	_
 
@@ -174,22 +174,22 @@
 4	кутчысьлісны	кутчысьлыны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	да	да	CCONJ	CC	_	6	cc	_	OrigLang=ru
 6	петісны	петны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	_
-7	вежӧсысь	вежӧс	NOUN	N	Case=Ela|Number=Sing	6	obl:lmod	_	SpaceAfter=No
+7	вежӧсысь	вежӧс	NOUN	N	Case=Ela|Number=Sing	6	obl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = kpv-brat_2018:17
 # text = Сылы коліс юрсисӧ мичаа вӧчны, но мыйлакӧ тайӧ лунӧ сійӧ эз кӧсйы.
 # text_ru = Ей нужно было сделать причёску, но почему-то в тот день она не захотела.
 1	Сылы	сійӧ	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
-2	коліс	ковны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux:nec	_	_
+2	коліс	ковны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	aux	_	_
 3	юрсисӧ	юрси	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
-4	мичаа	мичаа	ADV	Adv	_	5	advmod:mmod	_	_
+4	мичаа	мичаа	ADV	Adv	_	5	advmod	_	_
 5	вӧчны	вӧчны	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	13	punct	_	_
 7	но	но	CCONJ	CC	_	13	cc	_	OrigLang=ru
-8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod:cau	_	_
+8	мыйлакӧ	мыйла	ADV	Adv	_	13	advmod	_	_
 9	тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	_
-10	лунӧ	лунӧ	NOUN	N	Case=Ill|Number=Sing	13	obl:tmod	_	_
+10	лунӧ	лунӧ	NOUN	N	Case=Ill|Number=Sing	13	obl	_	_
 11	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 12	эз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	13	aux	_	_
 13	кӧсйы	кӧсйыны	VERB	V	Connegative=Yes	5	advcl	_	SpaceAfter=No
@@ -200,16 +200,16 @@
 # text_ru = Я не смог его догнать, потому что он слишком быстро бежал.
 1	Ме	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	эг	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	5	aux	_	_
-3	вермы	вермыны	AUX	V	Connegative=Yes	5	aux:pot	_	_
+3	вермы	вермыны	AUX	V	Connegative=Yes	5	aux	_	_
 4	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	вӧтӧдны	вӧтӧдны	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	13	punct	_	_
-7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	obl:cau	_	_
+7	сы	сійӧ	PRON	Pron	Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 8	вӧсна	вӧсна	ADP	Po	_	7	case	_	_
 9	мый	мый	SCONJ	CS	_	13	mark	_	_
 10	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	зэв	зэв	ADV	Adv	_	12	advmod:deg	_	_
-12	тэрыба	тэрыб	ADV	Adv	_	13	advmod:mmod	_	_
+12	тэрыба	тэрыб	ADV	Adv	_	13	advmod	_	_
 13	котӧртіс	котӧртыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	5	punct	_	_
 
@@ -222,7 +222,7 @@
 4	,	,	PUNCT	CLB	_	8	punct	_	_
 5	да	да	CCONJ	CC	_	8	mark	_	OrigLang=ru
 6	сійӧс	сійӧ	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
-7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod:tmod	_	_
+7	тӧрыт	тӧрыт	ADV	Adv	_	8	advmod	_	_
 8	вайисны	вайны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past	3	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -231,7 +231,7 @@
 # text_ru = Она выросла в Париже, в столице Франции.
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	быдмис	быдмыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	Парижын	Париж	NOUN	N	Case=Ine|Number=Sing	2	obl:lmod	_	OrigLang=ru|SpaceAfter=No
+3	Парижын	Париж	NOUN	N	Case=Ine|Number=Sing	2	obl	_	OrigLang=ru|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Францияса	Франция	PROPN	Prop	Case=Loc|Number=Sing	6	amod	_	OrigLang=ru
 6	юркарын	юркар	NOUN	N	Case=Ine|Number=Sing	3	appos	_	SpaceAfter=No

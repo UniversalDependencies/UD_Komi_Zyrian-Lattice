@@ -37,6 +37,9 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+* 2025-04-30
+  * Correct NumType OrdMult to Mult,Ord
+  * remove :lto, :lmod, :tcl, :lfrom, :mmod, :tmod, :freq, :foc, :nec, :aspect, :cau, :eval
 * 2024-11-01
   * Add use of Foreign feature
   * Add Nomzr Ag
