@@ -86,6 +86,7 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 Data available since: UD v2.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas:	automatic with corrections
 UPOS: converted with corrections
