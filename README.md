@@ -39,7 +39,8 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 * 2025-10-30
   * Correction of problem with multiple objects
-  * Adding VerbForm=Fin to words with Mood feature
+  * Added VerbForm=Fin to words with Mood feature
+  * Allow PronType values Ind and Tot for DET
 * 2025-04-30
   * Correct NumType OrdMult to Mult,Ord
   * remove :lto, :lmod, :tcl, :lfrom, :mmod, :tmod, :freq, :foc, :nec, :aspect, :cau, :eval
