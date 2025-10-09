@@ -41,7 +41,7 @@
 # text_ru = Сэм, открой окно!
 1	Сэм	сэм	NOUN	N	Case=Nom|Number=Sing	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
-3	восьты	восьтны	VERB	V	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	восьты	восьтны	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 4	ӧшиньсӧ	ӧшинь	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	SpaceAfter=No
 5	!	!	PUNCT	CLB	_	3	punct	_	_
 
