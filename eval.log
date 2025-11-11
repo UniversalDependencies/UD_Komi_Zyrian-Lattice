@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Komi_Zyrian-Lattice:
-commit 811bf51abeb3c0d8d7a1b8c8baee567364c1d5ce
-Merge: 86a0571 0c4bbe7
+commit 478a9bca5e5edfbce23ffcaedb9cf5b8a04b7ee7
+Merge: 42d60ba 14fdf63
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'kpv_lattice'
+Language code (from CoNLL-U file name) = 'kpv'
+Found the following data files: kpv_lattice-ud-test.conllu, kpv_lattice-ud-train.conllu
 Size: counted 8083 of 8083 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.17952618150342.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,28 +19,35 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 5366 out of 8083 total words have one or more features.
+Features: 5396 out of 8083 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       1119
-Udapi: found 1119 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 8083 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang kpv --max-err=10 UD_Komi_Zyrian-Lattice/kpv_lattice-ud-test.conllu
+[Line 322 Sent kpv_1-7_Vyl_tujod_1939_09_10_0001.016]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'тыш') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 746 Sent belykh1997a.003]: [L3 Warning pron-det-without-prontype] The word 'нем' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 842 Sent belykh1997a.011]: [L3 Warning pron-det-without-prontype] The word 'ӧти' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 844 Sent belykh1997a.011]: [L3 Warning pron-det-without-prontype] The word 'мӧд' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3144 Sent OKK:2000:38:3:OdincovA]: [L3 Warning obl-should-be-nmod] The parent (node [2] 'горӧн') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3556 Sent OKK:2000:40:7:JuxninV]: [L3 Warning obl-should-be-nmod] The parent (node [25] 'Свежов') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3594 Sent OKK:2000:40:9:ToroрovI]: [L3 Warning pron-det-without-prontype] The word 'кыкнанӧн' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3819 Sent OKK:2000:41:10b:KuratovaN]: [L3 Warning pron-det-without-prontype] The word 'ӧтиным' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3823 Sent OKK:2000:41:10b:KuratovaN]: [L3 Warning pron-det-without-prontype] The word 'мӧдным' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3965 Sent OKK:2000:42:4a:ToroрovI]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'сёрниным') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further errors regarding Warning
+Warnings: 42
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang kpv --max-err=10 UD_Komi_Zyrian-Lattice/kpv_lattice-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.30252419293285) = 0.077570305880218
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.794117647058823) = 0.0610859728506787
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.289970670045288) * (availability=1) * (validity=1) = 0.289970670045288
-STARS = 1.5
-UD_Komi_Zyrian-Lattice	0.289970670045288	1.5
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.30252419293285) = 0.112045997382537
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.794117647058823) = 0.0882352941176471
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.414402078954305) * (availability=1) * (validity=1) = 0.414402078954305
+STARS = 2
+UD_Komi_Zyrian-Lattice	0.414402078954305	2
