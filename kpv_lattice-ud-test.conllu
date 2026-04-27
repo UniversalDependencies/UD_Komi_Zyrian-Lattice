@@ -3141,7 +3141,7 @@
 
 # sent_id = OKK:2000:38:3:OdincovA
 # text = Кеня горӧн, катша китшкӧмӧн посньыд лэбачьяслӧн дзользьӧмӧн оліс тӧвся унмысь палялӧм парма.
-1	Кеня	Кеня	NOUN	N	Case=Nom|Number=Sing	2	obl	_	GTtags=Prop,Sg,Nom
+1	Кеня	Кеня	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	GTtags=Prop,Sg,Nom
 2	горӧн	горӧн	NOUN	N	Case=Ins|Number=Sing	9	obl	_	GTtags=Sg,Ins|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	катша	катша	NOUN	N	Case=Nom|Number=Sing	5	obl	_	GTtags=Sg,Der,Der/ProprietiveMod,A,Sg,Nom
@@ -3553,7 +3553,7 @@
 23	бара	бара	ADV	Adv	_	24	advmod	_	_
 24	жбыркнитіс	жбыркнитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	GTtags=IV,Ind,Prt1,Sg3
 25	Свежов	Свежов	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	24	nsubj	_	GTtags=Prop,Sem/Sur-Mal,Sg,Nom
-26	юр	юр	NOUN	N	Case=Nom|Number=Sing	25	obl	_	GTtags=Sg,Tra
+26	юр	юр	NOUN	N	Case=Nom|Number=Sing	25	nmod	_	GTtags=Sg,Tra
 27	весьтті	весьтті	ADP	Po	Case=Tra	26	case	_	SpaceAfter=No
 28	,	,	PUNCT	CLB	_	29	punct	_	_
 29	зургысис	зургысьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	GTtags=Refl,Ind,Prt1,Sg3
@@ -3962,7 +3962,7 @@
 # sent_id = OKK:2000:42:4a:ToroрovI
 # text = ...Вӧр-ва йылысь сёрниным миян нюжаліс.
 1	...	...	PUNCT	CLB	_	6	punct	_	SpaceAfter=No
-2	Вӧр-ва	вӧр-ва	NOUN	N	Case=Nom|Number=Sing	4	obl	_	GTtags=Sg,Nom
+2	Вӧр-ва	вӧр-ва	NOUN	N	Case=Nom|Number=Sing	4	nmod	_	GTtags=Sg,Nom
 3	йылысь	йылысь	ADP	Adp	AdpType=Post|Case=Ela|Number=Sing	2	case	_	GTtags=Po,Sg,Ela
 4	сёрниным	сёрни	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	6	nsubj	_	GTtags=Sg,Nom,PxPl1
 5	миян	ме	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	obl	_	GTtags=Pers,Pl1,Gen
@@ -8261,11 +8261,11 @@
 16	вермас	вермыны	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	GTtags=TV,Ind,Fut,Sg3
 17	кыпӧдны	кыпӧдны	VERB	V	VerbForm=Inf	12	csubj	_	GTtags=TV,Inf
 18	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	19	obl:cmp	_	GTtags=Pl,Ela
-19	вылӧджык	выв	NOUN	N	Case=Ill|Degree=Cmp|NounType=Relat|Number=Sing	17	obl	_	GTtags=Relat,Sg,Ill,Comp
+19	вылӧджык	вылӧ	ADV	Adv	Case=Ill|Degree=Cmp	17	obl	_	GTtags=Relat,Sg,Ill,Comp
 20	либӧ	либӧ	CCONJ	CC	_	21	cc	_	_
 21	уськӧдны	уськӧдны	VERB	V	VerbForm=Inf	17	conj	_	GTtags=TV,Inf
 22	мукӧдъясысь	мукӧд	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	23	obl:cmp	_	GTtags=Pl,Ela
-23	улӧ	ув	NOUN	N	Case=Ill|NounType=Relat|Number=Sing	21	obl	_	GTtags=Po,Sg,Ill|SpaceAfter=No
+23	улӧ	улӧ	ADV	Adv	Case=Ill	21	advmod	_	GTtags=Po,Sg,Ill|SpaceAfter=No
 24	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = OKK:2000:55:3:TiminV
