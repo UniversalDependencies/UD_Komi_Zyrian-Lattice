@@ -40,6 +40,7 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 * 2026-04-30
   * Added PronType values where required, validate syntax.
   * Added ten new trees.
+  * Apply VerbForm=NomAg for compliance with Erzya and Moksha. This replaces Nomzr=Ag
 * 2025-10-30
   * Correction of problem with multiple objects
   * Added VerbForm=Fin to words with Mood feature
