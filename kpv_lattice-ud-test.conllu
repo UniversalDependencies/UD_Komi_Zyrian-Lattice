@@ -9300,7 +9300,7 @@
 2	нин	нин	ADV	Adv	AdvType=Tim	3	advmod	_	GTtags=Sem/Time
 3	шуны	шуны	VERB	V	VerbForm=Inf	10	advcl	_	GTtags=TV,Inf|SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_
-5	кыйсьысь	кыйсьыны	VERB	V	Nomzr=Ag|VerbForm=Part|Voice=Act	6	nmod	_	GTtags=Refl,Der,Der/ысь,ActPrsPtc
+5	кыйсьысь	кыйсьыны	VERB	V	Case=Nom|Number=Sing|VerbForm=NomAg	6	nmod	_	GTtags=Refl,Der,Der/ысь,ActPrsPtc
 6	кодьӧн	кодь	ADJ	A	Case=Ins|Number=Sing	10	xcomp	_	GTtags=CompMod,Sg,Ins
 7	на	на	ADV	Adv	_	6	advmod	_	_
 8	колӧ	ковны	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	GTtags=TV,Ind,Prs,Sg3
@@ -9487,7 +9487,7 @@
 
 # sent_id = OKK:2000:59:2a:ToropovI
 # text = Вӧралысь мортыдлӧн ставсӧ вӧрысь босьтӧма-лӧсьӧдӧма.
-1	Вӧралысь	вӧравны	VERB	V	Nomzr=Ag|PartForm=Pres|VerbForm=Part|Voice=Act	5	nsubj	_	GTtags=IV,Der,Der/ысь,ActPrsPtc
+1	Вӧралысь	вӧравны	VERB	V	Case=Nom|Number=Sing|VerbForm=NomAg	5	nsubj	_	GTtags=IV,Der,Der/ысь,ActPrsPtc
 2	мортыдлӧн	морт	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	nmod:poss	_	GTtags=Sg,Gen,PxSg2,So/PC
 3	ставсӧ	став	PRON	Pron	Case=Nom|Clitic=So|Number=Sing|PronType=Tot	5	obj	_	GTtags=Sg,Nom,Clt/сӧ
 4	вӧрысь	вӧр	NOUN	N	Case=Ela|Number=Sing	5	obl	_	GTtags=Sg,Ela
@@ -9871,7 +9871,7 @@
 2	пуксигӧн	пуксьыны	VERB	V	Case=Ins|Derivation=Ig|Number=Sing|VerbForm=Conv	12	advcl	_	GTtags=Refl,Der,Der/иг,Ger,Sg,Ins
 3	Ручпиян	ручпи	NOUN	N	Case=Nom|Number=Plur	4	compound:nn	_	GTtags=Pl,Nom
 4	сиктсянь	сикт	NOUN	N	Case=Egr|Number=Sing	12	obl	_	GTtags=Sg,Egr
-5	шептасьысь	шептасьны	VERB	V	Nomzr=Ag|PartForm=Pres|VerbForm=Part|Voice=Act	6	acl	_	GTtags=Refl,Der,Der/ысь,ActPrsPtc
+5	шептасьысь	шептасьны	VERB	V	Case=Nom|Number=Sing|VerbForm=NomAg	6	acl	_	GTtags=Refl,Der,Der/ысь,ActPrsPtc
 6	нянь	нянь	NOUN	N	Case=Nom|Number=Sing	7	nmod	_	GTtags=Sg,Nom
 7	йӧръяс	йӧр	NOUN	N	Case=Nom|Number=Plur	12	obl	_	GTtags=Pl,Nom
 8	костті	костті	ADP	Adp	_	7	case	_	SpaceAfter=No
