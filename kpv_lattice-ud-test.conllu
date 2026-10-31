@@ -2036,7 +2036,7 @@
 
 # sent_id = uspensky1940a.031
 # text = Эрд вылӧ петігӧн лои известнӧ, мый броневикса командирӧн мунӧ армияӧн командуйтысь Климент Ефремович Ворошилов.
-# text_ru = Перед самым выходом в поле стало известно, что командиром броневика поедет командующий армией Климент Ефре﻿мович Ворошилов.
+# text_ru = Перед самым выходом в поле стало известно, что командиром броневика поедет командующий армией Климент Ефремович Ворошилов.
 1	Эрд	эрд	NOUN	N	Case=Nom|Number=Sing	3	obl	_	_
 2	вылӧ	вылӧ	ADP	Po	AdpType=Post|Case=Ill|Number=Sing	1	case	_	_
 3	петігӧн	петны	VERB	V	Case=Ins|Derivation=Ig|VerbForm=Conv	4	advcl	_	_
@@ -3157,7 +3157,7 @@
 14	.	.	PUNCT	CLB	_	9	punct	_	_
 
 # sent_id = OKK:2000:38:4:NekrasovA
-# text = Пасьтӧм пуяс сулалісны чӧла да, тыдалӧ, кевмисны, мед ӧдйӧджык нин усис лымйыс да вeвттис вужъяссӧ еджыд шебрасӧн, a найӧс — еджыд пасьӧн.
+# text = Пасьтӧм пуяс сулалісны чӧла да, тыдалӧ, кевмисны, мед ӧдйӧджык нин усис лымйыс да вевттис вужъяссӧ еджыд шебрасӧн, a найӧс — еджыд пасьӧн.
 # comment = мед here probably not a NOUN? Also otherwise the structure should be checked.
 1	Пасьтӧм	пась	NOUN	N	Case=Abe|Number=Sing|Variant=Nomin	2	nmod	_	GTtags=Sg,Der,Der/PrivMod,A,Sg,Nom
 2	пуяс	пу	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	GTtags=Pl,Nom
@@ -3175,7 +3175,7 @@
 14	усис	усьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	GTtags=IV,Ind,Prt1,Sg3
 15	лымйыс	лым	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	nsubj	_	GTtags=Sg,Nom,PxSg3
 16	да	да	CCONJ	Adv	_	17	cc	_	GTtags=Parenthetic
-17	вeвттис	вевттьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	GTtags=TV,Ind,Prt1,Sg3
+17	вевттис	вевттьыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	GTtags=TV,Ind,Prt1,Sg3
 18	вужъяссӧ	вуж	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	17	obj	_	GTtags=Pl,Acc,PxSg3
 19	еджыд	еджыд	ADJ	A	Case=Nom|Number=Sing	20	amod	_	GTtags=Sg,Nom
 20	шебрасӧн	шебрас	NOUN	N	Case=Ins|Number=Sing	17	obl	_	GTtags=Sg,Ins|SpaceAfter=No
@@ -3602,7 +3602,7 @@
 18	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = OKK:2000:40:10:ToroрovI
-# text = Ваньӧ видзӧдліс гӧгӧр, казяліс джынвыйӧ лебмӧм-сісьмӧм колода, песовтіс сэтысь дженьдаммӧм yв-йӧг, бӧр локтіс чӧс дінӧ да видзчысьӧмӧн шыбитіс чорыд увсӧ пӧлӧса дзавъяс вылӧ.
+# text = Ваньӧ видзӧдліс гӧгӧр, казяліс джынвыйӧ лебмӧм-сісьмӧм колода, песовтіс сэтысь дженьдаммӧм ув-йӧг, бӧр локтіс чӧс дінӧ да видзчысьӧмӧн шыбитіс чорыд увсӧ пӧлӧса дзавъяс вылӧ.
 1	Ваньӧ	Ваньӧ	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Mal,Sg,Nom
 2	видзӧдліс	видзӧдлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	GTtags=TV,Ind,Prt1,Sg3
 3	гӧгӧр	гӧгӧр	ADV	Adv	_	2	advmod	_	SpaceAfter=No
@@ -3618,8 +3618,8 @@
 12	песовтіс	песовтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	GTtags=TV,Ind,Prt1,Sg3
 13	сэтысь	сэтысь	ADV	Adv	Case=Ela	12	advmod	_	GTtags=Ela
 14	дженьдаммӧм	дженьдаммыны	VERB	V	Tense=Past|VerbForm=Part	15	acl	_	GTtags=IV,Der,Der/ӧм,PastPtc
-15-17	yв-йӧг	_	_	_	_	_	_	_	SpaceAfter=No
-15	yв	ув	NOUN	N	Case=Nom|Number=Sing	12	obj	_	GTtags=Sg,Nom
+15-17	ув-йӧг	_	_	_	_	_	_	_	SpaceAfter=No
+15	ув	ув	NOUN	N	Case=Nom|Number=Sing	12	obj	_	GTtags=Sg,Nom
 16	-	-	PUNCT	PUNCT	_	17	punct	_	_
 17	йӧг	йӧг	NOUN	N	Case=Nom|Number=Sing	15	conj	_	GTtags=Sg,Nom
 18	,	,	PUNCT	CLB	_	20	punct	_	_
@@ -4464,13 +4464,13 @@
 
 # sent_id = OKK:2000:45:9:LebedevM
 # text_orig = Иван Иваныч мукӧд лунӧ, Koр сылӧн позялыштас кок, отделъяс кузя гуляйтігмоз мунӧ, Да мелі синмӧн дзоргӧ гӧгӧрбок.
-# text = Иван Иваныч мукӧд лунӧ, кoр сылӧн позялыштас кок, отделъяс кузя гуляйтігмоз мунӧ, да мелі синмӧн дзоргӧ гӧгӧрбок.
+# text = Иван Иваныч мукӧд лунӧ, кор сылӧн позялыштас кок, отделъяс кузя гуляйтігмоз мунӧ, да мелі синмӧн дзоргӧ гӧгӧрбок.
 1	Иван	Иван	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	14	nsubj	_	GTtags=Prop,Sem/Mal,Sg,Nom
 2	Иваныч	Иванович	NOUN	N	Case=Nom|Number=Sing	1	flat:name	_	GTtags=Prop,Orth/Colloq,Sem/Patr-Mal,Sg,Nom
 3	мукӧд	мукӧд	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	det	_	GTtags=Sg,Nom
 4	лунӧ	лун	NOUN	N	Case=Ill|Number=Sing	14	obl	_	GTtags=Sg,Ill|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
-6	кoр	кор	ADV	Adv	AdvType=Tim|PronType=Rel	8	mark	_	GTtags=Rel,Temp
+6	кор	кор	ADV	Adv	AdvType=Tim|PronType=Rel	8	mark	_	GTtags=Rel,Temp
 7	сылӧн	сійӧ	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	obl	_	GTtags=Pers,Sg3,Gen
 8	позялыштас	позялыштны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	advcl	_	GTtags=IV,Ind,Fut,Sg3
 9	кок	кок	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
@@ -10281,4 +10281,39 @@
 13	гӧтырлӧн	гӧтыр	NOUN	N	Case=Gen|Number=Sing	14	nmod	_	GTtags=Sg,Gen
 14	ныв	ныв	NOUN	N	Case=Nom|Number=Sing	7	ccomp	_	GTtags=Sg,Nom|SpaceAfter=No
 15	...	...	PUNCT	CLB	_	7	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:92:3:BesnosikovV
+# text = Кыськӧ со, залавка пельӧсланьсьыс, югыд юантор на сюрис.
+1	Кыськӧ	кыськӧ	ADV	кыськӧ+Adv+Indef+Ela+Der/kw	Case=Ela|Definite=Ind	10	advmod	_	Gloss[en]=from-somewhere
+2	со	со	ADV	со+Adv+Parenthetic	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	залавка	залавка	NOUN	залавка+N+Sg+Nom	Case=Nom|Number=Sing	5	nmod	_	_
+5	пельӧсланьсьыс	пельӧс	NOUN	пельӧс+N+Sg+AprEla+PxSg3+So/CP	Case=AprEla|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	appos	_	Gloss[en]=corner|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	югыд	югыд	ADJ	югыд+A+Sg+Nom	Case=Nom|Number=Sing	8	amod	_	Gloss[en]=clear|AltReadings=2
+8	юантор	юантор	NOUN	юантор+N+Sg+Nom	Case=Nom|Number=Sing	10	nsubj	_	Gloss[en]=beverage|AltReadings=5
+9	на	на	ADV	на+Adv	_	10	advmod	_	Gloss[en]=still|AltReadings=2
+10	сюрис	сюрны	VERB	сюрны+V+IV+Ind+Prt1+Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss[en]=be,found|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	10	punct	_	_
+
+# sent_id = OKK:2000:92:10:MininI
+# text = Сиктланьсянь пӧльтіс куйӧд дук.
+# text_eng = The smell of manure is blowing from the direction of the village.
+# text_fin = Lannanhaju puhaltaa kylältäpäin.
+1	Сиктланьсянь	сикт	NOUN	N+Sg+AprEgr	Case=AprEgr|Number=Sing	2	obl	_	Gloss[en]=village
+2	пӧльтіс	пӧльтны	VERB	V+TV+Ind+Prt1+Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Gloss[en]=blow
+3	куйӧд	куйӧд	NOUN	N+Sg+Nom	Case=Nom|Number=Sing	4	nmod	_	Gloss[eng]=manure
+4	дук	дук	NOUN	N+Sg+Nom	Case=Nom|Number=Sing	2	nsubj	_	Gloss[en]=smell|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = OKK:2000:93:1:ÛhninV
+# text = Ӧдюк ветліс карланьӧдз, веськӧдчис тӧдса вӧрланьӧдз.
+1	Ӧдюк	Ӧдюк	PROPN	N+Prop+Sem/Mal+Sg+Nom	Case=Nom|Number=Sing	2	obl	_	AltReadings=4
+2	ветліс	ветлыны	VERB	V+IV+Ind+Prt1+Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	карланьӧдз	кар	NOUN	Hom2+N+Sg+AprTer	Case=AprTer|Number=Sing	2	obl	_	AltReadings=3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	веськӧдчис	веськӧдчыны	VERB	V+Refl+Ind+Prt1+Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+6	тӧдса	тӧд	NOUN	N+Sg+Loc	Case=Loc|Number=Sing	7	amod	_	AltReadings=3
+7	вӧрланьӧдз	вӧр	NOUN	N+Sg+AprTer	Case=AprTer|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	2	punct	_	_
 
