@@ -1,0 +1,60 @@
+# sent_id = OKK:2000:65:15:G.Ûškov
+# text = Гӧтырыс ни пиыс Шабановлӧн эз нин вӧвны гортас.
+1	Гӧтырыс	гӧтыр	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	nsubj	_	GTtags=Sg,Nom,PxSg3
+2	ни	ни	CCONJ	CC	_	0	dep	_	GTtags=
+3	пиыс	пи	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	nsubj	_	GTtags=Sg,Nom,PxSg3
+4	Шабановлӧн	Шабанов	PROPN	N	Animacy=Hum|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	0	dep	_	GTtags=Prop,Sem/Sur-Mal,Sg,Gen
+5	эз	оз	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	dep	_	GTtags=Neg,Ind,Prt1,Sg3
+6	нин	нин	ADV	Adv	_	0	dep	_	GTtags=
+7	вӧвны	вӧвны	VERB	V	Valency=1|VerbForm=Inf	0	dep	_	GTtags=IV,Inf
+8	гортас	горт	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3|So/CP	5	obl	_	GTtags=Sg,Ill,PxSg3,So/CP|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	1	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:65:16:G.Ûškov.a
+# text = И тісӧ тані некытӧн матын абуӧсь.
+1	И	и	CCONJ	CC	_	0	dep	_	GTtags=
+2	тісӧ	тэ	PRON	Pron	Case=Nom|Clt/soe|Number=Plur|Person=2|PronType=Prs	0	dep	_	GTtags=Pers,Pl2,Nom,Clt/soe
+3	тані	тані	ADV	Adv	Case=Ine	2	advmod	_	GTtags=Ine
+4	некытӧн	некытӧн	ADV	Adv	Case=Ine|Polarity=Neg	2	advmod	_	GTtags=Neg,Ine
+5	матын	мат	NOUN	N	Case=Ine|Number=Sing	5	dep	_	GTtags=Sg,Ine
+6	абуӧсь	абу	PART	Pcle	Clitic=Cop|Number=Plur|Polarity=Neg|VerbType=Aux	5	dep	_	GTtags=Aux,Neg,Cop,Pl|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:65:16:G.Ûškov.b
+# text = Тані мӧдлӧн пинь туйыс.
+1	Тані	тані	ADV	Adv	Case=Ine	1	advmod	_	GTtags=Ine
+2	мӧдлӧн	мӧд	NUM	Num	Case=Gen|NumType=Ord|Number=Sing	3	nummod	_	GTtags=Ord,Sg,Gen
+3	пинь	пинь	NOUN	N	Case=Nom|Number=Sing	0	dep	_	GTtags=Sg,Nom
+4	туйыс	туй	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	dep	_	GTtags=Sg,Nom,PxSg3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:65:17:G.Ûškov
+# text = Сэтшӧмыслӧн надея-ыс абу ас вылас.
+1	Сэтшӧмыслӧн	сэтшӧм	ADJ	A	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Dem|So/PC	0	dep	_	GTtags=Dem,Sg,Gen,PxSg3,So/PC
+2	надея-ыс	надея-ыс	_	_	_	0	dep	_	GTtags=?
+3	абу	абу	NOUN	N	Case=Nom|Number=Sing	0	nsubj	_	GTtags=Sg,Nom
+4	ас	ас	PRON	Pron	Case=Abs|Det|PronType=Prs|Reflex=Yes	0	dep	_	GTtags=Det,Refl,Abs
+5	вылас	вывны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Valency=1	0	dep	_	GTtags=IV,Ind,Fut,Sg3|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:65:18:G.Ûškov
+# text = Виж ёкмыльясӧн тыдалісны лым вылын усьӧм еджыдъяслӧн шойясыс.
+1	Виж	виж	ADJ	A	Case=Nom|Number=Sing	0	dep	_	GTtags=Sg,Nom
+2	ёкмыльясӧн	ёкмыль	NOUN	N	Case=Ins|Number=Plur	0	dep	_	GTtags=Pl,Ins
+3	тыдалісны	тыдавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|Valency=1	0	dep	_	GTtags=IV,Ind,Prt1,Pl3
+4	лым	лым	NOUN	N	Case=Nom|Number=Sing	0	dep	_	GTtags=Sg,Nom
+5	вылын	вылын	ADP	Po	AdpType=Post|Case=Ine|Number=Sing	4	case	_	GTtags=Po,Sg,Ine
+6	усьӧм	усьны	VERB	V	Der/wm|PastPtc|Valency=1	0	dep	_	GTtags=IV,Der,Der/wm,PastPtc
+7	еджыдъяслӧн	еджыд	ADJ	A	Case=Gen|Number=Plur	8	amod	_	GTtags=Pl,Gen
+8	шойясыс	шой	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	dep	_	GTtags=Pl,Nom,PxSg3|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	1	punct	_	GTtags=CLB
+
+# sent_id = OKK:2000:65:19:G.Ûškov
+# text = Кыкнанныслӧн ӧткодь шогыс чӧв уськӧдіс зонкаясӧс.
+1	Кыкнанныслӧн	кыкнан	PRON	Pron	Case=Gen|NumType=Sets|Number=Sing|Number[psor]=Plur|Person[psor]=3	2	dep	_	GTtags=AssocColl,Sg,Gen,PxPl3
+2	ӧткодь	ӧткодь	ADJ	A	Case=Nom|Number=Sing	0	dep	_	GTtags=Sg,Nom
+3	шогыс	шог	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	nsubj	_	GTtags=Sg,Nom,PxSg3
+4	чӧв	чӧв	_	_	A	0	dep	_	GTtags=A
+5	уськӧдіс	уськӧдны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|Valency=2	0	dep	_	GTtags=TV,Ind,Prt1,Sg3
+6	зонкаясӧс	зонка	NOUN	N	Case=Acc|Number=Plur	0	dep	_	GTtags=Pl,Acc|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
