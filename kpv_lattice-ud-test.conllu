@@ -2609,7 +2609,6 @@
 
 # sent_id = belykh2005a.001-ind
 # text = Сійӧ пыр жӧ гижис Максимлы зэв кузь да зэв стрӧг письмӧ, кӧні Валентина Ивановна моз жӧ нимтіс сійӧс «сюсь йӧйӧн».
-# text_ru =
 1	Сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	пыр	пыр	ADV	Adv	_	4	advmod	_	_
 3	жӧ	жӧ	ADV	Adv	_	2	advmod	_	_
@@ -2637,7 +2636,6 @@
 
 # sent_id = koskabyr1925a.002-ind
 # text = Ва, керӧс, из, му, сынӧд некор эз вӧвны ловъяӧсь, сы понда найӧясӧс ог шуӧй кулӧм торъясӧн — шуам ловтӧм торъясӧн.
-# text_ru =
 1	Ва	ва	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	керӧс	керӧс	NOUN	N	Case=Nom|Number=Sing	1	list	_	SpaceAfter=No
@@ -2667,7 +2665,6 @@
 
 # sent_id = falkner1927a.003-ind
 # text = Гырысь каръясын аскежъя пывсянъясыд абуӧсь жӧ, сэні ставныс ӧтласа пывсянъясын пывсьӧны.
-# text_ru =
 1	Гырысь	гырысь	ADJ	A	Case=Nom|Number=Sing	2	amod	_	_
 2	каръясын	кар	NOUN	N	Case=Ine|Number=Plur	4	obl	_	_
 3	аскежъя	аскежъя	ADJ	A	Case=Nom|Number=Sing	4	amod	_	_
@@ -2684,7 +2681,6 @@
 
 # sent_id = koskabyr1925a.001-ind
 # text = Тайӧ нигаыс сетас сӧмын ичӧтик юкӧн ывлавыв велӧдысьлы.
-# text_ru =
 1	Тайӧ	тайӧ	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	_
 2	нигаыс	нига	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3	сетас	сетны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -2697,7 +2693,6 @@
 
 # sent_id = goffensefer1927a.001-ind
 # text = Чакотка — зэв лёк висьӧм, медся ёна жугӧдӧ тыястӧ.
-# text_ru =
 1	Чакотка	чакотка	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 2	—	—	PUNCT	PUNCT	_	5	punct	_	_
 3	зэв	зэв	ADV	Adv	_	4	advmod:deg	_	_
@@ -2712,7 +2707,6 @@
 
 # sent_id = falkner1927a.002-ind
 # text = Гортад кос корӧсьӧн али ва корӧсьӧн чышкысьӧны?
-# text_ru =
 1	Гортад	горт	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	_
 2	кос	кос	ADJ	A	Case=Nom|Number=Sing	3	amod	_	_
 3	корӧсьӧн	корӧсь	NOUN	N	Case=Ins|Number=Sing	7	obl	_	_
@@ -2724,7 +2718,6 @@
 
 # sent_id = rossinskiy1925a.001-ind
 # text = Доктор ордӧ воӧмаӧсь кык ичӧтик ныв.
-# text_ru =
 1	Доктор	доктор	NOUN	N	Case=Nom|Number=Sing	3	obl	_	_
 2	ордӧ	ордӧ	ADP	Po	AdpType=Post|Case=Ill|Number=Sing	1	case	_	_
 3	воӧмаӧсь	воны	VERB	V	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2735,7 +2728,6 @@
 
 # sent_id = falkner1927a.001-ind
 # text = Аскинас сійӧ шуис Машалы, тэ пӧ этша вира.
-# text_ru =
 1	Аскинас	аски	NOUN	N	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 2	сійӧ	сійӧ	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	шуис	шуны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
