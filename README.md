@@ -37,6 +37,8 @@ In release 2.7 various sentences used in the Komi-language grammar *Ӧнія к�
 
 # Changelog
 
+* 2026-10-31
+  * Cleansing and testing new tools
 * 2026-04-30
   * Added PronType values where required, validate syntax.
   * Added ten new trees.

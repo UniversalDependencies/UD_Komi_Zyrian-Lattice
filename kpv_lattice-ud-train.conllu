@@ -1,7 +1,6 @@
 # -*- coding : UTF-8 -*-
 # sent_id = kpv-brat_2018:01
 # text = Ныв ёртыслы гижис письмӧ.
-# text_ru =
 1	Ныв	ныв	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ёртыслы	ёрт	NOUN	N	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
 3	гижис	гижны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
