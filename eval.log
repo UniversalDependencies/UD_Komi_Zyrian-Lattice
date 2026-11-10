@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Komi_Zyrian-Lattice:
-commit bca90f79198b3e0a5ab2407a28b97296437610aa
-Merge: ff404ff 00373d4
+commit 8c7b21790112dbb3f4398a5333d2f294a1c55378
+Merge: 7a974d2 3d21313
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'kpv_lattice'
 Language code (from CoNLL-U file name) = 'kpv'
 Found the following data files: kpv_lattice-ud-test.conllu, kpv_lattice-ud-train.conllu
-Size: counted 8196 of 8196 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.20729246075331.
+Size: counted 8220 of 8220 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.21314041813618.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 5475 out of 8196 total words have one or more features.
+Features: 5491 out of 8220 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -32,10 +32,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
-(weight=0.37037037037037) * (score{size}=0.304533983243052) = 0.112790364164094
+(weight=0.37037037037037) * (score{size}=0.30495727251335) = 0.112947137967907
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.794117647058823) = 0.0882352941176471
 (weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
-(TOTAL score=0.418149448738864) * (availability=1) * (validity=1) = 0.418149448738864
+(TOTAL score=0.418306222542678) * (availability=1) * (validity=1) = 0.418306222542678
 STARS = 2
-UD_Komi_Zyrian-Lattice	0.418149448738864	2
+UD_Komi_Zyrian-Lattice	0.418306222542678	2
